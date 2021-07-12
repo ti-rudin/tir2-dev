@@ -8,6 +8,7 @@ version: "3.7"
 
 services:
   node-red:
+    container_name: node-red
     build:
       context: .
       dockerfile: ./nodered.Dockerfile
