@@ -1,0 +1,52 @@
+################################################################################
+# Node-RED Stack or Compose
+################################################################################
+# docker stack deploy node-red --compose-file docker-compose-node-red.yml
+# docker-compose -f docker-compose-node-red.yml -p myNoderedProject up
+################################################################################
+version: "3.7"
+
+services:
+  node-red:
+    build:
+      context: .
+      dockerfile: ./nodered.Dockerfile
+    environment:
+      - TZ=Europe/Moscow
+    ports:
+      - "1880:1880"
+    networks:
+      - node-red-net
+    volumes:
+      - ./node-red-data:/data 
+
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - 6379:6379
+    volumes:
+      - ./redis-data:/data
+    restart: always
+    networks:
+      - node-red-net
+
+  priceserver:
+    container_name: priceserver
+    build:
+      context: ./priceserver
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - './priceserver/:/usr/src/app'
+    restart: always
+    depends_on:
+      - redis
+    networks:
+      - node-red-net
+
+volumes:
+  redis-data:
+  node-red-data:
+
+networks:
+  node-red-net:
