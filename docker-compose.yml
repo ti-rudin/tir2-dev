@@ -16,7 +16,7 @@ services:
     ports:
       - "1880:1880"
     networks:
-      - node-red-net
+      - tibotnet
     volumes:
       - ./node-red-data:/data 
 
@@ -29,7 +29,7 @@ services:
       - ./redis-data:/data
     restart: always
     networks:
-      - node-red-net
+      - tibotnet
 
   priceserver:
     container_name: priceserver
@@ -42,11 +42,11 @@ services:
     depends_on:
       - redis
     networks:
-      - node-red-net
+      - tibotnet
 
 volumes:
   redis-data:
   node-red-data:
 
 networks:
-  node-red-net:
+  tibotnet:
