@@ -1,3 +1,15 @@
 /node_modules/
 /node-red-data/.npm/
 /node-red-data/node_modules/
+
+.DS_Store
+
+/frontend/cypress/
+/src/node_modules/*
+yarn-error.log
+/frontend/cypress/screenshots/
+.firebase/
+
+!/frontend/node_modules/smelte/
+/frontend/node_modules/smelte/node_modules/
+/frontend/node_modules/
