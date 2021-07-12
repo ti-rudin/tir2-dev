@@ -1,0 +1,12 @@
+db.getUsers( {
+   showCredentials: true
+} )
+
+
+db.createUser(
+  {
+    user: "rudin",
+    pwd: "visorTi31",
+    roles: [ ]
+  }
+)

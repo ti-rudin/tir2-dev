@@ -1,0 +1,17 @@
+FROM node:15
+
+#RUN apk add --update libc6-compat libstdc++ \
+#    && apk upgrade \
+#    && apk add --no-cache ca-certificates 
+#
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+#RUN npm install -g npm@7.0.5 
+RUN npm install --silent
+
+COPY . .
+
+ENV HOST 0.0.0.0
+EXPOSE 3000 10000
+CMD ["npm", "run", "dev"]
