@@ -843,7 +843,7 @@
     "node-red-node-sqlite": {
         "name": "node-red-node-sqlite",
         "version": "0.6.0",
-        "local": false,
+        "local": true,
         "nodes": {
             "sqlite": {
                 "name": "sqlite",
@@ -852,9 +852,26 @@
                     "sqlite"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-sqlite",
-                "file": "/usr/src/node-red/node_modules/node-red-node-sqlite/sqlite.js"
+                "file": "/data/node_modules/node-red-node-sqlite/sqlite.js"
+            }
+        }
+    },
+    "node-red-contrib-sql-prepare": {
+        "name": "node-red-contrib-sql-prepare",
+        "version": "0.0.9",
+        "local": true,
+        "nodes": {
+            "sql": {
+                "name": "sql",
+                "types": [
+                    "sql-prepare"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-sql-prepare",
+                "file": "/data/node_modules/node-red-contrib-sql-prepare/sql-prepare.js"
             }
         }
     }

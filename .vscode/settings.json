@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:tir2-dev}/node-red-data/sqlite.db",
+            "name": "tir"
+        }
+    ]
+}
