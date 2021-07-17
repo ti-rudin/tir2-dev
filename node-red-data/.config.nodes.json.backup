@@ -874,42 +874,5 @@
                 "file": "/data/node_modules/node-red-contrib-sql-prepare/sql-prepare.js"
             }
         }
-    },
-    "node-red-contrib-reducere": {
-        "name": "node-red-contrib-reducere",
-        "version": "2.0.0",
-        "local": false,
-        "nodes": {
-            "Reducer": {
-                "name": "Reducer",
-                "types": [
-                    "Reducer"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-contrib-reducere",
-                "file": "/data/node_modules/node-red-contrib-reducere/nodes/Reducer/Reducer.js"
-            },
-            "RootReducer": {
-                "name": "RootReducer",
-                "types": [
-                    "RootReducer"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-contrib-reducere",
-                "file": "/data/node_modules/node-red-contrib-reducere/nodes/RootReducer/RootReducer.js"
-            },
-            "ActionCreator": {
-                "name": "ActionCreator",
-                "types": [
-                    "ActionCreator"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-contrib-reducere",
-                "file": "/data/node_modules/node-red-contrib-reducere/nodes/ActionCreator/ActionCreator.js"
-            }
-        }
     }
 }
