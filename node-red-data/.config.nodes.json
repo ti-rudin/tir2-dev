@@ -874,5 +874,42 @@
                 "file": "/data/node_modules/node-red-contrib-sql-prepare/sql-prepare.js"
             }
         }
+    },
+    "node-red-contrib-state": {
+        "name": "node-red-contrib-state",
+        "version": "1.5.1",
+        "local": true,
+        "nodes": {
+            "shared-state": {
+                "name": "shared-state",
+                "types": [
+                    "shared-state"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-state",
+                "file": "/data/node_modules/node-red-contrib-state/lib/state.js"
+            },
+            "get-shared-state": {
+                "name": "get-shared-state",
+                "types": [
+                    "get-shared-state"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-state",
+                "file": "/data/node_modules/node-red-contrib-state/lib/getState.js"
+            },
+            "set-shared-state": {
+                "name": "set-shared-state",
+                "types": [
+                    "set-shared-state"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-state",
+                "file": "/data/node_modules/node-red-contrib-state/lib/setState.js"
+            }
+        }
     }
 }

@@ -1,0 +1,10 @@
+2021-07-18T17:23:35.466Z : LINKDOWNUSDT-1626469485:setbuy: price:0.3180, quantity: 50
+2021-07-18T17:23:37.160Z : Ошибка при выставлении ордера - {"code":-1121,"msg":"Invalid symbol."}
+2021-07-18T17:24:48.682Z : LINKDOWNUSDT-1626469485:setbuy: price:0.3180, quantity: 50
+2021-07-18T17:24:49.728Z : Ошибка при выставлении ордера - {"code":-1121,"msg":"Invalid symbol."}
+2021-07-18T17:24:49.730Z : LINKDOWNUSDT-1626469485:setbuy: price:0.3180, quantity: 50
+2021-07-18T17:24:49.968Z : LINKDOWNUSDT-1626469485:setbuy: price:0.3180, quantity: 50
+2021-07-18T17:24:50.278Z : LINKDOWNUSDT-1626469485:setbuy: price:0.3180, quantity: 50
+2021-07-18T17:24:50.927Z : Ошибка при выставлении ордера - {"code":-1121,"msg":"Invalid symbol."}
+2021-07-18T17:24:52.018Z : Ошибка при выставлении ордера - {"code":-1121,"msg":"Invalid symbol."}
+2021-07-18T17:24:52.341Z : Ошибка при выставлении ордера - {"code":-1121,"msg":"Invalid symbol."}
