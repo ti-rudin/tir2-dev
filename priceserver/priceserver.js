@@ -3,7 +3,7 @@ const fs = require("fs");
 const redis = require("redis");
 
 const client = redis.createClient("//redis:6379");
-//client.auth("123QWEvisorTi31!QAZ3ws");
+client.auth("YzRAdGgkFg");
 
 const userid = "d3fmoh2rVoVNgIcpLTFZBE0jHnI2";
 
