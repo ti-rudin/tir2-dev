@@ -380,53 +380,6 @@
             }
         }
     },
-    "@alpine-code/node-red-contrib-graphql": {
-        "name": "@alpine-code/node-red-contrib-graphql",
-        "version": "0.0.3",
-        "local": true,
-        "nodes": {
-            "graphql-config": {
-                "name": "graphql-config",
-                "types": [
-                    "graphql-config"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "@alpine-code/node-red-contrib-graphql",
-                "file": "/data/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/config.js"
-            },
-            "graphql-query": {
-                "name": "graphql-query",
-                "types": [
-                    "graphql-query"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "@alpine-code/node-red-contrib-graphql",
-                "file": "/data/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/query.js"
-            },
-            "graphql-mutate": {
-                "name": "graphql-mutate",
-                "types": [
-                    "graphql-mutate"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "@alpine-code/node-red-contrib-graphql",
-                "file": "/data/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/mutate.js"
-            },
-            "graphql-subscribe": {
-                "name": "graphql-subscribe",
-                "types": [
-                    "graphql-subscribe"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "@alpine-code/node-red-contrib-graphql",
-                "file": "/data/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/subscribe.js"
-            }
-        }
-    },
     "node-red-contrib-filter": {
         "name": "node-red-contrib-filter",
         "version": "0.1.4",
@@ -459,24 +412,6 @@
                 "local": true,
                 "module": "node-red-contrib-flow-asserter",
                 "file": "/data/node_modules/node-red-contrib-flow-asserter/flow-asserter.js"
-            }
-        }
-    },
-    "node-red-contrib-gql-sub": {
-        "name": "node-red-contrib-gql-sub",
-        "version": "1.0.5",
-        "local": true,
-        "nodes": {
-            "gql-sub": {
-                "name": "gql-sub",
-                "types": [
-                    "gql-sub-server",
-                    "gql-sub"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-contrib-gql-sub",
-                "file": "/data/node_modules/node-red-contrib-gql-sub/gql-sub.js"
             }
         }
     },
@@ -837,41 +772,6 @@
                 "local": true,
                 "module": "node-red-node-ui-table",
                 "file": "/data/node_modules/node-red-node-ui-table/node.js"
-            }
-        }
-    },
-    "node-red-node-sqlite": {
-        "name": "node-red-node-sqlite",
-        "version": "0.6.0",
-        "local": true,
-        "nodes": {
-            "sqlite": {
-                "name": "sqlite",
-                "types": [
-                    "sqlitedb",
-                    "sqlite"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-node-sqlite",
-                "file": "/data/node_modules/node-red-node-sqlite/sqlite.js"
-            }
-        }
-    },
-    "node-red-contrib-sql-prepare": {
-        "name": "node-red-contrib-sql-prepare",
-        "version": "0.0.9",
-        "local": true,
-        "nodes": {
-            "sql": {
-                "name": "sql",
-                "types": [
-                    "sql-prepare"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-contrib-sql-prepare",
-                "file": "/data/node_modules/node-red-contrib-sql-prepare/sql-prepare.js"
             }
         }
     },

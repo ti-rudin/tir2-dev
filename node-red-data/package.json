@@ -29,18 +29,14 @@
         }
     ],
     "dependencies": {
-        "@alpine-code/node-red-contrib-graphql": "0.0.3",
         "node-red": "1.2.2",
         "node-red-contrib-filter": "~0.1.3",
         "node-red-contrib-flow-asserter": "~0.4.0",
-        "node-red-contrib-gql-sub": "~1.0.5",
         "node-red-contrib-graphql": "~0.2.5",
         "node-red-contrib-redis": "~1.3.7",
-        "node-red-contrib-sql-prepare": "0.0.9",
         "node-red-contrib-state": "~1.5.1",
         "node-red-contrib-telegrambot-home": "~0.5.2",
         "node-red-dashboard": "~2.23.4",
-        "node-red-node-sqlite": "~0.6.0",
         "node-red-node-ui-table": "~0.3.8"
     },
     "engines": {

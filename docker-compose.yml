@@ -33,7 +33,7 @@ services:
          - REDIS_REPLICATION_MODE=master
     volumes:
       - ./redis-data:/data
-      - ./redisconf:/usr/local/etc/redis
+      #- ./redisconf:/usr/local/etc/redis
     restart: always
     networks:
       - tibotnet
