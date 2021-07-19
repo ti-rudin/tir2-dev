@@ -775,24 +775,6 @@
             }
         }
     },
-    "node-red-node-sqlite": {
-        "name": "node-red-node-sqlite",
-        "version": "0.6.0",
-        "local": true,
-        "nodes": {
-            "sqlite": {
-                "name": "sqlite",
-                "types": [
-                    "sqlitedb",
-                    "sqlite"
-                ],
-                "enabled": true,
-                "local": true,
-                "module": "node-red-node-sqlite",
-                "file": "/data/node_modules/node-red-node-sqlite/sqlite.js"
-            }
-        }
-    },
     "node-red-contrib-state": {
         "name": "node-red-contrib-state",
         "version": "1.5.1",

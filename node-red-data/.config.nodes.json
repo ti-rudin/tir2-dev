@@ -811,5 +811,88 @@
                 "file": "/data/node_modules/node-red-contrib-state/lib/setState.js"
             }
         }
+    },
+    "@alpine-code/node-red-contrib-graphql": {
+        "name": "@alpine-code/node-red-contrib-graphql",
+        "version": "0.0.3",
+        "local": false,
+        "nodes": {
+            "graphql-config": {
+                "name": "graphql-config",
+                "types": [
+                    "graphql-config"
+                ],
+                "enabled": true,
+                "local": false,
+                "module": "@alpine-code/node-red-contrib-graphql",
+                "file": "/usr/src/node-red/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/config.js"
+            },
+            "graphql-query": {
+                "name": "graphql-query",
+                "types": [
+                    "graphql-query"
+                ],
+                "enabled": true,
+                "local": false,
+                "module": "@alpine-code/node-red-contrib-graphql",
+                "file": "/usr/src/node-red/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/query.js"
+            },
+            "graphql-mutate": {
+                "name": "graphql-mutate",
+                "types": [
+                    "graphql-mutate"
+                ],
+                "enabled": true,
+                "local": false,
+                "module": "@alpine-code/node-red-contrib-graphql",
+                "file": "/usr/src/node-red/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/mutate.js"
+            },
+            "graphql-subscribe": {
+                "name": "graphql-subscribe",
+                "types": [
+                    "graphql-subscribe"
+                ],
+                "enabled": true,
+                "local": false,
+                "module": "@alpine-code/node-red-contrib-graphql",
+                "file": "/usr/src/node-red/node_modules/@alpine-code/node-red-contrib-graphql/src/nodes/subscribe.js"
+            }
+        }
+    },
+    "node-red-contrib-gql-sub": {
+        "name": "node-red-contrib-gql-sub",
+        "version": "1.0.5",
+        "local": false,
+        "nodes": {
+            "gql-sub": {
+                "name": "gql-sub",
+                "types": [
+                    "gql-sub-server",
+                    "gql-sub"
+                ],
+                "enabled": true,
+                "local": false,
+                "module": "node-red-contrib-gql-sub",
+                "file": "/usr/src/node-red/node_modules/node-red-contrib-gql-sub/gql-sub.js"
+            }
+        }
+    },
+    "node-red-node-sqlite": {
+        "name": "node-red-node-sqlite",
+        "version": "0.6.0",
+        "local": false,
+        "nodes": {
+            "sqlite": {
+                "name": "sqlite",
+                "types": [
+                    "sqlitedb",
+                    "sqlite"
+                ],
+                "enabled": true,
+                "local": false,
+                "module": "node-red-node-sqlite",
+                "file": "/usr/src/node-red/node_modules/node-red-node-sqlite/sqlite.js"
+            }
+        }
     }
 }
