@@ -41,12 +41,16 @@ function execution_update(data) {
         client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 130);
     }
     else {
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus);
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price);
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa);
-        console.log(data);
+        if (orderStatus == "PARTIALLY_FILLED") {
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3);
+        }
+        else {
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa);
+            console.log(data);
+        }
     }
-
     return;
 }
 
@@ -78,5 +82,3 @@ function updatelist() {
     }
 }
 const timerId = setInterval(updatelist, 50000);
-
-
