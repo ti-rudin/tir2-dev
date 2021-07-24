@@ -492,3 +492,80 @@ Sat Jul 24 2021 19:43:24  : Сброс busy
 		"duration_step": 0
 	}
 ]
+Sun Jul 25 2021 02:36:51  : Сброс к стартовым настройкам
+Sun Jul 25 2021 02:37:41  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627169861597,
+		"end_node_time": 1627169861597,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbotlist",
+		"start_node_time": 1627169861597,
+		"end_node_time": 1627169861599,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_onoff",
+		"start_node_time": 1627169861600,
+		"end_node_time": 1627169861601,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_busy",
+		"start_node_time": 1627169861604,
+		"end_node_time": 1627169861605,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "busy === false -faile",
+		"start_node_time": 1627169861606,
+		"end_node_time": 1627169861606,
+		"duration": 0,
+		"duration_step": 1
+	}
+]
+Sun Jul 25 2021 02:37:45  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627169865600,
+		"end_node_time": 1627169865600,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbotlist",
+		"start_node_time": 1627169865600,
+		"end_node_time": 1627169865601,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_onoff",
+		"start_node_time": 1627169865602,
+		"end_node_time": 1627169865603,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_busy",
+		"start_node_time": 1627169865604,
+		"end_node_time": 1627169865605,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "busy === false -faile",
+		"start_node_time": 1627169865605,
+		"end_node_time": 1627169865605,
+		"duration": 0,
+		"duration_step": 0
+	}
+]
