@@ -11,7 +11,7 @@ services:
     container_name: node-red
     build:
       context: .
-      dockerfile: ./nodered.Dockerfile
+      dockerfile: ./nodered2.Dockerfile
     environment:
       - TZ=Europe/Moscow
     ports:
@@ -21,7 +21,7 @@ services:
     depends_on:
       - redis
     volumes:
-      - ./node-red-data:/data 
+      - ./node-red-data2:/data 
 
   redis:
     image: "redis:alpine"
@@ -53,7 +53,7 @@ services:
 
 volumes:
   redis-data:
-  node-red-data:
+  node-red-data2:
 
 networks:
   tibotnet:
