@@ -325,10 +325,6 @@
         "nodes": [
             "7ee8ada7.9818bc",
             "e0440623.2ec6e",
-            "cba3e711.97d4a8",
-            "c23f0bc3.badbc",
-            "6eb4d4b9.112f6c",
-            "b0b01bc4.45a1e8",
             "a359f524.2e00e8",
             "cf20b67b.cbc6e",
             "a0142b1a.f25d9",
@@ -339,8 +335,8 @@
         ],
         "x": 2254,
         "y": 1319,
-        "w": 1112,
-        "h": 262
+        "w": 1082,
+        "h": 202
     },
     {
         "id": "8fac538c.5d4a48",
@@ -731,7 +727,9 @@
             "26cad534.28973a"
         ],
         "x": 2814,
-        "y": 219
+        "y": 219,
+        "w": 372,
+        "h": 202
     },
     {
         "id": "74e1a04.6df746",
@@ -771,7 +769,9 @@
             "ccbca6c6.392f58"
         ],
         "x": 334,
-        "y": 259
+        "y": 259,
+        "w": 2252,
+        "h": 222
     },
     {
         "id": "115b1d61.ba4ba3",
@@ -795,7 +795,9 @@
             "bdd4eff7.879af"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "79e296b2.11a2d8",
@@ -1051,7 +1053,9 @@
             "30a2f633.22ee6a"
         ],
         "x": 1934,
-        "y": 1099
+        "y": 1099,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "f40eeaff.acba78",
@@ -12630,89 +12634,6 @@
         "wires": []
     },
     {
-        "id": "cba3e711.97d4a8",
-        "type": "inject",
-        "z": "5df15275.2888ec",
-        "g": "bc481bc2.f1ae08",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "5fb1865f2798e90177ca1e60",
-        "payloadType": "str",
-        "x": 2690,
-        "y": 1540,
-        "wires": [
-            [
-                "c23f0bc3.badbc"
-            ]
-        ]
-    },
-    {
-        "id": "c23f0bc3.badbc",
-        "type": "graphql",
-        "z": "5df15275.2888ec",
-        "g": "bc481bc2.f1ae08",
-        "name": "get bot all data",
-        "graphql": "ab190c2e.90269",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "query {\n  bot (id: \"{{payload}}\"){\n    id\n    settings\n    sales\n    floors\n    status\n    finance\n    ttp\n    start_set\n\n  }\n}",
-        "x": 2850,
-        "y": 1540,
-        "wires": [
-            [
-                "b0b01bc4.45a1e8"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "6eb4d4b9.112f6c",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "g": "bc481bc2.f1ae08",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3270,
-        "y": 1540,
-        "wires": []
-    },
-    {
-        "id": "b0b01bc4.45a1e8",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "g": "bc481bc2.f1ae08",
-        "name": "reset to start_settings",
-        "func": "let id = msg.payload.bot.id;\nlet newsetb = {\n    \"settings\":msg.payload.bot.start_set.settings,\n    \"sales\":msg.payload.bot.start_set.sales,\n    \"floors\":msg.payload.bot.start_set.floors,\n    \"status\":msg.payload.bot.start_set.status,\n    \"finance\":msg.payload.bot.start_set.finance,\n    \"ttp\":msg.payload.bot.start_set.ttp\n};\n//newset = JSON.stringify(newset);\n//node.warn(newsetb);\n\nmsg.payload = newsetb;\n\nmsg.headers = {};\nmsg.headers['accept'] = 'application/json';\nmsg.headers['Content-Type'] = 'application/json';\n\n\n\nconst upd = global.get('updateSettings')(msg.payload, id);\n\nupd.then(upd => {\n    \n    msg.payload = \"updated\"\n    node.send(msg);\n\n}).catch(error => {\n    node.error(error);\n});\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 3080,
-        "y": 1540,
-        "wires": [
-            [
-                "6eb4d4b9.112f6c"
-            ]
-        ],
-        "icon": "font-awesome/fa-bolt"
-    },
-    {
         "id": "a359f524.2e00e8",
         "type": "function",
         "z": "5df15275.2888ec",
@@ -20326,8 +20247,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 70,
-        "y": 900,
+        "x": 150,
+        "y": 880,
         "wires": []
     },
     {
@@ -21515,6 +21436,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1240,
         "y": 940,
         "wires": [
@@ -22790,6 +22712,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 940,
         "y": 180,
         "wires": [
@@ -22857,6 +22780,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 970,
         "y": 260,
         "wires": [
@@ -23468,8 +23392,8 @@
         "name": "",
         "topic": "redis",
         "location": "flow",
-        "x": 2110,
-        "y": 160,
+        "x": 1990,
+        "y": 180,
         "wires": []
     },
     {
