@@ -3,6 +3,7 @@ USER root
 
 #COPY package.json .
 RUN npm install --unsafe-perm --no-update-notifier --no-fund
+RUN npm install @node-red-contrib-themes/midnight-red
 #RUN npm install --unsafe-perm node-red
 #COPY settings.js /data/settings.js
 #COPY flows_cred.json /data/flows_cred.json

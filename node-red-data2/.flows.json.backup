@@ -55,7 +55,6 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "13f2257b.01983b",
             "a445188a.34a218",
             "71acd437.96b3dc",
             "18fc789.fac9d87",
@@ -5293,25 +5292,6 @@
         ]
     },
     {
-        "id": "13f2257b.01983b",
-        "type": "graphql",
-        "z": "38c422f8.b82bf6",
-        "g": "89dcb365.f1eba",
-        "name": "get bot all data",
-        "graphql": "ab190c2e.90269",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "query {\n  bot (id: \"{{payload}}\"){\n    id\n    settings\n    last_price\n    busy\n    floors\n    status\n    finance\n    ttp\n    zapret_na_zakup\n     keypair{\n      apikey\n      secret\n      market\n    }\n  }\n}",
-        "x": 240,
-        "y": 960,
-        "wires": [
-            [
-                "18fc789.fac9d87"
-            ],
-            []
-        ]
-    },
-    {
         "id": "a445188a.34a218",
         "type": "function",
         "z": "38c422f8.b82bf6",
@@ -5516,9 +5496,7 @@
         "x": 115,
         "y": 960,
         "wires": [
-            [
-                "13f2257b.01983b"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-space-shuttle"
     },

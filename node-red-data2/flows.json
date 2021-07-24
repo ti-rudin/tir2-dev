@@ -68,9 +68,7 @@
             "34642144.ae139e"
         ],
         "x": 74,
-        "y": 859,
-        "w": 1562,
-        "h": 202
+        "y": 859
     },
     {
         "id": "c0b0e6b5.5e71f",
@@ -91,9 +89,7 @@
             "90df249b.c0cbf"
         ],
         "x": 2154,
-        "y": 619,
-        "w": 392,
-        "h": 202
+        "y": 619
     },
     {
         "id": "339f6357.48270c",
@@ -124,9 +120,7 @@
             "3df007b7.771648"
         ],
         "x": 74,
-        "y": 379,
-        "w": 2192,
-        "h": 202
+        "y": 379
     },
     {
         "id": "6d0bae3e.4983b8",
@@ -160,9 +154,7 @@
             "8e1f3271.c24088"
         ],
         "x": 74,
-        "y": 619,
-        "w": 2022,
-        "h": 202
+        "y": 619
     },
     {
         "id": "3a58fc05.972e0c",
@@ -186,9 +178,7 @@
             "ef77d89b.b36608"
         ],
         "x": 1094,
-        "y": 59,
-        "w": 592,
-        "h": 122
+        "y": 59
     },
     {
         "id": "c4471f11.5e9398",
@@ -210,9 +200,7 @@
             "76409bc.077dee4"
         ],
         "x": 1134,
-        "y": 1639,
-        "w": 392,
-        "h": 122
+        "y": 1639
     },
     {
         "id": "205eec04.74c0d4",
@@ -256,9 +244,7 @@
             "e7d6b6d2.32065"
         ],
         "x": 74,
-        "y": 1079,
-        "w": 3362,
-        "h": 242
+        "y": 1079
     },
     {
         "id": "945a2cf3.e1d6b8",
@@ -296,9 +282,7 @@
             "829d56ef.f0827"
         ],
         "x": 74,
-        "y": 39,
-        "w": 832,
-        "h": 302
+        "y": 39
     },
     {
         "id": "3e767551.3d299a",
@@ -742,9 +726,7 @@
             "26cad534.28973a"
         ],
         "x": 2814,
-        "y": 219,
-        "w": 372,
-        "h": 202
+        "y": 219
     },
     {
         "id": "74e1a04.6df746",
@@ -784,9 +766,7 @@
             "ccbca6c6.392f58"
         ],
         "x": 334,
-        "y": 259,
-        "w": 2252,
-        "h": 222
+        "y": 259
     },
     {
         "id": "115b1d61.ba4ba3",
@@ -810,9 +790,7 @@
             "bdd4eff7.879af"
         ],
         "x": 94,
-        "y": 59,
-        "w": 592,
-        "h": 122
+        "y": 59
     },
     {
         "id": "79e296b2.11a2d8",
@@ -1068,9 +1046,7 @@
             "30a2f633.22ee6a"
         ],
         "x": 1934,
-        "y": 1099,
-        "w": 592,
-        "h": 122
+        "y": 1099
     },
     {
         "id": "f120eab2.0a60a8",
@@ -12440,11 +12416,12 @@
         "z": "5df15275.2888ec",
         "g": "8fac538c.5d4a48",
         "name": "start",
-        "func": "//<трекер<\n    ////>только для стартовой ноды>\n        var track = [];\n        let start_track_time = new Date().getTime();\n        let start_node_time = start_track_time;\n        let steptitle = node.name;\n    ////>только для стартовой ноды>\n//>трекер>\n\n\n\nmsg.payload = global.get('guid');\n\n\n//>трекер>\nlet lasttrack = flow.get(\"track\", track) || \"\";\nflow.set(\"lasttrack\", lasttrack);\n\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    track.push({\n        \"steptitle\": steptitle,\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration_node\": duration,\n        \"duration_step\": 0\n    });\n\n    flow.set(\"track\", track);\n//>трекер>\nnode.status({ fill: \"green\", shape: \"ring\", text: duration });\nreturn msg;",
+        "func": "//<трекер<\n    ////>только для стартовой ноды>\n        var track = [];\n        let start_track_time = new Date().getTime();\n        let start_node_time = start_track_time;\n        let steptitle = node.name;\n    ////>только для стартовой ноды>\n//>трекер>\n\n\n\nmsg.payload = global.get('guid');\n\n\n//>трекер>\n// @ts-ignore\nlet lasttrack = flow.get(\"track\", track) || \"\";\nflow.set(\"lasttrack\", lasttrack);\n\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    track.push({\n        \"steptitle\": steptitle,\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration_node\": duration,\n        \"duration_step\": 0\n    });\n\n    flow.set(\"track\", track);\n//>трекер>\nnode.status({ fill: \"green\", shape: \"ring\", text: duration });\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 670,
         "y": 1220,
         "wires": [
