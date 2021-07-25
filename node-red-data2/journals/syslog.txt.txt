@@ -79,3 +79,31 @@ Sun Jul 25 2021 04:55:50  : Сброс FETUSDT-1627169954
 		"duration_step": 1
 	}
 ]
+Sun Jul 25 2021 05:20:15  : Стоп
+Sun Jul 25 2021 06:08:10  : Старт
+Sun Jul 25 2021 06:21:20  : Старт
+Sun Jul 25 2021 06:21:24  : Сброс FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627183269084,
+		"end_node_time": 1627183269084,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627183269085,
+		"end_node_time": 1627183269140,
+		"duration_node": 55,
+		"duration_step": 56
+	}
+]
+Sun Jul 25 2021 06:22:31  : Стоп
+Sun Jul 25 2021 07:01:05  : Старт
+Sun Jul 25 2021 07:01:21  : Сброс к стартовым настройкам FETUSDT-1627169954
+Sun Jul 25 2021 07:01:44  : Стоп
+Sun Jul 25 2021 07:03:02  : Сброс к стартовым настройкам FETUSDT-1627169954
+Sun Jul 25 2021 07:03:20  : Сброс к стартовым настройкам FETUSDT-1627169954
+Sun Jul 25 2021 07:03:25  : Старт
+Sun Jul 25 2021 07:03:36  : Стоп
