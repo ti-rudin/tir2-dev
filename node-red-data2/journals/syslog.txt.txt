@@ -107,3 +107,233 @@ Sun Jul 25 2021 07:03:02  : Сброс к стартовым настройка�
 Sun Jul 25 2021 07:03:20  : Сброс к стартовым настройкам FETUSDT-1627169954
 Sun Jul 25 2021 07:03:25  : Старт
 Sun Jul 25 2021 07:03:36  : Стоп
+Sun Jul 25 2021 07:39:41  : Старт
+Sun Jul 25 2021 07:46:36  : Старт
+Sun Jul 25 2021 07:46:39  : Сброс ttp FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627188376944,
+		"end_node_time": 1627188376944,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627188376945,
+		"end_node_time": 1627188376946,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627188376947,
+		"end_node_time": 1627188376948,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627188376948,
+		"end_node_time": 1627188376949,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627188376952,
+		"end_node_time": 1627188376953,
+		"duration_node": 1,
+		"duration_step": 4
+	}
+]
+Sun Jul 25 2021 07:46:40  : Сброс FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627188376943,
+		"end_node_time": 1627188376943,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627188376944,
+		"end_node_time": 1627188376945,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627188376945,
+		"end_node_time": 1627188376946,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627188376947,
+		"end_node_time": 1627188376948,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627188376948,
+		"end_node_time": 1627188376950,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "prepare update bot status",
+		"start_node_time": 1627188376950,
+		"end_node_time": 1627188376950,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627188376951,
+		"end_node_time": 1627188376951,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627188376951,
+		"end_node_time": 1627188376953,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627188376953,
+		"end_node_time": 1627188376957,
+		"duration_node": 4,
+		"duration_step": 4
+	}
+]
+Sun Jul 25 2021 07:47:15  : Старт
+Sun Jul 25 2021 07:47:19  : Сброс FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627188433993,
+		"end_node_time": 1627188433993,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627188433994,
+		"end_node_time": 1627188433994,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627188433994,
+		"end_node_time": 1627188433995,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627188433995,
+		"end_node_time": 1627188433996,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627188433996,
+		"end_node_time": 1627188434018,
+		"duration_node": 22,
+		"duration_step": 22
+	},
+	{
+		"steptitle": "prepare update bot status",
+		"start_node_time": 1627188434018,
+		"end_node_time": 1627188434018,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627188434019,
+		"end_node_time": 1627188434019,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627188434019,
+		"end_node_time": 1627188434020,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627188434020,
+		"end_node_time": 1627188434021,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Sun Jul 25 2021 07:49:23  : Старт
+Sun Jul 25 2021 07:50:13  : Старт
+Sun Jul 25 2021 07:50:17  : Сброс ttp FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627188609084,
+		"end_node_time": 1627188609084,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627188609085,
+		"end_node_time": 1627188609089,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627188609090,
+		"end_node_time": 1627188609093,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Jul 25 2021 07:50:17  : Сброс FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627188609080,
+		"end_node_time": 1627188609080,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627188609082,
+		"end_node_time": 1627188609084,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627188609089,
+		"end_node_time": 1627188609090,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627188609092,
+		"end_node_time": 1627188609093,
+		"duration_node": 1,
+		"duration_step": 3
+	}
+]
