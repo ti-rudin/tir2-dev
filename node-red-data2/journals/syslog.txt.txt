@@ -40,3 +40,42 @@ Sun Jul 25 2021 04:19:24  : Сброс FETUSDT-1627169954
 		"duration_step": 1
 	}
 ]
+Sun Jul 25 2021 04:55:46  : Старт
+Sun Jul 25 2021 04:55:50  : Сброс FETUSDT-1627169954 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627178150235,
+		"end_node_time": 1627178150235,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbotlist",
+		"start_node_time": 1627178150235,
+		"end_node_time": 1627178150237,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_onoff",
+		"start_node_time": 1627178150238,
+		"end_node_time": 1627178150239,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_busy",
+		"start_node_time": 1627178150240,
+		"end_node_time": 1627178150241,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "busy === false -faile",
+		"start_node_time": 1627178150242,
+		"end_node_time": 1627178150242,
+		"duration": 0,
+		"duration_step": 1
+	}
+]

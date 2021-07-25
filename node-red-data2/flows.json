@@ -6697,7 +6697,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1660,
+        "x": 1570,
         "y": 1100,
         "wires": []
     },

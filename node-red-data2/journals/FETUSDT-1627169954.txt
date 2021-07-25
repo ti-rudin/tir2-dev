@@ -161,3 +161,59 @@ Sun Jul 25 2021 04:21:38  : Длительноть трека -670
 Sun Jul 25 2021 04:24:07  : Длительноть трека -528
 Sun Jul 25 2021 04:33:11  : Длительноть трека -732
 Sun Jul 25 2021 04:47:29  : Длительноть трека -525
+Sun Jul 25 2021 04:55:50  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627178150235,
+		"end_node_time": 1627178150235,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbotlist",
+		"start_node_time": 1627178150235,
+		"end_node_time": 1627178150237,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_onoff",
+		"start_node_time": 1627178150238,
+		"end_node_time": 1627178150239,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_busy",
+		"start_node_time": 1627178150240,
+		"end_node_time": 1627178150241,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "busy === false -faile",
+		"start_node_time": 1627178150242,
+		"end_node_time": 1627178150242,
+		"duration": 0,
+		"duration_step": 1
+	}
+]
+Sun Jul 25 2021 05:10:21  : FETUSDT-1627169954:setbuy: price:0.27224, quantity: 59.1
+Sun Jul 25 2021 05:10:22  : Выставлен ордер - 355655140
+Sun Jul 25 2021 05:10:22  : Длительноть трека -645
+Sun Jul 25 2021 05:10:22  : FETUSDT-1627169954:cansel: orderid:355655140
+Sun Jul 25 2021 05:10:23  : Ордер на покупку отменен, ID - 355655140
+Sun Jul 25 2021 05:10:23  : Длительноть трека -596
+Sun Jul 25 2021 05:11:23  : FETUSDT-1627169954:setbuy: price:0.27224, quantity: 59.2
+Sun Jul 25 2021 05:11:24  : Выставлен ордер - 355655916
+Sun Jul 25 2021 05:11:24  : Длительноть трека -582
+Sun Jul 25 2021 05:11:46  : FETUSDT-1627169954:cansel: orderid:355655916
+Sun Jul 25 2021 05:11:47  : Ордер на покупку отменен, ID - 355655916
+Sun Jul 25 2021 05:11:47  : Длительноть трека -688
+Sun Jul 25 2021 05:12:19  : FETUSDT-1627169954:setbuy: price:0.27224, quantity: 59.1
+Sun Jul 25 2021 05:12:20  : Выставлен ордер - 355656740
+Sun Jul 25 2021 05:12:20  : Длительноть трека -588
+Sun Jul 25 2021 05:12:46  : FETUSDT-1627169954:cansel: orderid:355656740
+Sun Jul 25 2021 05:12:46  : Ордер на покупку отменен, ID - 355656740
+Sun Jul 25 2021 05:12:46  : Длительноть трека -594
