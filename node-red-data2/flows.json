@@ -635,16 +635,13 @@
             "51b45a57.49dad4",
             "51350500.94f214",
             "1d3cd462.fdc43c",
-            "5a3f403a.e52a98",
             "283c3766.823b68",
             "e8fc4296.04f04",
             "ab58eb0c.082c28",
             "1dda6867.b90808"
         ],
-        "x": 2374,
-        "y": 479,
-        "w": 942,
-        "h": 222
+        "x": 2414,
+        "y": 479
     },
     {
         "id": "071ea57d613d087c",
@@ -671,9 +668,7 @@
             "842e37da.0d09"
         ],
         "x": 2374,
-        "y": 739,
-        "w": 892,
-        "h": 202
+        "y": 739
     },
     {
         "id": "e83aa13614517c81",
@@ -697,9 +692,7 @@
             "43e93874.b7141"
         ],
         "x": 2254,
-        "y": 1079,
-        "w": 592,
-        "h": 122
+        "y": 1079
     },
     {
         "id": "b33031b1dc7179a4",
@@ -893,9 +886,7 @@
             "a7628168.861ce"
         ],
         "x": 1034,
-        "y": 39,
-        "w": 792,
-        "h": 122
+        "y": 39
     },
     {
         "id": "a6e4d859c0057b6f",
@@ -965,12 +956,13 @@
             "9f535577.3cdc98",
             "203e6ef2.430c62",
             "26cad534.28973a",
-            "2ebe95ca.a5fdaa"
+            "2ebe95ca.a5fdaa",
+            "70c9b4b33e033727"
         ],
         "x": 2654,
-        "y": 259,
+        "y": 219,
         "w": 752,
-        "h": 222
+        "h": 262
     },
     {
         "id": "62f84306b9b0d2ef",
@@ -1059,9 +1051,75 @@
             "f7dd1d7c0e6027d7"
         ],
         "x": 1754,
-        "y": 2559,
-        "w": 592,
-        "h": 122
+        "y": 2559
+    },
+    {
+        "id": "9ddf7eea0825c30f",
+        "type": "group",
+        "z": "5df15275.2888ec",
+        "style": {
+            "stroke": "#2e333a",
+            "stroke-opacity": "1",
+            "fill": "#383c45",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c3e2eace.6fef4",
+            "f88e6307.876b78",
+            "3e3a1491.e31a74",
+            "fb84e297.7e169",
+            "8275986.8fc5d68",
+            "c0dcb78d.280fb",
+            "da741b09.f3974",
+            "3201780f.c931f",
+            "d43a0074.4523c",
+            "d6651eda.7b83",
+            "dfa11988.0cfa6",
+            "9a76b6bf.1016d",
+            "fe2a6027.b22b48",
+            "4bd2ed9.fa5d114",
+            "a790f90b.998d8",
+            "b080e3fb.60616",
+            "cec096cd.d93358",
+            "be118eed.3c8348",
+            "32fce615.5af6c2",
+            "8f9ec476.3b8e88"
+        ],
+        "x": 34,
+        "y": 479
+    },
+    {
+        "id": "11634dc8e4f3bcfa",
+        "type": "group",
+        "z": "5df15275.2888ec",
+        "name": "Расчет и регистрация МА",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "754f373f.b15518",
+            "5d94f71d.d3668",
+            "edea6dff.e44",
+            "1e4c98d9.ba7367",
+            "c982d578.5cca4",
+            "90d93514.efa9e8",
+            "54724e9d.5a21d8",
+            "5beb39ef.f84b7",
+            "a707b53d.3343e",
+            "2ac45d8.4ea1022",
+            "fe43ccbb.7a083",
+            "3d3d989e.3a00f",
+            "a2a98d92.7d7ac8",
+            "b72aec1b.3ff6d",
+            "36be307e.92e14",
+            "4f8e81cce7bfde0e"
+        ],
+        "x": 34,
+        "y": 259,
+        "info": "Раз в 10 секунд выборка активных ботов, расчет МА, регистрация значений"
     },
     {
         "id": "f120eab2.0a60a8",
@@ -4536,6 +4594,7 @@
         "id": "754f373f.b15518",
         "type": "trigger",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "",
         "op1": "1",
         "op2": "0",
@@ -4558,19 +4617,10 @@
         ]
     },
     {
-        "id": "444e001d.21432",
-        "type": "comment",
-        "z": "5df15275.2888ec",
-        "name": "Расчет МА",
-        "info": "",
-        "x": 130,
-        "y": 240,
-        "wires": []
-    },
-    {
         "id": "5d94f71d.d3668",
         "type": "redis-in",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "server": "f120eab2.0a60a8",
         "command": "subscribe",
         "name": "",
@@ -4589,6 +4639,7 @@
         "id": "edea6dff.e44",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "stop",
         "func": "msg.reset = true;\nmsg.payload = \"\";\n\nreturn msg;",
         "outputs": 1,
@@ -4608,6 +4659,7 @@
         "id": "1e4c98d9.ba7367",
         "type": "redis-in",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "server": "f120eab2.0a60a8",
         "command": "subscribe",
         "name": "",
@@ -4626,6 +4678,7 @@
         "id": "c982d578.5cca4",
         "type": "delay",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -4649,6 +4702,7 @@
         "id": "c3e2eace.6fef4",
         "type": "comment",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "Старт трека",
         "info": "",
         "x": 130,
@@ -4659,6 +4713,7 @@
         "id": "f88e6307.876b78",
         "type": "trigger",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "",
         "op1": "1",
         "op2": "0",
@@ -4684,6 +4739,7 @@
         "id": "3e3a1491.e31a74",
         "type": "delay",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -4707,6 +4763,7 @@
         "id": "fb84e297.7e169",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "stop",
         "func": "let botname = \"syslog.txt\";\nlet data = \"Стоп\";\nconst syslog = global.get('tilog')(botname,data);\nsyslog;\n        \n\n        \nmsg.reset = true;\nmsg.payload = \"\";\n\nreturn msg;",
         "outputs": 1,
@@ -4726,6 +4783,7 @@
         "id": "8275986.8fc5d68",
         "type": "redis-in",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "server": "f120eab2.0a60a8",
         "command": "subscribe",
         "name": "",
@@ -4744,6 +4802,7 @@
         "id": "c0dcb78d.280fb",
         "type": "redis-in",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "server": "f120eab2.0a60a8",
         "command": "subscribe",
         "name": "",
@@ -4763,6 +4822,7 @@
         "id": "da741b09.f3974",
         "type": "redis-in",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "server": "f120eab2.0a60a8",
         "command": "subscribe",
         "name": "",
@@ -4781,6 +4841,7 @@
         "id": "3201780f.c931f",
         "type": "comment",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "Семафор = \"Занято\"",
         "info": "",
         "x": 2000,
@@ -4791,6 +4852,7 @@
         "id": "d43a0074.4523c",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "start",
         "func": "//<трекер<\n////>только для стартовой ноды>\nlet track = [];\nlet start_track_time = new Date().getTime();\nlet start_node_time = start_track_time;\nlet steptitle = node.name;\n////>только для стартовой ноды>\n//>трекер>\n\n\n\nmsg.payload = global.get('guid');\n\n\n//>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    track.push({\n        \"steptitle\": steptitle,\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration_node\": duration,\n        \"duration_step\": 0\n    });\n    let trackname = \"track-\" + msg.botname;\n    flow.set(trackname, track);\n//>трекер>\nnode.status({ fill: \"green\", shape: \"ring\", text: duration });\nreturn msg;\n\n",
         "outputs": 1,
@@ -4839,6 +4901,7 @@
         "id": "90d93514.efa9e8",
         "type": "redis-in",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "server": "f120eab2.0a60a8",
         "command": "subscribe",
         "name": "",
@@ -5143,6 +5206,7 @@
         "id": "d6651eda.7b83",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "getbotlist",
         "func": "\n\nlet guid = global.get('guid');\n\nconst gbl = global.get('getbotlist')(guid);\n\ngbl.then(gbl => {\n    \n    msg.payload = gbl;\n    \n\n    node.status({fill:\"green\",shape:\"dot\"});\n    node.send(msg);\n\n}).catch(error => {\n    \n\n    node.status({fill:\"red\",shape:\"dot\"});\n    \n    node.error(error);\n});",
         "outputs": 1,
@@ -5154,8 +5218,7 @@
         "y": 600,
         "wires": [
             [
-                "dfa11988.0cfa6",
-                "bec7265d.ad8278"
+                "dfa11988.0cfa6"
             ]
         ]
     },
@@ -5163,6 +5226,7 @@
         "id": "dfa11988.0cfa6",
         "type": "json",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "",
         "property": "payload",
         "action": "obj",
@@ -5179,6 +5243,7 @@
         "id": "9a76b6bf.1016d",
         "type": "split",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "",
         "splt": "1",
         "spltType": "len",
@@ -5190,8 +5255,7 @@
         "y": 600,
         "wires": [
             [
-                "fe2a6027.b22b48",
-                "3b6f26a5.932aba"
+                "fe2a6027.b22b48"
             ]
         ]
     },
@@ -5199,6 +5263,7 @@
         "id": "fe2a6027.b22b48",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "getbot_onoff",
         "func": "\n\nlet botname = msg.payload;\nmsg.botname = botname;\n\nconst gb = global.get('getbot_onoff')(botname);\n\ngb.then(gb => {\n    \n    msg.payload = JSON.parse(gb);\n    \n\n    node.status({fill:\"green\",shape:\"dot\"});\n    \n    node.send(msg);\n\n}).catch(error => {\n    \n\n    node.status({fill:\"red\",shape:\"dot\"});\n    \n    node.error(error);\n});",
         "outputs": 1,
@@ -5210,8 +5275,7 @@
         "y": 600,
         "wires": [
             [
-                "4bd2ed9.fa5d114",
-                "aa865712.dd6a08"
+                "4bd2ed9.fa5d114"
             ]
         ]
     },
@@ -5219,6 +5283,7 @@
         "id": "4bd2ed9.fa5d114",
         "type": "filter",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "filter off",
         "property": "payload",
         "propertyType": "msg",
@@ -5245,6 +5310,7 @@
         "id": "a790f90b.998d8",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "getbot_busy",
         "func": "\n\nconst gb = global.get('getbot_busy')(msg.botname);\n\ngb.then(gb => {\n\n    msg.payload = JSON.parse(gb);\n\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n\n    node.error(error);\n});",
         "outputs": 1,
@@ -5264,6 +5330,7 @@
         "id": "b080e3fb.60616",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "busy === false ",
         "func": "\n\nif (msg.payload === false) {\n\n    node.status({fill:\"green\",shape:\"dot\"});\n    \n    return [msg, null];\n}\n\nelse {\n\n    let id = msg.botname;\n    msg.payload = [];\n\n    var count = flow.get(id) || 0;\n    count += 1;\n\n\n    node.status({fill:\"blue\",shape:\"dot\"});\n\n\n    if (count > 6) {\n        \n        let trackname = \"track-\" + msg.botname;\n        let lasttrack = JSON.stringify(flow.get(trackname) || \"\", null, '\\t');\n\n\n        \n        //запись в журнал\n        let botname = \"syslog.txt\";\n        let data = \"Сброс \"+msg.botname+\" \\n \"+lasttrack;\n        const syslog = global.get('tilog')(botname,data);\n        syslog;\n        \n        let botname2 = msg.botname;\n        let data2 = \"Сброс busy \\n \"+lasttrack;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n        \n        const upd = global.get('setbot_free')(id);\n\n        upd.then(upd => {\n            \n\n            node.status({fill:\"red\",shape:\"dot\"});\n            \n            flow.set(id, 0);\n            node.warn(\"reset busy:\" + id);\n\n        }).catch(error => {\n            node.error(error);\n        });\n\n    }\n    flow.set(id, count);\n    return [null, msg];\n}\n\n\n\n\n\n",
         "outputs": 2,
@@ -5277,9 +5344,7 @@
             [
                 "d43a0074.4523c"
             ],
-            [
-                "5bbb44fa.ec4574"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-bolt"
     },
@@ -5352,26 +5417,10 @@
         "icon": "font-awesome/fa-bolt"
     },
     {
-        "id": "bec7265d.ad8278",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 910,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "cec096cd.d93358",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "setbot_busy",
         "func": "//<трекер<\nlet trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nconst upd = global.get('setbot_busy')(msg.botname);\n\nlet id = \"srv-\" + msg.botname;\nvar count = flow.get(id) || 0;\ncount += 1;\n//node.warn(count);\nflow.set(id, count);\nif (count >= 10) {\n    msg.service = true;\n    flow.set(id, 0);\n} else {\n    msg.service = false;\n\n}\n\nupd.then(upd => {\n\n    //>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    let duration_step = end_node_time - last_node_end_time;\n    track.push({\n        \"steptitle\": steptitle,\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration_node\": duration,\n        \"duration_step\": duration_step\n    });\n    flow.set(trackname, track);\n    //>трекер>\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n    //>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    let duration_step = end_node_time - last_node_end_time;\n    track.push({\n        \"steptitle\": steptitle + \"-faile\",\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration\": duration,\n        \"duration_step\": duration_step,\n        \"error\": error\n    });\n    flow.set(trackname, track);\n    //>трекер>\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
         "outputs": 1,
@@ -5393,6 +5442,7 @@
         "id": "be118eed.3c8348",
         "type": "debug",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -5404,23 +5454,6 @@
         "statusType": "auto",
         "x": 2010,
         "y": 560,
-        "wires": []
-    },
-    {
-        "id": "5bbb44fa.ec4574",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1770,
-        "y": 660,
         "wires": []
     },
     {
@@ -5569,6 +5602,7 @@
         "id": "54724e9d.5a21d8",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "getbotlist",
         "func": "let guid = global.get('guid');\n\nconst gbl = global.get('getbotlist')(guid);\n\ngbl.then(gbl => {\n\n    msg.payload = gbl;\n\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n\n    node.error(error);\n});",
         "outputs": 1,
@@ -5588,6 +5622,7 @@
         "id": "5beb39ef.f84b7",
         "type": "json",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "",
         "property": "payload",
         "action": "obj",
@@ -5604,6 +5639,7 @@
         "id": "a707b53d.3343e",
         "type": "split",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "",
         "splt": "1",
         "spltType": "len",
@@ -5615,7 +5651,7 @@
         "y": 300,
         "wires": [
             [
-                "8f2b992a.2a5888"
+                "2ac45d8.4ea1022"
             ]
         ]
     },
@@ -5623,6 +5659,7 @@
         "id": "2ac45d8.4ea1022",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "getbot_onoff",
         "func": "\n\nlet botname = msg.payload;\nmsg.botname = botname;\n\nconst gb = global.get('getbot_onoff')(botname);\n\ngb.then(gb => {\n\n    msg.payload = JSON.parse(gb);\n\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n\n    node.error(error);\n});",
         "outputs": 1,
@@ -5630,7 +5667,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
+        "x": 1150,
         "y": 300,
         "wires": [
             [
@@ -5642,6 +5679,7 @@
         "id": "fe43ccbb.7a083",
         "type": "filter",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "filter off",
         "property": "payload",
         "propertyType": "msg",
@@ -5656,7 +5694,7 @@
         ],
         "checkall": "true",
         "outputs": 1,
-        "x": 1480,
+        "x": 1320,
         "y": 300,
         "wires": [
             [
@@ -5665,28 +5703,10 @@
         ]
     },
     {
-        "id": "8f2b992a.2a5888",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "start MA calc",
-        "func": "\n\n\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1130,
-        "y": 300,
-        "wires": [
-            [
-                "2ac45d8.4ea1022"
-            ]
-        ]
-    },
-    {
         "id": "3d3d989e.3a00f",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "get candlestick",
         "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  \"reconnect\": false\n});\n\nlet moneta = msg.bot.settings.moneta;\nlet deep = Number(msg.bot.settings.ma2);\n\n//node.warn(binance);\n\n\n//msg.payload = \"qjson.status\";\n\n\nbinance.candlesticks(moneta, \"1m\", (error, ticks, symbol) => {\n  // console.info(\"candlesticks()\", ticks);\n  // let last_tick = ticks[ticks.length - 1];\n  // let [time, open, high, low, close, volume, closeTime, assetVolume, trades, buyBaseVolume, buyAssetVolume, ignored] = ticks;\n  //console.info(symbol+\" last close: \"+close);\n  msg.payload = ticks;\n\n  node.send(msg);\n  return;\n\n}, { limit: deep });",
         "outputs": 1,
@@ -5699,12 +5719,11 @@
                 "module": "node-binance-api"
             }
         ],
-        "x": 2100,
+        "x": 1900,
         "y": 300,
         "wires": [
             [
-                "a2a98d92.7d7ac8",
-                "11f5815b.2198c7"
+                "a2a98d92.7d7ac8"
             ]
         ],
         "inputLabels": [
@@ -5719,46 +5738,27 @@
         "id": "a2a98d92.7d7ac8",
         "type": "function",
         "z": "5df15275.2888ec",
-        "name": "расчет MA",
-        "func": "\n\nlet candles = msg.payload;\n\n\nlet heiken = candles.map(function(tick){\n  //  node.warn(tick);\n    \n    \n    return (Number(tick[1]) + Number(tick[2]) + Number(tick[3]) + Number(tick[4]))/4;\n});\n\n\n//node.warn(heiken);\nmsg.heiken = heiken;\n\n\nlet heiken_small = heiken.slice(-msg.bot.settings.ma1);\n\n//node.warn(heiken_small);\nlet sum_all = heiken.reduce(function(sum, current) {\n  return sum + current\n});\n\nlet sum_small = heiken_small.reduce(function(sum, current) {\n  return sum + current\n});\n\nmsg.bot.status.sr_ma_big = sum_all / msg.bot.settings.ma2;\nmsg.bot.status.sr_ma_small = sum_small / msg.bot.settings.ma1;\n\n\nreturn msg;",
+        "g": "11634dc8e4f3bcfa",
+        "name": "расчет и запись MA flow.set",
+        "func": "\n\nlet candles = msg.payload;\n\n\nlet heiken = candles.map(function(tick){\n  //  node.warn(tick);\n    \n    \n    return (Number(tick[1]) + Number(tick[2]) + Number(tick[3]) + Number(tick[4]))/4;\n});\n\n\n//node.warn(heiken);\nmsg.heiken = heiken;\n\n\nlet heiken_small = heiken.slice(-msg.bot.settings.ma1);\n\n//node.warn(heiken_small);\nlet sum_all = heiken.reduce(function(sum, current) {\n  return sum + current\n});\n\nlet sum_small = heiken_small.reduce(function(sum, current) {\n  return sum + current\n});\n\nmsg.bot.status.sr_ma_big = sum_all / msg.bot.settings.ma2;\nmsg.bot.status.sr_ma_small = sum_small / msg.bot.settings.ma1;\n\nlet volname = msg.bot.settings.botname + \"-MA-big\";\nflow.set(volname, msg.bot.status.sr_ma_big);\n\nlet volname2 = msg.bot.settings.botname + \"-MA-small\";\nflow.set(volname2, msg.bot.status.sr_ma_small);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2290,
+        "x": 2140,
         "y": 300,
         "wires": [
             [
-                "2ffac69a.1af06a",
                 "4f8e81cce7bfde0e"
             ]
         ]
     },
     {
-        "id": "2ffac69a.1af06a",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "prepare update bot status",
-        "func": "msg.topic = msg.bot.settings.userid+\"-bots:\"+msg.bot.settings.botname+\":status\";\n\nmsg.payload = JSON.stringify(msg.bot.status);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2510,
-        "y": 300,
-        "wires": [
-            [
-                "f00f32f3.dec218"
-            ]
-        ],
-        "icon": "font-awesome/fa-bolt"
-    },
-    {
         "id": "b72aec1b.3ff6d",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "getbot_settings",
         "func": "\n\nlet bot = {};\nmsg.bot = bot;\nconst gb = global.get('getbot_settings')(msg.botname);\n\ngb.then(gb => {\n\n    msg.bot.settings = JSON.parse(gb);\n\n\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.error(error);\n});",
         "outputs": 1,
@@ -5766,7 +5766,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1660,
+        "x": 1500,
         "y": 300,
         "wires": [
             [
@@ -5778,6 +5778,7 @@
         "id": "36be307e.92e14",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "getbot_status",
         "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n\n    msg.bot.status = JSON.parse(gb);\n\n\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.error(error);\n});\n\n",
         "outputs": 1,
@@ -5785,34 +5786,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1880,
+        "x": 1700,
         "y": 300,
         "wires": [
             [
-                "3d3d989e.3a00f",
-                "2c76d26545bbb7a1"
+                "3d3d989e.3a00f"
             ]
         ]
-    },
-    {
-        "id": "f00f32f3.dec218",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "setbot_status",
-        "func": "\nconst upd = global.get('setbot_status')(msg.topic, msg.payload);\n\nupd.then(upd => {\n\n    msg.payload = \"updated\"\n    node.send(msg);\n    \n        \n        \n\n}).catch(error => {\n    node.status({fill:\"red\",shape:\"dot\"});  \n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2760,
-        "y": 300,
-        "wires": [
-            [
-                "cac10d2c.dddd8"
-            ]
-        ],
-        "icon": "font-awesome/fa-bolt"
     },
     {
         "id": "a911e390.b5d95",
@@ -5829,7 +5809,7 @@
         "y": 980,
         "wires": [
             [
-                "cb37028d.66ec4"
+                "302b86fd.feef2a"
             ]
         ]
     },
@@ -5844,12 +5824,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 980,
+        "x": 830,
+        "y": 1040,
         "wires": [
-            [
-                "302b86fd.feef2a"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-bolt"
     },
@@ -5868,8 +5846,7 @@
         "y": 980,
         "wires": [
             [
-                "8228371e.8b4288",
-                "c6daab76.cf51c8"
+                "8228371e.8b4288"
             ]
         ],
         "icon": "font-awesome/fa-bolt"
@@ -5984,8 +5961,7 @@
         "y": 600,
         "wires": [
             [
-                "9f82a757.25f3d",
-                "5a3f403a.e52a98"
+                "9f82a757.25f3d"
             ]
         ]
     },
@@ -6022,8 +5998,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1850,
-        "y": 1080,
+        "x": 1530,
+        "y": 940,
         "wires": []
     },
     {
@@ -6031,7 +6007,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "MA zapret calculate",
-        "func": "//<трекер<\nlet trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nif ((msg.bot.status.currentprice > msg.bot.status.sr_ma_big) && (msg.bot.status.currentprice > msg.bot.status.sr_ma_small)) {\n    msg.bot.zapret_na_zakup = false;\n    msg.bot.status.rezhim = \"МА - закуп разрешен\";\n} else {\n    msg.bot.zapret_na_zakup = true;\n    msg.bot.status.rezhim = \"МА - закуп запрещён\";\n}\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_step\n});\nflow.set(trackname, track);\n//>трекер>\nnode.status({ fill: \"green\", shape: \"dot\" });\n\nreturn msg;",
+        "func": "//<трекер<\nlet trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nlet volname = msg.bot.settings.botname + \"-MA-big\";\nmsg.bot.status.sr_ma_big = flow.get(volname) || 0;\n\nlet volname2 = msg.bot.settings.botname + \"-MA-small\";\nmsg.bot.status.sr_ma_small = flow.get(volname2) || 0;\n\n\nif ((msg.bot.status.currentprice > msg.bot.status.sr_ma_big) && (msg.bot.status.currentprice > msg.bot.status.sr_ma_small)) {\n    msg.bot.zapret_na_zakup = false;\n    msg.bot.status.rezhim = \"МА - закуп разрешен\";\n} else {\n    msg.bot.zapret_na_zakup = true;\n    msg.bot.status.rezhim = \"МА - закуп запрещён\";\n}\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_step\n});\nflow.set(trackname, track);\n//>трекер>\nnode.status({ fill: \"green\", shape: \"dot\" });\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6288,57 +6264,6 @@
         ]
     },
     {
-        "id": "c6daab76.cf51c8",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1530,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "aa865712.dd6a08",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1350,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "3b6f26a5.932aba",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1210,
-        "y": 520,
-        "wires": []
-    },
-    {
         "id": "d51f367a.75ebc8",
         "type": "debug",
         "z": "5df15275.2888ec",
@@ -6353,23 +6278,6 @@
         "statusType": "auto",
         "x": 4030,
         "y": 2140,
-        "wires": []
-    },
-    {
-        "id": "cac10d2c.dddd8",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2890,
-        "y": 240,
         "wires": []
     },
     {
@@ -6497,7 +6405,8 @@
         "wires": [
             [
                 "9f535577.3cdc98",
-                "8cc08f5b.14782"
+                "8cc08f5b.14782",
+                "534b21324aab4b16"
             ]
         ],
         "icon": "font-awesome/fa-bolt"
@@ -6800,7 +6709,7 @@
         "z": "2a761808.610238",
         "g": "62f84306b9b0d2ef",
         "name": "busy === false ",
-        "func": "\n\nif (msg.payload === false) {\n   \n    node.status({fill:\"green\",shape:\"dot\"});\n    \n    return [msg, null];\n}\n\nelse {\n\n    let id = msg.botname;\n    msg.payload = [];\n\n    var count = flow.get(id) || 0;\n    count += 1;\n\n    node.status({fill:\"blue\",shape:\"dot\"});\n\n\n    if (count > 6) {\n        const upd = global.get('setttp_free')(id);\n   \n        let trackname = \"ttp-track-\"+msg.botname;\n        let lasttrack = JSON.stringify(flow.get(trackname) || \"\", null, '\\t');\n        \n        \n        //запись в журнал\n        let botname = \"syslog.txt\";\n        let data = \"Сброс ttp \"+msg.botname+\" \\n \"+lasttrack;\n        const syslog = global.get('tilog')(botname,data);\n        syslog;\n        \n        let botname2 = msg.botname;\n        let data2 = \"Сброс ttp busy \\n \"+lasttrack;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n\n        upd.then(upd => {\n            \n\n            node.status({fill:\"red\",shape:\"dot\"});\n            \n            flow.set(id, 0);\n            node.warn(\"reset ttp busy:\" + id);\n\n        }).catch(error => {\n            node.error(error);\n        });\n\n    }\n    flow.set(id, count);\n    return [null, msg];\n}\n\n\n\n\n\n",
+        "func": "\n\nif (msg.payload === false) {\n   \n    node.status({fill:\"green\",shape:\"dot\"});\n    \n    return [msg, null];\n}\n\nelse {\n\n    let id = msg.botname;\n    msg.payload = [];\n\n    var count = flow.get(id) || 0;\n    count += 1;\n\n    node.status({fill:\"blue\",shape:\"dot\"});\n\n\n    if (count > 16) {\n        const upd = global.get('setttp_free')(id);\n   \n        let trackname = \"ttp-track-\"+msg.botname;\n        let lasttrack = JSON.stringify(flow.get(trackname) || \"\", null, '\\t');\n        \n        \n        //запись в журнал\n        let botname = \"syslog.txt\";\n        let data = \"Сброс ttp \"+msg.botname+\" \\n \"+lasttrack;\n        const syslog = global.get('tilog')(botname,data);\n        syslog;\n        \n        let botname2 = msg.botname;\n        let data2 = \"Сброс ttp busy \\n \"+lasttrack;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n\n        upd.then(upd => {\n            \n\n            node.status({fill:\"red\",shape:\"dot\"});\n            \n            flow.set(id, 0);\n            node.warn(\"reset ttp busy:\" + id);\n\n        }).catch(error => {\n            node.error(error);\n        });\n\n    }\n    flow.set(id, count);\n    return [null, msg];\n}\n\n\n\n\n\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -7257,6 +7166,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2820,
         "y": 1580,
         "wires": [
@@ -7438,6 +7348,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2170,
         "y": 940,
         "wires": [
@@ -7515,7 +7426,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7651,7 +7562,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7690,6 +7601,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 3560,
         "y": 1740,
         "wires": [
@@ -7721,11 +7633,12 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "update bot floors, finance, sales",
-        "func": "const sellprice = msg.bot.ttpprice\nlet comsa = Number(msg.payload);\nlet quantityall = msg.bot.ttp.quantity;\n\nnode.warn(\"finish ttp on floor \");\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\n\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + (Number(msg.bot.ttp.quantity)- Number(msg.bot.ttp.quantity * Number(msg.payload))) * Number(msg.bot.ttpprice));\n\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\n \n\nlet currentfloor = msg.bot.currentfloor;\n\n//обнуление всех этажей со статусом 3\n\nvar floors = msg.bot.floors;\n\n    floors.forEach(function (item, i, floors) {\n\n        if (item[7] == 3) {\n            let buyprice = item[10];\n            let quantity = Number(item[14]);\n            msg.bot.sales.today.push((sellprice-buyprice)*quantity);\n            \n            item[7] = 0;\n            item[8] = 0;\n            item[9] = 0;\n            item[10] = 0;\n            item[11] = 0;\n            item[12] = 0;\n            item[13] = 0;\n            item[14] = 0;\n        }\n\n\n    });\n\nmsg.bot.floors = floors;\n\n\nlet volname = msg.bot.settings.userid + \"-bots:\" + msg.botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.bot.finance),\n    \"floors\": JSON.stringify(msg.bot.floors),\n    \"sales\": JSON.stringify(msg.bot.sales)\n\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n\n    node.status({ fill: \"green\", shape: \"ring\", text: \"0k\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
+        "func": "const sellprice = msg.bot.ttpprice\nlet comsa = Number(msg.payload);\nlet quantityall = msg.bot.ttp.quantity;\n\nnode.warn(\"finish ttp on floor \");\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\n\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + (Number(msg.bot.ttp.quantity) - Number(msg.bot.ttp.quantity * Number(msg.payload))) * Number(msg.bot.ttpprice));\n\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet currentfloor = msg.bot.currentfloor;\n\n//обнуление всех этажей со статусом 3\n\nvar floors = msg.bot.floors;\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] == 3) {\n        let buyprice = item[10];\n        let quantity = Number(item[14]);\n        msg.bot.sales.today.push((sellprice - buyprice) * quantity);\n\n        item[7] = 0;\n        item[8] = 0;\n        item[9] = 0;\n        item[10] = 0;\n        item[11] = 0;\n        item[12] = 0;\n        item[13] = 0;\n        item[14] = 0;\n    }\n});\n\nmsg.bot.floors = floors;\n\nlet volname = msg.bot.settings.userid + \"-bots:\" + msg.botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.bot.finance),\n    \"floors\": JSON.stringify(msg.bot.floors),\n    \"sales\": JSON.stringify(msg.bot.sales)\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\", text: \"0k\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 3310,
         "y": 1740,
         "wires": [
@@ -7763,6 +7676,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 3220,
         "y": 1580,
         "wires": [
@@ -8171,23 +8085,6 @@
         ]
     },
     {
-        "id": "11f5815b.2198c7",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2070,
-        "y": 240,
-        "wires": []
-    },
-    {
         "id": "387fcf8a.76cff",
         "type": "function",
         "z": "5f98db3a.7ab21c",
@@ -8570,6 +8467,7 @@
         "payload": "binance",
         "payloadType": "str",
         "topic": "",
+        "topicType": "str",
         "x": 1780,
         "y": 500,
         "wires": [
@@ -9390,6 +9288,7 @@
         "id": "32fce615.5af6c2",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "syslog",
         "func": "let botname = \"syslog.txt\";\nlet data = \"Старт\";\nconst tilog = global.get('tilog')(botname,data);\n\ntilog.then(tilog => {\n\n\n        node.status({fill:\"green\",shape:\"dot\"});\n    node.send(msg);\n     \n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});",
         "outputs": 1,
@@ -9406,6 +9305,7 @@
         "id": "8f9ec476.3b8e88",
         "type": "function",
         "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
         "name": "syslog",
         "func": "let botname = \"syslog.txt\";\nlet data = \"Стоп\";\nconst tilog = global.get('tilog')(botname,data);\n\ntilog.then(tilog => {\n\n\n        node.status({fill:\"green\",shape:\"dot\"});\n    node.send(msg);\n     \n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});",
         "outputs": 1,
@@ -9634,24 +9534,6 @@
         "wires": []
     },
     {
-        "id": "5a3f403a.e52a98",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "g": "89e4eb3d636bee6a",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2450,
-        "y": 640,
-        "wires": []
-    },
-    {
         "id": "241d62c4.835d6e",
         "type": "function",
         "z": "5f98db3a.7ab21c",
@@ -9757,22 +9639,6 @@
         "x": 1975,
         "y": 1200,
         "wires": []
-    },
-    {
-        "id": "996dd87f.a47f",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "tilog",
-        "func": "let botname2 = msg.botname;\n        let data2 = \"Перерасчет МА - \"+msg.bot.status.rezhim;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2950,
-        "y": 300,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "130f3240.00961e",
@@ -10372,8 +10238,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3200,
-        "y": 520,
+        "x": 3190,
+        "y": 560,
         "wires": []
     },
     {
@@ -10430,7 +10296,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1770,
+        "x": 1750,
         "y": 1000,
         "wires": []
     },
@@ -10565,7 +10431,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -15962,6 +15828,7 @@
         "noerr": 0,
         "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet setbotlist = function (guid = msg.payload.guid, botlist = msg.payload.botlist) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-botlist\";\n    msg.payload = botlist;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbotlist', setbotlist);",
         "finalize": "",
+        "libs": [],
         "x": 1090,
         "y": 120,
         "wires": [
@@ -20205,28 +20072,12 @@
         "wires": []
     },
     {
-        "id": "2c76d26545bbb7a1",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1910,
-        "y": 220,
-        "wires": []
-    },
-    {
         "id": "4f8e81cce7bfde0e",
         "type": "debug",
         "z": "5df15275.2888ec",
+        "g": "11634dc8e4f3bcfa",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20234,8 +20085,111 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2450,
+        "x": 2210,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cf41e1ba95b3a571",
+        "type": "redis-out",
+        "z": "2a761808.610238",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "start11",
+        "obj": true,
+        "x": 3120,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4d193e25f71d3bbc",
+        "type": "redis-in",
+        "z": "2a761808.610238",
+        "server": "f120eab2.0a60a8",
+        "command": "subscribe",
+        "name": "",
+        "topic": "start11",
+        "obj": false,
+        "timeout": 0,
+        "x": 2690,
+        "y": 100,
+        "wires": [
+            [
+                "49f6b48505e59abf"
+            ]
+        ]
+    },
+    {
+        "id": "49f6b48505e59abf",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "534b21324aab4b16",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "",
+        "func": "msg = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3010,
+        "y": 240,
+        "wires": [
+            [
+                "cf41e1ba95b3a571",
+                "3f7841c40466936e",
+                "70c9b4b33e033727"
+            ]
+        ]
+    },
+    {
+        "id": "3f7841c40466936e",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "tester___",
+        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 3220,
         "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70c9b4b33e033727",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "g": "93bf1a09029b1ecf",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3230,
+        "y": 260,
         "wires": []
     }
 ]
