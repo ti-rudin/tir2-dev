@@ -19,8 +19,8 @@ function balance_update(data) {
         let { a: asset, f: available, l: onOrder } = obj;
         if (available == "0.00000000") continue;
         console.log(asset + "\tavailable: " + available + " (" + onOrder + " on order)");
-        client.set("balances" + "-" + userid + ":" + asset + "- available", available);
-        client.set("balances" + "-" + userid + ":" + asset + "- onOrder", onOrder);
+        client.set("balances" + "-" + userid + ":" + asset + "- available", available, 172800);
+        client.set("balances" + "-" + userid + ":" + asset + "- onOrder", onOrderv);
     }
 }
 
@@ -45,9 +45,9 @@ function execution_update(data) {
             client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3);
         }
         else {
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus);
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price);
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 172800);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 172800);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa, 'EX', 172800);
             console.log(data);
         }
     }
