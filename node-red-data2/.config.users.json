@@ -24,6 +24,7 @@
             "context": {
                 "flowRefresh": false
             }
-        }
+        },
+        "menu-menu-item-palette": false
     }
 }
