@@ -6796,7 +6796,8 @@
             "b0d5adc0.69eab",
             "4b4fa1ce.2d444",
             "bcd1d88e.da80d8",
-            "db26ef3b.7f5f6"
+            "db26ef3b.7f5f6",
+            "97b3018b32c5e8e3"
         ],
         "x": 2575,
         "y": 360,
@@ -6965,7 +6966,7 @@
                 "8512490.cbc97b8"
             ],
             [
-                "b63e592d.fd0258"
+                "cc2bfdcc776b6f80"
             ]
         ]
     },
@@ -7281,9 +7282,7 @@
         "x": 1810,
         "y": 960,
         "wires": [
-            [
-                "4dfef6b5.251a18"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-bolt"
     },
@@ -7537,8 +7536,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1935,
-        "y": 960,
+        "x": 2995,
+        "y": 900,
         "wires": []
     },
     {
@@ -9154,6 +9153,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1840,
         "y": 1040,
         "wires": [
@@ -20139,6 +20139,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1840,
         "y": 1120,
         "wires": [
@@ -20227,7 +20228,8 @@
         "y": 920,
         "wires": [
             [
-                "3576c3141418f0bf"
+                "3576c3141418f0bf",
+                "7bce6bce2dd060c7"
             ]
         ]
     },
@@ -20260,7 +20262,8 @@
                 "f810afbd365d8a64"
             ],
             [
-                "63d1874007637485"
+                "63d1874007637485",
+                "6ec6d54b5f2d7306"
             ]
         ]
     },
@@ -20278,7 +20281,9 @@
         "x": 2490,
         "y": 960,
         "wires": [
-            []
+            [
+                "97b3018b32c5e8e3"
+            ]
         ]
     },
     {
@@ -20286,7 +20291,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "register order sell",
-        "func": "//<трекер<\n    let trackname = \"ttp-track-\"+msg.botname;\n    let track = flow.get(trackname);\n    let start_node_time = new Date().getTime();\n    \n    let steptitle = node.name;\n\n    let laststep = track[track.length-1];\n    let last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nmsg.bot.ttp.curorderid = msg.orderexec.statusBody.orderId;\nmsg.bot.ttp.curstop = msg.orderexec.statusBody.stopPrice;\nmsg.bot.ttp.quantity = msg.orderexec.statusBody.origQty;\n\n\n\nnode.status({ fill: \"green\", shape: \"ring\", text: msg.bot.ttp.quantity });\n\n\nlet data = \"Выставлен sell ордер - \" + msg.bot.ttp.curorderid;\nconst tilog = global.get('tilog')(msg.bot.settings.botname, data);\ntilog;\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_step\n});\nflow.set(trackname, track);\n//>трекер>\n\nreturn msg;",
+        "func": "//<трекер<\n    let trackname = \"ttp-track-\"+msg.botname;\n    let track = flow.get(trackname);\n    let start_node_time = new Date().getTime();\n    \n    let steptitle = node.name;\n\n    let laststep = track[track.length-1];\n    let last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nmsg.bot.ttp.curorderid = msg.orderexec.statusBody.orderId;\nmsg.bot.ttp.curstop = msg.orderexec.statusBody.stopPrice;\nmsg.bot.ttp.quantity = msg.orderexec.statusBody.origQty;\n\n\n\nnode.status({ fill: \"green\", shape: \"ring\", text: msg.bot.ttp.quantity });\n\n\nlet data = \"Выставлен sell ордер - \" + msg.bot.ttp.curorderid;\nconst tilog = global.get('tilog')(msg.bot.settings.botname, data);\ntilog;\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_step\n});\nflow.set(trackname, track);\n    //>трекер>\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20314,8 +20319,74 @@
         "x": 2870,
         "y": 900,
         "wires": [
-            []
+            [
+                "4dfef6b5.251a18",
+                "d1b44ae97aee3e7a"
+            ]
         ],
         "icon": "font-awesome/fa-bolt"
+    },
+    {
+        "id": "97b3018b32c5e8e3",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 2595,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "7bce6bce2dd060c7",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2410,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "6ec6d54b5f2d7306",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2570,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "d1b44ae97aee3e7a",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3010,
+        "y": 840,
+        "wires": []
     }
 ]

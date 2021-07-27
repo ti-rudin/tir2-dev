@@ -239,3 +239,465 @@ Tue Jul 27 2021 01:23:00  : FETUSDT-1627169954:setbuy: price:0.31907, quantity: 
 Tue Jul 27 2021 01:23:01  : Выставлен ордер - 357770058
 Tue Jul 27 2021 01:23:01  : Длительноть трека -654
 Tue Jul 27 2021 01:29:42  : Ордер на покупку исполнен, ID - 357770058
+Tue Jul 27 2021 01:40:06  : setsellFETUSDT-1627169954
+Tue Jul 27 2021 01:40:11  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627339206847,
+		"end_node_time": 1627339206848,
+		"duration_node": 1,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627339206848,
+		"end_node_time": 1627339206848,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627339206849,
+		"end_node_time": 1627339206850,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627339206850,
+		"end_node_time": 1627339206851,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627339206853,
+		"end_node_time": 1627339206854,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627339206857,
+		"end_node_time": 1627339206861,
+		"duration_node": 4,
+		"duration_step": 7
+	}
+]
+Tue Jul 27 2021 01:45:05  : Длительноть трека -2072
+Tue Jul 27 2021 01:50:00  : Сброс к стартовым настройкам
+Tue Jul 27 2021 01:50:08  : FETUSDT-1627169954:setbuy: price:0.31907, quantity: 50.7
+Tue Jul 27 2021 01:50:08  : Выставлен ордер - 357785400
+Tue Jul 27 2021 01:50:08  : Длительноть трека -643
+Tue Jul 27 2021 01:51:47  : FETUSDT-1627169954:cansel: orderid:357785400
+Tue Jul 27 2021 01:51:48  : Ордер на покупку отменен, ID - 357785400
+Tue Jul 27 2021 01:51:48  : Длительноть трека -577
+Tue Jul 27 2021 01:54:16  : FETUSDT-1627169954:setbuy: price:0.31907, quantity: 50.7
+Tue Jul 27 2021 01:54:17  : Выставлен ордер - 357786853
+Tue Jul 27 2021 01:54:17  : Длительноть трека -595
+Tue Jul 27 2021 01:54:31  : FETUSDT-1627169954:cansel: orderid:357786853
+Tue Jul 27 2021 01:54:31  : Ордер на покупку отменен, ID - 357786853
+Tue Jul 27 2021 01:54:31  : Длительноть трека -592
+Tue Jul 27 2021 01:54:47  : FETUSDT-1627169954:setbuy: price:0.31907, quantity: 50.8
+Tue Jul 27 2021 01:54:47  : Выставлен ордер - 357787072
+Tue Jul 27 2021 01:54:47  : Длительноть трека -662
+Tue Jul 27 2021 01:55:12  : FETUSDT-1627169954:cansel: orderid:357787072
+Tue Jul 27 2021 01:55:12  : Ордер на покупку отменен, ID - 357787072
+Tue Jul 27 2021 01:55:12  : Длительноть трека -576
+Tue Jul 27 2021 01:55:17  : FETUSDT-1627169954:setbuy: price:0.31907, quantity: 50.7
+Tue Jul 27 2021 01:55:18  : Выставлен ордер - 357787307
+Tue Jul 27 2021 01:55:18  : Длительноть трека -854
+Tue Jul 27 2021 01:55:30  : Ордер на покупку исполнен, ID - 357787307
+Tue Jul 27 2021 01:55:40  : Длительноть трека -630
+Tue Jul 27 2021 01:56:40  : setsellFETUSDT-1627169954
+Tue Jul 27 2021 01:56:45  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627340200922,
+		"end_node_time": 1627340200922,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627340200922,
+		"end_node_time": 1627340200923,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627340200923,
+		"end_node_time": 1627340200924,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627340200924,
+		"end_node_time": 1627340200925,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627340200926,
+		"end_node_time": 1627340200927,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627340200928,
+		"end_node_time": 1627340200928,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Tue Jul 27 2021 02:07:18  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627340685552,
+		"end_node_time": 1627340685552,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627340685553,
+		"end_node_time": 1627340685565,
+		"duration_node": 12,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627340685568,
+		"end_node_time": 1627340685582,
+		"duration_node": 14,
+		"duration_step": 17
+	}
+]
+Tue Jul 27 2021 02:07:20  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627340685480,
+		"end_node_time": 1627340685480,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627340685486,
+		"end_node_time": 1627340685546,
+		"duration_node": 60,
+		"duration_step": 66
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627340685551,
+		"end_node_time": 1627340685562,
+		"duration_node": 11,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627340685563,
+		"end_node_time": 1627340685566,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Tue Jul 27 2021 02:14:15  : Сброс к стартовым настройкам
+Tue Jul 27 2021 02:25:56  : FETUSDT-1627169954:setbuy: price:0.31907, quantity: 50.9
+Tue Jul 27 2021 02:25:56  : Выставлен ордер - 357802868
+Tue Jul 27 2021 02:25:56  : Длительноть трека -694
+Tue Jul 27 2021 02:26:27  : FETUSDT-1627169954:cansel: orderid:357802868
+Tue Jul 27 2021 02:26:30  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627341987255,
+		"end_node_time": 1627341987255,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627341987255,
+		"end_node_time": 1627341987256,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627341987256,
+		"end_node_time": 1627341987257,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627341987257,
+		"end_node_time": 1627341987258,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627341987259,
+		"end_node_time": 1627341987260,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627341987261,
+		"end_node_time": 1627341987261,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627341987261,
+		"end_node_time": 1627341987266,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627341987266,
+		"end_node_time": 1627341987267,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627341987271,
+		"end_node_time": 1627341987271,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627341987272,
+		"end_node_time": 1627341987273,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "prepare get order status",
+		"start_node_time": 1627341987275,
+		"end_node_time": 1627341987275,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "get_order_status",
+		"start_node_time": 1627341987276,
+		"end_node_time": 1627341987277,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Tue Jul 27 2021 02:26:31  : Ордер на покупку исполнен, ID - 357802868
+Tue Jul 27 2021 02:49:13  : Длительноть трека -526
+Tue Jul 27 2021 02:58:56  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51
+Tue Jul 27 2021 02:58:57  : Выставлен ордер - 357816519
+Tue Jul 27 2021 02:58:57  : Длительноть трека -685
+Tue Jul 27 2021 02:58:57  : FETUSDT-1627169954:cansel: orderid:357816519
+Tue Jul 27 2021 02:58:57  : Ордер на покупку отменен, ID - 357816519
+Tue Jul 27 2021 02:58:57  : Длительноть трека -589
+Tue Jul 27 2021 02:59:15  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 02:59:16  : Выставлен ордер - 357816666
+Tue Jul 27 2021 02:59:16  : Длительноть трека -564
+Tue Jul 27 2021 02:59:17  : FETUSDT-1627169954:cansel: orderid:357816666
+Tue Jul 27 2021 02:59:18  : Ордер на покупку отменен, ID - 357816666
+Tue Jul 27 2021 02:59:18  : Длительноть трека -579
+Tue Jul 27 2021 02:59:36  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 02:59:36  : Выставлен ордер - 357816987
+Tue Jul 27 2021 02:59:36  : Длительноть трека -577
+Tue Jul 27 2021 02:59:39  : FETUSDT-1627169954:cansel: orderid:357816987
+Tue Jul 27 2021 02:59:39  : Ордер на покупку отменен, ID - 357816987
+Tue Jul 27 2021 02:59:39  : Длительноть трека -575
+Tue Jul 27 2021 02:59:43  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 02:59:45  : Выставлен ордер - 357817133
+Tue Jul 27 2021 02:59:45  : Длительноть трека -1315
+Tue Jul 27 2021 02:59:46  : FETUSDT-1627169954:cansel: orderid:357817133
+Tue Jul 27 2021 02:59:47  : Ордер на покупку отменен, ID - 357817133
+Tue Jul 27 2021 02:59:47  : Длительноть трека -1068
+Tue Jul 27 2021 03:00:32  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51
+Tue Jul 27 2021 03:00:33  : Выставлен ордер - 357817527
+Tue Jul 27 2021 03:00:33  : Длительноть трека -583
+Tue Jul 27 2021 03:00:42  : FETUSDT-1627169954:cansel: orderid:357817527
+Tue Jul 27 2021 03:00:43  : Ордер на покупку отменен, ID - 357817527
+Tue Jul 27 2021 03:00:43  : Длительноть трека -596
+Tue Jul 27 2021 03:08:45  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.2
+Tue Jul 27 2021 03:08:46  : Выставлен ордер - 357825729
+Tue Jul 27 2021 03:08:46  : Длительноть трека -649
+Tue Jul 27 2021 03:10:50  : FETUSDT-1627169954:cansel: orderid:357825729
+Tue Jul 27 2021 03:10:50  : Ордер на покупку отменен, ID - 357825729
+Tue Jul 27 2021 03:10:50  : Длительноть трека -610
+Tue Jul 27 2021 03:10:54  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:10:56  : Выставлен ордер - 357827257
+Tue Jul 27 2021 03:10:56  : Длительноть трека -1583
+Tue Jul 27 2021 03:10:58  : FETUSDT-1627169954:cansel: orderid:357827257
+Tue Jul 27 2021 03:10:59  : Ордер на покупку отменен, ID - 357827257
+Tue Jul 27 2021 03:10:59  : Длительноть трека -1100
+Tue Jul 27 2021 03:10:59  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:11:00  : Выставлен ордер - 357827312
+Tue Jul 27 2021 03:11:00  : Длительноть трека -610
+Tue Jul 27 2021 03:11:30  : FETUSDT-1627169954:cansel: orderid:357827312
+Tue Jul 27 2021 03:11:30  : Ордер на покупку отменен, ID - 357827312
+Tue Jul 27 2021 03:11:30  : Длительноть трека -580
+Tue Jul 27 2021 03:11:33  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:11:33  : Выставлен ордер - 357827502
+Tue Jul 27 2021 03:11:33  : Длительноть трека -597
+Tue Jul 27 2021 03:11:39  : FETUSDT-1627169954:cansel: orderid:357827502
+Tue Jul 27 2021 03:11:40  : Ордер на покупку отменен, ID - 357827502
+Tue Jul 27 2021 03:11:40  : Длительноть трека -1086
+Tue Jul 27 2021 03:11:42  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:11:43  : Выставлен ордер - 357827584
+Tue Jul 27 2021 03:11:43  : Длительноть трека -580
+Tue Jul 27 2021 03:11:44  : FETUSDT-1627169954:cansel: orderid:357827584
+Tue Jul 27 2021 03:11:45  : Ордер на покупку отменен, ID - 357827584
+Tue Jul 27 2021 03:11:45  : Длительноть трека -569
+Tue Jul 27 2021 03:23:01  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:23:01  : Выставлен ордер - 357837757
+Tue Jul 27 2021 03:23:01  : Длительноть трека -701
+Tue Jul 27 2021 03:23:14  : FETUSDT-1627169954:cansel: orderid:357837757
+Tue Jul 27 2021 03:23:14  : Ордер на покупку отменен, ID - 357837757
+Tue Jul 27 2021 03:23:14  : Длительноть трека -620
+Tue Jul 27 2021 03:23:32  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:23:33  : Выставлен ордер - 357838115
+Tue Jul 27 2021 03:23:33  : Длительноть трека -570
+Tue Jul 27 2021 03:23:35  : FETUSDT-1627169954:cansel: orderid:357838115
+Tue Jul 27 2021 03:23:36  : Ордер на покупку отменен, ID - 357838115
+Tue Jul 27 2021 03:23:36  : Длительноть трека -594
+Tue Jul 27 2021 03:23:39  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:23:40  : Выставлен ордер - 357838142
+Tue Jul 27 2021 03:23:40  : Длительноть трека -1080
+Tue Jul 27 2021 03:23:56  : FETUSDT-1627169954:cansel: orderid:357838142
+Tue Jul 27 2021 03:23:56  : Ордер на покупку отменен, ID - 357838142
+Tue Jul 27 2021 03:23:56  : Длительноть трека -584
+Tue Jul 27 2021 03:24:03  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:24:04  : Выставлен ордер - 357838336
+Tue Jul 27 2021 03:24:04  : Длительноть трека -565
+Tue Jul 27 2021 03:24:08  : FETUSDT-1627169954:cansel: orderid:357838336
+Tue Jul 27 2021 03:24:09  : Ордер на покупку отменен, ID - 357838336
+Tue Jul 27 2021 03:24:09  : Длительноть трека -1567
+Tue Jul 27 2021 03:25:34  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:25:34  : Выставлен ордер - 357839090
+Tue Jul 27 2021 03:25:34  : Длительноть трека -581
+Tue Jul 27 2021 03:25:37  : FETUSDT-1627169954:cansel: orderid:357839090
+Tue Jul 27 2021 03:25:37  : Ордер на покупку отменен, ID - 357839090
+Tue Jul 27 2021 03:25:37  : Длительноть трека -567
+Tue Jul 27 2021 03:25:57  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.3
+Tue Jul 27 2021 03:25:58  : Выставлен ордер - 357839607
+Tue Jul 27 2021 03:25:58  : Длительноть трека -582
+Tue Jul 27 2021 03:26:11  : FETUSDT-1627169954:cansel: orderid:357839607
+Tue Jul 27 2021 03:26:13  : Ордер на покупку отменен, ID - 357839607
+Tue Jul 27 2021 03:26:13  : Длительноть трека -1078
+Tue Jul 27 2021 03:26:47  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:26:47  : Выставлен ордер - 357840289
+Tue Jul 27 2021 03:26:47  : Длительноть трека -630
+Tue Jul 27 2021 03:26:57  : FETUSDT-1627169954:cansel: orderid:357840289
+Tue Jul 27 2021 03:26:57  : Ордер на покупку отменен, ID - 357840289
+Tue Jul 27 2021 03:26:57  : Длительноть трека -591
+Tue Jul 27 2021 03:26:58  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.4
+Tue Jul 27 2021 03:26:58  : Выставлен ордер - 357840474
+Tue Jul 27 2021 03:26:58  : Длительноть трека -606
+Tue Jul 27 2021 03:27:11  : FETUSDT-1627169954:cansel: orderid:357840474
+Tue Jul 27 2021 03:27:11  : Ордер на покупку отменен, ID - 357840474
+Tue Jul 27 2021 03:27:11  : Длительноть трека -573
+Tue Jul 27 2021 03:27:42  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.3
+Tue Jul 27 2021 03:27:42  : Выставлен ордер - 357841130
+Tue Jul 27 2021 03:27:42  : Длительноть трека -587
+Tue Jul 27 2021 03:27:49  : FETUSDT-1627169954:cansel: orderid:357841130
+Tue Jul 27 2021 03:27:49  : Ордер на покупку отменен, ID - 357841130
+Tue Jul 27 2021 03:27:49  : Длительноть трека -583
+Tue Jul 27 2021 03:27:52  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.3
+Tue Jul 27 2021 03:27:53  : Выставлен ордер - 357841312
+Tue Jul 27 2021 03:27:53  : Длительноть трека -597
+Tue Jul 27 2021 03:30:34  : FETUSDT-1627169954:cansel: orderid:357841312
+Tue Jul 27 2021 03:30:35  : Ордер на покупку отменен, ID - 357841312
+Tue Jul 27 2021 03:30:35  : Длительноть трека -620
+Tue Jul 27 2021 03:30:39  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.2
+Tue Jul 27 2021 03:30:39  : Выставлен ордер - 357842557
+Tue Jul 27 2021 03:30:39  : Длительноть трека -582
+Tue Jul 27 2021 03:30:41  : FETUSDT-1627169954:cansel: orderid:357842557
+Tue Jul 27 2021 03:30:41  : Ордер на покупку отменен, ID - 357842557
+Tue Jul 27 2021 03:30:41  : Длительноть трека -592
+Tue Jul 27 2021 03:30:49  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:30:50  : Выставлен ордер - 357842767
+Tue Jul 27 2021 03:30:50  : Длительноть трека -589
+Tue Jul 27 2021 03:31:17  : FETUSDT-1627169954:cansel: orderid:357842767
+Tue Jul 27 2021 03:31:17  : Ордер на покупку отменен, ID - 357842767
+Tue Jul 27 2021 03:31:17  : Длительноть трека -612
+Tue Jul 27 2021 03:31:33  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:31:34  : Выставлен ордер - 357843146
+Tue Jul 27 2021 03:31:34  : Длительноть трека -592
+Tue Jul 27 2021 03:31:40  : FETUSDT-1627169954:cansel: orderid:357843146
+Tue Jul 27 2021 03:31:40  : Ордер на покупку отменен, ID - 357843146
+Tue Jul 27 2021 03:31:40  : Длительноть трека -587
+Tue Jul 27 2021 03:31:51  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:31:52  : Выставлен ордер - 357843303
+Tue Jul 27 2021 03:31:52  : Длительноть трека -1158
+Tue Jul 27 2021 03:32:07  : FETUSDT-1627169954:cansel: orderid:357843303
+Tue Jul 27 2021 03:32:08  : Ордер на покупку отменен, ID - 357843303
+Tue Jul 27 2021 03:32:08  : Длительноть трека -582
+Tue Jul 27 2021 03:35:49  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51
+Tue Jul 27 2021 03:35:49  : Выставлен ордер - 357847188
+Tue Jul 27 2021 03:35:49  : Длительноть трека -604
+Tue Jul 27 2021 03:36:09  : FETUSDT-1627169954:cansel: orderid:357847188
+Tue Jul 27 2021 03:36:10  : Ордер на покупку отменен, ID - 357847188
+Tue Jul 27 2021 03:36:10  : Длительноть трека -1075
+Tue Jul 27 2021 03:38:56  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:38:56  : Выставлен ордер - 357849974
+Tue Jul 27 2021 03:38:56  : Длительноть трека -678
+Tue Jul 27 2021 03:39:19  : FETUSDT-1627169954:cansel: orderid:357849974
+Tue Jul 27 2021 03:39:20  : Ордер на покупку отменен, ID - 357849974
+Tue Jul 27 2021 03:39:20  : Длительноть трека -589
+Tue Jul 27 2021 03:40:36  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.2
+Tue Jul 27 2021 03:40:36  : Выставлен ордер - 357851380
+Tue Jul 27 2021 03:40:36  : Длительноть трека -585
+Tue Jul 27 2021 03:40:46  : FETUSDT-1627169954:cansel: orderid:357851380
+Tue Jul 27 2021 03:40:47  : Ордер на покупку отменен, ID - 357851380
+Tue Jul 27 2021 03:40:47  : Длительноть трека -560
+Tue Jul 27 2021 03:41:09  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.2
+Tue Jul 27 2021 03:41:10  : Выставлен ордер - 357851897
+Tue Jul 27 2021 03:41:10  : Длительноть трека -1079
+Tue Jul 27 2021 03:41:19  : FETUSDT-1627169954:cansel: orderid:357851897
+Tue Jul 27 2021 03:41:20  : Ордер на покупку отменен, ID - 357851897
+Tue Jul 27 2021 03:41:20  : Длительноть трека -666
+Tue Jul 27 2021 03:42:06  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.3
+Tue Jul 27 2021 03:42:07  : Выставлен ордер - 357852500
+Tue Jul 27 2021 03:42:07  : Длительноть трека -559
+Tue Jul 27 2021 03:42:11  : FETUSDT-1627169954:cansel: orderid:357852500
+Tue Jul 27 2021 03:42:12  : Ордер на покупку отменен, ID - 357852500
+Tue Jul 27 2021 03:42:12  : Длительноть трека -582
+Tue Jul 27 2021 03:42:46  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.2
+Tue Jul 27 2021 03:42:47  : Выставлен ордер - 357852955
+Tue Jul 27 2021 03:42:47  : Длительноть трека -1075
+Tue Jul 27 2021 03:45:00  : FETUSDT-1627169954:cansel: orderid:357852955
+Tue Jul 27 2021 03:45:00  : Ордер на покупку отменен, ID - 357852955
+Tue Jul 27 2021 03:45:00  : Длительноть трека -575
+Tue Jul 27 2021 03:45:15  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:45:15  : Выставлен ордер - 357854279
+Tue Jul 27 2021 03:45:15  : Длительноть трека -575
+Tue Jul 27 2021 03:45:17  : FETUSDT-1627169954:cansel: orderid:357854279
+Tue Jul 27 2021 03:45:18  : Ордер на покупку отменен, ID - 357854279
+Tue Jul 27 2021 03:45:18  : Длительноть трека -576
+Tue Jul 27 2021 03:45:19  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51.1
+Tue Jul 27 2021 03:45:20  : Выставлен ордер - 357854313
+Tue Jul 27 2021 03:45:20  : Длительноть трека -568
+Tue Jul 27 2021 03:45:51  : FETUSDT-1627169954:cansel: orderid:357854313
+Tue Jul 27 2021 03:45:52  : Ордер на покупку отменен, ID - 357854313
+Tue Jul 27 2021 03:45:52  : Длительноть трека -582
+Tue Jul 27 2021 03:45:54  : Длительноть трека -549
+Tue Jul 27 2021 03:46:14  : FETUSDT-1627169954:setbuy: price:0.31405, quantity: 51
+Tue Jul 27 2021 03:46:14  : Выставлен ордер - 357854880
+Tue Jul 27 2021 03:46:14  : Длительноть трека -596
