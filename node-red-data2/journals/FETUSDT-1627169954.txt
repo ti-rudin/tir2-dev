@@ -1,0 +1,384 @@
+Wed Jul 28 2021 03:50:53  : FETUSDT-1627169954:setbuy: price:0.37396, quantity: 42.9
+Wed Jul 28 2021 03:50:54  : Выставлен ордер - 359056959
+Wed Jul 28 2021 03:50:54  : Длительноть трека -632
+Wed Jul 28 2021 03:50:54  : FETUSDT-1627169954:cansel: orderid:359056959
+Wed Jul 28 2021 03:50:55  : Ордер на покупку отменен, ID - 359056959
+Wed Jul 28 2021 03:50:55  : Длительноть трека -583
+Wed Jul 28 2021 03:51:13  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.8
+Wed Jul 28 2021 03:51:13  : Выставлен ордер - 359057251
+Wed Jul 28 2021 03:51:13  : Длительноть трека -618
+Wed Jul 28 2021 03:51:14  : Ордер на покупку исполнен, ID - 359057251
+Wed Jul 28 2021 03:51:19  : FETUSDT-1627169954:setbuy: price:0.37396, quantity: 42.9
+Wed Jul 28 2021 03:51:20  : Выставлен ордер - 359057402
+Wed Jul 28 2021 03:51:20  : Длительноть трека -635
+Wed Jul 28 2021 03:51:20  : FETUSDT-1627169954:cansel: orderid:359057402
+Wed Jul 28 2021 03:51:21  : Ордер на покупку отменен, ID - 359057402
+Wed Jul 28 2021 03:51:21  : Длительноть трека -582
+Wed Jul 28 2021 03:51:40  : FETUSDT-1627169954:setbuy: price:0.37396, quantity: 42.9
+Wed Jul 28 2021 03:51:40  : Выставлен ордер - 359057695
+Wed Jul 28 2021 03:51:40  : Длительноть трека -583
+Wed Jul 28 2021 03:51:41  : FETUSDT-1627169954:cansel: orderid:359057695
+Wed Jul 28 2021 03:51:41  : Ордер на покупку отменен, ID - 359057695
+Wed Jul 28 2021 03:51:41  : Длительноть трека -596
+Wed Jul 28 2021 03:51:43  : FETUSDT-1627169954:setbuy: price:0.37396, quantity: 42.9
+Wed Jul 28 2021 03:51:44  : Выставлен ордер - 359057900
+Wed Jul 28 2021 03:51:44  : Длительноть трека -580
+Wed Jul 28 2021 03:51:47  : FETUSDT-1627169954:cansel: orderid:359057900
+Wed Jul 28 2021 03:51:47  : Ордер на покупку отменен, ID - 359057900
+Wed Jul 28 2021 03:51:47  : Длительноть трека -583
+Wed Jul 28 2021 03:52:33  : setsellFETUSDT-1627169954
+Wed Jul 28 2021 03:52:33  : выставили ttp ордер
+Wed Jul 28 2021 03:52:35  : переставили ttp ордер
+Wed Jul 28 2021 03:52:38  : переставили ttp ордер
+Wed Jul 28 2021 03:52:41  : переставили ttp ордер
+Wed Jul 28 2021 03:52:42  : переставили ttp ордер
+Wed Jul 28 2021 03:52:43  : переставили ttp ордер
+Wed Jul 28 2021 03:52:45  : переставили ttp ордер
+Wed Jul 28 2021 03:52:46  : переставили ttp ордер
+Wed Jul 28 2021 03:52:49  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627433565904,
+		"end_node_time": 1627433565904,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627433565905,
+		"end_node_time": 1627433565906,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627433565906,
+		"end_node_time": 1627433565907,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627433565907,
+		"end_node_time": 1627433565908,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627433565909,
+		"end_node_time": 1627433565909,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627433565910,
+		"end_node_time": 1627433565910,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433565910,
+		"end_node_time": 1627433565911,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627433565911,
+		"end_node_time": 1627433565913,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627433565924,
+		"end_node_time": 1627433565924,
+		"duration_node": 0,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433565925,
+		"end_node_time": 1627433565927,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Wed Jul 28 2021 03:52:56  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627433573413,
+		"end_node_time": 1627433573413,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627433573414,
+		"end_node_time": 1627433573415,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627433573415,
+		"end_node_time": 1627433573416,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627433573416,
+		"end_node_time": 1627433573417,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627433573418,
+		"end_node_time": 1627433573418,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627433573419,
+		"end_node_time": 1627433573419,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433573419,
+		"end_node_time": 1627433573420,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627433573420,
+		"end_node_time": 1627433573421,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627433573426,
+		"end_node_time": 1627433573426,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433573428,
+		"end_node_time": 1627433573428,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Wed Jul 28 2021 03:53:00  : переставили ttp ордер
+Wed Jul 28 2021 03:53:00  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627433577419,
+		"end_node_time": 1627433577419,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627433577419,
+		"end_node_time": 1627433577420,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627433577422,
+		"end_node_time": 1627433577423,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627433577423,
+		"end_node_time": 1627433577424,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627433577424,
+		"end_node_time": 1627433577425,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627433577425,
+		"end_node_time": 1627433577425,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433577426,
+		"end_node_time": 1627433577427,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627433577427,
+		"end_node_time": 1627433577428,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627433577433,
+		"end_node_time": 1627433577433,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433577435,
+		"end_node_time": 1627433577436,
+		"duration_node": 1,
+		"duration_step": 3
+	}
+]
+Wed Jul 28 2021 03:53:01  : переставили ttp ордер
+Wed Jul 28 2021 03:53:04  : ttp finish
+Wed Jul 28 2021 03:53:04  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627433581420,
+		"end_node_time": 1627433581420,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627433581421,
+		"end_node_time": 1627433581421,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627433581422,
+		"end_node_time": 1627433581423,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627433581423,
+		"end_node_time": 1627433581424,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627433581424,
+		"end_node_time": 1627433581425,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627433581425,
+		"end_node_time": 1627433581425,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433581426,
+		"end_node_time": 1627433581427,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627433581427,
+		"end_node_time": 1627433581428,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627433581434,
+		"end_node_time": 1627433581434,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627433581435,
+		"end_node_time": 1627433581436,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Wed Jul 28 2021 03:53:05  : выставили ttp ордер
+Wed Jul 28 2021 03:53:05  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.3
+Wed Jul 28 2021 03:53:06  : Выставлен ордер - 359060621
+Wed Jul 28 2021 03:53:06  : Длительноть трека -580
+Wed Jul 28 2021 03:53:06  : FETUSDT-1627169954:cansel: orderid:359060621
+Wed Jul 28 2021 03:53:07  : Ордер на покупку отменен, ID - 359060621
+Wed Jul 28 2021 03:53:07  : FETUSDT-1627169954:setbuy: price:0.38603, quantity: 42.2
+Wed Jul 28 2021 03:53:08  : Выставлен ордер - 359060703
+Wed Jul 28 2021 03:53:08  : Длительноть трека -1130
+Wed Jul 28 2021 03:53:08  : Ордер на покупку исполнен, ID - 359060703
+Wed Jul 28 2021 03:53:09  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.3
+Wed Jul 28 2021 03:53:09  : Выставлен ордер - 359060732
+Wed Jul 28 2021 03:53:09  : Длительноть трека -760
+Wed Jul 28 2021 03:53:17  : FETUSDT-1627169954:cansel: orderid:359060732
+Wed Jul 28 2021 03:53:18  : Ордер на покупку отменен, ID - 359060732
+Wed Jul 28 2021 03:53:18  : Длительноть трека -594
+Wed Jul 28 2021 03:53:20  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.3
+Wed Jul 28 2021 03:53:20  : Выставлен ордер - 359060893
+Wed Jul 28 2021 03:53:20  : Длительноть трека -583
+Wed Jul 28 2021 03:53:38  : FETUSDT-1627169954:cansel: orderid:359060893
+Wed Jul 28 2021 03:53:38  : Ордер на покупку отменен, ID - 359060893
+Wed Jul 28 2021 03:53:38  : Длительноть трека -591
+Wed Jul 28 2021 03:53:42  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.2
+Wed Jul 28 2021 03:53:43  : Выставлен ордер - 359061268
+Wed Jul 28 2021 03:53:43  : Длительноть трека -634
+Wed Jul 28 2021 03:53:46  : FETUSDT-1627169954:cansel: orderid:359061268
+Wed Jul 28 2021 03:53:46  : Ордер на покупку отменен, ID - 359061268
+Wed Jul 28 2021 03:53:46  : Длительноть трека -593
+Wed Jul 28 2021 03:53:47  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.2
+Wed Jul 28 2021 03:53:47  : Выставлен ордер - 359061384
+Wed Jul 28 2021 03:53:47  : Длительноть трека -638
+Wed Jul 28 2021 03:53:48  : FETUSDT-1627169954:cansel: orderid:359061384
+Wed Jul 28 2021 03:53:48  : Ордер на покупку отменен, ID - 359061384
+Wed Jul 28 2021 03:53:48  : Длительноть трека -597
+Wed Jul 28 2021 03:53:49  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.2
+Wed Jul 28 2021 03:53:50  : Выставлен ордер - 359061457
+Wed Jul 28 2021 03:53:50  : Длительноть трека -573
+Wed Jul 28 2021 03:53:50  : FETUSDT-1627169954:cansel: orderid:359061457
+Wed Jul 28 2021 03:53:51  : Ордер на покупку отменен, ID - 359061457
+Wed Jul 28 2021 03:53:51  : Длительноть трека -600
+Wed Jul 28 2021 03:54:01  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.2
+Wed Jul 28 2021 03:54:01  : Выставлен ордер - 359061688
+Wed Jul 28 2021 03:54:01  : Длительноть трека -582
+Wed Jul 28 2021 03:54:02  : FETUSDT-1627169954:cansel: orderid:359061688
+Wed Jul 28 2021 03:54:03  : Ордер на покупку отменен, ID - 359061688
+Wed Jul 28 2021 03:54:03  : Длительноть трека -579
+Wed Jul 28 2021 03:54:03  : FETUSDT-1627169954:setbuy: price:0.37995, quantity: 42.3
+Wed Jul 28 2021 03:54:04  : Выставлен ордер - 359061793
+Wed Jul 28 2021 03:54:04  : Длительноть трека -1078
+Wed Jul 28 2021 03:54:20  : FETUSDT-1627169954:cansel: orderid:359061793
+Wed Jul 28 2021 03:54:21  : Ордер на покупку отменен, ID - 359061793
+Wed Jul 28 2021 03:54:21  : Длительноть трека -1086
