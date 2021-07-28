@@ -1,0 +1,155 @@
+Wed Jul 28 2021 22:30:02  : Длительноть трека -630
+Wed Jul 28 2021 22:30:37  : Длительноть трека -501
+Wed Jul 28 2021 22:33:35  : Длительноть трека -548
+Wed Jul 28 2021 22:33:41  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:33:42  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:33:42  : Длительноть трека -630
+Wed Jul 28 2021 22:33:42  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:33:43  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:33:43  : Длительноть трека -607
+Wed Jul 28 2021 22:33:43  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:33:44  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:33:44  : Длительноть трека -610
+Wed Jul 28 2021 22:36:50  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.33
+Wed Jul 28 2021 22:36:51  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:36:51  : Длительноть трека -1604
+Wed Jul 28 2021 22:36:52  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.33
+Wed Jul 28 2021 22:36:54  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:36:54  : Длительноть трека -1595
+Wed Jul 28 2021 22:36:54  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.33
+Wed Jul 28 2021 22:36:56  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:36:56  : Длительноть трека -1598
+Wed Jul 28 2021 22:37:17  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:18  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:18  : Длительноть трека -640
+Wed Jul 28 2021 22:37:18  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:19  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:19  : Длительноть трека -643
+Wed Jul 28 2021 22:37:19  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:20  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:20  : Длительноть трека -1167
+Wed Jul 28 2021 22:37:21  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:21  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:21  : Длительноть трека -639
+Wed Jul 28 2021 22:37:22  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:22  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:22  : Длительноть трека -626
+Wed Jul 28 2021 22:37:23  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:24  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:24  : Длительноть трека -630
+Wed Jul 28 2021 22:37:24  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:25  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:25  : Длительноть трека -621
+Wed Jul 28 2021 22:37:25  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.33
+Wed Jul 28 2021 22:37:26  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:26  : Длительноть трека -625
+Wed Jul 28 2021 22:37:26  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:27  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:27  : Длительноть трека -642
+Wed Jul 28 2021 22:37:27  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:28  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:28  : Длительноть трека -1162
+Wed Jul 28 2021 22:37:29  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:29  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:29  : Длительноть трека -617
+Wed Jul 28 2021 22:37:30  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:30  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:30  : Длительноть трека -603
+Wed Jul 28 2021 22:37:31  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:32  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:32  : Длительноть трека -1094
+Wed Jul 28 2021 22:37:32  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:33  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:33  : Длительноть трека -619
+Wed Jul 28 2021 22:37:34  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:34  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:34  : Длительноть трека -598
+Wed Jul 28 2021 22:37:35  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:35  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:35  : Длительноть трека -606
+Wed Jul 28 2021 22:37:36  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:36  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:36  : Длительноть трека -602
+Wed Jul 28 2021 22:37:37  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:37  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:37  : Длительноть трека -641
+Wed Jul 28 2021 22:37:38  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:38  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:38  : Длительноть трека -619
+Wed Jul 28 2021 22:37:39  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:39  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:39  : Длительноть трека -628
+Wed Jul 28 2021 22:37:40  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:40  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:40  : Длительноть трека -608
+Wed Jul 28 2021 22:37:41  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:41  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:41  : Длительноть трека -651
+Wed Jul 28 2021 22:37:42  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:42  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:42  : Длительноть трека -677
+Wed Jul 28 2021 22:37:43  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:44  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:44  : Длительноть трека -612
+Wed Jul 28 2021 22:37:44  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:45  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:45  : Длительноть трека -610
+Wed Jul 28 2021 22:37:45  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:46  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:46  : Длительноть трека -632
+Wed Jul 28 2021 22:37:46  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:47  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:47  : Длительноть трека -662
+Wed Jul 28 2021 22:37:47  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:48  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:48  : Длительноть трека -608
+Wed Jul 28 2021 22:37:48  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:49  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:49  : Длительноть трека -606
+Wed Jul 28 2021 22:37:49  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:50  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:50  : Длительноть трека -618
+Wed Jul 28 2021 22:37:50  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:51  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:51  : Длительноть трека -591
+Wed Jul 28 2021 22:37:51  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:52  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:52  : Длительноть трека -623
+Wed Jul 28 2021 22:37:53  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:53  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:53  : Длительноть трека -594
+Wed Jul 28 2021 22:37:54  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:55  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:55  : Длительноть трека -1101
+Wed Jul 28 2021 22:37:55  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:56  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:56  : Длительноть трека -1106
+Wed Jul 28 2021 22:37:57  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:58  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:58  : Длительноть трека -1108
+Wed Jul 28 2021 22:37:58  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:37:59  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:37:59  : Длительноть трека -600
+Wed Jul 28 2021 22:37:59  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:38:00  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:38:00  : Длительноть трека -605
+Wed Jul 28 2021 22:38:00  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:38:01  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:38:01  : Длительноть трека -1088
+Wed Jul 28 2021 22:38:02  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:38:02  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:38:02  : Длительноть трека -598
+Wed Jul 28 2021 22:38:03  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:38:03  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:38:03  : Длительноть трека -629
+Wed Jul 28 2021 22:38:04  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 2.32
+Wed Jul 28 2021 22:38:05  : Ошибка при выставлении ордера - {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+Wed Jul 28 2021 22:38:05  : Длительноть трека -604
+Wed Jul 28 2021 22:47:48  : Длительноть трека -733
+Wed Jul 28 2021 22:50:22  : Длительноть трека -668
+Wed Jul 28 2021 23:05:08  : LINKUPUSDT-1627480656:setbuy: price:1.5792, quantity: 9.42
+Wed Jul 28 2021 23:05:09  : Выставлен ордер - 161620962
+Wed Jul 28 2021 23:05:09  : Длительноть трека -1116
+Wed Jul 28 2021 23:05:11  : LINKUPUSDT-1627480656:cansel: orderid:161620962
+Wed Jul 28 2021 23:05:12  : Ордер на покупку отменен, ID - 161620962
+Wed Jul 28 2021 23:05:12  : Длительноть трека -609
