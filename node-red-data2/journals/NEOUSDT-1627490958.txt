@@ -10,3 +10,95 @@ Wed Jul 28 2021 22:41:21  : Длительноть трека -592
 Wed Jul 28 2021 22:47:48  : Длительноть трека -741
 Wed Jul 28 2021 22:50:22  : Длительноть трека -670
 Wed Jul 28 2021 23:09:08  : Длительноть трека -666
+Thu Jul 29 2021 01:40:41  : NEOUSDT-1627490958:cansel: orderid:705862312
+Thu Jul 29 2021 01:40:41  : Ордер на покупку отменен, ID - 705862312
+Thu Jul 29 2021 01:40:41  : Длительноть трека -642
+Thu Jul 29 2021 01:41:36  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.434
+Thu Jul 29 2021 01:41:36  : Выставлен ордер - 705863837
+Thu Jul 29 2021 01:41:36  : Длительноть трека -631
+Thu Jul 29 2021 01:42:18  : NEOUSDT-1627490958:cansel: orderid:705863837
+Thu Jul 29 2021 01:42:19  : Ордер на покупку отменен, ID - 705863837
+Thu Jul 29 2021 01:42:19  : Длительноть трека -618
+Thu Jul 29 2021 01:54:31  : Длительноть трека -799
+Thu Jul 29 2021 02:17:05  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627513079683,
+		"end_node_time": 1627513079683,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627513079698,
+		"end_node_time": 1627513079742,
+		"duration_node": 44,
+		"duration_step": 59
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627513079759,
+		"end_node_time": 1627513079776,
+		"duration_node": 17,
+		"duration_step": 34
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627513079818,
+		"end_node_time": 1627513079837,
+		"duration_node": 19,
+		"duration_step": 61
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627513079845,
+		"end_node_time": 1627513079917,
+		"duration_node": 72,
+		"duration_step": 80
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627513079941,
+		"end_node_time": 1627513079941,
+		"duration_node": 0,
+		"duration_step": 24
+	}
+]
+Thu Jul 29 2021 02:17:07  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627513079737,
+		"end_node_time": 1627513079737,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627513079743,
+		"end_node_time": 1627513079760,
+		"duration_node": 17,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627513079792,
+		"end_node_time": 1627513079836,
+		"duration_node": 44,
+		"duration_step": 76
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627513079845,
+		"end_node_time": 1627513079886,
+		"duration_node": 41,
+		"duration_step": 50
+	}
+]
+Thu Jul 29 2021 02:17:31  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.438
+Thu Jul 29 2021 02:17:32  : Выставлен ордер - 705895078
+Thu Jul 29 2021 02:17:49  : NEOUSDT-1627490958:cansel: orderid:705895078
+Thu Jul 29 2021 02:17:50  : Ордер на покупку отменен, ID - 705895078
+Thu Jul 29 2021 02:18:01  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.438
+Thu Jul 29 2021 02:18:02  : Выставлен ордер - 705895456

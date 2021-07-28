@@ -147,3 +147,90 @@ Wed Jul 28 2021 22:38:05  : Ошибка при выставлении орде�
 Wed Jul 28 2021 22:38:05  : Длительноть трека -604ф
 Wed Jul 28 2021 22:47:48  : Длительноть трека -733
 Wed Jul 28 2021 22:50:22  : Длительноть трека -668
+Thu Jul 29 2021 01:44:47  : Длительноть трека -642
+Thu Jul 29 2021 01:54:31  : Длительноть трека -696
+Thu Jul 29 2021 01:55:13  : Длительноть трека -687
+Thu Jul 29 2021 02:17:05  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627513079683,
+		"end_node_time": 1627513079683,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy",
+		"start_node_time": 1627513079697,
+		"end_node_time": 1627513079737,
+		"duration_node": 40,
+		"duration_step": 54
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627513079758,
+		"end_node_time": 1627513079775,
+		"duration_node": 17,
+		"duration_step": 38
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627513079817,
+		"end_node_time": 1627513079837,
+		"duration_node": 20,
+		"duration_step": 62
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627513079845,
+		"end_node_time": 1627513079888,
+		"duration_node": 43,
+		"duration_step": 51
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627513079941,
+		"end_node_time": 1627513079941,
+		"duration_node": 0,
+		"duration_step": 53
+	}
+]
+Thu Jul 29 2021 02:17:05  : LINKUPUSDT-1627480656:setbuy: price:1.5169, quantity: 9.84
+Thu Jul 29 2021 02:17:06  : Выставлен ордер - 161690099
+Thu Jul 29 2021 02:17:07  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627513079736,
+		"end_node_time": 1627513079736,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627513079743,
+		"end_node_time": 1627513079759,
+		"duration_node": 16,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627513079790,
+		"end_node_time": 1627513079823,
+		"duration_node": 33,
+		"duration_step": 64
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627513079844,
+		"end_node_time": 1627513079866,
+		"duration_node": 22,
+		"duration_step": 43
+	}
+]
+Thu Jul 29 2021 02:17:51  : LINKUPUSDT-1627480656:cansel: orderid:161690099
+Thu Jul 29 2021 02:17:52  : Ордер на покупку отменен, ID - 161690099
+Thu Jul 29 2021 02:18:11  : LINKUPUSDT-1627480656:setbuy: price:1.5374, quantity: 9.74
+Thu Jul 29 2021 02:18:13  : Выставлен ордер - 161690596
+Thu Jul 29 2021 02:18:13  : Длительноть трека -1550
+Thu Jul 29 2021 02:18:16  : Ордер на покупку исполнен, ID - 161690596

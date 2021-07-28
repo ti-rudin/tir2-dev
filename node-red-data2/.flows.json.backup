@@ -4,7 +4,7 @@
         "type": "tab",
         "label": "MAIN",
         "disabled": false,
-        "info": "нормально прописать логирование\nрегистрация сделки\nбэктест\nдописать ордерэкзек на ттп\nпроверка этажа\nдребезг при выставлении/отмене buy ордеров\n\n"
+        "info": "нормально прописать логирование\nбэктест\nдописать ордерэкзек на ттп\nпроверка этажа\n\n\n\n\nдребезг при выставлении/отмене buy ордеров\nрегистрация сделки\n"
     },
     {
         "id": "2a761808.610238",
@@ -255,7 +255,9 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419
+        "y": 419,
+        "w": 632,
+        "h": 162
     },
     {
         "id": "3684cd36.8432c2",
@@ -308,8 +310,10 @@
             "d615849.c726078",
             "04c874ce359ca023"
         ],
-        "x": 74,
-        "y": 739
+        "x": 34,
+        "y": 699,
+        "w": 1612,
+        "h": 122
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -350,7 +354,9 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839
+        "y": 1839,
+        "w": 1422,
+        "h": 422
     },
     {
         "id": "65abc86145e37427",
@@ -539,7 +545,9 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1552,
+        "h": 682
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -648,7 +656,9 @@
             "577c5da19353e540"
         ],
         "x": 2654,
-        "y": 1179
+        "y": 1179,
+        "w": 952,
+        "h": 82
     },
     {
         "id": "1ce3921709fe3854",
@@ -687,7 +697,9 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "061eef32b9ec0b09",
@@ -712,7 +724,9 @@
             "1ca10b1307ef724b"
         ],
         "x": 2474,
-        "y": 1299
+        "y": 1299,
+        "w": 1132,
+        "h": 182
     },
     {
         "id": "f8a5c66461864831",
@@ -758,7 +772,9 @@
             "c4cf96930d013efb"
         ],
         "x": 1674,
-        "y": 119
+        "y": 119,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "586e39dc007e0cae",
@@ -780,7 +796,9 @@
             "dd73e1c4557a5e65"
         ],
         "x": 54,
-        "y": 59
+        "y": 59,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -806,7 +824,9 @@
             "70c9b4b33e033727"
         ],
         "x": 2654,
-        "y": 219
+        "y": 219,
+        "w": 752,
+        "h": 262
     },
     {
         "id": "62f84306b9b0d2ef",
@@ -846,7 +866,9 @@
             "ccbca6c6.392f58"
         ],
         "x": 54,
-        "y": 259
+        "y": 259,
+        "w": 2252,
+        "h": 222
     },
     {
         "id": "82f0b612794a2ab3",
@@ -867,7 +889,9 @@
             "1324ce12644bf966"
         ],
         "x": 394,
-        "y": 1479
+        "y": 1479,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "a7d58f353444ba29",
@@ -1003,7 +1027,9 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579
+        "y": 579,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "b1c9866420e73130",
@@ -1041,7 +1067,9 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2714,
-        "y": 1519
+        "y": 1519,
+        "w": 692,
+        "h": 562
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -5472,7 +5500,7 @@
         "z": "5df15275.2888ec",
         "g": "89e4eb3d636bee6a",
         "name": "duration",
-        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 500){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\n    \nreturn msg;",
+        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\n    \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7894,6 +7922,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 700,
         "y": 1260,
         "wires": [
@@ -8618,7 +8647,7 @@
         "createDir": true,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 870,
+        "x": 830,
         "y": 780,
         "wires": [
             [
@@ -8638,11 +8667,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 510,
         "y": 780,
         "wires": [
             [
-                "04c874ce359ca023"
+                "eb0ebfc5.9889a"
             ]
         ]
     },
@@ -8658,7 +8687,7 @@
         "initialize": "let guid = global.get('guid');\n\n\nlet tilog = function (botname = msg.topic, data = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = botname;\n    msg.payload = data;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('tilog', tilog);",
         "finalize": "",
         "libs": [],
-        "x": 390,
+        "x": 350,
         "y": 780,
         "wires": [
             [
@@ -8678,7 +8707,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 210,
+        "x": 170,
         "y": 780,
         "wires": [
             [
@@ -8697,7 +8726,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1020,
+        "x": 980,
         "y": 780,
         "wires": []
     },
@@ -8723,7 +8752,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1260,
+        "x": 1220,
         "y": 780,
         "wires": [
             [
@@ -8742,7 +8771,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1430,
+        "x": 1390,
         "y": 780,
         "wires": [
             [
@@ -8764,7 +8793,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1590,
+        "x": 1550,
         "y": 780,
         "wires": []
     },
@@ -9021,14 +9050,14 @@
         "id": "241d62c4.835d6e",
         "type": "function",
         "z": "5f98db3a.7ab21c",
-        "name": "cansel buy order",
+        "name": "cansel order",
         "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\treconnect: false,\n\tuseServerTime: true\n});\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.payload.orderid;\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function() {\nbinance.cancel(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n        \n\n\n    node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n    node.send(msg);\n        \n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        \n\n    node.status({fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n        \n    }\n    //node.status({}); //clear status message\n})});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1610,
+        "x": 1590,
         "y": 1040,
         "wires": [
             [
@@ -20011,7 +20040,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "set stop sell order",
-        "func": "//msg.curstop = Number(msg.bot.ttp.curstop);\n\nmsg.bot.ttp.quantity = msg.bot.ttp.quantity || 0;\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  reconnect: false,\n  useServerTime: true\n});\n\n\n\nlet moneta = msg.bot.settings.moneta;\nlet quantity = (Number(msg.bot.ttp.quantity)).toFixed(msg.bot.settings.digitq);\n\nlet priceb = (Number((msg.bot.ttp.raschstopprice - msg.bot.ttp.raschstopprice / 100 * msg.bot.settings.ofsetbottom))).toFixed(msg.bot.settings.digitprice);\nlet stopprice = (Number(msg.bot.ttp.raschstopprice)).toFixed(msg.bot.settings.digitprice);\n\n\nnode.warn(\"q:\" + quantity);\nnode.warn(\"p:\" + priceb);\nnode.warn(\"sp:\" + stopprice);\nbinance.useServerTime(function () {\n  binance.sell(moneta, quantity, priceb, { stopPrice: stopprice, type: \"STOP_LOSS_LIMIT\" }, function (err, resp) {\n    if (err) {\n      var errorMsg = parseApiError(err);\n      msg.err = err;\n      node.error(errorMsg, msg);\n      node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n      node.send(msg);\n\n\n    }\n    if (resp) {\n      //msg.bot.ttp.curorderid = resp.orderId;\n      //resp.curstop = stopprice;\n      //msg.bot.ttp.quantity = quantity;\n      msg.resp = resp;\n      node.send(msg);\n    }\n    node.status({}); //clear status message\n\n\n\n    //return;\n  })\n\n});\n",
+        "func": "msg.bot.ttp.quantity = msg.bot.ttp.quantity || 0;\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  reconnect: false,\n  useServerTime: true\n});\n\nlet moneta = msg.bot.settings.moneta;\nlet quantity = (Number(msg.bot.ttp.quantity)).toFixed(msg.bot.settings.digitq);\n\nlet priceb = (Number((msg.bot.ttp.raschstopprice - msg.bot.ttp.raschstopprice / 100 * msg.bot.settings.ofsetbottom))).toFixed(msg.bot.settings.digitprice);\nlet stopprice = (Number(msg.bot.ttp.raschstopprice)).toFixed(msg.bot.settings.digitprice);\n\nnode.warn(\"sp:\" + stopprice + \" p:\" + priceb + \" q:\" + quantity);\n\nbinance.useServerTime(function () {\n  binance.sell(moneta, quantity, priceb, { stopPrice: stopprice, type: \"STOP_LOSS_LIMIT\" }, function (err, resp) {\n    if (err) {\n      var errorMsg = parseApiError(err);\n      msg.err = err;\n      node.error(errorMsg, msg);\n      node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n      node.send(msg);\n\n\n    }\n    if (resp) {\n      //msg.bot.ttp.curorderid = resp.orderId;\n      //resp.curstop = stopprice;\n      //msg.bot.ttp.quantity = quantity;\n      msg.resp = resp;\n      node.status({ fill: \"green\", shape: \"ring\" });\n      node.send(msg);\n    }\n    node.status({}); //clear status message\n\n\n\n    //return;\n  })\n\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20021,8 +20050,7 @@
         "y": 1120,
         "wires": [
             [
-                "f5c3922ede7ca10e",
-                "06c3c2fe8b8da334"
+                "f5c3922ede7ca10e"
             ]
         ],
         "inputLabels": [
@@ -20049,8 +20077,7 @@
         "wires": [
             [
                 "11245d07d29c58d7",
-                "904948d9b141e76a",
-                "fd48eea3b2847a5f"
+                "904948d9b141e76a"
             ],
             [
                 "f873485fa819703f",
@@ -20237,40 +20264,6 @@
         "statusType": "auto",
         "x": 2030,
         "y": 900,
-        "wires": []
-    },
-    {
-        "id": "06c3c2fe8b8da334",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1890,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "fd48eea3b2847a5f",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2070,
-        "y": 1200,
         "wires": []
     },
     {
@@ -20581,7 +20574,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "регистрация сделки",
-        "func": "//<трекер<\nlet trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nnode.warn(\"регистрация сделки\");\nlet commision = global.get(\"commision\");\n\nlet sellprice = Number(msg.bot.ttp.final_price);\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + (Number(msg.bot.ttp.quantity) - Number(msg.bot.ttp.quantity * Number(commision))) * sellprice);\n\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\n//обнуление всех этажей со статусом 3\n\nvar floors = msg.bot.floors;\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 3) {\n        let buyprice = Number(item[10]);\n        let quantity = Number((item[14].toFixed(msg.bot.settings.digitq)));\n        let p = quantity * (sellprice - buyprice);\n        let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n        let net = p - c;\n        msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n        msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n\n        item[7] = 0;\n        item[8] = 0;\n        item[9] = 0;\n        item[10] = 0;\n        item[11] = 0;\n        item[12] = 0;\n        item[13] = 0;\n        item[14] = 0;\n\n    }\n});\n\nmsg.bot.floors = floors;\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_step\n});\nflow.set(trackname, track);\n//>трекер>\nreturn msg;\n\n\n\n\n",
+        "func": "//<трекер<\nlet trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nnode.warn(\"регистрация сделки\");\nlet commision = global.get(\"commision\");\n\nlet sellprice = Number(msg.bot.ttp.final_price);\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + (Number(msg.bot.ttp.quantity) - Number(msg.bot.ttp.quantity / 100 * Number(commision))) * sellprice);\n\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\n//обнуление всех этажей со статусом 3\n\nvar floors = msg.bot.floors;\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 3) {\n        let buyprice = Number(item[10]);\n        let quantity = Number(item[14]);\n        let p = quantity * (sellprice - buyprice);\n        let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n        let net = p - c;\n        msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n        msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n\n        item[7] = 0;\n        item[8] = 0;\n        item[9] = 0;\n        item[10] = 0;\n        item[11] = 0;\n        item[12] = 0;\n        item[13] = 0;\n        item[14] = 0;\n\n    }\n});\n\nmsg.bot.floors = floors;\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_step\n});\nflow.set(trackname, track);\n//>трекер>\nreturn msg;\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20600,7 +20593,7 @@
         "type": "debug",
         "z": "5df15275.2888ec",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20685,12 +20678,10 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 710,
-        "y": 780,
+        "x": 690,
+        "y": 740,
         "wires": [
-            [
-                "eb0ebfc5.9889a"
-            ]
+            []
         ]
     },
     {
