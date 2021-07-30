@@ -1,581 +1,564 @@
-
-Fri Jul 30 2021 17:57:39  : Сброс к стартовым настройкам
-Fri Jul 30 2021 17:57:48  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.44
-Fri Jul 30 2021 17:57:49  : Выставлен ордер - 707676317
-Fri Jul 30 2021 18:00:56  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.436
-Fri Jul 30 2021 18:00:57  : Выставлен ордер - 707679240
-Fri Jul 30 2021 18:01:02  : Ордер на покупку исполнен, ID - 707679240
-Fri Jul 30 2021 18:01:53  : NEOUSDT-1627490958:cansel: orderid:707676317
-Fri Jul 30 2021 18:01:53  : Ордер на покупку отменен, ID - 707676317
-Fri Jul 30 2021 18:01:53  : Длительноть трека -1060
-Fri Jul 30 2021 18:01:56  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.438
-Fri Jul 30 2021 18:01:56  : Выставлен ордер - 707680670
-Fri Jul 30 2021 18:02:03  : NEOUSDT-1627490958:cansel: orderid:707680670
-Fri Jul 30 2021 18:02:04  : Ордер на покупку отменен, ID - 707680670
-Fri Jul 30 2021 18:02:04  : Длительноть трека -1577
-Fri Jul 30 2021 18:02:05  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.438
-Fri Jul 30 2021 18:02:05  : Выставлен ордер - 707680730
-Fri Jul 30 2021 18:02:10  : NEOUSDT-1627490958:cansel: orderid:707680730
-Fri Jul 30 2021 18:02:11  : Ордер на покупку отменен, ID - 707680730
-Fri Jul 30 2021 18:02:11  : Длительноть трека -1064
-Fri Jul 30 2021 18:02:22  : Длительноть трека -946
-Fri Jul 30 2021 18:03:23  : Длительноть трека -973
-Fri Jul 30 2021 18:04:39  : Длительноть трека -946
-Fri Jul 30 2021 18:05:00  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.439
-Fri Jul 30 2021 18:05:00  : Выставлен ордер - 707682903
-Fri Jul 30 2021 18:05:17  : NEOUSDT-1627490958:cansel: orderid:707682903
-Fri Jul 30 2021 18:05:17  : Ордер на покупку отменен, ID - 707682903
-Fri Jul 30 2021 18:05:18  : NEOUSDT-1627490958:setbuy: price:33.882, quantity: 0.439
-Fri Jul 30 2021 18:05:18  : Выставлен ордер - 707683156
-Fri Jul 30 2021 18:06:22  : Длительноть трека -1092
-Fri Jul 30 2021 18:07:03  : Длительноть трека -1297
-Fri Jul 30 2021 18:08:31  : Длительноть трека -1081
-Fri Jul 30 2021 18:09:06  : Длительноть трека -917
-Fri Jul 30 2021 18:11:48  : NEOUSDT-1627490958:cansel: orderid:707683156
-Fri Jul 30 2021 18:11:48  : Ордер на покупку отменен, ID - 707683156
-Fri Jul 30 2021 18:11:52  : Длительноть трека -1472
-Fri Jul 30 2021 18:12:51  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:12:52  : выставили ttp ордер
-Fri Jul 30 2021 18:12:55  : ttp finish
-Fri Jul 30 2021 18:12:55  : выставили ttp ордер
-Fri Jul 30 2021 18:12:56  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.433
-Fri Jul 30 2021 18:12:57  : Выставлен ордер - 707690994
-Fri Jul 30 2021 18:13:53  : Длительноть трека -1250
-Fri Jul 30 2021 18:15:55  : Длительноть трека -922
-Fri Jul 30 2021 18:16:48  : NEOUSDT-1627490958:cansel: orderid:707690994
-Fri Jul 30 2021 18:16:49  : Ордер на покупку отменен, ID - 707690994
-Fri Jul 30 2021 18:16:49  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.432
-Fri Jul 30 2021 18:16:50  : Выставлен ордер - 707697582
-Fri Jul 30 2021 18:16:50  : Длительноть трека -1558
-Fri Jul 30 2021 18:16:51  : NEOUSDT-1627490958:cansel: orderid:707697582
-Fri Jul 30 2021 18:16:51  : Ордер на покупку отменен, ID - 707697582
-Fri Jul 30 2021 18:16:53  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.432
-Fri Jul 30 2021 18:16:54  : Выставлен ордер - 707697651
-Fri Jul 30 2021 18:16:54  : Длительноть трека -1254
-Fri Jul 30 2021 18:16:57  : NEOUSDT-1627490958:cansel: orderid:707697651
-Fri Jul 30 2021 18:16:58  : Ордер на покупку отменен, ID - 707697651
-Fri Jul 30 2021 18:17:36  : Длительноть трека -929
-Fri Jul 30 2021 18:18:13  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.433
-Fri Jul 30 2021 18:18:13  : Выставлен ордер - 707700173
-Fri Jul 30 2021 18:18:17  : NEOUSDT-1627490958:cansel: orderid:707700173
-Fri Jul 30 2021 18:18:18  : Ордер на покупку отменен, ID - 707700173
-Fri Jul 30 2021 18:18:19  : Длительноть трека -1638
-Fri Jul 30 2021 18:18:19  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.433
-Fri Jul 30 2021 18:18:19  : Выставлен ордер - 707700474
-Fri Jul 30 2021 18:18:19  : NEOUSDT-1627490958:cansel: orderid:707700474
-Fri Jul 30 2021 18:18:20  : Ордер на покупку отменен, ID - 707700474
-Fri Jul 30 2021 18:18:20  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.433
-Fri Jul 30 2021 18:18:21  : Выставлен ордер - 707700514
-Fri Jul 30 2021 18:18:22  : NEOUSDT-1627490958:cansel: orderid:707700514
-Fri Jul 30 2021 18:18:24  : Ордер на покупку отменен, ID - 707700514
-Fri Jul 30 2021 18:18:24  : Длительноть трека -1597
-Fri Jul 30 2021 18:18:24  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.433
-Fri Jul 30 2021 18:18:25  : Выставлен ордер - 707700610
-Fri Jul 30 2021 18:19:05  : NEOUSDT-1627490958:cansel: orderid:707700610
-Fri Jul 30 2021 18:19:06  : Ордер на покупку отменен, ID - 707700610
-Fri Jul 30 2021 18:19:06  : NEOUSDT-1627490958:setbuy: price:34.339, quantity: 0.433
-Fri Jul 30 2021 18:19:07  : Выставлен ордер - 707701839
-Fri Jul 30 2021 18:19:37  : NEOUSDT-1627490958:setbuy: price:34.803, quantity: 0.431
-Fri Jul 30 2021 18:19:38  : Выставлен ордер - 707702618
-Fri Jul 30 2021 18:19:40  : Ордер на покупку исполнен, ID - 707702618
-Fri Jul 30 2021 18:20:38  : Длительноть трека -954
-Fri Jul 30 2021 18:21:33  : Длительноть трека -1043
-Fri Jul 30 2021 18:22:08  : NEOUSDT-1627490958:cansel: orderid:707701839
-Fri Jul 30 2021 18:22:09  : Ордер на покупку отменен, ID - 707701839
-Fri Jul 30 2021 18:22:49  : Длительноть трека -958
-Fri Jul 30 2021 18:23:27  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:28  : выставили ttp ордер
-Fri Jul 30 2021 18:23:35  : cansel order id:707708125
-Fri Jul 30 2021 18:23:36  : переставили ttp ордер
-Fri Jul 30 2021 18:23:36  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:36  : переставили ttp ордер
-Fri Jul 30 2021 18:23:36  : cansel order id:707708515
-Fri Jul 30 2021 18:23:37  : переставили ttp ордер
-Fri Jul 30 2021 18:23:37  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:38  : переставили ttp ордер
-Fri Jul 30 2021 18:23:38  : cansel order id:707708650
-Fri Jul 30 2021 18:23:38  : переставили ttp ордер
-Fri Jul 30 2021 18:23:38  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:39  : переставили ttp ордер
-Fri Jul 30 2021 18:23:45  : cansel order id:707708753
-Fri Jul 30 2021 18:23:46  : переставили ttp ордер
-Fri Jul 30 2021 18:23:46  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:47  : переставили ttp ордер
-Fri Jul 30 2021 18:23:50  : cansel order id:707709016
-Fri Jul 30 2021 18:23:51  : переставили ttp ордер
-Fri Jul 30 2021 18:23:51  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:52  : переставили ttp ордер
-Fri Jul 30 2021 18:23:54  : cansel order id:707709337
-Fri Jul 30 2021 18:23:55  : переставили ttp ордер
-Fri Jul 30 2021 18:23:55  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:55  : переставили ttp ордер
-Fri Jul 30 2021 18:23:56  : cansel order id:707709601
-Fri Jul 30 2021 18:23:56  : переставили ttp ордер
-Fri Jul 30 2021 18:23:56  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:57  : переставили ttp ордер
-Fri Jul 30 2021 18:23:57  : cansel order id:707709691
-Fri Jul 30 2021 18:23:57  : переставили ttp ордер
-Fri Jul 30 2021 18:23:57  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:23:58  : переставили ttp ордер
-Fri Jul 30 2021 18:23:58  : cansel order id:707709742
-Fri Jul 30 2021 18:23:59  : переставили ttp ордер
-Fri Jul 30 2021 18:23:59  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:00  : переставили ttp ордер
-Fri Jul 30 2021 18:24:00  : cansel order id:707709839
-Fri Jul 30 2021 18:24:01  : переставили ttp ордер
-Fri Jul 30 2021 18:24:01  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:01  : переставили ttp ордер
-Fri Jul 30 2021 18:24:03  : cansel order id:707709908
-Fri Jul 30 2021 18:24:04  : переставили ttp ордер
-Fri Jul 30 2021 18:24:04  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:04  : переставили ttp ордер
-Fri Jul 30 2021 18:24:05  : cansel order id:707710078
-Fri Jul 30 2021 18:24:05  : переставили ttp ордер
-Fri Jul 30 2021 18:24:05  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:06  : переставили ttp ордер
-Fri Jul 30 2021 18:24:06  : cansel order id:707710126
-Fri Jul 30 2021 18:24:06  : переставили ttp ордер
-Fri Jul 30 2021 18:24:06  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:07  : переставили ttp ордер
-Fri Jul 30 2021 18:24:07  : cansel order id:707710249
-Fri Jul 30 2021 18:24:08  : переставили ttp ордер
-Fri Jul 30 2021 18:24:08  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:08  : переставили ttp ордер
-Fri Jul 30 2021 18:24:09  : cansel order id:707710326
-Fri Jul 30 2021 18:24:10  : переставили ttp ордер
-Fri Jul 30 2021 18:24:10  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:11  : переставили ttp ордер
-Fri Jul 30 2021 18:24:11  : cansel order id:707710470
-Fri Jul 30 2021 18:24:11  : NEOUSDT-1627490958:setbuy: price:35.273, quantity: 0.426
-Fri Jul 30 2021 18:24:11  : переставили ttp ордер
-Fri Jul 30 2021 18:24:11  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:12  : Выставлен ордер - 707710559
-Fri Jul 30 2021 18:24:12  : Ордер на покупку исполнен, ID - 707710559
-Fri Jul 30 2021 18:24:12  : переставили ttp ордер
-Fri Jul 30 2021 18:24:15  : cansel order id:707710595
-Fri Jul 30 2021 18:24:16  : переставили ttp ордер
-Fri Jul 30 2021 18:24:16  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:16  : переставили ttp ордер
-Fri Jul 30 2021 18:24:22  : cansel order id:707710853
-Fri Jul 30 2021 18:24:22  : переставили ttp ордер
-Fri Jul 30 2021 18:24:22  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:23  : переставили ttp ордер
-Fri Jul 30 2021 18:24:57  : cansel order id:707711164
-Fri Jul 30 2021 18:24:58  : переставили ttp ордер
-Fri Jul 30 2021 18:24:58  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:24:59  : переставили ttp ордер
-Fri Jul 30 2021 18:25:04  : cansel order id:707712291
-Fri Jul 30 2021 18:25:05  : переставили ttp ордер
-Fri Jul 30 2021 18:25:05  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:05  : переставили ttp ордер
-Fri Jul 30 2021 18:25:17  : cansel order id:707712576
-Fri Jul 30 2021 18:25:17  : переставили ttp ордер
-Fri Jul 30 2021 18:25:17  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:18  : переставили ttp ордер
-Fri Jul 30 2021 18:25:19  : cansel order id:707713044
-Fri Jul 30 2021 18:25:19  : переставили ttp ордер
-Fri Jul 30 2021 18:25:19  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:20  : переставили ttp ордер
-Fri Jul 30 2021 18:25:20  : cansel order id:707713164
-Fri Jul 30 2021 18:25:21  : переставили ttp ордер
-Fri Jul 30 2021 18:25:21  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:22  : переставили ttp ордер
-Fri Jul 30 2021 18:25:22  : cansel order id:707713252
-Fri Jul 30 2021 18:25:22  : переставили ttp ордер
-Fri Jul 30 2021 18:25:22  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:23  : переставили ttp ордер
-Fri Jul 30 2021 18:25:24  : cansel order id:707713275
-Fri Jul 30 2021 18:25:25  : переставили ttp ордер
-Fri Jul 30 2021 18:25:25  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:25  : переставили ttp ордер
-Fri Jul 30 2021 18:25:25  : cansel order id:707713336
-Fri Jul 30 2021 18:25:26  : переставили ttp ордер
-Fri Jul 30 2021 18:25:26  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:27  : переставили ttp ордер
-Fri Jul 30 2021 18:25:28  : cansel order id:707713382
-Fri Jul 30 2021 18:25:29  : переставили ttp ордер
-Fri Jul 30 2021 18:25:29  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:29  : переставили ttp ордер
-Fri Jul 30 2021 18:25:31  : cansel order id:707713535
-Fri Jul 30 2021 18:25:31  : переставили ttp ордер
-Fri Jul 30 2021 18:25:31  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:32  : переставили ttp ордер
-Fri Jul 30 2021 18:25:42  : cansel order id:707713586
-Fri Jul 30 2021 18:25:42  : cansel order id:707713586
-Fri Jul 30 2021 18:25:43  : переставили ttp ордер
-Fri Jul 30 2021 18:25:43  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:44  : переставили ttp ордер
-Fri Jul 30 2021 18:25:50  : cansel order id:707713957
-Fri Jul 30 2021 18:25:50  : переставили ttp ордер
-Fri Jul 30 2021 18:25:50  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:51  : переставили ttp ордер
-Fri Jul 30 2021 18:25:53  : cansel order id:707714168
-Fri Jul 30 2021 18:25:54  : переставили ttp ордер
-Fri Jul 30 2021 18:25:54  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:25:55  : переставили ttp ордер
-Fri Jul 30 2021 18:26:02  : cansel order id:707714265
-Fri Jul 30 2021 18:26:03  : переставили ttp ордер
-Fri Jul 30 2021 18:26:03  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:04  : переставили ttp ордер
-Fri Jul 30 2021 18:26:04  : cansel order id:707714441
-Fri Jul 30 2021 18:26:05  : переставили ttp ордер
-Fri Jul 30 2021 18:26:05  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:06  : переставили ttp ордер
-Fri Jul 30 2021 18:26:06  : cansel order id:707714477
-Fri Jul 30 2021 18:26:07  : переставили ttp ордер
-Fri Jul 30 2021 18:26:07  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:07  : переставили ttp ордер
-Fri Jul 30 2021 18:26:15  : cansel order id:707714523
-Fri Jul 30 2021 18:26:16  : переставили ttp ордер
-Fri Jul 30 2021 18:26:16  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:16  : переставили ttp ордер
-Fri Jul 30 2021 18:26:36  : cansel order id:707714699
-Fri Jul 30 2021 18:26:36  : переставили ttp ордер
-Fri Jul 30 2021 18:26:36  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:37  : переставили ttp ордер
-Fri Jul 30 2021 18:26:37  : cansel order id:707715241
-Fri Jul 30 2021 18:26:38  : переставили ttp ордер
-Fri Jul 30 2021 18:26:38  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:39  : переставили ttp ордер
-Fri Jul 30 2021 18:26:39  : cansel order id:707715292
-Fri Jul 30 2021 18:26:40  : переставили ttp ордер
-Fri Jul 30 2021 18:26:40  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:41  : переставили ttp ордер
-Fri Jul 30 2021 18:26:50  : cansel order id:707715431
-Fri Jul 30 2021 18:26:51  : переставили ttp ордер
-Fri Jul 30 2021 18:26:51  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:26:51  : переставили ttp ордер
-Fri Jul 30 2021 18:26:55  : ttp finish
-Fri Jul 30 2021 18:26:55  : выставили ttp ордер
-Fri Jul 30 2021 18:29:07  : Длительноть трека -994
-Fri Jul 30 2021 18:29:42  : Длительноть трека -1169
-Fri Jul 30 2021 18:30:35  : Длительноть трека -993
-Fri Jul 30 2021 18:31:48  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:31:49  : выставили ttp ордер
-Fri Jul 30 2021 18:31:50  : cansel order id:707724054
-Fri Jul 30 2021 18:31:50  : переставили ttp ордер
-Fri Jul 30 2021 18:31:50  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:31:52  : переставили ttp ордер
-Fri Jul 30 2021 18:31:53  : cansel order id:707724177
-Fri Jul 30 2021 18:31:55  : переставили ttp ордер
-Fri Jul 30 2021 18:31:55  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:31:55  : переставили ttp ордер
-Fri Jul 30 2021 18:32:03  : cansel order id:707724331
-Fri Jul 30 2021 18:32:03  : переставили ttp ордер
-Fri Jul 30 2021 18:32:03  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:04  : переставили ttp ордер
-Fri Jul 30 2021 18:32:04  : cansel order id:707724655
-Fri Jul 30 2021 18:32:05  : переставили ttp ордер
-Fri Jul 30 2021 18:32:05  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:05  : переставили ttp ордер
-Fri Jul 30 2021 18:32:06  : cansel order id:707724750
-Fri Jul 30 2021 18:32:06  : переставили ttp ордер
-Fri Jul 30 2021 18:32:06  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:07  : переставили ttp ордер
-Fri Jul 30 2021 18:32:07  : cansel order id:707724820
-Fri Jul 30 2021 18:32:07  : переставили ttp ордер
-Fri Jul 30 2021 18:32:07  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:08  : переставили ttp ордер
-Fri Jul 30 2021 18:32:09  : cansel order id:707724937
-Fri Jul 30 2021 18:32:10  : переставили ttp ордер
-Fri Jul 30 2021 18:32:10  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:10  : переставили ttp ордер
-Fri Jul 30 2021 18:32:11  : cansel order id:707725031
-Fri Jul 30 2021 18:32:12  : переставили ttp ордер
-Fri Jul 30 2021 18:32:12  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:12  : переставили ttp ордер
-Fri Jul 30 2021 18:32:17  : cansel order id:707725095
-Fri Jul 30 2021 18:32:18  : переставили ttp ордер
-Fri Jul 30 2021 18:32:18  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:18  : переставили ttp ордер
-Fri Jul 30 2021 18:32:18  : cansel order id:707725466
-Fri Jul 30 2021 18:32:19  : переставили ttp ордер
-Fri Jul 30 2021 18:32:19  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:20  : переставили ttp ордер
-Fri Jul 30 2021 18:32:21  : cansel order id:707725567
-Fri Jul 30 2021 18:32:22  : переставили ttp ордер
-Fri Jul 30 2021 18:32:22  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:32:23  : переставили ttp ордер
-Fri Jul 30 2021 18:33:24  : cansel order id:707725755
-Fri Jul 30 2021 18:33:25  : переставили ttp ордер
-Fri Jul 30 2021 18:33:25  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:26  : переставили ttp ордер
-Fri Jul 30 2021 18:33:26  : cansel order id:707727459
-Fri Jul 30 2021 18:33:27  : переставили ttp ордер
-Fri Jul 30 2021 18:33:27  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:28  : переставили ttp ордер
-Fri Jul 30 2021 18:33:39  : cansel order id:707727483
-Fri Jul 30 2021 18:33:40  : переставили ttp ордер
-Fri Jul 30 2021 18:33:40  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:41  : переставили ttp ордер
-Fri Jul 30 2021 18:33:41  : cansel order id:707728127
-Fri Jul 30 2021 18:33:41  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.42
-Fri Jul 30 2021 18:33:41  : переставили ttp ордер
-Fri Jul 30 2021 18:33:41  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:42  : Выставлен ордер - 707728304
-Fri Jul 30 2021 18:33:42  : переставили ttp ордер
-Fri Jul 30 2021 18:33:42  : cansel order id:707728308
-Fri Jul 30 2021 18:33:43  : Ордер на покупку исполнен, ID - 707728304
-Fri Jul 30 2021 18:33:43  : переставили ttp ордер
-Fri Jul 30 2021 18:33:43  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:43  : переставили ttp ордер
-Fri Jul 30 2021 18:33:43  : cansel order id:707728413
-Fri Jul 30 2021 18:33:44  : переставили ttp ордер
-Fri Jul 30 2021 18:33:44  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:45  : переставили ttp ордер
-Fri Jul 30 2021 18:33:47  : cansel order id:707728496
-Fri Jul 30 2021 18:33:48  : переставили ttp ордер
-Fri Jul 30 2021 18:33:48  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:48  : Длительноть трека -949
-Fri Jul 30 2021 18:33:49  : переставили ttp ордер
-Fri Jul 30 2021 18:33:49  : cansel order id:707728695
-Fri Jul 30 2021 18:33:50  : переставили ttp ордер
-Fri Jul 30 2021 18:33:50  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:50  : переставили ttp ордер
-Fri Jul 30 2021 18:33:50  : cansel order id:707728778
-Fri Jul 30 2021 18:33:51  : переставили ttp ордер
-Fri Jul 30 2021 18:33:51  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:52  : переставили ttp ордер
-Fri Jul 30 2021 18:33:52  : cansel order id:707728862
-Fri Jul 30 2021 18:33:53  : переставили ttp ордер
-Fri Jul 30 2021 18:33:53  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:53  : переставили ttp ордер
-Fri Jul 30 2021 18:33:53  : cansel order id:707729047
-Fri Jul 30 2021 18:33:55  : переставили ttp ордер
-Fri Jul 30 2021 18:33:55  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:55  : переставили ttp ордер
-Fri Jul 30 2021 18:33:55  : cansel order id:707729159
-Fri Jul 30 2021 18:33:56  : переставили ttp ордер
-Fri Jul 30 2021 18:33:56  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:56  : переставили ttp ордер
-Fri Jul 30 2021 18:33:56  : cansel order id:707729237
-Fri Jul 30 2021 18:33:57  : переставили ttp ордер
-Fri Jul 30 2021 18:33:57  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:33:58  : переставили ttp ордер
-Fri Jul 30 2021 18:33:58  : cansel order id:707729414
-Fri Jul 30 2021 18:33:59  : переставили ttp ордер
-Fri Jul 30 2021 18:33:59  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:00  : переставили ttp ордер
-Fri Jul 30 2021 18:34:01  : cansel order id:707729609
-Fri Jul 30 2021 18:34:02  : переставили ttp ордер
-Fri Jul 30 2021 18:34:02  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:03  : переставили ttp ордер
-Fri Jul 30 2021 18:34:11  : cansel order id:707729772
-Fri Jul 30 2021 18:34:12  : переставили ttp ордер
-Fri Jul 30 2021 18:34:12  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:13  : переставили ttp ордер
-Fri Jul 30 2021 18:34:13  : cansel order id:707730155
-Fri Jul 30 2021 18:34:13  : переставили ttp ордер
-Fri Jul 30 2021 18:34:13  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:14  : переставили ttp ордер
-Fri Jul 30 2021 18:34:17  : cansel order id:707730263
-Fri Jul 30 2021 18:34:18  : переставили ttp ордер
-Fri Jul 30 2021 18:34:18  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:19  : переставили ttp ордер
-Fri Jul 30 2021 18:34:19  : cansel order id:707730512
-Fri Jul 30 2021 18:34:20  : переставили ttp ордер
-Fri Jul 30 2021 18:34:20  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:20  : переставили ttp ордер
-Fri Jul 30 2021 18:34:22  : cansel order id:707730691
-Fri Jul 30 2021 18:34:24  : переставили ttp ордер
-Fri Jul 30 2021 18:34:24  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:24  : переставили ttp ордер
-Fri Jul 30 2021 18:34:25  : cansel order id:707730873
-Fri Jul 30 2021 18:34:26  : переставили ttp ордер
-Fri Jul 30 2021 18:34:26  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:27  : переставили ttp ордер
-Fri Jul 30 2021 18:34:41  : cansel order id:707731026
-Fri Jul 30 2021 18:34:41  : переставили ttp ордер
-Fri Jul 30 2021 18:34:41  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:42  : переставили ttp ордер
-Fri Jul 30 2021 18:34:44  : cansel order id:707731676
-Fri Jul 30 2021 18:34:45  : переставили ttp ордер
-Fri Jul 30 2021 18:34:45  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:34:46  : переставили ttp ордер
-Fri Jul 30 2021 18:35:41  : Длительноть трека -1082
-Fri Jul 30 2021 18:36:43  : cansel order id:707731832
-Fri Jul 30 2021 18:36:43  : переставили ttp ордер
-Fri Jul 30 2021 18:36:43  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:44  : переставили ttp ордер
-Fri Jul 30 2021 18:36:44  : cansel order id:707735445
-Fri Jul 30 2021 18:36:45  : переставили ttp ордер
-Fri Jul 30 2021 18:36:45  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:45  : переставили ttp ордер
-Fri Jul 30 2021 18:36:45  : cansel order id:707735593
-Fri Jul 30 2021 18:36:46  : переставили ttp ордер
-Fri Jul 30 2021 18:36:46  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:46  : переставили ttp ордер
-Fri Jul 30 2021 18:36:47  : cansel order id:707735665
-Fri Jul 30 2021 18:36:48  : переставили ttp ордер
-Fri Jul 30 2021 18:36:48  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:48  : переставили ttp ордер
-Fri Jul 30 2021 18:36:49  : cansel order id:707735784
-Fri Jul 30 2021 18:36:50  : переставили ttp ордер
-Fri Jul 30 2021 18:36:50  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:51  : переставили ttp ордер
-Fri Jul 30 2021 18:36:52  : cansel order id:707735927
-Fri Jul 30 2021 18:36:52  : переставили ttp ордер
-Fri Jul 30 2021 18:36:52  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:53  : переставили ttp ордер
-Fri Jul 30 2021 18:36:54  : cansel order id:707736251
-Fri Jul 30 2021 18:36:54  : переставили ttp ордер
-Fri Jul 30 2021 18:36:54  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:56  : переставили ttp ордер
-Fri Jul 30 2021 18:36:56  : cansel order id:707736468
-Fri Jul 30 2021 18:36:56  : переставили ttp ордер
-Fri Jul 30 2021 18:36:56  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:57  : переставили ttp ордер
-Fri Jul 30 2021 18:36:58  : cansel order id:707736633
-Fri Jul 30 2021 18:36:58  : переставили ttp ордер
-Fri Jul 30 2021 18:36:58  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:36:59  : переставили ttp ордер
-Fri Jul 30 2021 18:36:59  : cansel order id:707736751
-Fri Jul 30 2021 18:36:59  : переставили ttp ордер
-Fri Jul 30 2021 18:36:59  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:00  : переставили ttp ордер
-Fri Jul 30 2021 18:37:00  : cansel order id:707736871
-Fri Jul 30 2021 18:37:01  : переставили ttp ордер
-Fri Jul 30 2021 18:37:01  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:02  : переставили ttp ордер
-Fri Jul 30 2021 18:37:02  : cansel order id:707737015
-Fri Jul 30 2021 18:37:03  : переставили ttp ордер
-Fri Jul 30 2021 18:37:03  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:03  : переставили ttp ордер
-Fri Jul 30 2021 18:37:04  : cansel order id:707737108
-Fri Jul 30 2021 18:37:05  : переставили ttp ордер
-Fri Jul 30 2021 18:37:05  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:05  : переставили ttp ордер
-Fri Jul 30 2021 18:37:08  : Длительноть трека -1043
-Fri Jul 30 2021 18:37:08  : cansel order id:707737334
-Fri Jul 30 2021 18:37:08  : cansel order id:707737334
-Fri Jul 30 2021 18:37:09  : переставили ttp ордер
-Fri Jul 30 2021 18:37:09  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:09  : переставили ttp ордер
-Fri Jul 30 2021 18:37:24  : cansel order id:707737924
-Fri Jul 30 2021 18:37:24  : переставили ttp ордер
-Fri Jul 30 2021 18:37:24  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:25  : переставили ttp ордер
-Fri Jul 30 2021 18:37:26  : cansel order id:707738565
-Fri Jul 30 2021 18:37:27  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.414
-Fri Jul 30 2021 18:37:27  : переставили ttp ордер
-Fri Jul 30 2021 18:37:27  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:27  : Выставлен ордер - 707738853
-Fri Jul 30 2021 18:37:28  : переставили ttp ордер
-Fri Jul 30 2021 18:37:28  : Ордер на покупку исполнен, ID - 707738853
-Fri Jul 30 2021 18:37:28  : cansel order id:707738897
-Fri Jul 30 2021 18:37:29  : переставили ttp ордер
-Fri Jul 30 2021 18:37:29  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:29  : переставили ttp ордер
-Fri Jul 30 2021 18:37:29  : cansel order id:707738971
-Fri Jul 30 2021 18:37:30  : переставили ttp ордер
-Fri Jul 30 2021 18:37:30  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:31  : переставили ttp ордер
-Fri Jul 30 2021 18:37:31  : cansel order id:707739084
-Fri Jul 30 2021 18:37:31  : переставили ttp ордер
-Fri Jul 30 2021 18:37:31  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:32  : переставили ttp ордер
-Fri Jul 30 2021 18:37:33  : cansel order id:707739143
-Fri Jul 30 2021 18:37:33  : переставили ttp ордер
-Fri Jul 30 2021 18:37:33  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:34  : переставили ttp ордер
-Fri Jul 30 2021 18:37:37  : cansel order id:707739242
-Fri Jul 30 2021 18:37:38  : переставили ttp ордер
-Fri Jul 30 2021 18:37:38  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:39  : переставили ttp ордер
-Fri Jul 30 2021 18:37:39  : cansel order id:707739480
-Fri Jul 30 2021 18:37:40  : переставили ttp ордер
-Fri Jul 30 2021 18:37:40  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:41  : переставили ttp ордер
-Fri Jul 30 2021 18:37:41  : cansel order id:707739582
-Fri Jul 30 2021 18:37:42  : переставили ttp ордер
-Fri Jul 30 2021 18:37:42  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:37:43  : переставили ttp ордер
-Fri Jul 30 2021 18:38:42  : Длительноть трека -993
-Fri Jul 30 2021 18:38:48  : cansel order id:707739681
-Fri Jul 30 2021 18:38:49  : переставили ttp ордер
-Fri Jul 30 2021 18:38:49  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:50  : переставили ttp ордер
-Fri Jul 30 2021 18:38:50  : cansel order id:707742498
-Fri Jul 30 2021 18:38:50  : переставили ttp ордер
-Fri Jul 30 2021 18:38:50  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:51  : переставили ttp ордер
-Fri Jul 30 2021 18:38:51  : cansel order id:707742597
-Fri Jul 30 2021 18:38:52  : переставили ttp ордер
-Fri Jul 30 2021 18:38:52  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:52  : переставили ttp ордер
-Fri Jul 30 2021 18:38:52  : cansel order id:707742720
-Fri Jul 30 2021 18:38:53  : переставили ttp ордер
-Fri Jul 30 2021 18:38:53  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:53  : переставили ttp ордер
-Fri Jul 30 2021 18:38:54  : cansel order id:707742925
-Fri Jul 30 2021 18:38:54  : переставили ttp ордер
-Fri Jul 30 2021 18:38:54  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:55  : переставили ttp ордер
-Fri Jul 30 2021 18:38:55  : cansel order id:707743096
-Fri Jul 30 2021 18:38:56  : переставили ttp ордер
-Fri Jul 30 2021 18:38:56  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:56  : переставили ttp ордер
-Fri Jul 30 2021 18:38:57  : cansel order id:707743197
-Fri Jul 30 2021 18:38:58  : переставили ttp ордер
-Fri Jul 30 2021 18:38:58  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:38:59  : переставили ttp ордер
-Fri Jul 30 2021 18:38:59  : cansel order id:707743457
-Fri Jul 30 2021 18:39:00  : переставили ttp ордер
-Fri Jul 30 2021 18:39:00  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:01  : переставили ttp ордер
-Fri Jul 30 2021 18:39:01  : cansel order id:707743661
-Fri Jul 30 2021 18:39:01  : переставили ttp ордер
-Fri Jul 30 2021 18:39:01  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:02  : переставили ttp ордер
-Fri Jul 30 2021 18:39:03  : cansel order id:707743806
-Fri Jul 30 2021 18:39:03  : переставили ttp ордер
-Fri Jul 30 2021 18:39:03  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:04  : переставили ttp ордер
-Fri Jul 30 2021 18:39:04  : cansel order id:707743938
-Fri Jul 30 2021 18:39:04  : переставили ttp ордер
-Fri Jul 30 2021 18:39:04  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:06  : переставили ttp ордер
-Fri Jul 30 2021 18:39:08  : cansel order id:707744082
-Fri Jul 30 2021 18:39:08  : переставили ttp ордер
-Fri Jul 30 2021 18:39:08  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:09  : переставили ttp ордер
-Fri Jul 30 2021 18:39:19  : cansel order id:707744441
-Fri Jul 30 2021 18:39:19  : переставили ttp ордер
-Fri Jul 30 2021 18:39:19  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:20  : переставили ttp ордер
-Fri Jul 30 2021 18:39:25  : cansel order id:707745467
-Fri Jul 30 2021 18:39:26  : переставили ttp ордер
-Fri Jul 30 2021 18:39:26  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:27  : переставили ttp ордер
-Fri Jul 30 2021 18:39:27  : cansel order id:707745813
-Fri Jul 30 2021 18:39:28  : переставили ttp ордер
-Fri Jul 30 2021 18:39:28  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:28  : переставили ttp ордер
-Fri Jul 30 2021 18:39:30  : cansel order id:707745902
-Fri Jul 30 2021 18:39:31  : переставили ttp ордер
-Fri Jul 30 2021 18:39:31  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:32  : переставили ttp ордер
-Fri Jul 30 2021 18:39:33  : cansel order id:707746167
-Fri Jul 30 2021 18:39:34  : переставили ttp ордер
-Fri Jul 30 2021 18:39:34  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:34  : переставили ttp ордер
-Fri Jul 30 2021 18:39:34  : cansel order id:707746493
-Fri Jul 30 2021 18:39:35  : переставили ttp ордер
-Fri Jul 30 2021 18:39:35  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:36  : переставили ttp ордер
-Fri Jul 30 2021 18:39:40  : cansel order id:707746759
-Fri Jul 30 2021 18:39:41  : переставили ttp ордер
-Fri Jul 30 2021 18:39:41  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:39:41  : переставили ttp ордер
-Fri Jul 30 2021 18:40:17  : cansel order id:707747317
-Fri Jul 30 2021 18:40:17  : переставили ttp ордер
-Fri Jul 30 2021 18:40:17  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:40:18  : переставили ttp ордер
-Fri Jul 30 2021 18:40:18  : cansel order id:707749051
-Fri Jul 30 2021 18:40:18  : NEOUSDT-1627490958:setbuy: price:36.721, quantity: 0.409
-Fri Jul 30 2021 18:40:19  : переставили ttp ордер
-Fri Jul 30 2021 18:40:19  : setsellNEOUSDT-1627490958
-Fri Jul 30 2021 18:40:19  : Выставлен ордер - 707749162
-Fri Jul 30 2021 18:40:20  : переставили ttp ордер
-Fri Jul 30 2021 18:40:20  : cansel order id:707749201
-Fri Jul 30 2021 18:40:20  : Ордер на покупку исполнен, ID - 707749162
+Fri Jul 30 2021 20:00:58  : Сброс к стартовым настройкам
+Fri Jul 30 2021 20:04:48  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:04:48  : Выставлен ордер - 707881413
+Fri Jul 30 2021 20:04:50  : NEOUSDT-1627490958:cansel: orderid:707881413
+Fri Jul 30 2021 20:04:51  : Ордер на покупку отменен, ID - 707881413
+Fri Jul 30 2021 20:04:58  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:04:59  : Выставлен ордер - 707881627
+Fri Jul 30 2021 20:04:59  : NEOUSDT-1627490958:cansel: orderid:707881627
+Fri Jul 30 2021 20:05:00  : Ордер на покупку отменен, ID - 707881627
+Fri Jul 30 2021 20:05:21  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:05:22  : Выставлен ордер - 707882008
+Fri Jul 30 2021 20:05:26  : NEOUSDT-1627490958:cansel: orderid:707882008
+Fri Jul 30 2021 20:05:27  : Ордер на покупку отменен, ID - 707882008
+Fri Jul 30 2021 20:05:28  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:05:29  : Выставлен ордер - 707882121
+Fri Jul 30 2021 20:06:15  : NEOUSDT-1627490958:cansel: orderid:707882121
+Fri Jul 30 2021 20:06:16  : Ордер на покупку отменен, ID - 707882121
+Fri Jul 30 2021 20:06:17  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:06:18  : Выставлен ордер - 707883164
+Fri Jul 30 2021 20:06:20  : NEOUSDT-1627490958:cansel: orderid:707883164
+Fri Jul 30 2021 20:06:20  : Ордер на покупку отменен, ID - 707883164
+Fri Jul 30 2021 20:06:31  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:06:31  : Выставлен ордер - 707883377
+Fri Jul 30 2021 20:06:42  : NEOUSDT-1627490958:cansel: orderid:707883377
+Fri Jul 30 2021 20:06:42  : Ордер на покупку отменен, ID - 707883377
+Fri Jul 30 2021 20:06:45  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.417
+Fri Jul 30 2021 20:06:45  : Выставлен ордер - 707883547
+Fri Jul 30 2021 20:10:21  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.414
+Fri Jul 30 2021 20:10:21  : Выставлен ордер - 707887451
+Fri Jul 30 2021 20:10:22  : Ордер на покупку исполнен, ID - 707887451
+Fri Jul 30 2021 20:12:13  : NEOUSDT-1627490958:cansel: orderid:707883547
+Fri Jul 30 2021 20:12:13  : Ордер на покупку отменен, ID - 707883547
+Fri Jul 30 2021 20:14:46  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:14:47  : Выставлен ордер - 707895609
+Fri Jul 30 2021 20:14:47  : NEOUSDT-1627490958:cansel: orderid:707895609
+Fri Jul 30 2021 20:14:48  : Ордер на покупку отменен, ID - 707895609
+Fri Jul 30 2021 20:14:50  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:14:50  : Выставлен ордер - 707895723
+Fri Jul 30 2021 20:17:54  : NEOUSDT-1627490958:cansel: orderid:707895723
+Fri Jul 30 2021 20:17:54  : Ордер на покупку отменен, ID - 707895723
+Fri Jul 30 2021 20:17:58  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:17:59  : Выставлен ордер - 707898977
+Fri Jul 30 2021 20:20:45  : NEOUSDT-1627490958:cansel: orderid:707898977
+Fri Jul 30 2021 20:20:46  : Ордер на покупку отменен, ID - 707898977
+Fri Jul 30 2021 20:23:52  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:23:53  : Выставлен ордер - 707904857
+Fri Jul 30 2021 20:23:56  : NEOUSDT-1627490958:cansel: orderid:707904857
+Fri Jul 30 2021 20:23:56  : Ордер на покупку отменен, ID - 707904857
+Fri Jul 30 2021 20:23:58  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:23:58  : Выставлен ордер - 707904992
+Fri Jul 30 2021 20:24:20  : NEOUSDT-1627490958:cansel: orderid:707904992
+Fri Jul 30 2021 20:24:21  : Ордер на покупку отменен, ID - 707904992
+Fri Jul 30 2021 20:24:50  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:24:51  : Выставлен ордер - 707905677
+Fri Jul 30 2021 20:24:54  : NEOUSDT-1627490958:cansel: orderid:707905677
+Fri Jul 30 2021 20:24:55  : Ордер на покупку отменен, ID - 707905677
+Fri Jul 30 2021 20:25:02  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:25:02  : Выставлен ордер - 707905892
+Fri Jul 30 2021 20:25:09  : NEOUSDT-1627490958:cansel: orderid:707905892
+Fri Jul 30 2021 20:25:10  : Ордер на покупку отменен, ID - 707905892
+Fri Jul 30 2021 20:25:29  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.416
+Fri Jul 30 2021 20:25:30  : Выставлен ордер - 707906371
+Fri Jul 30 2021 20:25:34  : NEOUSDT-1627490958:cansel: orderid:707906371
+Fri Jul 30 2021 20:25:35  : Ордер на покупку отменен, ID - 707906371
+Fri Jul 30 2021 20:25:37  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:25:38  : Выставлен ордер - 707906524
+Fri Jul 30 2021 20:26:43  : NEOUSDT-1627490958:cansel: orderid:707906524
+Fri Jul 30 2021 20:26:43  : Ордер на покупку отменен, ID - 707906524
+Fri Jul 30 2021 20:26:44  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:26:44  : Выставлен ордер - 707908515
+Fri Jul 30 2021 20:27:10  : NEOUSDT-1627490958:cansel: orderid:707908515
+Fri Jul 30 2021 20:27:11  : Ордер на покупку отменен, ID - 707908515
+Fri Jul 30 2021 20:27:16  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:27:17  : Выставлен ордер - 707908846
+Fri Jul 30 2021 20:27:19  : NEOUSDT-1627490958:cansel: orderid:707908846
+Fri Jul 30 2021 20:27:20  : Ордер на покупку отменен, ID - 707908846
+Fri Jul 30 2021 20:27:21  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:27:21  : Выставлен ордер - 707908930
+Fri Jul 30 2021 20:27:23  : NEOUSDT-1627490958:cansel: orderid:707908930
+Fri Jul 30 2021 20:27:24  : Ордер на покупку отменен, ID - 707908930
+Fri Jul 30 2021 20:27:37  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:27:37  : Выставлен ордер - 707909058
+Fri Jul 30 2021 20:27:47  : NEOUSDT-1627490958:cansel: orderid:707909058
+Fri Jul 30 2021 20:27:48  : Ордер на покупку отменен, ID - 707909058
+Fri Jul 30 2021 20:28:45  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:28:46  : Выставлен ордер - 707910087
+Fri Jul 30 2021 20:28:53  : NEOUSDT-1627490958:cansel: orderid:707910087
+Fri Jul 30 2021 20:28:54  : Ордер на покупку отменен, ID - 707910087
+Fri Jul 30 2021 20:30:31  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.416
+Fri Jul 30 2021 20:30:32  : Выставлен ордер - 707911673
+Fri Jul 30 2021 20:30:40  : NEOUSDT-1627490958:cansel: orderid:707911673
+Fri Jul 30 2021 20:30:41  : Ордер на покупку отменен, ID - 707911673
+Fri Jul 30 2021 20:30:41  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:30:42  : Выставлен ордер - 707911880
+Fri Jul 30 2021 20:32:15  : NEOUSDT-1627490958:cansel: orderid:707911880
+Fri Jul 30 2021 20:32:16  : Ордер на покупку отменен, ID - 707911880
+Fri Jul 30 2021 20:32:28  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:32:29  : Выставлен ордер - 707912975
+Fri Jul 30 2021 20:34:43  : NEOUSDT-1627490958:cansel: orderid:707912975
+Fri Jul 30 2021 20:34:43  : Ордер на покупку отменен, ID - 707912975
+Fri Jul 30 2021 20:34:54  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:34:55  : Выставлен ордер - 707915185
+Fri Jul 30 2021 20:34:56  : NEOUSDT-1627490958:cansel: orderid:707915185
+Fri Jul 30 2021 20:34:56  : Ордер на покупку отменен, ID - 707915185
+Fri Jul 30 2021 20:35:03  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:35:03  : Выставлен ордер - 707915278
+Fri Jul 30 2021 20:35:04  : NEOUSDT-1627490958:cansel: orderid:707915278
+Fri Jul 30 2021 20:35:05  : Ордер на покупку отменен, ID - 707915278
+Fri Jul 30 2021 20:35:08  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:35:10  : Выставлен ордер - 707915377
+Fri Jul 30 2021 20:36:40  : NEOUSDT-1627490958:cansel: orderid:707915377
+Fri Jul 30 2021 20:36:41  : Ордер на покупку отменен, ID - 707915377
+Fri Jul 30 2021 20:39:54  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:39:55  : Выставлен ордер - 707919488
+Fri Jul 30 2021 20:39:55  : NEOUSDT-1627490958:cansel: orderid:707919488
+Fri Jul 30 2021 20:39:56  : Ордер на покупку отменен, ID - 707919488
+Fri Jul 30 2021 20:40:09  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:40:10  : Выставлен ордер - 707919666
+Fri Jul 30 2021 20:40:40  : NEOUSDT-1627490958:cansel: orderid:707919666
+Fri Jul 30 2021 20:40:41  : Ордер на покупку отменен, ID - 707919666
+Fri Jul 30 2021 20:40:53  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:40:53  : Выставлен ордер - 707920148
+Fri Jul 30 2021 20:41:18  : NEOUSDT-1627490958:cansel: orderid:707920148
+Fri Jul 30 2021 20:41:19  : Ордер на покупку отменен, ID - 707920148
+Fri Jul 30 2021 20:41:23  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:41:24  : Выставлен ордер - 707920531
+Fri Jul 30 2021 20:41:25  : NEOUSDT-1627490958:cansel: orderid:707920531
+Fri Jul 30 2021 20:41:26  : Ордер на покупку отменен, ID - 707920531
+Fri Jul 30 2021 20:41:34  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:41:35  : Выставлен ордер - 707920623
+Fri Jul 30 2021 20:42:52  : NEOUSDT-1627490958:cansel: orderid:707920623
+Fri Jul 30 2021 20:42:52  : Ордер на покупку отменен, ID - 707920623
+Fri Jul 30 2021 20:43:02  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:43:03  : Выставлен ордер - 707921395
+Fri Jul 30 2021 20:43:43  : NEOUSDT-1627490958:cansel: orderid:707921395
+Fri Jul 30 2021 20:43:44  : Ордер на покупку отменен, ID - 707921395
+Fri Jul 30 2021 20:44:48  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:44:50  : Выставлен ордер - 707922556
+Fri Jul 30 2021 20:44:50  : Длительноть трека -1985
+Fri Jul 30 2021 20:44:56  : NEOUSDT-1627490958:cansel: orderid:707922556
+Fri Jul 30 2021 20:44:57  : Ордер на покупку отменен, ID - 707922556
+Fri Jul 30 2021 20:44:58  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:44:59  : Выставлен ордер - 707922662
+Fri Jul 30 2021 20:45:25  : NEOUSDT-1627490958:cansel: orderid:707922662
+Fri Jul 30 2021 20:45:25  : Ордер на покупку отменен, ID - 707922662
+Fri Jul 30 2021 20:45:54  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:45:55  : Выставлен ордер - 707923163
+Fri Jul 30 2021 20:45:55  : NEOUSDT-1627490958:cansel: orderid:707923163
+Fri Jul 30 2021 20:45:56  : Ордер на покупку отменен, ID - 707923163
+Fri Jul 30 2021 20:45:56  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:45:57  : Выставлен ордер - 707923195
+Fri Jul 30 2021 20:46:00  : NEOUSDT-1627490958:cansel: orderid:707923195
+Fri Jul 30 2021 20:46:01  : Ордер на покупку отменен, ID - 707923195
+Fri Jul 30 2021 20:49:11  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 20:49:12  : Выставлен ордер - 707925010
+Fri Jul 30 2021 20:53:32  : NEOUSDT-1627490958:cansel: orderid:707925010
+Fri Jul 30 2021 20:53:32  : Ордер на покупку отменен, ID - 707925010
+Fri Jul 30 2021 21:17:30  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 21:17:31  : Выставлен ордер - 707946714
+Fri Jul 30 2021 21:17:37  : NEOUSDT-1627490958:cansel: orderid:707946714
+Fri Jul 30 2021 21:17:38  : Ордер на покупку отменен, ID - 707946714
+Fri Jul 30 2021 21:17:39  : NEOUSDT-1627490958:setbuy: price:35.749, quantity: 0.415
+Fri Jul 30 2021 21:17:40  : Выставлен ордер - 707946924
+Fri Jul 30 2021 21:19:10  : NEOUSDT-1627490958:cansel: orderid:707946924
+Fri Jul 30 2021 21:19:10  : Ордер на покупку отменен, ID - 707946924
+Fri Jul 30 2021 21:35:35  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:35:37  : выставили ttp ордер
+Fri Jul 30 2021 21:35:37  : cansel order id:707961118
+Fri Jul 30 2021 21:35:37  : cansel order id:707961118
+Fri Jul 30 2021 21:35:38  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:35:38  : переставили ttp ордер, q=0.414
+Fri Jul 30 2021 21:35:39  : ttp finish on 36.31100000
+Fri Jul 30 2021 21:35:39  : регистрация сделки - 36.232,36.311,0.414,0.032706000000000256,0.0225246015,0.010181398500000254
+Fri Jul 30 2021 21:35:39  : регистрация сделки
+Fri Jul 30 2021 21:35:39  : сброс ттп
+Fri Jul 30 2021 21:35:39  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.413
+Fri Jul 30 2021 21:35:41  : Выставлен ордер - 707961933
+Fri Jul 30 2021 21:39:06  : NEOUSDT-1627490958:cansel: orderid:707961933
+Fri Jul 30 2021 21:39:07  : Ордер на покупку отменен, ID - 707961933
+Fri Jul 30 2021 21:39:07  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:39:08  : Выставлен ордер - 707967395
+Fri Jul 30 2021 21:40:02  : NEOUSDT-1627490958:cansel: orderid:707967395
+Fri Jul 30 2021 21:40:03  : Ордер на покупку отменен, ID - 707967395
+Fri Jul 30 2021 21:40:07  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:40:07  : Выставлен ордер - 707968206
+Fri Jul 30 2021 21:40:22  : NEOUSDT-1627490958:cansel: orderid:707968206
+Fri Jul 30 2021 21:40:23  : Ордер на покупку отменен, ID - 707968206
+Fri Jul 30 2021 21:40:25  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:40:26  : Выставлен ордер - 707968515
+Fri Jul 30 2021 21:41:18  : NEOUSDT-1627490958:cansel: orderid:707968515
+Fri Jul 30 2021 21:41:18  : Ордер на покупку отменен, ID - 707968515
+Fri Jul 30 2021 21:42:17  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:42:17  : Выставлен ордер - 707970228
+Fri Jul 30 2021 21:42:21  : NEOUSDT-1627490958:cansel: orderid:707970228
+Fri Jul 30 2021 21:42:22  : Ордер на покупку отменен, ID - 707970228
+Fri Jul 30 2021 21:42:44  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:42:45  : Выставлен ордер - 707970577
+Fri Jul 30 2021 21:42:45  : NEOUSDT-1627490958:cansel: orderid:707970577
+Fri Jul 30 2021 21:42:46  : Ордер на покупку отменен, ID - 707970577
+Fri Jul 30 2021 21:42:56  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:42:57  : Выставлен ордер - 707970756
+Fri Jul 30 2021 21:43:55  : NEOUSDT-1627490958:cansel: orderid:707970756
+Fri Jul 30 2021 21:43:55  : Ордер на покупку отменен, ID - 707970756
+Fri Jul 30 2021 21:43:57  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.41
+Fri Jul 30 2021 21:43:58  : Выставлен ордер - 707971319
+Fri Jul 30 2021 21:43:58  : NEOUSDT-1627490958:cansel: orderid:707971319
+Fri Jul 30 2021 21:43:58  : Ордер на покупку отменен, ID - 707971319
+Fri Jul 30 2021 21:47:10  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.411
+Fri Jul 30 2021 21:47:10  : Выставлен ордер - 707974138
+Fri Jul 30 2021 21:47:11  : NEOUSDT-1627490958:cansel: orderid:707974138
+Fri Jul 30 2021 21:47:12  : Ордер на покупку отменен, ID - 707974138
+Fri Jul 30 2021 21:47:25  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.411
+Fri Jul 30 2021 21:47:26  : Выставлен ордер - 707974266
+Fri Jul 30 2021 21:47:53  : NEOUSDT-1627490958:cansel: orderid:707974266
+Fri Jul 30 2021 21:47:54  : Ордер на покупку отменен, ID - 707974266
+Fri Jul 30 2021 21:51:11  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.412
+Fri Jul 30 2021 21:51:12  : Выставлен ордер - 707976843
+Fri Jul 30 2021 21:52:48  : NEOUSDT-1627490958:cansel: orderid:707976843
+Fri Jul 30 2021 21:52:48  : Ордер на покупку отменен, ID - 707976843
+Fri Jul 30 2021 21:52:49  : NEOUSDT-1627490958:setbuy: price:36.232, quantity: 0.411
+Fri Jul 30 2021 21:52:50  : Выставлен ордер - 707978999
+Fri Jul 30 2021 21:53:53  : NEOUSDT-1627490958:setbuy: price:36.721, quantity: 0.409
+Fri Jul 30 2021 21:53:54  : Выставлен ордер - 707980297
+Fri Jul 30 2021 21:53:57  : Ордер на покупку исполнен, ID - 707980297
+Fri Jul 30 2021 21:55:17  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:55:18  : выставили ttp ордер
+Fri Jul 30 2021 21:55:18  : cansel order id:707984753
+Fri Jul 30 2021 21:55:19  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:55:19  : переставили ttp ордер, q=0.409
+Fri Jul 30 2021 21:55:19  : cansel order id:707985242
+Fri Jul 30 2021 21:55:20  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:55:22  : переставили ttp ордер, q=0.409
+Fri Jul 30 2021 21:55:22  : ttp finish on 36.98700000
+Fri Jul 30 2021 21:55:22  : регистрация сделки - 36.721,36.987,0.409,0.10879400000000218,0.022609928999999997,0.08618407100000218
+Fri Jul 30 2021 21:55:22  : регистрация сделки
+Fri Jul 30 2021 21:55:22  : сброс ттп
+Fri Jul 30 2021 21:55:24  : NEOUSDT-1627490958:setbuy: price:36.721, quantity: 0.405
+Fri Jul 30 2021 21:55:25  : Выставлен ордер - 707986818
+Fri Jul 30 2021 21:57:01  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.403
+Fri Jul 30 2021 21:57:01  : Выставлен ордер - 707993201
+Fri Jul 30 2021 21:57:11  : Ордер на покупку исполнен, ID - 707993201
+Fri Jul 30 2021 21:59:02  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:59:02  : выставили ttp ордер
+Fri Jul 30 2021 21:59:03  : cansel order id:708002785
+Fri Jul 30 2021 21:59:04  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:59:04  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 21:59:08  : cansel order id:708003553
+Fri Jul 30 2021 21:59:08  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:59:09  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 21:59:09  : cansel order id:708004353
+Fri Jul 30 2021 21:59:09  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:59:10  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 21:59:47  : cansel order id:708004584
+Fri Jul 30 2021 21:59:47  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:59:48  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 21:59:57  : cansel order id:708006633
+Fri Jul 30 2021 21:59:58  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 21:59:58  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 22:00:09  : ttp finish on 37.36400000
+Fri Jul 30 2021 22:00:09  : регистрация сделки - 37.216,37.364,0.403,0.05964399999999845,0.022541804999999998,0.03710219499999845
+Fri Jul 30 2021 22:00:09  : регистрация сделки
+Fri Jul 30 2021 22:00:09  : сброс ттп
+Fri Jul 30 2021 22:00:14  : NEOUSDT-1627490958:cansel: orderid:707978999
+Fri Jul 30 2021 22:00:14  : NEOUSDT-1627490958:cansel: orderid:707986818
+Fri Jul 30 2021 22:00:15  : Ордер на покупку отменен, ID - 707986818
+Fri Jul 30 2021 22:00:15  : Ордер на покупку отменен, ID - 707978999
+Fri Jul 30 2021 22:00:16  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.402
+Fri Jul 30 2021 22:00:17  : Выставлен ордер - 708008645
+Fri Jul 30 2021 22:00:18  : NEOUSDT-1627490958:cansel: orderid:708008645
+Fri Jul 30 2021 22:00:19  : Ордер на покупку отменен, ID - 708008645
+Fri Jul 30 2021 22:00:23  : Ордер на покупку отменен, ID - 707986818
+Fri Jul 30 2021 22:00:41  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:00:41  : Выставлен ордер - 708009906
+Fri Jul 30 2021 22:00:54  : NEOUSDT-1627490958:cansel: orderid:708009906
+Fri Jul 30 2021 22:00:54  : Ордер на покупку отменен, ID - 708009906
+Fri Jul 30 2021 22:00:55  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:00:55  : Выставлен ордер - 708010614
+Fri Jul 30 2021 22:00:56  : NEOUSDT-1627490958:cansel: orderid:708010614
+Fri Jul 30 2021 22:00:56  : Ордер на покупку отменен, ID - 708010614
+Fri Jul 30 2021 22:00:57  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:00:58  : Выставлен ордер - 708010707
+Fri Jul 30 2021 22:01:04  : NEOUSDT-1627490958:cansel: orderid:708010707
+Fri Jul 30 2021 22:01:04  : Ордер на покупку отменен, ID - 708010707
+Fri Jul 30 2021 22:01:04  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:05  : Выставлен ордер - 708011037
+Fri Jul 30 2021 22:01:05  : NEOUSDT-1627490958:cansel: orderid:708011037
+Fri Jul 30 2021 22:01:06  : Ордер на покупку отменен, ID - 708011037
+Fri Jul 30 2021 22:01:09  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:09  : Выставлен ордер - 708011203
+Fri Jul 30 2021 22:01:12  : NEOUSDT-1627490958:cansel: orderid:708011203
+Fri Jul 30 2021 22:01:12  : Ордер на покупку отменен, ID - 708011203
+Fri Jul 30 2021 22:01:15  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:15  : Выставлен ордер - 708011399
+Fri Jul 30 2021 22:01:19  : NEOUSDT-1627490958:cansel: orderid:708011399
+Fri Jul 30 2021 22:01:20  : Ордер на покупку отменен, ID - 708011399
+Fri Jul 30 2021 22:01:28  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:29  : Выставлен ордер - 708011775
+Fri Jul 30 2021 22:01:30  : NEOUSDT-1627490958:cansel: orderid:708011775
+Fri Jul 30 2021 22:01:31  : Ордер на покупку отменен, ID - 708011775
+Fri Jul 30 2021 22:01:32  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:33  : Выставлен ордер - 708011813
+Fri Jul 30 2021 22:01:35  : NEOUSDT-1627490958:cansel: orderid:708011813
+Fri Jul 30 2021 22:01:36  : Ордер на покупку отменен, ID - 708011813
+Fri Jul 30 2021 22:01:36  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:37  : Выставлен ордер - 708011883
+Fri Jul 30 2021 22:01:40  : NEOUSDT-1627490958:cansel: orderid:708011883
+Fri Jul 30 2021 22:01:40  : Ордер на покупку отменен, ID - 708011883
+Fri Jul 30 2021 22:01:47  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:01:48  : Выставлен ордер - 708012389
+Fri Jul 30 2021 22:02:40  : NEOUSDT-1627490958:cansel: orderid:708012389
+Fri Jul 30 2021 22:02:41  : Ордер на покупку отменен, ID - 708012389
+Fri Jul 30 2021 22:02:55  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:02:57  : Выставлен ордер - 708014419
+Fri Jul 30 2021 22:02:57  : NEOUSDT-1627490958:cansel: orderid:708014419
+Fri Jul 30 2021 22:02:58  : Ордер на покупку отменен, ID - 708014419
+Fri Jul 30 2021 22:02:58  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:02:59  : Выставлен ордер - 708014496
+Fri Jul 30 2021 22:02:59  : NEOUSDT-1627490958:cansel: orderid:708014496
+Fri Jul 30 2021 22:03:00  : Ордер на покупку отменен, ID - 708014496
+Fri Jul 30 2021 22:03:02  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:03:02  : Выставлен ордер - 708014592
+Fri Jul 30 2021 22:03:04  : NEOUSDT-1627490958:cansel: orderid:708014592
+Fri Jul 30 2021 22:03:05  : Ордер на покупку отменен, ID - 708014592
+Fri Jul 30 2021 22:03:11  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.401
+Fri Jul 30 2021 22:03:12  : Выставлен ордер - 708015055
+Fri Jul 30 2021 22:03:55  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.398
+Fri Jul 30 2021 22:03:55  : Выставлен ордер - 708017641
+Fri Jul 30 2021 22:03:56  : Ордер на покупку исполнен, ID - 708017641
+Fri Jul 30 2021 22:04:59  : NEOUSDT-1627490958:cansel: orderid:708015055
+Fri Jul 30 2021 22:04:59  : Ордер на покупку отменен, ID - 708015055
+Fri Jul 30 2021 22:05:02  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:05:03  : Выставлен ордер - 708021350
+Fri Jul 30 2021 22:05:03  : NEOUSDT-1627490958:cansel: orderid:708021350
+Fri Jul 30 2021 22:05:04  : Ордер на покупку отменен, ID - 708021350
+Fri Jul 30 2021 22:05:04  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:05:05  : Выставлен ордер - 708021457
+Fri Jul 30 2021 22:05:57  : NEOUSDT-1627490958:cansel: orderid:708021457
+Fri Jul 30 2021 22:05:58  : Ордер на покупку отменен, ID - 708021457
+Fri Jul 30 2021 22:09:45  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.398
+Fri Jul 30 2021 22:09:46  : Выставлен ордер - 708027083
+Fri Jul 30 2021 22:09:58  : NEOUSDT-1627490958:cansel: orderid:708027083
+Fri Jul 30 2021 22:09:59  : Ордер на покупку отменен, ID - 708027083
+Fri Jul 30 2021 22:10:17  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.398
+Fri Jul 30 2021 22:10:17  : Выставлен ордер - 708027637
+Fri Jul 30 2021 22:10:18  : NEOUSDT-1627490958:cansel: orderid:708027637
+Fri Jul 30 2021 22:10:18  : Ордер на покупку отменен, ID - 708027637
+Fri Jul 30 2021 22:10:19  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.398
+Fri Jul 30 2021 22:10:19  : Выставлен ордер - 708027659
+Fri Jul 30 2021 22:10:50  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:10:51  : выставили ttp ордер
+Fri Jul 30 2021 22:10:51  : cansel order id:708029834
+Fri Jul 30 2021 22:10:52  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:10:53  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:10:53  : cansel order id:708029909
+Fri Jul 30 2021 22:10:53  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:10:55  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:10:55  : cansel order id:708029985
+Fri Jul 30 2021 22:10:55  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:10:56  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:11  : cansel order id:708030038
+Fri Jul 30 2021 22:11:12  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:13  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:13  : cansel order id:708031007
+Fri Jul 30 2021 22:11:13  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:14  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:14  : cansel order id:708031153
+Fri Jul 30 2021 22:11:14  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:15  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:15  : cansel order id:708031243
+Fri Jul 30 2021 22:11:16  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:17  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:17  : cansel order id:708031328
+Fri Jul 30 2021 22:11:17  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:18  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:20  : cansel order id:708031408
+Fri Jul 30 2021 22:11:21  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:22  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:37  : cansel order id:708032006
+Fri Jul 30 2021 22:11:38  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:39  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:39  : cansel order id:708033729
+Fri Jul 30 2021 22:11:40  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:41  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:11:41  : cansel order id:708033808
+Fri Jul 30 2021 22:11:42  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:11:43  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:12:07  : cansel order id:708033936
+Fri Jul 30 2021 22:12:08  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:12:09  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:12:09  : cansel order id:708034932
+Fri Jul 30 2021 22:12:09  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 22:12:10  : переставили ttp ордер, q=0.398
+Fri Jul 30 2021 22:12:11  : ttp finish on 37.83700000
+Fri Jul 30 2021 22:12:11  : регистрация сделки - 37.719,37.837,0.398,0.04696400000000084,0.022553466000000005,0.024410534000000834
+Fri Jul 30 2021 22:12:11  : регистрация сделки
+Fri Jul 30 2021 22:12:11  : сброс ттп
+Fri Jul 30 2021 22:12:14  : NEOUSDT-1627490958:cansel: orderid:708027659
+Fri Jul 30 2021 22:12:15  : Ордер на покупку отменен, ID - 708027659
+Fri Jul 30 2021 22:12:17  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:12:18  : Выставлен ордер - 708036408
+Fri Jul 30 2021 22:12:18  : NEOUSDT-1627490958:cansel: orderid:708036408
+Fri Jul 30 2021 22:12:19  : Ордер на покупку отменен, ID - 708036408
+Fri Jul 30 2021 22:12:19  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:12:20  : Выставлен ордер - 708036562
+Fri Jul 30 2021 22:12:33  : NEOUSDT-1627490958:cansel: orderid:708036562
+Fri Jul 30 2021 22:12:34  : Ордер на покупку отменен, ID - 708036562
+Fri Jul 30 2021 22:12:34  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:12:35  : Выставлен ордер - 708037181
+Fri Jul 30 2021 22:12:35  : NEOUSDT-1627490958:cansel: orderid:708037181
+Fri Jul 30 2021 22:12:36  : Ордер на покупку отменен, ID - 708037181
+Fri Jul 30 2021 22:12:38  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:12:39  : Выставлен ордер - 708037333
+Fri Jul 30 2021 22:12:45  : NEOUSDT-1627490958:cansel: orderid:708037333
+Fri Jul 30 2021 22:12:45  : Ордер на покупку отменен, ID - 708037333
+Fri Jul 30 2021 22:12:55  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.395
+Fri Jul 30 2021 22:12:55  : Выставлен ордер - 708037925
+Fri Jul 30 2021 22:12:56  : NEOUSDT-1627490958:cansel: orderid:708037925
+Fri Jul 30 2021 22:12:58  : Ордер на покупку отменен, ID - 708037925
+Fri Jul 30 2021 22:14:32  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:14:32  : Выставлен ордер - 708040871
+Fri Jul 30 2021 22:14:39  : NEOUSDT-1627490958:cansel: orderid:708040871
+Fri Jul 30 2021 22:14:40  : Ордер на покупку отменен, ID - 708040871
+Fri Jul 30 2021 22:14:43  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:14:44  : Выставлен ордер - 708041145
+Fri Jul 30 2021 22:15:13  : NEOUSDT-1627490958:cansel: orderid:708041145
+Fri Jul 30 2021 22:15:14  : Ордер на покупку отменен, ID - 708041145
+Fri Jul 30 2021 22:15:36  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:15:37  : Выставлен ордер - 708042964
+Fri Jul 30 2021 22:15:38  : NEOUSDT-1627490958:cansel: orderid:708042964
+Fri Jul 30 2021 22:15:38  : Ордер на покупку отменен, ID - 708042964
+Fri Jul 30 2021 22:15:39  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:15:40  : Выставлен ордер - 708043023
+Fri Jul 30 2021 22:15:40  : NEOUSDT-1627490958:cansel: orderid:708043023
+Fri Jul 30 2021 22:15:40  : Ордер на покупку отменен, ID - 708043023
+Fri Jul 30 2021 22:15:46  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.397
+Fri Jul 30 2021 22:15:47  : Выставлен ордер - 708043235
+Fri Jul 30 2021 22:15:55  : NEOUSDT-1627490958:cansel: orderid:708043235
+Fri Jul 30 2021 22:15:56  : Ордер на покупку отменен, ID - 708043235
+Fri Jul 30 2021 22:15:57  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:15:58  : Выставлен ордер - 708043618
+Fri Jul 30 2021 22:16:15  : NEOUSDT-1627490958:cansel: orderid:708043618
+Fri Jul 30 2021 22:16:16  : Ордер на покупку отменен, ID - 708043618
+Fri Jul 30 2021 22:16:16  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:16:17  : Выставлен ордер - 708043990
+Fri Jul 30 2021 22:16:19  : NEOUSDT-1627490958:cansel: orderid:708043990
+Fri Jul 30 2021 22:16:20  : Ордер на покупку отменен, ID - 708043990
+Fri Jul 30 2021 22:16:23  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:16:23  : Выставлен ордер - 708044151
+Fri Jul 30 2021 22:16:47  : NEOUSDT-1627490958:cansel: orderid:708044151
+Fri Jul 30 2021 22:16:48  : Ордер на покупку отменен, ID - 708044151
+Fri Jul 30 2021 22:16:49  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:16:49  : Выставлен ордер - 708044736
+Fri Jul 30 2021 22:17:50  : NEOUSDT-1627490958:cansel: orderid:708044736
+Fri Jul 30 2021 22:17:50  : Ордер на покупку отменен, ID - 708044736
+Fri Jul 30 2021 22:17:52  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:17:52  : Выставлен ордер - 708046039
+Fri Jul 30 2021 22:18:03  : NEOUSDT-1627490958:cansel: orderid:708046039
+Fri Jul 30 2021 22:18:04  : Ордер на покупку отменен, ID - 708046039
+Fri Jul 30 2021 22:18:22  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.396
+Fri Jul 30 2021 22:18:22  : Выставлен ордер - 708046914
+Fri Jul 30 2021 22:18:27  : NEOUSDT-1627490958:cansel: orderid:708046914
+Fri Jul 30 2021 22:18:28  : Ордер на покупку отменен, ID - 708046914
+Fri Jul 30 2021 22:21:46  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:21:47  : Выставлен ордер - 708055371
+Fri Jul 30 2021 22:21:48  : NEOUSDT-1627490958:cansel: orderid:708055371
+Fri Jul 30 2021 22:21:48  : Ордер на покупку отменен, ID - 708055371
+Fri Jul 30 2021 22:21:51  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:21:52  : Выставлен ордер - 708055437
+Fri Jul 30 2021 22:21:52  : NEOUSDT-1627490958:cansel: orderid:708055437
+Fri Jul 30 2021 22:21:53  : Ордер на покупку отменен, ID - 708055437
+Fri Jul 30 2021 22:21:56  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:21:56  : Выставлен ордер - 708055619
+Fri Jul 30 2021 22:21:58  : NEOUSDT-1627490958:cansel: orderid:708055619
+Fri Jul 30 2021 22:21:58  : Ордер на покупку отменен, ID - 708055619
+Fri Jul 30 2021 22:21:59  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:21:59  : Выставлен ордер - 708055665
+Fri Jul 30 2021 22:22:00  : NEOUSDT-1627490958:cansel: orderid:708055665
+Fri Jul 30 2021 22:22:00  : Ордер на покупку отменен, ID - 708055665
+Fri Jul 30 2021 22:22:13  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:22:13  : Выставлен ордер - 708055985
+Fri Jul 30 2021 22:22:15  : NEOUSDT-1627490958:cansel: orderid:708055985
+Fri Jul 30 2021 22:22:15  : Ордер на покупку отменен, ID - 708055985
+Fri Jul 30 2021 22:22:29  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:22:30  : Выставлен ордер - 708056242
+Fri Jul 30 2021 22:22:33  : NEOUSDT-1627490958:cansel: orderid:708056242
+Fri Jul 30 2021 22:22:33  : Ордер на покупку отменен, ID - 708056242
+Fri Jul 30 2021 22:22:40  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:22:40  : Выставлен ордер - 708056456
+Fri Jul 30 2021 22:22:42  : NEOUSDT-1627490958:cansel: orderid:708056456
+Fri Jul 30 2021 22:22:43  : Ордер на покупку отменен, ID - 708056456
+Fri Jul 30 2021 22:22:45  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:22:45  : Выставлен ордер - 708056518
+Fri Jul 30 2021 22:22:55  : NEOUSDT-1627490958:cansel: orderid:708056518
+Fri Jul 30 2021 22:22:56  : Ордер на покупку отменен, ID - 708056518
+Fri Jul 30 2021 22:23:21  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:23:22  : Выставлен ордер - 708057254
+Fri Jul 30 2021 22:23:29  : NEOUSDT-1627490958:cansel: orderid:708057254
+Fri Jul 30 2021 22:23:30  : Ордер на покупку отменен, ID - 708057254
+Fri Jul 30 2021 22:23:57  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:23:58  : Выставлен ордер - 708057732
+Fri Jul 30 2021 22:24:09  : NEOUSDT-1627490958:cansel: orderid:708057732
+Fri Jul 30 2021 22:24:10  : Ордер на покупку отменен, ID - 708057732
+Fri Jul 30 2021 22:24:10  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.399
+Fri Jul 30 2021 22:24:11  : Выставлен ордер - 708057991
+Fri Jul 30 2021 22:24:17  : NEOUSDT-1627490958:setbuy: price:37.719, quantity: 0.398
+Fri Jul 30 2021 22:24:17  : Выставлен ордер - 708058388
+Fri Jul 30 2021 22:24:18  : Ордер на покупку исполнен, ID - 708058388
+Fri Jul 30 2021 22:25:46  : NEOUSDT-1627490958:cansel: orderid:708057991
+Fri Jul 30 2021 22:25:47  : Ордер на покупку отменен, ID - 708057991
+Fri Jul 30 2021 23:01:22  : NEOUSDT-1627490958:setbuy: price:37.216, quantity: 0.403
+Fri Jul 30 2021 23:01:22  : Выставлен ордер - 708108555
+Fri Jul 30 2021 23:01:23  : Ордер на покупку исполнен, ID - 708108555
+Fri Jul 30 2021 23:04:21  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:04:22  : выставили ttp ордер
+Fri Jul 30 2021 23:04:42  : cansel order id:708113148
+Fri Jul 30 2021 23:04:43  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:04:43  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:09:06  : cansel order id:708113578
+Fri Jul 30 2021 23:09:07  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:09:08  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:09:12  : cansel order id:708116971
+Fri Jul 30 2021 23:09:14  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:09:15  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:09:18  : cansel order id:708117127
+Fri Jul 30 2021 23:09:18  : cansel order id:708117127
+Fri Jul 30 2021 23:09:19  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:09:19  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:09:27  : cansel order id:708117207
+Fri Jul 30 2021 23:09:28  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:09:29  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:09:32  : cansel order id:708117294
+Fri Jul 30 2021 23:09:33  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:09:34  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:10:02  : cansel order id:708117331
+Fri Jul 30 2021 23:10:03  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:10:03  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:10:09  : cansel order id:708117750
+Fri Jul 30 2021 23:10:09  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:10:11  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:10:11  : cansel order id:708117901
+Fri Jul 30 2021 23:10:11  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:10:12  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:10:23  : cansel order id:708117929
+Fri Jul 30 2021 23:10:25  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:10:27  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:10:32  : cansel order id:708118168
+Fri Jul 30 2021 23:10:33  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:10:33  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:10:34  : cansel order id:708118396
+Fri Jul 30 2021 23:10:34  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:10:35  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:11:03  : cansel order id:708118472
+Fri Jul 30 2021 23:11:04  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:11:05  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:11:10  : cansel order id:708119054
+Fri Jul 30 2021 23:11:10  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:11:11  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:11:11  : cansel order id:708119137
+Fri Jul 30 2021 23:11:12  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:11:12  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:12:37  : cansel order id:708119176
+Fri Jul 30 2021 23:12:38  : setsellNEOUSDT-1627490958
+Fri Jul 30 2021 23:12:39  : переставили ttp ордер, q=0.403
+Fri Jul 30 2021 23:24:27  : Сброс к стартовым настройкам

@@ -1,304 +1,2100 @@
-
-Fri Jul 30 2021 17:57:34  : Сброс к стартовым настройкам
-Fri Jul 30 2021 17:57:48  : LINKUPUSDT-1627480656:setbuy: price:1.5792, quantity: 9.48
-Fri Jul 30 2021 17:57:49  : Выставлен ордер - 162839757
-Fri Jul 30 2021 17:57:49  : Длительноть трека -1092
-Fri Jul 30 2021 17:59:05  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.38
-Fri Jul 30 2021 17:59:06  : Выставлен ордер - 162840900
-Fri Jul 30 2021 17:59:06  : Ордер на покупку исполнен, ID - 162840900
-Fri Jul 30 2021 17:59:15  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 17:59:16  : выставили ttp ордер
-Fri Jul 30 2021 17:59:16  : cansel order id:162841373
-Fri Jul 30 2021 17:59:16  : переставили ttp ордер
-Fri Jul 30 2021 17:59:16  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 17:59:17  : переставили ttp ордер
-Fri Jul 30 2021 17:59:17  : cansel order id:162841455
-Fri Jul 30 2021 17:59:18  : переставили ttp ордер
-Fri Jul 30 2021 17:59:18  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 17:59:18  : переставили ttp ордер
-Fri Jul 30 2021 17:59:18  : cansel order id:162841502
-Fri Jul 30 2021 17:59:19  : переставили ttp ордер
-Fri Jul 30 2021 17:59:19  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 17:59:20  : переставили ttp ордер
-Fri Jul 30 2021 17:59:26  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.25
-Fri Jul 30 2021 17:59:27  : cansel order id:162841608
-Fri Jul 30 2021 17:59:27  : переставили ttp ордер
-Fri Jul 30 2021 17:59:27  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 17:59:27  : Выставлен ордер - 162841754
-Fri Jul 30 2021 17:59:27  : Длительноть трека -1095
-Fri Jul 30 2021 17:59:28  : переставили ttp ордер
-Fri Jul 30 2021 17:59:28  : cansel order id:162841772
-Fri Jul 30 2021 17:59:29  : переставили ttp ордер
-Fri Jul 30 2021 17:59:29  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 17:59:29  : Ордер на покупку исполнен, ID - 162841754
-Fri Jul 30 2021 17:59:29  : переставили ttp ордер
-Fri Jul 30 2021 17:59:30  : ttp finish
-Fri Jul 30 2021 17:59:30  : выставили ttp ордер
-Fri Jul 30 2021 17:59:31  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.28
-Fri Jul 30 2021 17:59:32  : Выставлен ордер - 162841988
-Fri Jul 30 2021 18:01:39  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:01:41  : выставили ttp ордер
-Fri Jul 30 2021 18:01:41  : cansel order id:162844278
-Fri Jul 30 2021 18:01:41  : переставили ttp ордер
-Fri Jul 30 2021 18:01:41  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:01:43  : переставили ttp ордер
-Fri Jul 30 2021 18:01:43  : ttp finish
-Fri Jul 30 2021 18:01:44  : выставили ttp ордер
-Fri Jul 30 2021 18:01:44  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.23
-Fri Jul 30 2021 18:01:45  : Выставлен ордер - 162844352
-Fri Jul 30 2021 18:01:48  : LINKUPUSDT-1627480656:cansel: orderid:162844352
-Fri Jul 30 2021 18:01:48  : Ордер на покупку отменен, ID - 162844352
-Fri Jul 30 2021 18:01:53  : LINKUPUSDT-1627480656:cansel: orderid:162839757
-Fri Jul 30 2021 18:01:53  : LINKUPUSDT-1627480656:cansel: orderid:162841988
-Fri Jul 30 2021 18:01:53  : Ордер на покупку отменен, ID - 162839757
-Fri Jul 30 2021 18:01:54  : Ордер на покупку отменен, ID - 162841988
-Fri Jul 30 2021 18:01:54  : Длительноть трека -1480
-Fri Jul 30 2021 18:01:59  : Ордер на покупку отменен, ID - 162839757
-Fri Jul 30 2021 18:01:59  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.21
-Fri Jul 30 2021 18:02:00  : Выставлен ордер - 162844638
-Fri Jul 30 2021 18:02:00  : Длительноть трека -1600
-Fri Jul 30 2021 18:02:01  : LINKUPUSDT-1627480656:cansel: orderid:162844638
-Fri Jul 30 2021 18:02:02  : Ордер на покупку отменен, ID - 162844638
-Fri Jul 30 2021 18:02:02  : Длительноть трека -1077
-Fri Jul 30 2021 18:02:22  : Длительноть трека -932
-Fri Jul 30 2021 18:03:23  : Длительноть трека -940
-Fri Jul 30 2021 18:05:03  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.3
-Fri Jul 30 2021 18:05:04  : Выставлен ордер - 162847297
-Fri Jul 30 2021 18:05:30  : LINKUPUSDT-1627480656:cansel: orderid:162847297
-Fri Jul 30 2021 18:05:30  : Ордер на покупку отменен, ID - 162847297
-Fri Jul 30 2021 18:05:44  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.31
-Fri Jul 30 2021 18:05:45  : Выставлен ордер - 162847995
-Fri Jul 30 2021 18:05:45  : Длительноть трека -1121
-Fri Jul 30 2021 18:06:16  : LINKUPUSDT-1627480656:cansel: orderid:162847995
-Fri Jul 30 2021 18:06:16  : Ордер на покупку отменен, ID - 162847995
-Fri Jul 30 2021 18:07:01  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.32
-Fri Jul 30 2021 18:07:01  : Выставлен ордер - 162849045
-Fri Jul 30 2021 18:07:03  : Длительноть трека -1292
-Fri Jul 30 2021 18:07:20  : LINKUPUSDT-1627480656:cansel: orderid:162849045
-Fri Jul 30 2021 18:07:21  : Ордер на покупку отменен, ID - 162849045
-Fri Jul 30 2021 18:07:29  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.3
-Fri Jul 30 2021 18:07:30  : Выставлен ордер - 162849446
-Fri Jul 30 2021 18:07:45  : LINKUPUSDT-1627480656:cansel: orderid:162849446
-Fri Jul 30 2021 18:07:46  : Ордер на покупку отменен, ID - 162849446
-Fri Jul 30 2021 18:08:31  : Длительноть трека -1053
-Fri Jul 30 2021 18:09:31  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.32
-Fri Jul 30 2021 18:09:32  : Выставлен ордер - 162850918
-Fri Jul 30 2021 18:10:07  : LINKUPUSDT-1627480656:cansel: orderid:162850918
-Fri Jul 30 2021 18:10:07  : Ордер на покупку отменен, ID - 162850918
-Fri Jul 30 2021 18:10:07  : Длительноть трека -919
-Fri Jul 30 2021 18:10:08  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.33
-Fri Jul 30 2021 18:10:09  : Выставлен ордер - 162851189
-Fri Jul 30 2021 18:11:03  : LINKUPUSDT-1627480656:cansel: orderid:162851189
-Fri Jul 30 2021 18:11:04  : Ордер на покупку отменен, ID - 162851189
-Fri Jul 30 2021 18:11:35  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.31
-Fri Jul 30 2021 18:11:36  : Выставлен ордер - 162852399
-Fri Jul 30 2021 18:11:48  : LINKUPUSDT-1627480656:cansel: orderid:162852399
-Fri Jul 30 2021 18:11:49  : Ордер на покупку отменен, ID - 162852399
-Fri Jul 30 2021 18:11:51  : Длительноть трека -1321
-Fri Jul 30 2021 18:12:53  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.29
-Fri Jul 30 2021 18:12:53  : Выставлен ордер - 162852967
-Fri Jul 30 2021 18:13:19  : LINKUPUSDT-1627480656:cansel: orderid:162852967
-Fri Jul 30 2021 18:13:20  : Ордер на покупку отменен, ID - 162852967
-Fri Jul 30 2021 18:13:53  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.31
-Fri Jul 30 2021 18:13:54  : Выставлен ордер - 162853541
-Fri Jul 30 2021 18:16:35  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.25
-Fri Jul 30 2021 18:16:35  : Выставлен ордер - 162854828
-Fri Jul 30 2021 18:16:39  : Ордер на покупку исполнен, ID - 162854828
-Fri Jul 30 2021 18:17:12  : LINKUPUSDT-1627480656:cansel: orderid:162853541
-Fri Jul 30 2021 18:17:13  : Ордер на покупку отменен, ID - 162853541
-Fri Jul 30 2021 18:18:04  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.27
-Fri Jul 30 2021 18:18:04  : Выставлен ордер - 162855854
-Fri Jul 30 2021 18:18:08  : LINKUPUSDT-1627480656:cansel: orderid:162855854
-Fri Jul 30 2021 18:18:08  : Ордер на покупку отменен, ID - 162855854
-Fri Jul 30 2021 18:19:11  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:19:12  : выставили ttp ордер
-Fri Jul 30 2021 18:19:48  : cansel order id:162856790
-Fri Jul 30 2021 18:19:49  : переставили ttp ордер
-Fri Jul 30 2021 18:19:49  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:19:50  : переставили ttp ордер
-Fri Jul 30 2021 18:20:30  : cansel order id:162857021
-Fri Jul 30 2021 18:20:31  : переставили ttp ордер
-Fri Jul 30 2021 18:20:31  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:20:31  : переставили ttp ордер
-Fri Jul 30 2021 18:20:36  : cansel order id:162857382
-Fri Jul 30 2021 18:20:38  : переставили ttp ордер
-Fri Jul 30 2021 18:20:38  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:20:38  : переставили ttp ордер
-Fri Jul 30 2021 18:21:33  : Длительноть трека -1004
-Fri Jul 30 2021 18:23:47  : ttp finish
-Fri Jul 30 2021 18:23:47  : выставили ttp ордер
-Fri Jul 30 2021 18:23:48  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.2
-Fri Jul 30 2021 18:23:49  : Выставлен ордер - 162858950
-Fri Jul 30 2021 18:24:59  : LINKUPUSDT-1627480656:cansel: orderid:162858950
-Fri Jul 30 2021 18:24:59  : Ордер на покупку отменен, ID - 162858950
-Fri Jul 30 2021 18:25:00  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.19
-Fri Jul 30 2021 18:25:01  : Выставлен ордер - 162859467
-Fri Jul 30 2021 18:25:42  : Длительноть трека -960
-Fri Jul 30 2021 18:25:42  : LINKUPUSDT-1627480656:setbuy: price:1.644, quantity: 9.13
-Fri Jul 30 2021 18:25:43  : Выставлен ордер - 162860249
-Fri Jul 30 2021 18:25:46  : Ордер на покупку исполнен, ID - 162860249
-Fri Jul 30 2021 18:25:51  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:25:52  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 9
-Fri Jul 30 2021 18:25:52  : выставили ttp ордер
-Fri Jul 30 2021 18:25:52  : cansel order id:162860812
-Fri Jul 30 2021 18:25:52  : Выставлен ордер - 162860836
-Fri Jul 30 2021 18:25:53  : переставили ttp ордер
-Fri Jul 30 2021 18:25:53  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:25:53  : Ордер на покупку исполнен, ID - 162860836
-Fri Jul 30 2021 18:25:53  : переставили ttp ордер
-Fri Jul 30 2021 18:25:53  : cansel order id:162860872
-Fri Jul 30 2021 18:25:54  : переставили ttp ордер
-Fri Jul 30 2021 18:25:54  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:25:55  : переставили ttp ордер
-Fri Jul 30 2021 18:25:55  : cansel order id:162860907
-Fri Jul 30 2021 18:25:59  : Сброс ttp busy 
+Fri Jul 30 2021 19:53:16  : LINKUPUSDT-1627480656:setbuy: price:1.9053, quantity: 7.85
+Fri Jul 30 2021 19:53:18  : Выставлен ордер - 162963357
+Fri Jul 30 2021 19:53:21  : Ордер на покупку исполнен, ID - 162963357
+Fri Jul 30 2021 19:53:40  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:53:41  : выставили ttp ордер
+Fri Jul 30 2021 19:53:51  : cansel order id:162964110
+Fri Jul 30 2021 19:53:52  : переставили ttp ордер
+Fri Jul 30 2021 19:53:52  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:53:52  : переставили ttp ордер, q=7.85
+Fri Jul 30 2021 19:53:56  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.76
+Fri Jul 30 2021 19:53:56  : cansel order id:162964444
+Fri Jul 30 2021 19:53:57  : Выставлен ордер - 162964533
+Fri Jul 30 2021 19:53:57  : переставили ttp ордер
+Fri Jul 30 2021 19:53:57  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:53:57  : Ордер на покупку исполнен, ID - 162964533
+Fri Jul 30 2021 19:53:57  : Ошибка при выставлении ордера - {"code":-2010,"msg":"Stop price would trigger immediately."}
+Fri Jul 30 2021 19:54:02  : Сброс ttp busy 
  [
 	{
 		"steptitle": "start ttp",
-		"start_node_time": 1627658755156,
-		"end_node_time": 1627658755156,
+		"start_node_time": 1627664038051,
+		"end_node_time": 1627664038051,
 		"duration_node": 0,
 		"duration_step": 0
 	},
 	{
 		"steptitle": "setttp_busy",
-		"start_node_time": 1627658755156,
-		"end_node_time": 1627658755157,
+		"start_node_time": 1627664038052,
+		"end_node_time": 1627664038053,
 		"duration_node": 1,
-		"duration_step": 1
+		"duration_step": 2
 	},
 	{
 		"steptitle": "getbot_settings",
-		"start_node_time": 1627658755159,
-		"end_node_time": 1627658755160,
+		"start_node_time": 1627664038054,
+		"end_node_time": 1627664038055,
 		"duration_node": 1,
-		"duration_step": 3
+		"duration_step": 2
 	},
 	{
 		"steptitle": "getbot_data",
-		"start_node_time": 1627658755160,
-		"end_node_time": 1627658755162,
-		"duration_node": 2,
+		"start_node_time": 1627664038056,
+		"end_node_time": 1627664038057,
+		"duration_node": 1,
 		"duration_step": 2
 	},
 	{
 		"steptitle": "getprice",
-		"start_node_time": 1627658755165,
-		"end_node_time": 1627658755166,
+		"start_node_time": 1627664038060,
+		"end_node_time": 1627664038061,
 		"duration_node": 1,
 		"duration_step": 4
 	},
 	{
 		"steptitle": "setttp_q 0",
-		"start_node_time": 1627658755168,
-		"end_node_time": 1627658755169,
+		"start_node_time": 1627664038063,
+		"end_node_time": 1627664038064,
 		"duration_node": 1,
 		"duration_step": 3
 	},
 	{
 		"steptitle": "prepare get ttp order status",
-		"start_node_time": 1627658755172,
-		"end_node_time": 1627658755172,
+		"start_node_time": 1627664038066,
+		"end_node_time": 1627664038066,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Fri Jul 30 2021 19:54:06  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664042586,
+		"end_node_time": 1627664042586,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664042591,
+		"end_node_time": 1627664042597,
+		"duration_node": 6,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664042618,
+		"end_node_time": 1627664042636,
+		"duration_node": 18,
+		"duration_step": 39
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664042637,
+		"end_node_time": 1627664042638,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664042641,
+		"end_node_time": 1627664042642,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664042644,
+		"end_node_time": 1627664042645,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664042648,
+		"end_node_time": 1627664042648,
 		"duration_node": 0,
 		"duration_step": 3
 	}
 ]
-Fri Jul 30 2021 18:25:59  : ttp finish
-Fri Jul 30 2021 18:25:59  : выставили ttp ордер
-Fri Jul 30 2021 18:26:00  : LINKUPUSDT-1627480656:setbuy: price:1.644, quantity: 9.05
-Fri Jul 30 2021 18:26:00  : Выставлен ордер - 162861075
-Fri Jul 30 2021 18:28:16  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:28:17  : выставили ttp ордер
-Fri Jul 30 2021 18:28:17  : cansel order id:162863492
-Fri Jul 30 2021 18:28:18  : переставили ttp ордер
-Fri Jul 30 2021 18:28:18  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:28:18  : переставили ttp ордер
-Fri Jul 30 2021 18:28:20  : cansel order id:162863565
-Fri Jul 30 2021 18:28:21  : переставили ttp ордер
-Fri Jul 30 2021 18:28:21  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:28:22  : переставили ttp ордер
-Fri Jul 30 2021 18:28:22  : cansel order id:162863646
-Fri Jul 30 2021 18:28:23  : переставили ttp ордер
-Fri Jul 30 2021 18:28:23  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:28:25  : переставили ttp ордер
-Fri Jul 30 2021 18:28:25  : Длительноть трека -917
-Fri Jul 30 2021 18:28:25  : cansel order id:162863666
-Fri Jul 30 2021 18:28:26  : переставили ttp ордер
-Fri Jul 30 2021 18:28:26  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:28:26  : переставили ttp ордер
-Fri Jul 30 2021 18:28:49  : LINKUPUSDT-1627480656:cansel: orderid:162861075
-Fri Jul 30 2021 18:28:50  : Ордер на покупку отменен, ID - 162861075
-Fri Jul 30 2021 18:28:50  : LINKUPUSDT-1627480656:cansel: orderid:162859467
-Fri Jul 30 2021 18:28:51  : Ордер на покупку отменен, ID - 162859467
-Fri Jul 30 2021 18:28:51  : Длительноть трека -972
-Fri Jul 30 2021 18:29:45  : ttp finish
-Fri Jul 30 2021 18:29:46  : выставили ttp ордер
-Fri Jul 30 2021 18:29:46  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.93
-Fri Jul 30 2021 18:29:47  : Выставлен ордер - 162864720
-Fri Jul 30 2021 18:30:03  : Ордер на покупку отменен, ID - 162864720
-Fri Jul 30 2021 18:30:04  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.94
-Fri Jul 30 2021 18:30:04  : Выставлен ордер - 162865411
-Fri Jul 30 2021 18:30:07  : Ордер на покупку отменен, ID - 162865411
-Fri Jul 30 2021 18:30:08  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.94
-Fri Jul 30 2021 18:30:09  : Выставлен ордер - 162865459
-Fri Jul 30 2021 18:30:32  : LINKUPUSDT-1627480656:cansel: orderid:162865459
-Fri Jul 30 2021 18:30:33  : Ордер на покупку отменен, ID - 162865459
-Fri Jul 30 2021 18:31:18  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.91
-Fri Jul 30 2021 18:31:19  : Выставлен ордер - 162866658
-Fri Jul 30 2021 18:31:19  : Длительноть трека -1076
-Fri Jul 30 2021 18:31:50  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.86
-Fri Jul 30 2021 18:31:50  : Выставлен ордер - 162867232
-Fri Jul 30 2021 18:31:51  : Ордер на покупку исполнен, ID - 162867232
-Fri Jul 30 2021 18:33:11  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:33:12  : выставили ttp ордер
-Fri Jul 30 2021 18:33:13  : cansel order id:162868582
-Fri Jul 30 2021 18:33:14  : переставили ttp ордер
-Fri Jul 30 2021 18:33:14  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:33:15  : переставили ttp ордер
-Fri Jul 30 2021 18:33:23  : ttp finish
-Fri Jul 30 2021 18:33:23  : выставили ttp ордер
-Fri Jul 30 2021 18:33:23  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.87
-Fri Jul 30 2021 18:33:24  : Выставлен ордер - 162869008
-Fri Jul 30 2021 18:33:24  : Ордер на покупку исполнен, ID - 162869008
-Fri Jul 30 2021 18:33:48  : Длительноть трека -956
-Fri Jul 30 2021 18:34:22  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:34:23  : выставили ttp ордер
-Fri Jul 30 2021 18:34:51  : cansel order id:162869896
-Fri Jul 30 2021 18:34:52  : переставили ttp ордер
-Fri Jul 30 2021 18:34:52  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:34:52  : переставили ttp ордер
-Fri Jul 30 2021 18:35:34  : LINKUPUSDT-1627480656:cansel: orderid:162866658
-Fri Jul 30 2021 18:35:35  : Ордер на покупку отменен, ID - 162866658
-Fri Jul 30 2021 18:35:35  : Длительноть трека -1032
-Fri Jul 30 2021 18:35:41  : Длительноть трека -1062
-Fri Jul 30 2021 18:36:16  : ttp finish
-Fri Jul 30 2021 18:36:17  : выставили ttp ордер
-Fri Jul 30 2021 18:36:17  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.86
-Fri Jul 30 2021 18:36:18  : Выставлен ордер - 162871237
-Fri Jul 30 2021 18:36:27  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.77
-Fri Jul 30 2021 18:36:27  : Выставлен ордер - 162871935
-Fri Jul 30 2021 18:36:28  : Ордер на покупку исполнен, ID - 162871935
-Fri Jul 30 2021 18:36:58  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:36:59  : выставили ttp ордер
-Fri Jul 30 2021 18:36:59  : cansel order id:162872765
-Fri Jul 30 2021 18:37:00  : переставили ttp ордер
-Fri Jul 30 2021 18:37:00  : setsellLINKUPUSDT-1627480656
-Fri Jul 30 2021 18:37:00  : переставили ttp ордер
-Fri Jul 30 2021 18:37:02  : ttp finish
-Fri Jul 30 2021 18:37:03  : выставили ttp ордер
-Fri Jul 30 2021 18:37:03  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.74
-Fri Jul 30 2021 18:37:04  : Выставлен ордер - 162873100
-Fri Jul 30 2021 18:37:08  : Длительноть трека -1167
-Fri Jul 30 2021 18:37:33  : LINKUPUSDT-1627480656:setbuy: price:1.7346, quantity: 8.64
-Fri Jul 30 2021 18:37:34  : Выставлен ордер - 162873997
-Fri Jul 30 2021 18:37:34  : Длительноть трека -1151
-Fri Jul 30 2021 18:37:35  : Ордер на покупку исполнен, ID - 162873997
-Fri Jul 30 2021 18:38:27  : LINKUPUSDT-1627480656:cansel: orderid:162873100
-Fri Jul 30 2021 18:38:28  : Ордер на покупку отменен, ID - 162873100
-Fri Jul 30 2021 18:38:28  : Длительноть трека -1596
-Fri Jul 30 2021 18:38:30  : LINKUPUSDT-1627480656:cansel: orderid:162871237
-Fri Jul 30 2021 18:38:31  : Ордер на покупку отменен, ID - 162871237
-Fri Jul 30 2021 18:38:31  : Длительноть трека -919
-Fri Jul 30 2021 18:38:42  : Длительноть трека -978
-Fri Jul 30 2021 18:38:53  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.72
-Fri Jul 30 2021 18:38:54  : Выставлен ордер - 162875891
+Fri Jul 30 2021 19:54:11  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664047074,
+		"end_node_time": 1627664047074,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664047074,
+		"end_node_time": 1627664047076,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664047078,
+		"end_node_time": 1627664047079,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664047079,
+		"end_node_time": 1627664047083,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664047087,
+		"end_node_time": 1627664047088,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664047091,
+		"end_node_time": 1627664047092,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664047095,
+		"end_node_time": 1627664047095,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:54:11  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:54:12  : выставили ttp ордер
+Fri Jul 30 2021 19:54:18  : cansel order id:162964972
+Fri Jul 30 2021 19:54:18  : переставили ttp ордер
+Fri Jul 30 2021 19:54:18  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:54:19  : переставили ttp ордер, q=7.85
+Fri Jul 30 2021 19:54:23  : cansel order id:162965111
+Fri Jul 30 2021 19:54:24  : переставили ttp ордер
+Fri Jul 30 2021 19:54:24  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:54:25  : переставили ttp ордер, q=7.85
+Fri Jul 30 2021 19:54:28  : cansel order id:162965332
+Fri Jul 30 2021 19:54:29  : переставили ttp ордер
+Fri Jul 30 2021 19:54:29  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:54:29  : переставили ttp ордер, q=7.85
+Fri Jul 30 2021 19:54:32  : cansel order id:162965411
+Fri Jul 30 2021 19:54:32  : переставили ttp ордер
+Fri Jul 30 2021 19:54:32  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:54:33  : переставили ttp ордер, q=7.85
+Fri Jul 30 2021 19:54:36  : ttp finish on 1.92930000
+Fri Jul 30 2021 19:54:37  : регистрация сделки - 1.9053,1.9293,7.85,0.18840000000000015,0.022576207499999997,0.16582379250000015
+Fri Jul 30 2021 19:54:37  : регистрация сделки
+Fri Jul 30 2021 19:54:37  : сброс ттп
+Fri Jul 30 2021 19:54:38  : LINKUPUSDT-1627480656:setbuy: price:1.9053, quantity: 7.8
+Fri Jul 30 2021 19:54:39  : Выставлен ордер - 162965641
+Fri Jul 30 2021 19:55:03  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:03  : выставили ttp ордер
+Fri Jul 30 2021 19:55:04  : cansel order id:162966216
+Fri Jul 30 2021 19:55:05  : переставили ttp ордер
+Fri Jul 30 2021 19:55:05  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:05  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:05  : cansel order id:162966310
+Fri Jul 30 2021 19:55:06  : переставили ttp ордер
+Fri Jul 30 2021 19:55:06  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:06  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:07  : cansel order id:162966320
+Fri Jul 30 2021 19:55:08  : переставили ttp ордер
+Fri Jul 30 2021 19:55:08  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:08  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:13  : cansel order id:162966389
+Fri Jul 30 2021 19:55:13  : переставили ttp ордер
+Fri Jul 30 2021 19:55:13  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:14  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:16  : cansel order id:162966530
+Fri Jul 30 2021 19:55:16  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.66
+Fri Jul 30 2021 19:55:16  : переставили ttp ордер
+Fri Jul 30 2021 19:55:16  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:16  : Выставлен ордер - 162966638
+Fri Jul 30 2021 19:55:17  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:17  : cansel order id:162966654
+Fri Jul 30 2021 19:55:18  : переставили ttp ордер
+Fri Jul 30 2021 19:55:18  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:18  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:21  : cansel order id:162966716
+Fri Jul 30 2021 19:55:21  : переставили ttp ордер
+Fri Jul 30 2021 19:55:21  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:23  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:23  : cansel order id:162966928
+Fri Jul 30 2021 19:55:23  : переставили ttp ордер
+Fri Jul 30 2021 19:55:23  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:24  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:55:24  : cansel order id:162966971
+Fri Jul 30 2021 19:55:25  : переставили ttp ордер
+Fri Jul 30 2021 19:55:25  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:55:25  : Ошибка при выставлении ордера - {"code":-2010,"msg":"Stop price would trigger immediately."}
+Fri Jul 30 2021 19:55:29  : Ордер на покупку исполнен, ID - 162966638
+Fri Jul 30 2021 19:55:30  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664125805,
+		"end_node_time": 1627664125805,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664125806,
+		"end_node_time": 1627664125807,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664125809,
+		"end_node_time": 1627664125811,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664125811,
+		"end_node_time": 1627664125813,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664125817,
+		"end_node_time": 1627664125818,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664125820,
+		"end_node_time": 1627664125821,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664125824,
+		"end_node_time": 1627664125824,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:55:34  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664130499,
+		"end_node_time": 1627664130499,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664130499,
+		"end_node_time": 1627664130500,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664130502,
+		"end_node_time": 1627664130503,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664130504,
+		"end_node_time": 1627664130506,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664130511,
+		"end_node_time": 1627664130512,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664130514,
+		"end_node_time": 1627664130515,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664130522,
+		"end_node_time": 1627664130522,
+		"duration_node": 0,
+		"duration_step": 7
+	}
+]
+Fri Jul 30 2021 19:55:39  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664134996,
+		"end_node_time": 1627664134996,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664134996,
+		"end_node_time": 1627664134997,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664135000,
+		"end_node_time": 1627664135001,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664135002,
+		"end_node_time": 1627664135004,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664135009,
+		"end_node_time": 1627664135010,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664135018,
+		"end_node_time": 1627664135020,
+		"duration_node": 2,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664135024,
+		"end_node_time": 1627664135024,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 19:55:43  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664139501,
+		"end_node_time": 1627664139501,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664139501,
+		"end_node_time": 1627664139503,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664139505,
+		"end_node_time": 1627664139507,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664139507,
+		"end_node_time": 1627664139509,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664139514,
+		"end_node_time": 1627664139515,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664139517,
+		"end_node_time": 1627664139519,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664139531,
+		"end_node_time": 1627664139531,
+		"duration_node": 0,
+		"duration_step": 12
+	}
+]
+Fri Jul 30 2021 19:55:48  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664144005,
+		"end_node_time": 1627664144005,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664144005,
+		"end_node_time": 1627664144006,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664144008,
+		"end_node_time": 1627664144009,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664144009,
+		"end_node_time": 1627664144010,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664144015,
+		"end_node_time": 1627664144015,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664144018,
+		"end_node_time": 1627664144019,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664144022,
+		"end_node_time": 1627664144022,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:55:52  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664148508,
+		"end_node_time": 1627664148508,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664148508,
+		"end_node_time": 1627664148509,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664148515,
+		"end_node_time": 1627664148516,
+		"duration_node": 1,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664148517,
+		"end_node_time": 1627664148518,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664148523,
+		"end_node_time": 1627664148524,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664148526,
+		"end_node_time": 1627664148527,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664148530,
+		"end_node_time": 1627664148530,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:55:57  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664153010,
+		"end_node_time": 1627664153010,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664153011,
+		"end_node_time": 1627664153012,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664153014,
+		"end_node_time": 1627664153015,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664153018,
+		"end_node_time": 1627664153020,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664153026,
+		"end_node_time": 1627664153027,
+		"duration_node": 1,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664153030,
+		"end_node_time": 1627664153033,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664153037,
+		"end_node_time": 1627664153037,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 19:56:01  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664157629,
+		"end_node_time": 1627664157629,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664157629,
+		"end_node_time": 1627664157630,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664157632,
+		"end_node_time": 1627664157633,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664157633,
+		"end_node_time": 1627664157635,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664157640,
+		"end_node_time": 1627664157641,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664157643,
+		"end_node_time": 1627664157644,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664157649,
+		"end_node_time": 1627664157649,
+		"duration_node": 0,
+		"duration_step": 5
+	}
+]
+Fri Jul 30 2021 19:56:06  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664162143,
+		"end_node_time": 1627664162143,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664162143,
+		"end_node_time": 1627664162144,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664162146,
+		"end_node_time": 1627664162147,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664162147,
+		"end_node_time": 1627664162149,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664162152,
+		"end_node_time": 1627664162153,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664162156,
+		"end_node_time": 1627664162157,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664162160,
+		"end_node_time": 1627664162160,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:56:10  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664166673,
+		"end_node_time": 1627664166673,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664166673,
+		"end_node_time": 1627664166674,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664166676,
+		"end_node_time": 1627664166677,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664166677,
+		"end_node_time": 1627664166678,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664166682,
+		"end_node_time": 1627664166683,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664166684,
+		"end_node_time": 1627664166686,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664166688,
+		"end_node_time": 1627664166688,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Fri Jul 30 2021 19:56:15  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664171189,
+		"end_node_time": 1627664171189,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664171190,
+		"end_node_time": 1627664171191,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664171194,
+		"end_node_time": 1627664171195,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664171195,
+		"end_node_time": 1627664171197,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664171205,
+		"end_node_time": 1627664171206,
+		"duration_node": 1,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664171209,
+		"end_node_time": 1627664171210,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664171214,
+		"end_node_time": 1627664171214,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 19:56:19  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664175733,
+		"end_node_time": 1627664175733,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664175734,
+		"end_node_time": 1627664175735,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664175737,
+		"end_node_time": 1627664175738,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664175738,
+		"end_node_time": 1627664175740,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664175745,
+		"end_node_time": 1627664175746,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664175748,
+		"end_node_time": 1627664175749,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664175754,
+		"end_node_time": 1627664175754,
+		"duration_node": 0,
+		"duration_step": 5
+	}
+]
+Fri Jul 30 2021 19:56:24  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664180241,
+		"end_node_time": 1627664180241,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664180242,
+		"end_node_time": 1627664180243,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664180245,
+		"end_node_time": 1627664180247,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664180247,
+		"end_node_time": 1627664180249,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664180253,
+		"end_node_time": 1627664180254,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664180257,
+		"end_node_time": 1627664180258,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664180265,
+		"end_node_time": 1627664180265,
+		"duration_node": 0,
+		"duration_step": 7
+	}
+]
+Fri Jul 30 2021 19:56:29  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664184750,
+		"end_node_time": 1627664184750,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664184751,
+		"end_node_time": 1627664184751,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664184753,
+		"end_node_time": 1627664184754,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664184754,
+		"end_node_time": 1627664184756,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664184759,
+		"end_node_time": 1627664184760,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664184764,
+		"end_node_time": 1627664184767,
+		"duration_node": 3,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664184773,
+		"end_node_time": 1627664184773,
+		"duration_node": 0,
+		"duration_step": 6
+	}
+]
+Fri Jul 30 2021 19:56:33  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664189256,
+		"end_node_time": 1627664189256,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664189256,
+		"end_node_time": 1627664189258,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664189260,
+		"end_node_time": 1627664189262,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664189262,
+		"end_node_time": 1627664189263,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664189267,
+		"end_node_time": 1627664189269,
+		"duration_node": 2,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664189271,
+		"end_node_time": 1627664189273,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664189277,
+		"end_node_time": 1627664189277,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 19:56:38  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664194078,
+		"end_node_time": 1627664194078,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664194083,
+		"end_node_time": 1627664194090,
+		"duration_node": 7,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664194097,
+		"end_node_time": 1627664194100,
+		"duration_node": 3,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664194118,
+		"end_node_time": 1627664194123,
+		"duration_node": 5,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664194130,
+		"end_node_time": 1627664194133,
+		"duration_node": 3,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664194137,
+		"end_node_time": 1627664194141,
+		"duration_node": 4,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664194145,
+		"end_node_time": 1627664194145,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 19:56:42  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664198363,
+		"end_node_time": 1627664198363,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664198363,
+		"end_node_time": 1627664198365,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664198372,
+		"end_node_time": 1627664198375,
+		"duration_node": 3,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664198376,
+		"end_node_time": 1627664198381,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664198392,
+		"end_node_time": 1627664198393,
+		"duration_node": 1,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664198396,
+		"end_node_time": 1627664198399,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664198411,
+		"end_node_time": 1627664198411,
+		"duration_node": 0,
+		"duration_step": 12
+	}
+]
+Fri Jul 30 2021 19:56:47  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664202868,
+		"end_node_time": 1627664202868,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664202869,
+		"end_node_time": 1627664202871,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664202875,
+		"end_node_time": 1627664202879,
+		"duration_node": 4,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664202880,
+		"end_node_time": 1627664202881,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664202888,
+		"end_node_time": 1627664202892,
+		"duration_node": 4,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664202897,
+		"end_node_time": 1627664202898,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664202901,
+		"end_node_time": 1627664202901,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:56:51  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664207382,
+		"end_node_time": 1627664207382,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664207383,
+		"end_node_time": 1627664207385,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664207418,
+		"end_node_time": 1627664207420,
+		"duration_node": 2,
+		"duration_step": 35
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664207420,
+		"end_node_time": 1627664207430,
+		"duration_node": 10,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664207444,
+		"end_node_time": 1627664207445,
+		"duration_node": 1,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664207448,
+		"end_node_time": 1627664207450,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664207453,
+		"end_node_time": 1627664207453,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:56:56  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664211883,
+		"end_node_time": 1627664211883,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664211884,
+		"end_node_time": 1627664211886,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664211891,
+		"end_node_time": 1627664211892,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664211893,
+		"end_node_time": 1627664211894,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664211907,
+		"end_node_time": 1627664211908,
+		"duration_node": 1,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664211911,
+		"end_node_time": 1627664211912,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664211915,
+		"end_node_time": 1627664211915,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 19:57:00  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627664216389,
+		"end_node_time": 1627664216389,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627664216390,
+		"end_node_time": 1627664216392,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664216398,
+		"end_node_time": 1627664216403,
+		"duration_node": 5,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664216404,
+		"end_node_time": 1627664216408,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664216420,
+		"end_node_time": 1627664216421,
+		"duration_node": 1,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627664216426,
+		"end_node_time": 1627664216427,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627664216429,
+		"end_node_time": 1627664216429,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Fri Jul 30 2021 19:57:00  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:57:01  : выставили ttp ордер
+Fri Jul 30 2021 19:57:03  : cansel order id:162969219
+Fri Jul 30 2021 19:57:04  : переставили ttp ордер
+Fri Jul 30 2021 19:57:04  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:57:04  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:57:05  : cansel order id:162969372
+Fri Jul 30 2021 19:57:05  : переставили ttp ордер
+Fri Jul 30 2021 19:57:05  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:57:06  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:57:10  : cansel order id:162969394
+Fri Jul 30 2021 19:57:10  : LINKUPUSDT-1627480656:setbuy: price:1.9836, quantity: 7.56
+Fri Jul 30 2021 19:57:11  : переставили ttp ордер
+Fri Jul 30 2021 19:57:11  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 19:57:11  : переставили ttp ордер, q=7.76
+Fri Jul 30 2021 19:57:11  : Выставлен ордер - 162969513
+Fri Jul 30 2021 19:57:12  : ttp finish on 1.97390000
+Fri Jul 30 2021 19:57:12  : регистрация сделки - 1.9311,1.9739,7.76,0.3321279999999996,0.0227271,0.3094008999999996
+Fri Jul 30 2021 19:57:12  : регистрация сделки - 1.9571,1.9739,7.66,0.12868799999999944,0.022583595,0.10610440499999944
+Fri Jul 30 2021 19:57:12  : регистрация сделки
+Fri Jul 30 2021 19:57:12  : сброс ттп
+Fri Jul 30 2021 19:57:12  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.6
+Fri Jul 30 2021 19:57:13  : Выставлен ордер - 162969540
+Fri Jul 30 2021 19:57:16  : Ордер на покупку исполнен, ID - 162969513
+Fri Jul 30 2021 19:57:53  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627664269974,
+		"end_node_time": 1627664269974,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1627664269975,
+		"end_node_time": 1627664269976,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664269977,
+		"end_node_time": 1627664269978,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627664269978,
+		"end_node_time": 1627664269979,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664269980,
+		"end_node_time": 1627664269981,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627664269981,
+		"end_node_time": 1627664269981,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664269982,
+		"end_node_time": 1627664269983,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664269983,
+		"end_node_time": 1627664269985,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627664269997,
+		"end_node_time": 1627664269997,
+		"duration_node": 0,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664269998,
+		"end_node_time": 1627664269999,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Fri Jul 30 2021 19:58:55  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627664332157,
+		"end_node_time": 1627664332157,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1627664332158,
+		"end_node_time": 1627664332159,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664332159,
+		"end_node_time": 1627664332160,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627664332161,
+		"end_node_time": 1627664332162,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664332162,
+		"end_node_time": 1627664332163,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627664332164,
+		"end_node_time": 1627664332164,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664332164,
+		"end_node_time": 1627664332166,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664332167,
+		"end_node_time": 1627664332169,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627664332174,
+		"end_node_time": 1627664332174,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664332174,
+		"end_node_time": 1627664332175,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Jul 30 2021 19:58:59  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627664336159,
+		"end_node_time": 1627664336159,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1627664336159,
+		"end_node_time": 1627664336160,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664336161,
+		"end_node_time": 1627664336162,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627664336162,
+		"end_node_time": 1627664336163,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664336164,
+		"end_node_time": 1627664336165,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627664336165,
+		"end_node_time": 1627664336165,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664336165,
+		"end_node_time": 1627664336166,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664336167,
+		"end_node_time": 1627664336169,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627664336174,
+		"end_node_time": 1627664336174,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664336174,
+		"end_node_time": 1627664336175,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Jul 30 2021 19:59:07  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627664344177,
+		"end_node_time": 1627664344177,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1627664344178,
+		"end_node_time": 1627664344179,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664344179,
+		"end_node_time": 1627664344180,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627664344181,
+		"end_node_time": 1627664344182,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664344182,
+		"end_node_time": 1627664344183,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627664344183,
+		"end_node_time": 1627664344184,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664344184,
+		"end_node_time": 1627664344185,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664344185,
+		"end_node_time": 1627664344187,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627664344191,
+		"end_node_time": 1627664344191,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664344191,
+		"end_node_time": 1627664344192,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Jul 30 2021 19:59:11  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1627664348182,
+		"end_node_time": 1627664348182,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1627664348182,
+		"end_node_time": 1627664348183,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627664348184,
+		"end_node_time": 1627664348184,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1627664348186,
+		"end_node_time": 1627664348186,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627664348187,
+		"end_node_time": 1627664348188,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1627664348188,
+		"end_node_time": 1627664348188,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664348188,
+		"end_node_time": 1627664348189,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627664348190,
+		"end_node_time": 1627664348191,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1627664348207,
+		"end_node_time": 1627664348207,
+		"duration_node": 0,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1627664348208,
+		"end_node_time": 1627664348219,
+		"duration_node": 11,
+		"duration_step": 12
+	}
+]
+Fri Jul 30 2021 19:59:12  : Ордер на покупку исполнен, ID - 162969540
+Fri Jul 30 2021 19:59:15  : LINKUPUSDT-1627480656:cansel: orderid:162965641
+Fri Jul 30 2021 19:59:16  : Ордер на покупку отменен, ID - 162965641
+Fri Jul 30 2021 20:00:53  : Сброс к стартовым настройкам
+Fri Jul 30 2021 20:01:56  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.72
+Fri Jul 30 2021 20:01:57  : Выставлен ордер - 162973915
+Fri Jul 30 2021 20:01:57  : LINKUPUSDT-1627480656:cansel: orderid:162973915
+Fri Jul 30 2021 20:01:58  : Ордер на покупку отменен, ID - 162973915
+Fri Jul 30 2021 20:02:00  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.71
+Fri Jul 30 2021 20:02:01  : Выставлен ордер - 162973984
+Fri Jul 30 2021 20:02:03  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.65
+Fri Jul 30 2021 20:02:04  : Выставлен ордер - 162974134
+Fri Jul 30 2021 20:02:09  : Ордер на покупку исполнен, ID - 162974134
+Fri Jul 30 2021 20:02:46  : LINKUPUSDT-1627480656:cansel: orderid:162973984
+Fri Jul 30 2021 20:02:47  : Ордер на покупку отменен, ID - 162973984
+Fri Jul 30 2021 20:02:47  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.68
+Fri Jul 30 2021 20:02:48  : Выставлен ордер - 162975004
+Fri Jul 30 2021 20:02:51  : LINKUPUSDT-1627480656:cansel: orderid:162975004
+Fri Jul 30 2021 20:02:52  : Ордер на покупку отменен, ID - 162975004
+Fri Jul 30 2021 20:03:01  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.7
+Fri Jul 30 2021 20:03:02  : Выставлен ордер - 162975236
+Fri Jul 30 2021 20:03:14  : LINKUPUSDT-1627480656:cansel: orderid:162975236
+Fri Jul 30 2021 20:03:15  : Ордер на покупку отменен, ID - 162975236
+Fri Jul 30 2021 20:03:15  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.7
+Fri Jul 30 2021 20:03:16  : Выставлен ордер - 162975448
+Fri Jul 30 2021 20:03:23  : LINKUPUSDT-1627480656:cansel: orderid:162975448
+Fri Jul 30 2021 20:03:24  : Ордер на покупку отменен, ID - 162975448
+Fri Jul 30 2021 20:03:42  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.71
+Fri Jul 30 2021 20:03:42  : Выставлен ордер - 162975734
+Fri Jul 30 2021 20:03:43  : LINKUPUSDT-1627480656:cansel: orderid:162975734
+Fri Jul 30 2021 20:03:44  : Ордер на покупку отменен, ID - 162975734
+Fri Jul 30 2021 20:04:02  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.69
+Fri Jul 30 2021 20:04:02  : Выставлен ордер - 162975984
+Fri Jul 30 2021 20:04:36  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:04:37  : выставили ttp ордер
+Fri Jul 30 2021 20:04:39  : cansel order id:162976945
+Fri Jul 30 2021 20:04:39  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:04:40  : переставили ttp ордер, q=7.65
+Fri Jul 30 2021 20:04:41  : ttp finish on 1.96740000
+Fri Jul 30 2021 20:04:42  : регистрация сделки - 1.9571,1.9674,7.65,0.07879499999999982,0.02251681875,0.05627818124999982
+Fri Jul 30 2021 20:04:42  : регистрация сделки
+Fri Jul 30 2021 20:04:42  : сброс ттп
+Fri Jul 30 2021 20:04:42  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.62
+Fri Jul 30 2021 20:04:43  : Выставлен ордер - 162977255
+Fri Jul 30 2021 20:05:52  : LINKUPUSDT-1627480656:cansel: orderid:162977255
+Fri Jul 30 2021 20:05:53  : Ордер на покупку отменен, ID - 162977255
+Fri Jul 30 2021 20:05:53  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.62
+Fri Jul 30 2021 20:05:54  : Выставлен ордер - 162978712
+Fri Jul 30 2021 20:05:56  : LINKUPUSDT-1627480656:cansel: orderid:162975984
+Fri Jul 30 2021 20:05:57  : Ордер на покупку отменен, ID - 162975984
+Fri Jul 30 2021 20:05:59  : Ордер на покупку исполнен, ID - 162978712
+Fri Jul 30 2021 20:06:46  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:06:48  : выставили ttp ордер
+Fri Jul 30 2021 20:06:56  : cansel order id:162979697
+Fri Jul 30 2021 20:06:57  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:06:57  : переставили ttp ордер, q=7.62
+Fri Jul 30 2021 20:06:57  : cansel order id:162979881
+Fri Jul 30 2021 20:06:58  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:06:59  : переставили ttp ордер, q=7.62
+Fri Jul 30 2021 20:07:01  : cansel order id:162979897
+Fri Jul 30 2021 20:07:01  : LINKUPUSDT-1627480656:setbuy: price:1.9836, quantity: 7.54
+Fri Jul 30 2021 20:07:01  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:07:01  : Выставлен ордер - 162979999
+Fri Jul 30 2021 20:07:02  : переставили ttp ордер, q=7.62
+Fri Jul 30 2021 20:07:03  : Ордер на покупку исполнен, ID - 162979999
+Fri Jul 30 2021 20:07:05  : ttp finish on 1.98000000
+Fri Jul 30 2021 20:07:05  : регистрация сделки - 1.9571,1.98,7.62,0.1744979999999994,0.0225005265,0.1519974734999994
+Fri Jul 30 2021 20:07:05  : регистрация сделки
+Fri Jul 30 2021 20:07:05  : сброс ттп
+Fri Jul 30 2021 20:07:06  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.58
+Fri Jul 30 2021 20:07:07  : Выставлен ордер - 162980178
+Fri Jul 30 2021 20:07:15  : LINKUPUSDT-1627480656:cansel: orderid:162980178
+Fri Jul 30 2021 20:07:16  : Ордер на покупку отменен, ID - 162980178
+Fri Jul 30 2021 20:07:16  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.57
+Fri Jul 30 2021 20:07:17  : Выставлен ордер - 162980450
+Fri Jul 30 2021 20:07:27  : LINKUPUSDT-1627480656:cansel: orderid:162980450
+Fri Jul 30 2021 20:07:28  : Ордер на покупку отменен, ID - 162980450
+Fri Jul 30 2021 20:07:28  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.59
+Fri Jul 30 2021 20:07:29  : Выставлен ордер - 162980701
+Fri Jul 30 2021 20:08:00  : LINKUPUSDT-1627480656:cansel: orderid:162980701
+Fri Jul 30 2021 20:08:01  : Ордер на покупку отменен, ID - 162980701
+Fri Jul 30 2021 20:08:02  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.61
+Fri Jul 30 2021 20:08:03  : Выставлен ордер - 162981150
+Fri Jul 30 2021 20:08:03  : LINKUPUSDT-1627480656:cansel: orderid:162981150
+Fri Jul 30 2021 20:08:04  : Ордер на покупку отменен, ID - 162981150
+Fri Jul 30 2021 20:08:18  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.6
+Fri Jul 30 2021 20:08:19  : Выставлен ордер - 162981442
+Fri Jul 30 2021 20:08:22  : LINKUPUSDT-1627480656:cansel: orderid:162981442
+Fri Jul 30 2021 20:08:23  : Ордер на покупку отменен, ID - 162981442
+Fri Jul 30 2021 20:08:33  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.6
+Fri Jul 30 2021 20:08:33  : Выставлен ордер - 162981659
+Fri Jul 30 2021 20:08:40  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:08:40  : выставили ttp ордер
+Fri Jul 30 2021 20:08:45  : ttp finish on 1.98090000
+Fri Jul 30 2021 20:08:45  : регистрация сделки - 1.9836,1.9809,7.54,-0.020357999999999432,0.0224192475,-0.042777247499999435
+Fri Jul 30 2021 20:08:45  : регистрация сделки
+Fri Jul 30 2021 20:08:45  : сброс ттп
+Fri Jul 30 2021 20:08:45  : LINKUPUSDT-1627480656:cansel: orderid:162981659
+Fri Jul 30 2021 20:08:46  : Ордер на покупку отменен, ID - 162981659
+Fri Jul 30 2021 20:08:49  : LINKUPUSDT-1627480656:setbuy: price:1.9836, quantity: 7.56
+Fri Jul 30 2021 20:08:51  : Выставлен ордер - 162981995
+Fri Jul 30 2021 20:08:51  : Ордер на покупку исполнен, ID - 162981995
+Fri Jul 30 2021 20:08:52  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.57
+Fri Jul 30 2021 20:08:53  : Выставлен ордер - 162982071
+Fri Jul 30 2021 20:08:56  : LINKUPUSDT-1627480656:cansel: orderid:162982071
+Fri Jul 30 2021 20:08:57  : Ордер на покупку отменен, ID - 162982071
+Fri Jul 30 2021 20:09:15  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.57
+Fri Jul 30 2021 20:09:16  : Выставлен ордер - 162982323
+Fri Jul 30 2021 20:09:24  : LINKUPUSDT-1627480656:cansel: orderid:162982323
+Fri Jul 30 2021 20:09:25  : Ордер на покупку отменен, ID - 162982323
+Fri Jul 30 2021 20:09:58  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.57
+Fri Jul 30 2021 20:09:58  : Выставлен ордер - 162982746
+Fri Jul 30 2021 20:11:06  : LINKUPUSDT-1627480656:cansel: orderid:162982746
+Fri Jul 30 2021 20:11:07  : Ордер на покупку отменен, ID - 162982746
+Fri Jul 30 2021 20:11:43  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.59
+Fri Jul 30 2021 20:11:44  : Выставлен ордер - 162983983
+Fri Jul 30 2021 20:12:00  : LINKUPUSDT-1627480656:cansel: orderid:162983983
+Fri Jul 30 2021 20:12:01  : Ордер на покупку отменен, ID - 162983983
+Fri Jul 30 2021 20:12:13  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.57
+Fri Jul 30 2021 20:12:13  : Выставлен ордер - 162984417
+Fri Jul 30 2021 20:12:29  : LINKUPUSDT-1627480656:cansel: orderid:162984417
+Fri Jul 30 2021 20:12:30  : Ордер на покупку отменен, ID - 162984417
+Fri Jul 30 2021 20:13:02  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.59
+Fri Jul 30 2021 20:13:03  : Выставлен ордер - 162984941
+Fri Jul 30 2021 20:13:09  : LINKUPUSDT-1627480656:cansel: orderid:162984941
+Fri Jul 30 2021 20:13:10  : Ордер на покупку отменен, ID - 162984941
+Fri Jul 30 2021 20:13:25  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.59
+Fri Jul 30 2021 20:13:26  : Выставлен ордер - 162985183
+Fri Jul 30 2021 20:13:43  : LINKUPUSDT-1627480656:cansel: orderid:162985183
+Fri Jul 30 2021 20:13:44  : Ордер на покупку отменен, ID - 162985183
+Fri Jul 30 2021 20:14:52  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.6
+Fri Jul 30 2021 20:14:53  : Выставлен ордер - 162986073
+Fri Jul 30 2021 20:14:53  : LINKUPUSDT-1627480656:cansel: orderid:162986073
+Fri Jul 30 2021 20:14:54  : Ордер на покупку отменен, ID - 162986073
+Fri Jul 30 2021 20:19:33  : LINKUPUSDT-1627480656:setbuy: price:1.9311, quantity: 7.67
+Fri Jul 30 2021 20:19:34  : Выставлен ордер - 162988762
+Fri Jul 30 2021 20:19:47  : LINKUPUSDT-1627480656:cansel: orderid:162988762
+Fri Jul 30 2021 20:19:48  : Ордер на покупку отменен, ID - 162988762
+Fri Jul 30 2021 20:21:39  : LINKUPUSDT-1627480656:setbuy: price:1.9571, quantity: 7.66
+Fri Jul 30 2021 20:21:40  : Выставлен ордер - 162990201
+Fri Jul 30 2021 20:21:41  : Ордер на покупку исполнен, ID - 162990201
+Fri Jul 30 2021 20:23:41  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:23:42  : выставили ttp ордер
+Fri Jul 30 2021 20:23:42  : cansel order id:162991650
+Fri Jul 30 2021 20:23:43  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:23:45  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:23:47  : cansel order id:162991745
+Fri Jul 30 2021 20:23:48  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:23:49  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:23:50  : cansel order id:162991827
+Fri Jul 30 2021 20:23:50  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:23:51  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:23:58  : cansel order id:162991897
+Fri Jul 30 2021 20:23:59  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:23:59  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:24:25  : cansel order id:162992075
+Fri Jul 30 2021 20:24:26  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:24:26  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:25:00  : cansel order id:162992289
+Fri Jul 30 2021 20:25:01  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:02  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:25:02  : cansel order id:162992703
+Fri Jul 30 2021 20:25:03  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:04  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:25:06  : cansel order id:162992752
+Fri Jul 30 2021 20:25:06  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:08  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:25:20  : cansel order id:162992800
+Fri Jul 30 2021 20:25:21  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:21  : переставили ttp ордер, q=7.66
+Fri Jul 30 2021 20:25:22  : cansel order id:162992983
+Fri Jul 30 2021 20:25:22  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:23  : переставили ttp ордер, q=15.219999999999999
+Fri Jul 30 2021 20:25:23  : ttp finish on 1.98600000
+Fri Jul 30 2021 20:25:23  : регистрация сделки - 1.9571,1.986,7.66,0.22137399999999943,0.0226531095,0.19872089049999944
+Fri Jul 30 2021 20:25:23  : регистрация сделки - 1.9836,1.986,7.56,0.018143999999999678,0.022507632,-0.004363632000000322
+Fri Jul 30 2021 20:25:23  : регистрация сделки
+Fri Jul 30 2021 20:25:23  : сброс ттп
+Fri Jul 30 2021 20:25:24  : LINKUPUSDT-1627480656:setbuy: price:1.9836, quantity: 7.55
+Fri Jul 30 2021 20:25:24  : Выставлен ордер - 162993031
+Fri Jul 30 2021 20:25:37  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.46
+Fri Jul 30 2021 20:25:37  : Выставлен ордер - 162993603
+Fri Jul 30 2021 20:25:37  : Ордер на покупку исполнен, ID - 162993603
+Fri Jul 30 2021 20:25:47  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:47  : выставили ttp ордер
+Fri Jul 30 2021 20:25:53  : cansel order id:162993907
+Fri Jul 30 2021 20:25:54  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:54  : переставили ttp ордер, q=7.46
+Fri Jul 30 2021 20:25:54  : cansel order id:162994165
+Fri Jul 30 2021 20:25:55  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:56  : переставили ttp ордер, q=7.46
+Fri Jul 30 2021 20:25:58  : LINKUPUSDT-1627480656:setbuy: price:2.0375, quantity: 7.35
+Fri Jul 30 2021 20:25:58  : cansel order id:162994226
+Fri Jul 30 2021 20:25:59  : Выставлен ордер - 162994330
+Fri Jul 30 2021 20:25:59  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:25:59  : Ордер на покупку исполнен, ID - 162994330
+Fri Jul 30 2021 20:26:00  : переставили ttp ордер, q=7.46
+Fri Jul 30 2021 20:26:01  : ttp finish on 2.03010000
+Fri Jul 30 2021 20:26:01  : регистрация сделки - 2.0103,2.0301,7.46,0.14770800000000028,0.022606038,0.1251019620000003
+Fri Jul 30 2021 20:26:01  : регистрация сделки
+Fri Jul 30 2021 20:26:01  : сброс ттп
+Fri Jul 30 2021 20:26:03  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.43
+Fri Jul 30 2021 20:26:03  : Выставлен ордер - 162994720
+Fri Jul 30 2021 20:26:05  : Ордер на покупку исполнен, ID - 162994720
+Fri Jul 30 2021 20:26:13  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:26:13  : выставили ttp ордер
+Fri Jul 30 2021 20:26:26  : cansel order id:162995224
+Fri Jul 30 2021 20:26:27  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:26:27  : переставили ttp ордер, q=7.43
+Fri Jul 30 2021 20:26:34  : cansel order id:162995448
+Fri Jul 30 2021 20:26:35  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:26:36  : переставили ttp ордер, q=7.43
+Fri Jul 30 2021 20:26:50  : ttp finish on 2.02740000
+Fri Jul 30 2021 20:26:50  : регистрация сделки - 2.0103,2.0274,7.43,0.12705300000000086,0.02250008325,0.10455291675000086
+Fri Jul 30 2021 20:26:50  : регистрация сделки
+Fri Jul 30 2021 20:26:50  : сброс ттп
+Fri Jul 30 2021 20:26:51  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.39
+Fri Jul 30 2021 20:26:51  : Выставлен ордер - 162996160
+Fri Jul 30 2021 20:27:52  : LINKUPUSDT-1627480656:cansel: orderid:162996160
+Fri Jul 30 2021 20:27:53  : Ордер на покупку отменен, ID - 162996160
+Fri Jul 30 2021 20:27:55  : LINKUPUSDT-1627480656:cansel: orderid:162993031
+Fri Jul 30 2021 20:27:57  : Ордер на покупку отменен, ID - 162993031
+Fri Jul 30 2021 20:27:57  : Длительноть трека -1997
+Fri Jul 30 2021 20:27:58  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.4
+Fri Jul 30 2021 20:27:58  : Выставлен ордер - 162997089
+Fri Jul 30 2021 20:28:58  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:28:59  : выставили ttp ордер
+Fri Jul 30 2021 20:29:04  : cansel order id:162998397
+Fri Jul 30 2021 20:29:04  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 20:29:05  : Ошибка при выставлении ордера - {"code":-2010,"msg":"Stop price would trigger immediately."}
+Fri Jul 30 2021 20:29:15  : LINKUPUSDT-1627480656:cansel: orderid:162997089
+Fri Jul 30 2021 20:29:16  : Ордер на покупку отменен, ID - 162997089
+Fri Jul 30 2021 20:31:19  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627666275049,
+		"end_node_time": 1627666275049,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627666275050,
+		"end_node_time": 1627666275051,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627666275053,
+		"end_node_time": 1627666275054,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627666275054,
+		"end_node_time": 1627666275056,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627666275059,
+		"end_node_time": 1627666275060,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627666275062,
+		"end_node_time": 1627666275063,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627666275066,
+		"end_node_time": 1627666275066,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 20:31:35  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.4
+Fri Jul 30 2021 20:31:36  : Выставлен ордер - 163001320
+Fri Jul 30 2021 20:31:43  : LINKUPUSDT-1627480656:cansel: orderid:163001320
+Fri Jul 30 2021 20:31:43  : Ордер на покупку отменен, ID - 163001320
+Fri Jul 30 2021 20:32:33  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.42
+Fri Jul 30 2021 20:32:34  : Выставлен ордер - 163002318
+Fri Jul 30 2021 20:32:34  : LINKUPUSDT-1627480656:cansel: orderid:163002318
+Fri Jul 30 2021 20:32:35  : Ордер на покупку отменен, ID - 163002318
+Fri Jul 30 2021 20:32:41  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.41
+Fri Jul 30 2021 20:32:42  : Выставлен ордер - 163002462
+Fri Jul 30 2021 20:32:48  : LINKUPUSDT-1627480656:cansel: orderid:163002462
+Fri Jul 30 2021 20:32:48  : Ордер на покупку отменен, ID - 163002462
+Fri Jul 30 2021 20:33:36  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.41
+Fri Jul 30 2021 20:33:36  : Выставлен ордер - 163003227
+Fri Jul 30 2021 20:33:53  : LINKUPUSDT-1627480656:cansel: orderid:163003227
+Fri Jul 30 2021 20:33:54  : Ордер на покупку отменен, ID - 163003227
+Fri Jul 30 2021 20:34:08  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.41
+Fri Jul 30 2021 20:34:08  : Выставлен ордер - 163003780
+Fri Jul 30 2021 20:34:42  : LINKUPUSDT-1627480656:cansel: orderid:163003780
+Fri Jul 30 2021 20:34:42  : Ордер на покупку отменен, ID - 163003780
+Fri Jul 30 2021 20:34:43  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.41
+Fri Jul 30 2021 20:34:43  : Выставлен ордер - 163004267
+Fri Jul 30 2021 20:35:03  : LINKUPUSDT-1627480656:cansel: orderid:163004267
+Fri Jul 30 2021 20:35:04  : Ордер на покупку отменен, ID - 163004267
+Fri Jul 30 2021 20:35:19  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.37
+Fri Jul 30 2021 20:35:19  : Выставлен ордер - 163004935
+Fri Jul 30 2021 20:36:46  : LINKUPUSDT-1627480656:cansel: orderid:163004935
+Fri Jul 30 2021 20:36:47  : Ордер на покупку отменен, ID - 163004935
+Fri Jul 30 2021 20:38:28  : LINKUPUSDT-1627480656:setbuy: price:2.065, quantity: 7.27
+Fri Jul 30 2021 20:38:29  : Выставлен ордер - 163008739
+Fri Jul 30 2021 20:38:34  : Ордер на покупку исполнен, ID - 163008739
+Fri Jul 30 2021 20:43:05  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.37
+Fri Jul 30 2021 20:43:06  : Выставлен ордер - 163012152
+Fri Jul 30 2021 20:43:12  : LINKUPUSDT-1627480656:cansel: orderid:163012152
+Fri Jul 30 2021 20:43:14  : Ордер на покупку отменен, ID - 163012152
+Fri Jul 30 2021 20:45:08  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.39
+Fri Jul 30 2021 20:45:08  : Выставлен ордер - 163012983
+Fri Jul 30 2021 20:45:37  : LINKUPUSDT-1627480656:cansel: orderid:163012983
+Fri Jul 30 2021 20:45:38  : Ордер на покупку отменен, ID - 163012983
+Fri Jul 30 2021 20:46:00  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.41
+Fri Jul 30 2021 20:46:01  : Выставлен ордер - 163014019
+Fri Jul 30 2021 20:46:01  : LINKUPUSDT-1627480656:cansel: orderid:163014019
+Fri Jul 30 2021 20:46:02  : Ордер на покупку отменен, ID - 163014019
+Fri Jul 30 2021 20:46:17  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.4
+Fri Jul 30 2021 20:46:17  : Выставлен ордер - 163014201
+Fri Jul 30 2021 20:46:18  : LINKUPUSDT-1627480656:cansel: orderid:163014201
+Fri Jul 30 2021 20:46:19  : Ордер на покупку отменен, ID - 163014201
+Fri Jul 30 2021 20:46:34  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.41
+Fri Jul 30 2021 20:46:34  : Выставлен ордер - 163014459
+Fri Jul 30 2021 20:48:24  : LINKUPUSDT-1627480656:cansel: orderid:163014459
+Fri Jul 30 2021 20:48:25  : Ордер на покупку отменен, ID - 163014459
+Fri Jul 30 2021 20:48:51  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.4
+Fri Jul 30 2021 20:48:52  : Выставлен ордер - 163015636
+Fri Jul 30 2021 20:48:52  : LINKUPUSDT-1627480656:cansel: orderid:163015636
+Fri Jul 30 2021 20:48:53  : Ордер на покупку отменен, ID - 163015636
+Fri Jul 30 2021 20:48:55  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.4
+Fri Jul 30 2021 20:48:55  : Выставлен ордер - 163015698
+Fri Jul 30 2021 20:51:57  : LINKUPUSDT-1627480656:cansel: orderid:163015698
+Fri Jul 30 2021 20:51:58  : Ордер на покупку отменен, ID - 163015698
+Fri Jul 30 2021 20:57:31  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.37
+Fri Jul 30 2021 20:57:32  : Выставлен ордер - 163024146
+Fri Jul 30 2021 20:57:53  : LINKUPUSDT-1627480656:cansel: orderid:163024146
+Fri Jul 30 2021 20:57:54  : Ордер на покупку отменен, ID - 163024146
+Fri Jul 30 2021 21:06:35  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.38
+Fri Jul 30 2021 21:06:36  : Выставлен ордер - 163032000
+Fri Jul 30 2021 21:07:25  : LINKUPUSDT-1627480656:cansel: orderid:163032000
+Fri Jul 30 2021 21:07:25  : Ордер на покупку отменен, ID - 163032000
+Fri Jul 30 2021 21:08:17  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.38
+Fri Jul 30 2021 21:08:17  : Выставлен ордер - 163033777
+Fri Jul 30 2021 21:09:03  : LINKUPUSDT-1627480656:cansel: orderid:163033777
+Fri Jul 30 2021 21:09:03  : Ордер на покупку отменен, ID - 163033777
+Fri Jul 30 2021 21:19:47  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.4
+Fri Jul 30 2021 21:19:48  : Выставлен ордер - 163043233
+Fri Jul 30 2021 21:22:03  : LINKUPUSDT-1627480656:cansel: orderid:163043233
+Fri Jul 30 2021 21:22:03  : Ордер на покупку отменен, ID - 163043233
+Fri Jul 30 2021 21:22:05  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.39
+Fri Jul 30 2021 21:22:05  : LINKUPUSDT-1627480656:setbuy: price:2.0103, quantity: 7.39
+Fri Jul 30 2021 21:22:06  : Выставлен ордер - 163045369
+Fri Jul 30 2021 21:22:06  : Выставлен ордер - 163045371
+Fri Jul 30 2021 21:23:45  : LINKUPUSDT-1627480656:cansel: orderid:163045371
+Fri Jul 30 2021 21:23:46  : Ордер на покупку отменен, ID - 163045371
+Fri Jul 30 2021 21:27:48  : LINKUPUSDT-1627480656:setbuy: price:2.0929, quantity: 7.13
+Fri Jul 30 2021 21:27:48  : Выставлен ордер - 163052170
+Fri Jul 30 2021 21:27:49  : Ордер на покупку исполнен, ID - 163052170
+Fri Jul 30 2021 21:32:21  : LINKUPUSDT-1627480656:setbuy: price:2.1211, quantity: 7.06
+Fri Jul 30 2021 21:32:21  : Выставлен ордер - 163059721
+Fri Jul 30 2021 21:32:24  : Ордер на покупку исполнен, ID - 163059721
+Fri Jul 30 2021 23:11:42  : LINKUPUSDT-1627480656:setbuy: price:2.1498, quantity: 6.98
+Fri Jul 30 2021 23:11:42  : Выставлен ордер - 163157941
+Fri Jul 30 2021 23:11:43  : Ордер на покупку исполнен, ID - 163157941
+Fri Jul 30 2021 23:24:21  : Сброс к стартовым настройкам
+Fri Jul 30 2021 23:26:13  : LINKUPUSDT-1627480656:setbuy: price:2.1498, quantity: 6.98
+Fri Jul 30 2021 23:26:15  : Выставлен ордер - 163174049
+Fri Jul 30 2021 23:26:15  : Ордер на покупку исполнен, ID - 163174049
+Fri Jul 30 2021 23:28:53  : LINKUPUSDT-1627480656:setbuy: price:2.1211, quantity: 7.03
+Fri Jul 30 2021 23:28:54  : Выставлен ордер - 163176419
+Fri Jul 30 2021 23:29:04  : LINKUPUSDT-1627480656:cansel: orderid:163176419
+Fri Jul 30 2021 23:29:04  : Ордер на покупку отменен, ID - 163176419
