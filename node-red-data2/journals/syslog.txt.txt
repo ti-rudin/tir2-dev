@@ -1678,3 +1678,287 @@ Fri Jul 30 2021 23:24:27  : Сброс к стартовым настройка�
 Fri Jul 30 2021 23:24:42  :  
  
  Старт
+Fri Jul 30 2021 23:51:01  : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627678257493,
+		"end_node_time": 1627678257493,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627678257494,
+		"end_node_time": 1627678257495,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627678257498,
+		"end_node_time": 1627678257499,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627678257499,
+		"end_node_time": 1627678257503,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627678257514,
+		"end_node_time": 1627678257516,
+		"duration_node": 2,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627678257519,
+		"end_node_time": 1627678257520,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627678257524,
+		"end_node_time": 1627678257524,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 23:51:25  : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627678281172,
+		"end_node_time": 1627678281172,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627678281173,
+		"end_node_time": 1627678281175,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627678281186,
+		"end_node_time": 1627678281187,
+		"duration_node": 1,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627678281188,
+		"end_node_time": 1627678281191,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627678281230,
+		"end_node_time": 1627678281248,
+		"duration_node": 18,
+		"duration_step": 57
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627678281277,
+		"end_node_time": 1627678281283,
+		"duration_node": 6,
+		"duration_step": 35
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627678281287,
+		"end_node_time": 1627678281287,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Fri Jul 30 2021 23:52:08  : Стоп
+Sat Jul 31 2021 00:04:14  : Сброс к стартовым настройкам NEOUSDT-1627490958
+Sat Jul 31 2021 00:04:18  : Сброс к стартовым настройкам LINKUPUSDT-1627480656
+Sat Jul 31 2021 00:04:22  :  
+ 
+ Старт
+Sat Jul 31 2021 00:10:29  : Стоп
+Sat Jul 31 2021 00:10:40  :  
+ 
+ Старт
+Sat Jul 31 2021 00:17:18  : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627679836361,
+		"end_node_time": 1627679836361,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627679836362,
+		"end_node_time": 1627679836363,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627679836371,
+		"end_node_time": 1627679836376,
+		"duration_node": 5,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627679836377,
+		"end_node_time": 1627679836380,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627679836384,
+		"end_node_time": 1627679836386,
+		"duration_node": 2,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627679836389,
+		"end_node_time": 1627679836391,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627679836397,
+		"end_node_time": 1627679836397,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "orderexec cansel",
+		"start_node_time": 1627679836404,
+		"end_node_time": 1627679836964,
+		"duration_node": 560,
+		"duration_step": 567
+	}
+]
+Sat Jul 31 2021 00:17:30  : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627679848080,
+		"end_node_time": 1627679848080,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627679848081,
+		"end_node_time": 1627679848082,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627679848085,
+		"end_node_time": 1627679848086,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627679848086,
+		"end_node_time": 1627679848088,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627679848091,
+		"end_node_time": 1627679848092,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627679848095,
+		"end_node_time": 1627679848096,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627679848099,
+		"end_node_time": 1627679848099,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Sat Jul 31 2021 00:24:46  : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627680284030,
+		"end_node_time": 1627680284030,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627680284030,
+		"end_node_time": 1627680284031,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627680284033,
+		"end_node_time": 1627680284034,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627680284034,
+		"end_node_time": 1627680284035,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627680284038,
+		"end_node_time": 1627680284038,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627680284042,
+		"end_node_time": 1627680284043,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627680284047,
+		"end_node_time": 1627680284047,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "orderexec cansel",
+		"start_node_time": 1627680284052,
+		"end_node_time": 1627680285622,
+		"duration_node": 1570,
+		"duration_step": 1575
+	}
+]

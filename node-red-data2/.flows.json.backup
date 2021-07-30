@@ -3478,7 +3478,7 @@
         "op2": "0",
         "op1type": "str",
         "op2type": "str",
-        "duration": "-250",
+        "duration": "-150",
         "extend": false,
         "overrideDelay": false,
         "units": "ms",
@@ -3736,7 +3736,7 @@
         "z": "2a761808.610238",
         "g": "62f84306b9b0d2ef",
         "name": "busy === false ",
-        "func": "\n\nif (msg.payload === false) {\n   \n    node.status({fill:\"green\",shape:\"dot\"});\n    \n    return [msg, null];\n}\n\nelse {\n\n    let id = msg.botname;\n    msg.payload = [];\n\n    var count = flow.get(id) || 0;\n    count += 1;\n\n    node.status({fill:\"blue\",shape:\"dot\"});\n\n\n    if (count > 16) {\n        const upd = global.get('setttp_free')(id);\n   \n        let trackname = \"ttp-track-\"+msg.botname;\n        let lasttrack = JSON.stringify(flow.get(trackname) || \"\", null, '\\t');\n        \n        \n        //запись в журнал\n        let botname = \"syslog.txt\";\n        let data = \"Сброс ttp \"+msg.botname+\" \\n \"+lasttrack;\n        const syslog = global.get('tilog')(botname,data);\n        syslog;\n        \n        let botname2 = msg.botname;\n        let data2 = \"Сброс ttp busy \\n \"+lasttrack;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n\n        upd.then(upd => {\n            \n\n            node.status({fill:\"red\",shape:\"dot\"});\n            \n            flow.set(id, 0);\n            node.warn(\"reset ttp busy:\" + id);\n\n        }).catch(error => {\n            node.error(error);\n        });\n\n    }\n    flow.set(id, count);\n    return [null, msg];\n}\n\n\n\n\n\n",
+        "func": "\n\nif (msg.payload === false) {\n   \n    node.status({fill:\"green\",shape:\"dot\"});\n    \n    return [msg, null];\n}\n\nelse {\n\n    let id = msg.botname;\n    msg.payload = [];\n\n    var count = flow.get(id) || 0;\n    count += 1;\n\n    node.status({fill:\"blue\",shape:\"dot\"});\n\n\n    if (count > 20) {\n        const upd = global.get('setttp_free')(id);\n   \n        let trackname = \"ttp-track-\"+msg.botname;\n        let lasttrack = JSON.stringify(flow.get(trackname) || \"\", null, '\\t');\n        \n        \n        //запись в журнал\n        let botname = \"syslog.txt\";\n        let data = \"Сброс ttp \"+msg.botname+\" \\n \"+lasttrack;\n        const syslog = global.get('tilog')(botname,data);\n        syslog;\n        \n        let botname2 = msg.botname;\n        let data2 = \"Сброс ttp busy \\n \"+lasttrack;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n\n        upd.then(upd => {\n            \n\n            node.status({fill:\"red\",shape:\"dot\"});\n            \n            flow.set(id, 0);\n            node.warn(\"reset ttp busy:\" + id);\n\n        }).catch(error => {\n            node.error(error);\n        });\n\n    }\n    flow.set(id, count);\n    return [null, msg];\n}\n\n\n\n\n\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -14598,7 +14598,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "orderexec setsell",
-        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nlet cmd = \"setsell\";\nlet data = {bot: msg.bot };\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\nlet data2 = \"setsell\" + msg.botname;\nconst tilog = global.get('tilog')(botname, data2);\ntilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        msg.bot = msg.orderexec.bot;\n        \n        msg.bot.ttp.curorderid = msg.orderexec.statusBody.orderId;\n        msg.bot.ttp.curstop = msg.bot.ttp.raschstopprice\n        //msg.bot.ttp.quantity = msg.orderexec.statusBody.origQty;\n        \n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle,\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration_node\": duration,\n            \"duration_step\": duration_step\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle + \"-faile\",\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration\": duration,\n            \"duration_step\": duration_step,\n            \"error\": orderexec.statusBody\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
+        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\nlet cmd = \"setsell\";\nlet data = {bot: msg.bot };\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\nlet data2 = \"setsell\" + msg.botname;\nconst tilog = global.get('tilog')(botname, data2);\ntilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode == \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        msg.bot = msg.orderexec.bot;\n        \n        msg.bot.ttp.curorderid = msg.orderexec.statusBody.orderId;\n        msg.bot.ttp.curstop = msg.bot.ttp.raschstopprice\n        //msg.bot.ttp.quantity = msg.orderexec.statusBody.origQty;\n        \n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle,\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration_node\": duration,\n            \"duration_step\": duration_step\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle + \"-faile\",\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration\": duration,\n            \"duration_step\": duration_step,\n            \"error\": orderexec.statusBody\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14660,7 +14660,7 @@
         "y": 620,
         "wires": [
             [
-                "2ae413ade37cd800"
+                "0167d4ca2adb9c97"
             ]
         ]
     },
@@ -14684,7 +14684,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3095,
+        "x": 3295,
         "y": 620,
         "wires": []
     },
@@ -21092,5 +21092,25 @@
         "x": 890,
         "y": 1160,
         "wires": []
+    },
+    {
+        "id": "0167d4ca2adb9c97",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "setbot_ttp",
+        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\nmsg.topic = msg.bot.settings.userid + \"-bots:\" + msg.bot.settings.botname + \":ttp\";\n\nmsg.payload = JSON.stringify(msg.bot.ttp);\nconst upd = global.get('setbot_ttp')(msg.topic, msg.payload);\n\n\nupd.then(upd => {\n\n    //>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    let duration_step = end_node_time - last_node_end_time;\n    track.push({\n        \"steptitle\": steptitle,\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration_node\": duration,\n        \"duration_step\": duration_step\n    });\n    flow.set(trackname, track);\n    //>трекер>\n\n    let botname = msg.botname;\n    let datamsg = \"переставили ttp ордер, q=\" + msg.bot.ttp.quantity;\n    const tilog = global.get('tilog')(botname, datamsg);\n    tilog;\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    //>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    let duration_step = end_node_time - last_node_end_time;\n    track.push({\n        \"steptitle\": steptitle + \"-faile\",\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration\": duration,\n        \"duration_step\": duration_step,\n        \"error\": error\n    });\n    flow.set(trackname, track);\n    //>трекер>\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3150,
+        "y": 620,
+        "wires": [
+            [
+                "2ae413ade37cd800"
+            ]
+        ],
+        "icon": "font-awesome/fa-bolt"
     }
 ]
