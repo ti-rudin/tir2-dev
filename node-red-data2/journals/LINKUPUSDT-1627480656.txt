@@ -1,13 +1,304 @@
-Fri Jul 30 2021 04:44:20  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.84
-Fri Jul 30 2021 04:44:21  : Выставлен ордер - 162402957
-Fri Jul 30 2021 04:46:00  : LINKUPUSDT-1627480656:cansel: orderid:162402957
-Fri Jul 30 2021 04:46:01  : Ордер на покупку отменен, ID - 162402957
-Fri Jul 30 2021 04:46:50  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.85
-Fri Jul 30 2021 04:46:51  : Выставлен ордер - 162403827
-Fri Jul 30 2021 04:47:26  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.77
-Fri Jul 30 2021 04:47:26  : Выставлен ордер - 162404509
-Fri Jul 30 2021 04:47:30  : Ордер на покупку исполнен, ID - 162404509
-Fri Jul 30 2021 04:48:51  : Длительноть трека -1072
-Fri Jul 30 2021 04:50:01  : LINKUPUSDT-1627480656:cansel: orderid:162403827
-Fri Jul 30 2021 04:50:02  : Ордер на покупку отменен, ID - 162403827
-Fri Jul 30 2021 04:50:02  : Длительноть трека -1147
+
+Fri Jul 30 2021 17:57:34  : Сброс к стартовым настройкам
+Fri Jul 30 2021 17:57:48  : LINKUPUSDT-1627480656:setbuy: price:1.5792, quantity: 9.48
+Fri Jul 30 2021 17:57:49  : Выставлен ордер - 162839757
+Fri Jul 30 2021 17:57:49  : Длительноть трека -1092
+Fri Jul 30 2021 17:59:05  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.38
+Fri Jul 30 2021 17:59:06  : Выставлен ордер - 162840900
+Fri Jul 30 2021 17:59:06  : Ордер на покупку исполнен, ID - 162840900
+Fri Jul 30 2021 17:59:15  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 17:59:16  : выставили ttp ордер
+Fri Jul 30 2021 17:59:16  : cansel order id:162841373
+Fri Jul 30 2021 17:59:16  : переставили ttp ордер
+Fri Jul 30 2021 17:59:16  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 17:59:17  : переставили ttp ордер
+Fri Jul 30 2021 17:59:17  : cansel order id:162841455
+Fri Jul 30 2021 17:59:18  : переставили ttp ордер
+Fri Jul 30 2021 17:59:18  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 17:59:18  : переставили ttp ордер
+Fri Jul 30 2021 17:59:18  : cansel order id:162841502
+Fri Jul 30 2021 17:59:19  : переставили ttp ордер
+Fri Jul 30 2021 17:59:19  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 17:59:20  : переставили ttp ордер
+Fri Jul 30 2021 17:59:26  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.25
+Fri Jul 30 2021 17:59:27  : cansel order id:162841608
+Fri Jul 30 2021 17:59:27  : переставили ttp ордер
+Fri Jul 30 2021 17:59:27  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 17:59:27  : Выставлен ордер - 162841754
+Fri Jul 30 2021 17:59:27  : Длительноть трека -1095
+Fri Jul 30 2021 17:59:28  : переставили ttp ордер
+Fri Jul 30 2021 17:59:28  : cansel order id:162841772
+Fri Jul 30 2021 17:59:29  : переставили ttp ордер
+Fri Jul 30 2021 17:59:29  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 17:59:29  : Ордер на покупку исполнен, ID - 162841754
+Fri Jul 30 2021 17:59:29  : переставили ttp ордер
+Fri Jul 30 2021 17:59:30  : ttp finish
+Fri Jul 30 2021 17:59:30  : выставили ttp ордер
+Fri Jul 30 2021 17:59:31  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.28
+Fri Jul 30 2021 17:59:32  : Выставлен ордер - 162841988
+Fri Jul 30 2021 18:01:39  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:01:41  : выставили ttp ордер
+Fri Jul 30 2021 18:01:41  : cansel order id:162844278
+Fri Jul 30 2021 18:01:41  : переставили ttp ордер
+Fri Jul 30 2021 18:01:41  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:01:43  : переставили ttp ордер
+Fri Jul 30 2021 18:01:43  : ttp finish
+Fri Jul 30 2021 18:01:44  : выставили ttp ордер
+Fri Jul 30 2021 18:01:44  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.23
+Fri Jul 30 2021 18:01:45  : Выставлен ордер - 162844352
+Fri Jul 30 2021 18:01:48  : LINKUPUSDT-1627480656:cansel: orderid:162844352
+Fri Jul 30 2021 18:01:48  : Ордер на покупку отменен, ID - 162844352
+Fri Jul 30 2021 18:01:53  : LINKUPUSDT-1627480656:cansel: orderid:162839757
+Fri Jul 30 2021 18:01:53  : LINKUPUSDT-1627480656:cansel: orderid:162841988
+Fri Jul 30 2021 18:01:53  : Ордер на покупку отменен, ID - 162839757
+Fri Jul 30 2021 18:01:54  : Ордер на покупку отменен, ID - 162841988
+Fri Jul 30 2021 18:01:54  : Длительноть трека -1480
+Fri Jul 30 2021 18:01:59  : Ордер на покупку отменен, ID - 162839757
+Fri Jul 30 2021 18:01:59  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.21
+Fri Jul 30 2021 18:02:00  : Выставлен ордер - 162844638
+Fri Jul 30 2021 18:02:00  : Длительноть трека -1600
+Fri Jul 30 2021 18:02:01  : LINKUPUSDT-1627480656:cansel: orderid:162844638
+Fri Jul 30 2021 18:02:02  : Ордер на покупку отменен, ID - 162844638
+Fri Jul 30 2021 18:02:02  : Длительноть трека -1077
+Fri Jul 30 2021 18:02:22  : Длительноть трека -932
+Fri Jul 30 2021 18:03:23  : Длительноть трека -940
+Fri Jul 30 2021 18:05:03  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.3
+Fri Jul 30 2021 18:05:04  : Выставлен ордер - 162847297
+Fri Jul 30 2021 18:05:30  : LINKUPUSDT-1627480656:cansel: orderid:162847297
+Fri Jul 30 2021 18:05:30  : Ордер на покупку отменен, ID - 162847297
+Fri Jul 30 2021 18:05:44  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.31
+Fri Jul 30 2021 18:05:45  : Выставлен ордер - 162847995
+Fri Jul 30 2021 18:05:45  : Длительноть трека -1121
+Fri Jul 30 2021 18:06:16  : LINKUPUSDT-1627480656:cansel: orderid:162847995
+Fri Jul 30 2021 18:06:16  : Ордер на покупку отменен, ID - 162847995
+Fri Jul 30 2021 18:07:01  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.32
+Fri Jul 30 2021 18:07:01  : Выставлен ордер - 162849045
+Fri Jul 30 2021 18:07:03  : Длительноть трека -1292
+Fri Jul 30 2021 18:07:20  : LINKUPUSDT-1627480656:cansel: orderid:162849045
+Fri Jul 30 2021 18:07:21  : Ордер на покупку отменен, ID - 162849045
+Fri Jul 30 2021 18:07:29  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.3
+Fri Jul 30 2021 18:07:30  : Выставлен ордер - 162849446
+Fri Jul 30 2021 18:07:45  : LINKUPUSDT-1627480656:cansel: orderid:162849446
+Fri Jul 30 2021 18:07:46  : Ордер на покупку отменен, ID - 162849446
+Fri Jul 30 2021 18:08:31  : Длительноть трека -1053
+Fri Jul 30 2021 18:09:31  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.32
+Fri Jul 30 2021 18:09:32  : Выставлен ордер - 162850918
+Fri Jul 30 2021 18:10:07  : LINKUPUSDT-1627480656:cansel: orderid:162850918
+Fri Jul 30 2021 18:10:07  : Ордер на покупку отменен, ID - 162850918
+Fri Jul 30 2021 18:10:07  : Длительноть трека -919
+Fri Jul 30 2021 18:10:08  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.33
+Fri Jul 30 2021 18:10:09  : Выставлен ордер - 162851189
+Fri Jul 30 2021 18:11:03  : LINKUPUSDT-1627480656:cansel: orderid:162851189
+Fri Jul 30 2021 18:11:04  : Ордер на покупку отменен, ID - 162851189
+Fri Jul 30 2021 18:11:35  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.31
+Fri Jul 30 2021 18:11:36  : Выставлен ордер - 162852399
+Fri Jul 30 2021 18:11:48  : LINKUPUSDT-1627480656:cansel: orderid:162852399
+Fri Jul 30 2021 18:11:49  : Ордер на покупку отменен, ID - 162852399
+Fri Jul 30 2021 18:11:51  : Длительноть трека -1321
+Fri Jul 30 2021 18:12:53  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.29
+Fri Jul 30 2021 18:12:53  : Выставлен ордер - 162852967
+Fri Jul 30 2021 18:13:19  : LINKUPUSDT-1627480656:cansel: orderid:162852967
+Fri Jul 30 2021 18:13:20  : Ордер на покупку отменен, ID - 162852967
+Fri Jul 30 2021 18:13:53  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.31
+Fri Jul 30 2021 18:13:54  : Выставлен ордер - 162853541
+Fri Jul 30 2021 18:16:35  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.25
+Fri Jul 30 2021 18:16:35  : Выставлен ордер - 162854828
+Fri Jul 30 2021 18:16:39  : Ордер на покупку исполнен, ID - 162854828
+Fri Jul 30 2021 18:17:12  : LINKUPUSDT-1627480656:cansel: orderid:162853541
+Fri Jul 30 2021 18:17:13  : Ордер на покупку отменен, ID - 162853541
+Fri Jul 30 2021 18:18:04  : LINKUPUSDT-1627480656:setbuy: price:1.6005, quantity: 9.27
+Fri Jul 30 2021 18:18:04  : Выставлен ордер - 162855854
+Fri Jul 30 2021 18:18:08  : LINKUPUSDT-1627480656:cansel: orderid:162855854
+Fri Jul 30 2021 18:18:08  : Ордер на покупку отменен, ID - 162855854
+Fri Jul 30 2021 18:19:11  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:19:12  : выставили ttp ордер
+Fri Jul 30 2021 18:19:48  : cansel order id:162856790
+Fri Jul 30 2021 18:19:49  : переставили ttp ордер
+Fri Jul 30 2021 18:19:49  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:19:50  : переставили ttp ордер
+Fri Jul 30 2021 18:20:30  : cansel order id:162857021
+Fri Jul 30 2021 18:20:31  : переставили ttp ордер
+Fri Jul 30 2021 18:20:31  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:20:31  : переставили ttp ордер
+Fri Jul 30 2021 18:20:36  : cansel order id:162857382
+Fri Jul 30 2021 18:20:38  : переставили ttp ордер
+Fri Jul 30 2021 18:20:38  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:20:38  : переставили ttp ордер
+Fri Jul 30 2021 18:21:33  : Длительноть трека -1004
+Fri Jul 30 2021 18:23:47  : ttp finish
+Fri Jul 30 2021 18:23:47  : выставили ttp ордер
+Fri Jul 30 2021 18:23:48  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.2
+Fri Jul 30 2021 18:23:49  : Выставлен ордер - 162858950
+Fri Jul 30 2021 18:24:59  : LINKUPUSDT-1627480656:cansel: orderid:162858950
+Fri Jul 30 2021 18:24:59  : Ордер на покупку отменен, ID - 162858950
+Fri Jul 30 2021 18:25:00  : LINKUPUSDT-1627480656:setbuy: price:1.6221, quantity: 9.19
+Fri Jul 30 2021 18:25:01  : Выставлен ордер - 162859467
+Fri Jul 30 2021 18:25:42  : Длительноть трека -960
+Fri Jul 30 2021 18:25:42  : LINKUPUSDT-1627480656:setbuy: price:1.644, quantity: 9.13
+Fri Jul 30 2021 18:25:43  : Выставлен ордер - 162860249
+Fri Jul 30 2021 18:25:46  : Ордер на покупку исполнен, ID - 162860249
+Fri Jul 30 2021 18:25:51  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:25:52  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 9
+Fri Jul 30 2021 18:25:52  : выставили ttp ордер
+Fri Jul 30 2021 18:25:52  : cansel order id:162860812
+Fri Jul 30 2021 18:25:52  : Выставлен ордер - 162860836
+Fri Jul 30 2021 18:25:53  : переставили ttp ордер
+Fri Jul 30 2021 18:25:53  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:25:53  : Ордер на покупку исполнен, ID - 162860836
+Fri Jul 30 2021 18:25:53  : переставили ttp ордер
+Fri Jul 30 2021 18:25:53  : cansel order id:162860872
+Fri Jul 30 2021 18:25:54  : переставили ttp ордер
+Fri Jul 30 2021 18:25:54  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:25:55  : переставили ttp ордер
+Fri Jul 30 2021 18:25:55  : cansel order id:162860907
+Fri Jul 30 2021 18:25:59  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1627658755156,
+		"end_node_time": 1627658755156,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1627658755156,
+		"end_node_time": 1627658755157,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1627658755159,
+		"end_node_time": 1627658755160,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1627658755160,
+		"end_node_time": 1627658755162,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1627658755165,
+		"end_node_time": 1627658755166,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setttp_q 0",
+		"start_node_time": 1627658755168,
+		"end_node_time": 1627658755169,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1627658755172,
+		"end_node_time": 1627658755172,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Fri Jul 30 2021 18:25:59  : ttp finish
+Fri Jul 30 2021 18:25:59  : выставили ttp ордер
+Fri Jul 30 2021 18:26:00  : LINKUPUSDT-1627480656:setbuy: price:1.644, quantity: 9.05
+Fri Jul 30 2021 18:26:00  : Выставлен ордер - 162861075
+Fri Jul 30 2021 18:28:16  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:28:17  : выставили ttp ордер
+Fri Jul 30 2021 18:28:17  : cansel order id:162863492
+Fri Jul 30 2021 18:28:18  : переставили ttp ордер
+Fri Jul 30 2021 18:28:18  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:28:18  : переставили ttp ордер
+Fri Jul 30 2021 18:28:20  : cansel order id:162863565
+Fri Jul 30 2021 18:28:21  : переставили ttp ордер
+Fri Jul 30 2021 18:28:21  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:28:22  : переставили ttp ордер
+Fri Jul 30 2021 18:28:22  : cansel order id:162863646
+Fri Jul 30 2021 18:28:23  : переставили ttp ордер
+Fri Jul 30 2021 18:28:23  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:28:25  : переставили ttp ордер
+Fri Jul 30 2021 18:28:25  : Длительноть трека -917
+Fri Jul 30 2021 18:28:25  : cansel order id:162863666
+Fri Jul 30 2021 18:28:26  : переставили ttp ордер
+Fri Jul 30 2021 18:28:26  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:28:26  : переставили ttp ордер
+Fri Jul 30 2021 18:28:49  : LINKUPUSDT-1627480656:cansel: orderid:162861075
+Fri Jul 30 2021 18:28:50  : Ордер на покупку отменен, ID - 162861075
+Fri Jul 30 2021 18:28:50  : LINKUPUSDT-1627480656:cansel: orderid:162859467
+Fri Jul 30 2021 18:28:51  : Ордер на покупку отменен, ID - 162859467
+Fri Jul 30 2021 18:28:51  : Длительноть трека -972
+Fri Jul 30 2021 18:29:45  : ttp finish
+Fri Jul 30 2021 18:29:46  : выставили ttp ордер
+Fri Jul 30 2021 18:29:46  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.93
+Fri Jul 30 2021 18:29:47  : Выставлен ордер - 162864720
+Fri Jul 30 2021 18:30:03  : Ордер на покупку отменен, ID - 162864720
+Fri Jul 30 2021 18:30:04  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.94
+Fri Jul 30 2021 18:30:04  : Выставлен ордер - 162865411
+Fri Jul 30 2021 18:30:07  : Ордер на покупку отменен, ID - 162865411
+Fri Jul 30 2021 18:30:08  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.94
+Fri Jul 30 2021 18:30:09  : Выставлен ордер - 162865459
+Fri Jul 30 2021 18:30:32  : LINKUPUSDT-1627480656:cansel: orderid:162865459
+Fri Jul 30 2021 18:30:33  : Ордер на покупку отменен, ID - 162865459
+Fri Jul 30 2021 18:31:18  : LINKUPUSDT-1627480656:setbuy: price:1.6662, quantity: 8.91
+Fri Jul 30 2021 18:31:19  : Выставлен ордер - 162866658
+Fri Jul 30 2021 18:31:19  : Длительноть трека -1076
+Fri Jul 30 2021 18:31:50  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.86
+Fri Jul 30 2021 18:31:50  : Выставлен ордер - 162867232
+Fri Jul 30 2021 18:31:51  : Ордер на покупку исполнен, ID - 162867232
+Fri Jul 30 2021 18:33:11  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:33:12  : выставили ttp ордер
+Fri Jul 30 2021 18:33:13  : cansel order id:162868582
+Fri Jul 30 2021 18:33:14  : переставили ttp ордер
+Fri Jul 30 2021 18:33:14  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:33:15  : переставили ttp ордер
+Fri Jul 30 2021 18:33:23  : ttp finish
+Fri Jul 30 2021 18:33:23  : выставили ttp ордер
+Fri Jul 30 2021 18:33:23  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.87
+Fri Jul 30 2021 18:33:24  : Выставлен ордер - 162869008
+Fri Jul 30 2021 18:33:24  : Ордер на покупку исполнен, ID - 162869008
+Fri Jul 30 2021 18:33:48  : Длительноть трека -956
+Fri Jul 30 2021 18:34:22  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:34:23  : выставили ttp ордер
+Fri Jul 30 2021 18:34:51  : cansel order id:162869896
+Fri Jul 30 2021 18:34:52  : переставили ttp ордер
+Fri Jul 30 2021 18:34:52  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:34:52  : переставили ttp ордер
+Fri Jul 30 2021 18:35:34  : LINKUPUSDT-1627480656:cansel: orderid:162866658
+Fri Jul 30 2021 18:35:35  : Ордер на покупку отменен, ID - 162866658
+Fri Jul 30 2021 18:35:35  : Длительноть трека -1032
+Fri Jul 30 2021 18:35:41  : Длительноть трека -1062
+Fri Jul 30 2021 18:36:16  : ttp finish
+Fri Jul 30 2021 18:36:17  : выставили ttp ордер
+Fri Jul 30 2021 18:36:17  : LINKUPUSDT-1627480656:setbuy: price:1.6887, quantity: 8.86
+Fri Jul 30 2021 18:36:18  : Выставлен ордер - 162871237
+Fri Jul 30 2021 18:36:27  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.77
+Fri Jul 30 2021 18:36:27  : Выставлен ордер - 162871935
+Fri Jul 30 2021 18:36:28  : Ордер на покупку исполнен, ID - 162871935
+Fri Jul 30 2021 18:36:58  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:36:59  : выставили ttp ордер
+Fri Jul 30 2021 18:36:59  : cansel order id:162872765
+Fri Jul 30 2021 18:37:00  : переставили ttp ордер
+Fri Jul 30 2021 18:37:00  : setsellLINKUPUSDT-1627480656
+Fri Jul 30 2021 18:37:00  : переставили ttp ордер
+Fri Jul 30 2021 18:37:02  : ttp finish
+Fri Jul 30 2021 18:37:03  : выставили ttp ордер
+Fri Jul 30 2021 18:37:03  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.74
+Fri Jul 30 2021 18:37:04  : Выставлен ордер - 162873100
+Fri Jul 30 2021 18:37:08  : Длительноть трека -1167
+Fri Jul 30 2021 18:37:33  : LINKUPUSDT-1627480656:setbuy: price:1.7346, quantity: 8.64
+Fri Jul 30 2021 18:37:34  : Выставлен ордер - 162873997
+Fri Jul 30 2021 18:37:34  : Длительноть трека -1151
+Fri Jul 30 2021 18:37:35  : Ордер на покупку исполнен, ID - 162873997
+Fri Jul 30 2021 18:38:27  : LINKUPUSDT-1627480656:cansel: orderid:162873100
+Fri Jul 30 2021 18:38:28  : Ордер на покупку отменен, ID - 162873100
+Fri Jul 30 2021 18:38:28  : Длительноть трека -1596
+Fri Jul 30 2021 18:38:30  : LINKUPUSDT-1627480656:cansel: orderid:162871237
+Fri Jul 30 2021 18:38:31  : Ордер на покупку отменен, ID - 162871237
+Fri Jul 30 2021 18:38:31  : Длительноть трека -919
+Fri Jul 30 2021 18:38:42  : Длительноть трека -978
+Fri Jul 30 2021 18:38:53  : LINKUPUSDT-1627480656:setbuy: price:1.7115, quantity: 8.72
+Fri Jul 30 2021 18:38:54  : Выставлен ордер - 162875891
