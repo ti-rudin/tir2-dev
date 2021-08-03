@@ -4,7 +4,7 @@
         "type": "tab",
         "label": "MAIN",
         "disabled": false,
-        "info": "нормально прописать логирование\nбэктест\nмежду этажами не знает какое ордер проверять?\nнаращивание ттп\n\n\nдребезг при выставлении/отмене buy ордеров\nрегистрация сделки\nпроверка этажа\nдописать ордерэкзек на ттп"
+        "info": "нормально прописать логирование\nбэктест\nмежду этажами не знает какое ордер проверять?\nнаращивание ттп\nпроскальзывание ттп\n\nдребезг при выставлении/отмене buy ордеров\nрегистрация сделки\nпроверка этажа\nдописать ордерэкзек на ттп"
     },
     {
         "id": "5f98db3a.7ab21c",
@@ -135,9 +135,7 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419,
-        "w": 632,
-        "h": 162
+        "y": 419
     },
     {
         "id": "3684cd36.8432c2",
@@ -164,7 +162,9 @@
             "8d1c9d05.67e5e8"
         ],
         "x": 94,
-        "y": 139
+        "y": 139,
+        "w": 1382,
+        "h": 162
     },
     {
         "id": "4bf7491f.8e70b",
@@ -191,9 +191,7 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 699,
-        "w": 1612,
-        "h": 122
+        "y": 699
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -234,9 +232,7 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839,
-        "w": 1422,
-        "h": 422
+        "y": 1839
     },
     {
         "id": "a0a5df595c9dd619",
@@ -331,9 +327,7 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1552,
-        "h": 682
+        "y": 19
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -442,9 +436,7 @@
             "577c5da19353e540"
         ],
         "x": 2654,
-        "y": 1179,
-        "w": 952,
-        "h": 82
+        "y": 1179
     },
     {
         "id": "1ce3921709fe3854",
@@ -483,9 +475,7 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39,
-        "w": 1052,
-        "h": 502
+        "y": 39
     },
     {
         "id": "061eef32b9ec0b09",
@@ -510,9 +500,7 @@
             "1ca10b1307ef724b"
         ],
         "x": 2474,
-        "y": 1299,
-        "w": 1132,
-        "h": 182
+        "y": 1299
     },
     {
         "id": "f8a5c66461864831",
@@ -558,9 +546,7 @@
             "c4cf96930d013efb"
         ],
         "x": 1674,
-        "y": 119,
-        "w": 792,
-        "h": 122
+        "y": 119
     },
     {
         "id": "586e39dc007e0cae",
@@ -787,9 +773,7 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579,
-        "w": 1052,
-        "h": 502
+        "y": 579
     },
     {
         "id": "b1c9866420e73130",
@@ -827,9 +811,7 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2714,
-        "y": 1519,
-        "w": 692,
-        "h": 562
+        "y": 1519
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -938,7 +920,9 @@
             "563d3c7cf2cd4b45"
         ],
         "x": 194,
-        "y": 1519
+        "y": 1519,
+        "w": 2442,
+        "h": 1042
     },
     {
         "id": "c54480d87a18b156",
@@ -960,7 +944,9 @@
             "3fb2e4e22e831909"
         ],
         "x": 1414,
-        "y": 339
+        "y": 339,
+        "w": 392,
+        "h": 122
     },
     {
         "id": "6d6802907a34719d",
@@ -1054,7 +1040,9 @@
             "315a6dc929402e0e"
         ],
         "x": 20,
-        "y": 3699
+        "y": 3699,
+        "w": 4006,
+        "h": 1061
     },
     {
         "id": "f120eab2.0a60a8",
@@ -7191,7 +7179,9 @@
         "y": 500,
         "wires": [
             [
-                "475286f97a618341"
+                "475286f97a618341",
+                "1e2bf3cbcaff3749",
+                "3e9d9a0522243c87"
             ]
         ]
     },
@@ -7200,7 +7190,7 @@
         "type": "debug",
         "z": "654ea140.2275a8",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7222,6 +7212,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 640,
         "y": 460,
         "wires": [
@@ -7252,10 +7243,12 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 620,
-        "y": 520,
+        "x": 580,
+        "y": 540,
         "wires": [
-            []
+            [
+                "475286f97a618341"
+            ]
         ]
     },
     {
@@ -9791,7 +9784,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "jjh:e",
-        "payload": "{\"a\":1,\"b\":2}",
+        "payload": "{\"a\":1,\"b\":3}",
         "payloadType": "json",
         "x": 2040,
         "y": 1320,
@@ -9809,13 +9802,13 @@
         "command": "psubscribe",
         "name": "",
         "topic": "jjh:*",
-        "obj": false,
+        "obj": true,
         "timeout": 0,
-        "x": 2460,
+        "x": 2370,
         "y": 1260,
         "wires": [
             [
-                "a17b29df043df727"
+                "9026a7e0e8829057"
             ]
         ]
     },
@@ -17279,6 +17272,7 @@
         "type": "subflow:cde16a2385b7b659",
         "z": "5df15275.2888ec",
         "name": "",
+        "env": [],
         "x": 1070,
         "y": 1320,
         "wires": [
@@ -20732,368 +20726,6 @@
         "wires": []
     },
     {
-        "id": "1785da4127e9246a",
-        "type": "function",
-        "z": "cde16a2385b7b659",
-        "name": "prepare get ttp order status",
-        "func": "\nlet moneta = msg.bot.settings.moneta;\nmsg.moneta = moneta;\nlet orderid = msg.bot.ttp.curorderid\nmsg.orderid = orderid;\n\n \nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid;\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 780,
-        "y": 1020,
-        "wires": [
-            [
-                "9f46a75dd1e45002"
-            ]
-        ],
-        "inputLabels": [
-            "orderid"
-        ],
-        "outputLabels": [
-            "status"
-        ],
-        "icon": "node-red-contrib-binance/binance.png"
-    },
-    {
-        "id": "ed19765479a97a1d",
-        "type": "switch",
-        "z": "cde16a2385b7b659",
-        "name": "статус ордера",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "NEW",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "PARTIALLY_FILLED",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "CANCELED",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "FILLED",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "REJECTED",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "EXPIRED",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 6,
-        "x": 1240,
-        "y": 1020,
-        "wires": [
-            [
-                "3581d958ebf81e57"
-            ],
-            [
-                "3581d958ebf81e57"
-            ],
-            [
-                "5a560fcb8903702f",
-                "a26301e469fe615d"
-            ],
-            [
-                "53192b561965f230"
-            ],
-            [
-                "24a8878df0c3385c",
-                "e33e4138242b66d9"
-            ],
-            [
-                "24a8878df0c3385c",
-                "e33e4138242b66d9"
-            ]
-        ]
-    },
-    {
-        "id": "2f1ef8642986de63",
-        "type": "comment",
-        "z": "cde16a2385b7b659",
-        "name": "NEW",
-        "info": "",
-        "x": 1470,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "7a6f05fed78ea2ee",
-        "type": "comment",
-        "z": "cde16a2385b7b659",
-        "name": "CANCELED",
-        "info": "",
-        "x": 1490,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "dcfb280b157482af",
-        "type": "comment",
-        "z": "cde16a2385b7b659",
-        "name": "FILLED",
-        "info": "",
-        "x": 1470,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "e8ad1d77ca7b6d4c",
-        "type": "comment",
-        "z": "cde16a2385b7b659",
-        "name": "REJECTED или EXPIRED",
-        "info": "",
-        "x": 1530,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "1bb03a3b2b9f1f2b",
-        "type": "comment",
-        "z": "cde16a2385b7b659",
-        "name": "PARTIALLY_FILLED",
-        "info": "",
-        "x": 1630,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "53192b561965f230",
-        "type": "function",
-        "z": "cde16a2385b7b659",
-        "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1480,
-        "y": 1140,
-        "wires": [
-            [
-                "863824d2d03fe994"
-            ]
-        ]
-    },
-    {
-        "id": "24a8878df0c3385c",
-        "type": "debug",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1510,
-        "y": 1240,
-        "wires": []
-    },
-    {
-        "id": "5a560fcb8903702f",
-        "type": "debug",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1630,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "cba48e94f8e33d3c",
-        "type": "function",
-        "z": "cde16a2385b7b659",
-        "name": "setbot_ttp",
-        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\n\n\nmsg.bot.ttp.final_price = msg.payload;\n//msg.bot.ttp.final_quantity = msg.bot.ttp.quantity;\n//msg.bot.ttp.quantity = 0;\n\nmsg.topic = msg.bot.settings.userid + \"-bots:\" + msg.bot.settings.botname + \":ttp\";\nmsg.payload = JSON.stringify(msg.bot.ttp);\n\nconst upd = global.get('setbot_ttp')(msg.topic, msg.payload);\n\nupd.then(upd => {\n\n    msg.topic = [];\n\n    //>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    let duration_step = end_node_time - last_node_end_time;\n    track.push({\n        \"steptitle\": steptitle,\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration_node\": duration,\n        \"duration_step\": duration_step\n    });\n    flow.set(trackname, track);\n    //>трекер>\n\n    let botname = msg.botname;\n    let datamsg = \"ttp finish on \" + msg.bot.ttp.final_price;\n    const tilog = global.get('tilog')(botname, datamsg);\n    tilog;\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    //>трекер>\n    let end_node_time = new Date().getTime();\n    let duration = end_node_time - start_node_time;\n    let duration_step = end_node_time - last_node_end_time;\n    track.push({\n        \"steptitle\": steptitle + \"-faile\",\n        \"start_node_time\": start_node_time,\n        \"end_node_time\": end_node_time,\n        \"duration\": duration,\n        \"duration_step\": duration_step,\n        \"error\": error\n    });\n    flow.set(trackname, track);\n    //>трекер>\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2130,
-        "y": 1140,
-        "wires": [
-            [
-                "e4c309224639e714",
-                "d9ea79fabffefa3c"
-            ]
-        ]
-    },
-    {
-        "id": "e4c309224639e714",
-        "type": "debug",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2150,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "863824d2d03fe994",
-        "type": "function",
-        "z": "cde16a2385b7b659",
-        "name": "prepare get ttp order price",
-        "func": "\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.bot.ttp.curorderid;\n\nmsg.payload = [];\nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid + \"-price\";\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1700,
-        "y": 1140,
-        "wires": [
-            [
-                "dc65a506d76bf2bb"
-            ]
-        ],
-        "inputLabels": [
-            "orderid"
-        ],
-        "outputLabels": [
-            "status"
-        ],
-        "icon": "node-red-contrib-binance/binance.png"
-    },
-    {
-        "id": "dc65a506d76bf2bb",
-        "type": "redis-command",
-        "z": "cde16a2385b7b659",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get order status",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1940,
-        "y": 1140,
-        "wires": [
-            [
-                "cba48e94f8e33d3c"
-            ]
-        ]
-    },
-    {
-        "id": "3581d958ebf81e57",
-        "type": "link out",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "links": [
-            "8c8e6e2242d53271"
-        ],
-        "x": 1435,
-        "y": 940,
-        "wires": []
-    },
-    {
-        "id": "a26301e469fe615d",
-        "type": "link out",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "links": [
-            "8c8e6e2242d53271"
-        ],
-        "x": 1435,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "e33e4138242b66d9",
-        "type": "link out",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "links": [],
-        "x": 1435,
-        "y": 1240,
-        "wires": []
-    },
-    {
-        "id": "d9ea79fabffefa3c",
-        "type": "link out",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "links": [
-            "8c8e6e2242d53271"
-        ],
-        "x": 2255,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "9f46a75dd1e45002",
-        "type": "function",
-        "z": "cde16a2385b7b659",
-        "name": "get_order_status",
-        "func": "let moneta = msg.moneta;\nlet orderid = Number(msg.orderid);\n\nconst get_order_status = global.get('get_order_status')(moneta, orderid);\n\nget_order_status.then(result => {\n    \n    msg.payload = result;\n  \n    node.status({fill:\"green\",shape:\"dot\"});\n    node.send(msg);\n\n}).catch(error => {\n    \n   \n    node.status({fill:\"red\",shape:\"dot\"});\n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1030,
-        "y": 1020,
-        "wires": [
-            [
-                "ed19765479a97a1d"
-            ]
-        ]
-    },
-    {
-        "id": "1da57beae7c676af",
-        "type": "debug",
-        "z": "cde16a2385b7b659",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 890,
-        "y": 1160,
-        "wires": []
-    },
-    {
         "id": "0167d4ca2adb9c97",
         "type": "function",
         "z": "2a761808.610238",
@@ -21112,5 +20744,95 @@
             ]
         ],
         "icon": "font-awesome/fa-bolt"
+    },
+    {
+        "id": "1e2bf3cbcaff3749",
+        "type": "debug",
+        "z": "654ea140.2275a8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "3e9d9a0522243c87",
+        "type": "http response",
+        "z": "654ea140.2275a8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 340,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "9026a7e0e8829057",
+        "type": "rbe",
+        "z": "654ea140.2275a8",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2540,
+        "y": 1260,
+        "wires": [
+            [
+                "a17b29df043df727"
+            ]
+        ]
+    },
+    {
+        "id": "ba49f874ccbe47f5",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "jjh:e",
+        "payload": "{\"a\":1,\"b\":2}",
+        "payloadType": "json",
+        "x": 2020,
+        "y": 1380,
+        "wires": [
+            [
+                "f6a7ea8032597382"
+            ]
+        ]
+    },
+    {
+        "id": "f6a7ea8032597382",
+        "type": "redis-out",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2180,
+        "y": 1380,
+        "wires": []
     }
 ]
