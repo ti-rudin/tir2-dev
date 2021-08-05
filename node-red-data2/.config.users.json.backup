@@ -25,6 +25,7 @@
                 "flowRefresh": false
             }
         },
-        "menu-menu-item-palette": false
+        "menu-menu-item-palette": false,
+        "menu-menu-item-sidebar": true
     }
 }
