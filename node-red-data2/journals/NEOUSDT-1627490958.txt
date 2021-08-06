@@ -4305,3 +4305,5137 @@ Fri Aug 06 2021 14:01:08  : Выставлен ордер - 719132462
 Fri Aug 06 2021 14:01:45  : NEOUSDT-1627490958:cansel: orderid:719132462
 Fri Aug 06 2021 14:01:46  : Ордер на покупку отменен, ID - 719132462
 Fri Aug 06 2021 14:02:15  : Длительноть трека -2903
+Fri Aug 06 2021 14:30:23  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.347
+Fri Aug 06 2021 14:30:24  : Выставлен ордер - 719154413
+Fri Aug 06 2021 14:31:50  : NEOUSDT-1627490958:cansel: orderid:719154413
+Fri Aug 06 2021 14:31:51  : Ордер на покупку отменен, ID - 719154413
+Fri Aug 06 2021 14:32:07  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.347
+Fri Aug 06 2021 14:32:09  : Выставлен ордер - 719155608
+Fri Aug 06 2021 14:33:51  : NEOUSDT-1627490958:cansel: orderid:719155608
+Fri Aug 06 2021 14:33:51  : Ордер на покупку отменен, ID - 719155608
+Fri Aug 06 2021 14:34:01  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:34:01  : Выставлен ордер - 719157698
+Fri Aug 06 2021 14:34:10  : NEOUSDT-1627490958:cansel: orderid:719157698
+Fri Aug 06 2021 14:34:12  : Ордер на покупку отменен, ID - 719157698
+Fri Aug 06 2021 14:34:12  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:34:13  : Выставлен ордер - 719157943
+Fri Aug 06 2021 14:34:41  : NEOUSDT-1627490958:cansel: orderid:719157943
+Fri Aug 06 2021 14:34:41  : Ордер на покупку отменен, ID - 719157943
+Fri Aug 06 2021 14:35:08  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:35:09  : Выставлен ордер - 719158807
+Fri Aug 06 2021 14:35:17  : NEOUSDT-1627490958:cansel: orderid:719158807
+Fri Aug 06 2021 14:35:18  : Ордер на покупку отменен, ID - 719158807
+Fri Aug 06 2021 14:35:19  : Длительноть трека -2129
+Fri Aug 06 2021 14:35:46  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:35:47  : Выставлен ордер - 719159150
+Fri Aug 06 2021 14:36:15  : NEOUSDT-1627490958:cansel: orderid:719159150
+Fri Aug 06 2021 14:36:16  : Ордер на покупку отменен, ID - 719159150
+Fri Aug 06 2021 14:36:18  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:36:19  : Выставлен ордер - 719159485
+Fri Aug 06 2021 14:36:23  : NEOUSDT-1627490958:cansel: orderid:719159485
+Fri Aug 06 2021 14:36:23  : Ордер на покупку отменен, ID - 719159485
+Fri Aug 06 2021 14:36:27  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:36:27  : Выставлен ордер - 719159649
+Fri Aug 06 2021 14:36:29  : NEOUSDT-1627490958:cansel: orderid:719159649
+Fri Aug 06 2021 14:36:30  : Ордер на покупку отменен, ID - 719159649
+Fri Aug 06 2021 14:36:31  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:36:32  : Выставлен ордер - 719159713
+Fri Aug 06 2021 14:37:31  : NEOUSDT-1627490958:cansel: orderid:719159713
+Fri Aug 06 2021 14:37:32  : Ордер на покупку отменен, ID - 719159713
+Fri Aug 06 2021 14:39:15  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:39:16  : Выставлен ордер - 719162042
+Fri Aug 06 2021 14:42:00  : NEOUSDT-1627490958:cansel: orderid:719162042
+Fri Aug 06 2021 14:42:01  : Ордер на покупку отменен, ID - 719162042
+Fri Aug 06 2021 14:42:07  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:42:07  : Выставлен ордер - 719165339
+Fri Aug 06 2021 14:42:10  : NEOUSDT-1627490958:cansel: orderid:719165339
+Fri Aug 06 2021 14:42:11  : Ордер на покупку отменен, ID - 719165339
+Fri Aug 06 2021 14:42:19  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:42:20  : Выставлен ордер - 719165445
+Fri Aug 06 2021 14:42:45  : NEOUSDT-1627490958:cansel: orderid:719165445
+Fri Aug 06 2021 14:42:46  : Ордер на покупку отменен, ID - 719165445
+Fri Aug 06 2021 14:42:56  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:42:56  : Выставлен ордер - 719166002
+Fri Aug 06 2021 14:43:10  : NEOUSDT-1627490958:cansel: orderid:719166002
+Fri Aug 06 2021 14:43:11  : Ордер на покупку отменен, ID - 719166002
+Fri Aug 06 2021 14:43:12  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:43:12  : Выставлен ордер - 719166552
+Fri Aug 06 2021 14:44:19  : NEOUSDT-1627490958:cansel: orderid:719166552
+Fri Aug 06 2021 14:44:20  : Ордер на покупку отменен, ID - 719166552
+Fri Aug 06 2021 14:46:21  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:46:23  : Выставлен ордер - 719169114
+Fri Aug 06 2021 14:46:40  : NEOUSDT-1627490958:cansel: orderid:719169114
+Fri Aug 06 2021 14:46:41  : Ордер на покупку отменен, ID - 719169114
+Fri Aug 06 2021 14:46:43  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:46:43  : Выставлен ордер - 719169360
+Fri Aug 06 2021 14:46:45  : NEOUSDT-1627490958:cansel: orderid:719169360
+Fri Aug 06 2021 14:46:45  : Ордер на покупку отменен, ID - 719169360
+Fri Aug 06 2021 14:47:58  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:47:59  : Выставлен ордер - 719170515
+Fri Aug 06 2021 14:48:03  : NEOUSDT-1627490958:cansel: orderid:719170515
+Fri Aug 06 2021 14:48:03  : Ордер на покупку отменен, ID - 719170515
+Fri Aug 06 2021 14:48:20  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:48:21  : Выставлен ордер - 719170827
+Fri Aug 06 2021 14:49:51  : NEOUSDT-1627490958:cansel: orderid:719170827
+Fri Aug 06 2021 14:49:52  : Ордер на покупку отменен, ID - 719170827
+Fri Aug 06 2021 14:50:07  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:50:07  : Выставлен ордер - 719172255
+Fri Aug 06 2021 14:50:25  : NEOUSDT-1627490958:cansel: orderid:719172255
+Fri Aug 06 2021 14:50:26  : Ордер на покупку отменен, ID - 719172255
+Fri Aug 06 2021 14:50:31  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:50:32  : Выставлен ордер - 719172456
+Fri Aug 06 2021 14:50:37  : NEOUSDT-1627490958:cansel: orderid:719172456
+Fri Aug 06 2021 14:50:37  : Ордер на покупку отменен, ID - 719172456
+Fri Aug 06 2021 14:50:44  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:50:45  : Выставлен ордер - 719172639
+Fri Aug 06 2021 14:50:45  : NEOUSDT-1627490958:cansel: orderid:719172639
+Fri Aug 06 2021 14:50:46  : Ордер на покупку отменен, ID - 719172639
+Fri Aug 06 2021 14:51:36  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:51:37  : Выставлен ордер - 719173149
+Fri Aug 06 2021 14:51:41  : NEOUSDT-1627490958:cansel: orderid:719173149
+Fri Aug 06 2021 14:51:42  : Ордер на покупку отменен, ID - 719173149
+Fri Aug 06 2021 14:51:52  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:51:53  : Выставлен ордер - 719173311
+Fri Aug 06 2021 14:52:00  : NEOUSDT-1627490958:cansel: orderid:719173311
+Fri Aug 06 2021 14:52:01  : Ордер на покупку отменен, ID - 719173311
+Fri Aug 06 2021 14:55:03  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:55:04  : Выставлен ордер - 719176142
+Fri Aug 06 2021 14:55:23  : NEOUSDT-1627490958:cansel: orderid:719176142
+Fri Aug 06 2021 14:55:24  : Ордер на покупку отменен, ID - 719176142
+Fri Aug 06 2021 14:55:28  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:55:29  : Выставлен ордер - 719176404
+Fri Aug 06 2021 14:55:30  : NEOUSDT-1627490958:cansel: orderid:719176404
+Fri Aug 06 2021 14:55:32  : Ордер на покупку отменен, ID - 719176404
+Fri Aug 06 2021 14:55:48  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:55:49  : Выставлен ордер - 719176751
+Fri Aug 06 2021 14:56:04  : NEOUSDT-1627490958:cansel: orderid:719176751
+Fri Aug 06 2021 14:56:05  : Ордер на покупку отменен, ID - 719176751
+Fri Aug 06 2021 14:56:05  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:56:06  : Выставлен ордер - 719176962
+Fri Aug 06 2021 14:56:09  : NEOUSDT-1627490958:cansel: orderid:719176962
+Fri Aug 06 2021 14:56:09  : Ордер на покупку отменен, ID - 719176962
+Fri Aug 06 2021 14:56:11  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:56:12  : Выставлен ордер - 719177079
+Fri Aug 06 2021 14:57:04  : NEOUSDT-1627490958:cansel: orderid:719177079
+Fri Aug 06 2021 14:57:04  : Ордер на покупку отменен, ID - 719177079
+Fri Aug 06 2021 14:57:29  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:57:29  : Выставлен ордер - 719178138
+Fri Aug 06 2021 14:57:47  : NEOUSDT-1627490958:cansel: orderid:719178138
+Fri Aug 06 2021 14:57:48  : Ордер на покупку отменен, ID - 719178138
+Fri Aug 06 2021 14:58:20  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:58:20  : Выставлен ордер - 719178711
+Fri Aug 06 2021 14:58:32  : NEOUSDT-1627490958:cansel: orderid:719178711
+Fri Aug 06 2021 14:58:33  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628251110704,
+		"end_node_time": 1628251110704,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628251110704,
+		"end_node_time": 1628251110706,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628251110706,
+		"end_node_time": 1628251110708,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628251110708,
+		"end_node_time": 1628251110709,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628251110710,
+		"end_node_time": 1628251110711,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628251110712,
+		"end_node_time": 1628251110712,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628251110713,
+		"end_node_time": 1628251110714,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628251110715,
+		"end_node_time": 1628251110722,
+		"duration_node": 7,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628251110730,
+		"end_node_time": 1628251110730,
+		"duration_node": 0,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628251110731,
+		"end_node_time": 1628251111090,
+		"duration_node": 359,
+		"duration_step": 360
+	}
+]
+Fri Aug 06 2021 14:58:33  : Ордер на покупку отменен, ID - 719178711
+Fri Aug 06 2021 14:58:33  : Длительноть трека -2634
+Fri Aug 06 2021 14:58:34  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:58:35  : Выставлен ордер - 719178855
+Fri Aug 06 2021 14:58:42  : NEOUSDT-1627490958:cansel: orderid:719178855
+Fri Aug 06 2021 14:58:43  : Ордер на покупку отменен, ID - 719178855
+Fri Aug 06 2021 14:58:52  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 14:58:52  : Выставлен ордер - 719179092
+Fri Aug 06 2021 14:59:07  : NEOUSDT-1627490958:cansel: orderid:719179092
+Fri Aug 06 2021 14:59:07  : Ордер на покупку отменен, ID - 719179092
+Fri Aug 06 2021 14:59:09  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 14:59:10  : Выставлен ордер - 719179341
+Fri Aug 06 2021 14:59:31  : NEOUSDT-1627490958:cansel: orderid:719179341
+Fri Aug 06 2021 14:59:31  : Ордер на покупку отменен, ID - 719179341
+Fri Aug 06 2021 14:59:58  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 15:00:00  : Выставлен ордер - 719179915
+Fri Aug 06 2021 15:00:10  : NEOUSDT-1627490958:cansel: orderid:719179915
+Fri Aug 06 2021 15:00:12  : Ордер на покупку отменен, ID - 719179915
+Fri Aug 06 2021 15:02:18  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:02:18  : Выставлен ордер - 719181511
+Fri Aug 06 2021 15:02:33  : NEOUSDT-1627490958:cansel: orderid:719181511
+Fri Aug 06 2021 15:02:34  : Ордер на покупку отменен, ID - 719181511
+Fri Aug 06 2021 15:02:34  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:02:35  : Выставлен ордер - 719181744
+Fri Aug 06 2021 15:02:44  : Ордер на покупку исполнен, ID - 719181744
+Fri Aug 06 2021 15:02:56  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 15:02:57  : выставили ttp ордер
+Fri Aug 06 2021 15:03:22  : ttp finish on 43.30100000
+Fri Aug 06 2021 15:03:22  : регистрация сделки - 43.132,43.301,0.345,0.05830500000000139,0.02236453875,0.03594046125000139
+Fri Aug 06 2021 15:03:22  : обнуление ттп
+Fri Aug 06 2021 15:09:22  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 15:09:23  : Выставлен ордер - 719192136
+Fri Aug 06 2021 15:09:29  : NEOUSDT-1627490958:cansel: orderid:719192136
+Fri Aug 06 2021 15:09:30  : Ордер на покупку отменен, ID - 719192136
+Fri Aug 06 2021 15:12:23  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.346
+Fri Aug 06 2021 15:12:24  : Выставлен ордер - 719194463
+Fri Aug 06 2021 15:14:25  : Длительноть трека -2096
+Fri Aug 06 2021 15:16:24  : NEOUSDT-1627490958:cansel: orderid:719194463
+Fri Aug 06 2021 15:16:25  : Ордер на покупку отменен, ID - 719194463
+Fri Aug 06 2021 15:16:25  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:16:25  : Выставлен ордер - 719200083
+Fri Aug 06 2021 15:16:26  : NEOUSDT-1627490958:cansel: orderid:719200083
+Fri Aug 06 2021 15:16:26  : Ордер на покупку отменен, ID - 719200083
+Fri Aug 06 2021 15:16:37  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:16:37  : Выставлен ордер - 719200354
+Fri Aug 06 2021 15:16:47  : NEOUSDT-1627490958:cansel: orderid:719200354
+Fri Aug 06 2021 15:16:47  : Ордер на покупку отменен, ID - 719200354
+Fri Aug 06 2021 15:17:10  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:17:10  : Выставлен ордер - 719201130
+Fri Aug 06 2021 15:18:37  : NEOUSDT-1627490958:cansel: orderid:719201130
+Fri Aug 06 2021 15:18:37  : Ордер на покупку отменен, ID - 719201130
+Fri Aug 06 2021 15:18:41  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:18:42  : Выставлен ордер - 719203550
+Fri Aug 06 2021 15:18:43  : NEOUSDT-1627490958:cansel: orderid:719203550
+Fri Aug 06 2021 15:18:44  : Ордер на покупку отменен, ID - 719203550
+Fri Aug 06 2021 15:19:02  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:19:03  : Выставлен ордер - 719203982
+Fri Aug 06 2021 15:19:36  : NEOUSDT-1627490958:cansel: orderid:719203982
+Fri Aug 06 2021 15:19:37  : Ордер на покупку отменен, ID - 719203982
+Fri Aug 06 2021 15:19:46  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:19:47  : Выставлен ордер - 719204767
+Fri Aug 06 2021 15:19:53  : NEOUSDT-1627490958:cansel: orderid:719204767
+Fri Aug 06 2021 15:19:54  : Ордер на покупку отменен, ID - 719204767
+Fri Aug 06 2021 15:21:15  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:21:16  : Выставлен ордер - 719206518
+Fri Aug 06 2021 15:21:25  : NEOUSDT-1627490958:cansel: orderid:719206518
+Fri Aug 06 2021 15:21:25  : Ордер на покупку отменен, ID - 719206518
+Fri Aug 06 2021 15:21:42  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:21:43  : Выставлен ордер - 719206910
+Fri Aug 06 2021 15:21:45  : NEOUSDT-1627490958:cansel: orderid:719206910
+Fri Aug 06 2021 15:21:45  : Ордер на покупку отменен, ID - 719206910
+Fri Aug 06 2021 15:21:47  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:21:48  : Выставлен ордер - 719206995
+Fri Aug 06 2021 15:21:48  : NEOUSDT-1627490958:cansel: orderid:719206995
+Fri Aug 06 2021 15:21:48  : Ордер на покупку отменен, ID - 719206995
+Fri Aug 06 2021 15:21:52  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:21:53  : Выставлен ордер - 719207054
+Fri Aug 06 2021 15:22:02  : NEOUSDT-1627490958:cansel: orderid:719207054
+Fri Aug 06 2021 15:22:03  : Ордер на покупку отменен, ID - 719207054
+Fri Aug 06 2021 15:22:06  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:22:07  : Выставлен ордер - 719207256
+Fri Aug 06 2021 15:22:43  : NEOUSDT-1627490958:cansel: orderid:719207256
+Fri Aug 06 2021 15:22:44  : Ордер на покупку отменен, ID - 719207256
+Fri Aug 06 2021 15:24:05  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:24:05  : Выставлен ордер - 719209066
+Fri Aug 06 2021 15:24:21  : NEOUSDT-1627490958:cansel: orderid:719209066
+Fri Aug 06 2021 15:24:22  : Ордер на покупку отменен, ID - 719209066
+Fri Aug 06 2021 15:25:41  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:25:42  : Выставлен ордер - 719210548
+Fri Aug 06 2021 15:25:55  : NEOUSDT-1627490958:cansel: orderid:719210548
+Fri Aug 06 2021 15:25:56  : Ордер на покупку отменен, ID - 719210548
+Fri Aug 06 2021 15:26:05  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:26:06  : Выставлен ордер - 719210803
+Fri Aug 06 2021 15:28:02  : NEOUSDT-1627490958:cansel: orderid:719210803
+Fri Aug 06 2021 15:28:04  : Ордер на покупку отменен, ID - 719210803
+Fri Aug 06 2021 15:28:06  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:28:07  : Выставлен ордер - 719212468
+Fri Aug 06 2021 15:28:59  : NEOUSDT-1627490958:cansel: orderid:719212468
+Fri Aug 06 2021 15:29:01  : Ордер на покупку отменен, ID - 719212468
+Fri Aug 06 2021 15:29:01  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:29:02  : Выставлен ордер - 719213624
+Fri Aug 06 2021 15:29:02  : NEOUSDT-1627490958:cansel: orderid:719213624
+Fri Aug 06 2021 15:29:03  : Ордер на покупку отменен, ID - 719213624
+Fri Aug 06 2021 15:29:06  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:29:07  : Выставлен ордер - 719213820
+Fri Aug 06 2021 15:29:23  : NEOUSDT-1627490958:cansel: orderid:719213820
+Fri Aug 06 2021 15:29:24  : Ордер на покупку отменен, ID - 719213820
+Fri Aug 06 2021 15:29:36  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:29:37  : Выставлен ордер - 719214324
+Fri Aug 06 2021 15:29:51  : NEOUSDT-1627490958:cansel: orderid:719214324
+Fri Aug 06 2021 15:29:51  : Ордер на покупку отменен, ID - 719214324
+Fri Aug 06 2021 15:30:14  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:30:14  : Выставлен ордер - 719214865
+Fri Aug 06 2021 15:31:21  : NEOUSDT-1627490958:cansel: orderid:719214865
+Fri Aug 06 2021 15:31:21  : Ордер на покупку отменен, ID - 719214865
+Fri Aug 06 2021 15:31:38  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:31:39  : Выставлен ордер - 719216068
+Fri Aug 06 2021 15:31:51  : NEOUSDT-1627490958:cansel: orderid:719216068
+Fri Aug 06 2021 15:31:51  : Ордер на покупку отменен, ID - 719216068
+Fri Aug 06 2021 15:32:12  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:32:13  : Выставлен ордер - 719216827
+Fri Aug 06 2021 15:32:22  : NEOUSDT-1627490958:cansel: orderid:719216827
+Fri Aug 06 2021 15:32:23  : Ордер на покупку отменен, ID - 719216827
+Fri Aug 06 2021 15:32:27  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:32:28  : Выставлен ордер - 719217177
+Fri Aug 06 2021 15:32:29  : NEOUSDT-1627490958:cansel: orderid:719217177
+Fri Aug 06 2021 15:32:30  : Ордер на покупку отменен, ID - 719217177
+Fri Aug 06 2021 15:32:31  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:32:32  : Выставлен ордер - 719217246
+Fri Aug 06 2021 15:32:40  : NEOUSDT-1627490958:cansel: orderid:719217246
+Fri Aug 06 2021 15:32:41  : Ордер на покупку отменен, ID - 719217246
+Fri Aug 06 2021 15:32:42  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:32:42  : Выставлен ордер - 719217372
+Fri Aug 06 2021 15:33:04  : NEOUSDT-1627490958:cansel: orderid:719217372
+Fri Aug 06 2021 15:33:06  : Ордер на покупку отменен, ID - 719217372
+Fri Aug 06 2021 15:33:30  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:33:31  : Выставлен ордер - 719218190
+Fri Aug 06 2021 15:33:35  : NEOUSDT-1627490958:cansel: orderid:719218190
+Fri Aug 06 2021 15:33:36  : Ордер на покупку отменен, ID - 719218190
+Fri Aug 06 2021 15:33:36  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:33:37  : Выставлен ордер - 719218326
+Fri Aug 06 2021 15:33:52  : NEOUSDT-1627490958:cansel: orderid:719218326
+Fri Aug 06 2021 15:33:52  : Ордер на покупку отменен, ID - 719218326
+Fri Aug 06 2021 15:33:53  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:33:53  : Выставлен ордер - 719218765
+Fri Aug 06 2021 15:33:56  : NEOUSDT-1627490958:cansel: orderid:719218765
+Fri Aug 06 2021 15:33:56  : Ордер на покупку отменен, ID - 719218765
+Fri Aug 06 2021 15:34:02  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:34:03  : Выставлен ордер - 719219000
+Fri Aug 06 2021 15:34:11  : NEOUSDT-1627490958:cansel: orderid:719219000
+Fri Aug 06 2021 15:34:12  : Ордер на покупку отменен, ID - 719219000
+Fri Aug 06 2021 15:34:16  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:34:16  : Выставлен ордер - 719219194
+Fri Aug 06 2021 15:34:25  : NEOUSDT-1627490958:cansel: orderid:719219194
+Fri Aug 06 2021 15:34:26  : Ордер на покупку отменен, ID - 719219194
+Fri Aug 06 2021 15:34:27  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:34:27  : Выставлен ордер - 719219276
+Fri Aug 06 2021 15:34:28  : NEOUSDT-1627490958:cansel: orderid:719219276
+Fri Aug 06 2021 15:34:29  : Ордер на покупку отменен, ID - 719219276
+Fri Aug 06 2021 15:35:18  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:35:18  : Выставлен ордер - 719220072
+Fri Aug 06 2021 15:35:20  : NEOUSDT-1627490958:cansel: orderid:719220072
+Fri Aug 06 2021 15:35:20  : Ордер на покупку отменен, ID - 719220072
+Fri Aug 06 2021 15:35:23  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:35:23  : Выставлен ордер - 719220162
+Fri Aug 06 2021 15:35:24  : NEOUSDT-1627490958:cansel: orderid:719220162
+Fri Aug 06 2021 15:35:24  : Ордер на покупку отменен, ID - 719220162
+Fri Aug 06 2021 15:36:21  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:36:22  : Выставлен ордер - 719221226
+Fri Aug 06 2021 15:36:51  : NEOUSDT-1627490958:cansel: orderid:719221226
+Fri Aug 06 2021 15:36:52  : Ордер на покупку отменен, ID - 719221226
+Fri Aug 06 2021 15:37:35  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:37:35  : Выставлен ордер - 719222383
+Fri Aug 06 2021 15:37:52  : NEOUSDT-1627490958:cansel: orderid:719222383
+Fri Aug 06 2021 15:37:53  : Ордер на покупку отменен, ID - 719222383
+Fri Aug 06 2021 15:38:57  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.344
+Fri Aug 06 2021 15:38:57  : Выставлен ордер - 719223334
+Fri Aug 06 2021 15:38:57  : NEOUSDT-1627490958:cansel: orderid:719223334
+Fri Aug 06 2021 15:38:58  : Ордер на покупку отменен, ID - 719223334
+Fri Aug 06 2021 15:50:08  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:50:09  : Выставлен ордер - 719234531
+Fri Aug 06 2021 15:50:24  : NEOUSDT-1627490958:cansel: orderid:719234531
+Fri Aug 06 2021 15:50:24  : Ордер на покупку отменен, ID - 719234531
+Fri Aug 06 2021 15:50:24  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:50:26  : Выставлен ордер - 719234914
+Fri Aug 06 2021 15:50:27  : NEOUSDT-1627490958:cansel: orderid:719234914
+Fri Aug 06 2021 15:50:27  : Ордер на покупку отменен, ID - 719234914
+Fri Aug 06 2021 15:50:46  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:50:47  : Выставлен ордер - 719235193
+Fri Aug 06 2021 15:51:06  : NEOUSDT-1627490958:cansel: orderid:719235193
+Fri Aug 06 2021 15:51:07  : Ордер на покупку отменен, ID - 719235193
+Fri Aug 06 2021 15:51:11  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:51:12  : Выставлен ордер - 719235561
+Fri Aug 06 2021 15:51:14  : NEOUSDT-1627490958:cansel: orderid:719235561
+Fri Aug 06 2021 15:51:15  : Ордер на покупку отменен, ID - 719235561
+Fri Aug 06 2021 15:51:36  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:51:36  : Выставлен ордер - 719235834
+Fri Aug 06 2021 15:51:56  : NEOUSDT-1627490958:cansel: orderid:719235834
+Fri Aug 06 2021 15:51:57  : Ордер на покупку отменен, ID - 719235834
+Fri Aug 06 2021 15:52:40  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:52:41  : Выставлен ордер - 719236752
+Fri Aug 06 2021 15:52:46  : NEOUSDT-1627490958:cansel: orderid:719236752
+Fri Aug 06 2021 15:52:46  : Ордер на покупку отменен, ID - 719236752
+Fri Aug 06 2021 15:56:40  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:56:41  : Выставлен ордер - 719240381
+Fri Aug 06 2021 15:56:41  : NEOUSDT-1627490958:cansel: orderid:719240381
+Fri Aug 06 2021 15:56:43  : Ордер на покупку отменен, ID - 719240381
+Fri Aug 06 2021 15:58:59  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:59:00  : Выставлен ордер - 719241788
+Fri Aug 06 2021 15:59:08  : NEOUSDT-1627490958:cansel: orderid:719241788
+Fri Aug 06 2021 15:59:08  : Ордер на покупку отменен, ID - 719241788
+Fri Aug 06 2021 15:59:57  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 15:59:58  : Выставлен ордер - 719242320
+Fri Aug 06 2021 16:00:44  : NEOUSDT-1627490958:cansel: orderid:719242320
+Fri Aug 06 2021 16:00:45  : Ордер на покупку отменен, ID - 719242320
+Fri Aug 06 2021 16:00:46  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:00:47  : Выставлен ордер - 719242832
+Fri Aug 06 2021 16:00:59  : NEOUSDT-1627490958:cansel: orderid:719242832
+Fri Aug 06 2021 16:01:00  : Ордер на покупку отменен, ID - 719242832
+Fri Aug 06 2021 16:01:00  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:01:02  : Выставлен ордер - 719242995
+Fri Aug 06 2021 16:01:05  : NEOUSDT-1627490958:cansel: orderid:719242995
+Fri Aug 06 2021 16:01:06  : Ордер на покупку отменен, ID - 719242995
+Fri Aug 06 2021 16:01:06  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:01:07  : Выставлен ордер - 719243055
+Fri Aug 06 2021 16:01:22  : NEOUSDT-1627490958:cansel: orderid:719243055
+Fri Aug 06 2021 16:01:23  : Ордер на покупку отменен, ID - 719243055
+Fri Aug 06 2021 16:01:27  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:01:28  : Выставлен ордер - 719243299
+Fri Aug 06 2021 16:01:44  : NEOUSDT-1627490958:cansel: orderid:719243299
+Fri Aug 06 2021 16:01:45  : Ордер на покупку отменен, ID - 719243299
+Fri Aug 06 2021 16:01:48  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:01:49  : Выставлен ордер - 719243566
+Fri Aug 06 2021 16:01:50  : NEOUSDT-1627490958:cansel: orderid:719243566
+Fri Aug 06 2021 16:01:51  : Ордер на покупку отменен, ID - 719243566
+Fri Aug 06 2021 16:02:53  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:02:54  : Выставлен ордер - 719244572
+Fri Aug 06 2021 16:03:02  : NEOUSDT-1627490958:cansel: orderid:719244572
+Fri Aug 06 2021 16:03:03  : Ордер на покупку отменен, ID - 719244572
+Fri Aug 06 2021 16:03:50  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:03:51  : Выставлен ордер - 719245664
+Fri Aug 06 2021 16:04:07  : NEOUSDT-1627490958:cansel: orderid:719245664
+Fri Aug 06 2021 16:04:08  : Ордер на покупку отменен, ID - 719245664
+Fri Aug 06 2021 16:04:24  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:04:24  : Выставлен ордер - 719245950
+Fri Aug 06 2021 16:04:28  : NEOUSDT-1627490958:cansel: orderid:719245950
+Fri Aug 06 2021 16:04:28  : Ордер на покупку отменен, ID - 719245950
+Fri Aug 06 2021 16:04:57  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:04:58  : Выставлен ордер - 719246383
+Fri Aug 06 2021 16:04:58  : NEOUSDT-1627490958:cansel: orderid:719246383
+Fri Aug 06 2021 16:04:59  : Ордер на покупку отменен, ID - 719246383
+Fri Aug 06 2021 16:05:29  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:05:30  : Выставлен ордер - 719246704
+Fri Aug 06 2021 16:05:32  : NEOUSDT-1627490958:cansel: orderid:719246704
+Fri Aug 06 2021 16:05:32  : Ордер на покупку отменен, ID - 719246704
+Fri Aug 06 2021 16:05:36  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:05:37  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628255136069,
+		"end_node_time": 1628255136069,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628255136070,
+		"end_node_time": 1628255136072,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628255136072,
+		"end_node_time": 1628255136073,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628255136073,
+		"end_node_time": 1628255136074,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628255136075,
+		"end_node_time": 1628255136076,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628255136077,
+		"end_node_time": 1628255136077,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628255136077,
+		"end_node_time": 1628255136078,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628255136079,
+		"end_node_time": 1628255136081,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628255136091,
+		"end_node_time": 1628255136091,
+		"duration_node": 0,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628255136091,
+		"end_node_time": 1628255136198,
+		"duration_node": 107,
+		"duration_step": 107
+	}
+]
+Fri Aug 06 2021 16:05:37  : Выставлен ордер - 719246778
+Fri Aug 06 2021 16:05:38  : NEOUSDT-1627490958:cansel: orderid:719246778
+Fri Aug 06 2021 16:05:38  : Ордер на покупку отменен, ID - 719246778
+Fri Aug 06 2021 16:06:00  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:06:01  : Выставлен ордер - 719247014
+Fri Aug 06 2021 16:06:51  : NEOUSDT-1627490958:cansel: orderid:719247014
+Fri Aug 06 2021 16:06:52  : Ордер на покупку отменен, ID - 719247014
+Fri Aug 06 2021 16:07:40  : NEOUSDT-1627490958:setbuy: price:43.132, quantity: 0.345
+Fri Aug 06 2021 16:07:41  : Выставлен ордер - 719248534
+Fri Aug 06 2021 16:12:59  : NEOUSDT-1627490958:cansel: orderid:719248534
+Fri Aug 06 2021 16:13:00  : Ордер на покупку отменен, ID - 719248534
+Fri Aug 06 2021 16:24:09  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 16:24:09  : выставили ttp ордер
+Fri Aug 06 2021 16:24:17  : cansel order id:719263617
+Fri Aug 06 2021 16:24:17  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 16:24:18  : переставили ttp ордер, q=0.344
+Fri Aug 06 2021 16:24:23  : cansel order id:719263730
+Fri Aug 06 2021 16:24:24  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 16:24:25  : переставили ttp ордер, q=0.344
+Fri Aug 06 2021 16:25:50  : cansel order id:719263827
+Fri Aug 06 2021 16:25:52  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 16:25:52  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628256350785,
+		"end_node_time": 1628256350785,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628256350785,
+		"end_node_time": 1628256350787,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628256350790,
+		"end_node_time": 1628256350792,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628256350792,
+		"end_node_time": 1628256350796,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628256350801,
+		"end_node_time": 1628256350808,
+		"duration_node": 7,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628256350814,
+		"end_node_time": 1628256350814,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "orderexec cansel",
+		"start_node_time": 1628256350825,
+		"end_node_time": 1628256352386,
+		"duration_node": 1561,
+		"duration_step": 1572
+	}
+]
+Fri Aug 06 2021 16:25:52  : переставили ttp ордер, q=0.344
+Fri Aug 06 2021 16:25:53  : cansel order id:719265525
+Fri Aug 06 2021 16:25:54  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 16:25:54  : переставили ttp ордер, q=0.344
+Fri Aug 06 2021 16:34:00  : ttp finish on 43.80900000
+Fri Aug 06 2021 16:34:00  : регистрация сделки - 43.714,43.809,0.344,0.032679999999999605,0.022580933999999997,0.010099065999999608
+Fri Aug 06 2021 16:34:00  : обнуление ттп
+Fri Aug 06 2021 16:35:39  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:35:41  : Выставлен ордер - 719274886
+Fri Aug 06 2021 16:35:41  : Длительноть трека -2085
+Fri Aug 06 2021 16:35:44  : NEOUSDT-1627490958:cansel: orderid:719274886
+Fri Aug 06 2021 16:35:44  : Ордер на покупку отменен, ID - 719274886
+Fri Aug 06 2021 16:35:53  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:35:54  : Выставлен ордер - 719275130
+Fri Aug 06 2021 16:35:56  : NEOUSDT-1627490958:cansel: orderid:719275130
+Fri Aug 06 2021 16:35:56  : Ордер на покупку отменен, ID - 719275130
+Fri Aug 06 2021 16:35:57  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:35:58  : Выставлен ордер - 719275193
+Fri Aug 06 2021 16:36:00  : NEOUSDT-1627490958:cansel: orderid:719275193
+Fri Aug 06 2021 16:36:01  : Ордер на покупку отменен, ID - 719275193
+Fri Aug 06 2021 16:36:03  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:36:03  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:36:04  : Выставлен ордер - 719275293
+Fri Aug 06 2021 16:36:04  : Выставлен ордер - 719275298
+Fri Aug 06 2021 16:37:08  : NEOUSDT-1627490958:cansel: orderid:719275298
+Fri Aug 06 2021 16:37:09  : Ордер на покупку отменен, ID - 719275298
+Fri Aug 06 2021 16:38:00  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:38:01  : Выставлен ордер - 719277244
+Fri Aug 06 2021 16:38:15  : NEOUSDT-1627490958:cansel: orderid:719277244
+Fri Aug 06 2021 16:38:16  : Ордер на покупку отменен, ID - 719277244
+Fri Aug 06 2021 16:40:19  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:40:19  : Выставлен ордер - 719278721
+Fri Aug 06 2021 16:40:38  : NEOUSDT-1627490958:cansel: orderid:719278721
+Fri Aug 06 2021 16:40:39  : Ордер на покупку отменен, ID - 719278721
+Fri Aug 06 2021 16:40:42  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:40:42  : Выставлен ордер - 719278945
+Fri Aug 06 2021 16:40:58  : NEOUSDT-1627490958:cansel: orderid:719278945
+Fri Aug 06 2021 16:40:58  : Ордер на покупку отменен, ID - 719278945
+Fri Aug 06 2021 16:41:09  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:41:10  : Выставлен ордер - 719279284
+Fri Aug 06 2021 16:41:11  : NEOUSDT-1627490958:cansel: orderid:719279284
+Fri Aug 06 2021 16:41:12  : Ордер на покупку отменен, ID - 719279284
+Fri Aug 06 2021 16:41:21  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:41:22  : Выставлен ордер - 719279399
+Fri Aug 06 2021 16:41:25  : NEOUSDT-1627490958:cansel: orderid:719279399
+Fri Aug 06 2021 16:41:26  : Ордер на покупку отменен, ID - 719279399
+Fri Aug 06 2021 16:41:31  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:41:32  : Выставлен ордер - 719279484
+Fri Aug 06 2021 16:41:35  : NEOUSDT-1627490958:cansel: orderid:719279484
+Fri Aug 06 2021 16:41:36  : Ордер на покупку отменен, ID - 719279484
+Fri Aug 06 2021 16:41:36  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:41:36  : Выставлен ордер - 719279506
+Fri Aug 06 2021 16:41:38  : NEOUSDT-1627490958:cansel: orderid:719279506
+Fri Aug 06 2021 16:41:38  : Ордер на покупку отменен, ID - 719279506
+Fri Aug 06 2021 16:41:38  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:41:39  : Выставлен ордер - 719279575
+Fri Aug 06 2021 16:41:44  : NEOUSDT-1627490958:cansel: orderid:719279575
+Fri Aug 06 2021 16:41:44  : Ордер на покупку отменен, ID - 719279575
+Fri Aug 06 2021 16:41:45  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:41:46  : Выставлен ордер - 719279639
+Fri Aug 06 2021 16:41:59  : NEOUSDT-1627490958:cansel: orderid:719279639
+Fri Aug 06 2021 16:42:00  : Ордер на покупку отменен, ID - 719279639
+Fri Aug 06 2021 16:42:35  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:42:35  : Выставлен ордер - 719280162
+Fri Aug 06 2021 16:42:39  : NEOUSDT-1627490958:cansel: orderid:719280162
+Fri Aug 06 2021 16:42:41  : Ордер на покупку отменен, ID - 719280162
+Fri Aug 06 2021 16:42:52  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 16:42:52  : Выставлен ордер - 719280436
+Fri Aug 06 2021 16:42:54  : NEOUSDT-1627490958:cansel: orderid:719280436
+Fri Aug 06 2021 16:42:55  : Ордер на покупку отменен, ID - 719280436
+Fri Aug 06 2021 16:42:59  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:43:00  : Выставлен ордер - 719280569
+Fri Aug 06 2021 16:44:08  : NEOUSDT-1627490958:cansel: orderid:719280569
+Fri Aug 06 2021 16:44:09  : Ордер на покупку отменен, ID - 719280569
+Fri Aug 06 2021 16:44:14  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:44:14  : Выставлен ордер - 719281588
+Fri Aug 06 2021 16:44:54  : NEOUSDT-1627490958:cansel: orderid:719281588
+Fri Aug 06 2021 16:44:55  : Ордер на покупку отменен, ID - 719281588
+Fri Aug 06 2021 16:44:57  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:44:58  : Выставлен ордер - 719282422
+Fri Aug 06 2021 16:45:02  : NEOUSDT-1627490958:cansel: orderid:719282422
+Fri Aug 06 2021 16:45:02  : Ордер на покупку отменен, ID - 719282422
+Fri Aug 06 2021 16:45:03  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:45:04  : Выставлен ордер - 719282546
+Fri Aug 06 2021 16:45:50  : NEOUSDT-1627490958:cansel: orderid:719282546
+Fri Aug 06 2021 16:45:51  : Ордер на покупку отменен, ID - 719282546
+Fri Aug 06 2021 16:46:08  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:46:08  : Выставлен ордер - 719283819
+Fri Aug 06 2021 16:46:49  : NEOUSDT-1627490958:cansel: orderid:719283819
+Fri Aug 06 2021 16:46:50  : Ордер на покупку отменен, ID - 719283819
+Fri Aug 06 2021 16:46:56  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:46:56  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:46:56  : Выставлен ордер - 719284582
+Fri Aug 06 2021 16:46:56  : Выставлен ордер - 719284589
+Fri Aug 06 2021 16:47:02  : NEOUSDT-1627490958:cansel: orderid:719284589
+Fri Aug 06 2021 16:47:03  : Ордер на покупку отменен, ID - 719284589
+Fri Aug 06 2021 16:47:12  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:47:13  : Выставлен ордер - 719284758
+Fri Aug 06 2021 16:47:14  : NEOUSDT-1627490958:cansel: orderid:719284758
+Fri Aug 06 2021 16:47:14  : Ордер на покупку отменен, ID - 719284758
+Fri Aug 06 2021 16:47:15  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:47:17  : Выставлен ордер - 719284788
+Fri Aug 06 2021 16:47:20  : NEOUSDT-1627490958:cansel: orderid:719284788
+Fri Aug 06 2021 16:47:21  : Ордер на покупку отменен, ID - 719284788
+Fri Aug 06 2021 16:47:32  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:47:33  : Выставлен ордер - 719284992
+Fri Aug 06 2021 16:47:39  : NEOUSDT-1627490958:cansel: orderid:719284992
+Fri Aug 06 2021 16:47:40  : Ордер на покупку отменен, ID - 719284992
+Fri Aug 06 2021 16:50:43  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:50:43  : Выставлен ордер - 719287581
+Fri Aug 06 2021 16:50:59  : NEOUSDT-1627490958:cansel: orderid:719287581
+Fri Aug 06 2021 16:50:59  : Ордер на покупку отменен, ID - 719287581
+Fri Aug 06 2021 16:51:05  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:06  : Выставлен ордер - 719288095
+Fri Aug 06 2021 16:51:06  : NEOUSDT-1627490958:cansel: orderid:719288095
+Fri Aug 06 2021 16:51:07  : Ордер на покупку отменен, ID - 719288095
+Fri Aug 06 2021 16:51:10  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:10  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:11  : Выставлен ордер - 719288182
+Fri Aug 06 2021 16:51:11  : NEOUSDT-1627490958:cansel: orderid:719288182
+Fri Aug 06 2021 16:51:11  : Выставлен ордер - 719288190
+Fri Aug 06 2021 16:51:12  : NEOUSDT-1627490958:cansel: orderid:719288190
+Fri Aug 06 2021 16:51:12  : Ордер на покупку отменен, ID - 719288182
+Fri Aug 06 2021 16:51:12  : Ордер на покупку отменен, ID - 719288190
+Fri Aug 06 2021 16:51:13  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:14  : Выставлен ордер - 719288229
+Fri Aug 06 2021 16:51:14  : NEOUSDT-1627490958:cansel: orderid:719288229
+Fri Aug 06 2021 16:51:15  : Ордер на покупку отменен, ID - 719288229
+Fri Aug 06 2021 16:51:24  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:24  : Выставлен ордер - 719288364
+Fri Aug 06 2021 16:51:25  : NEOUSDT-1627490958:cansel: orderid:719288364
+Fri Aug 06 2021 16:51:25  : Ордер на покупку отменен, ID - 719288364
+Fri Aug 06 2021 16:51:26  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:27  : Выставлен ордер - 719288412
+Fri Aug 06 2021 16:51:34  : NEOUSDT-1627490958:cansel: orderid:719288412
+Fri Aug 06 2021 16:51:35  : Ордер на покупку отменен, ID - 719288412
+Fri Aug 06 2021 16:51:36  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:36  : Выставлен ордер - 719288512
+Fri Aug 06 2021 16:51:37  : NEOUSDT-1627490958:cansel: orderid:719288512
+Fri Aug 06 2021 16:51:37  : Ордер на покупку отменен, ID - 719288512
+Fri Aug 06 2021 16:51:39  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:51:39  : Выставлен ордер - 719288600
+Fri Aug 06 2021 16:51:46  : NEOUSDT-1627490958:cansel: orderid:719288600
+Fri Aug 06 2021 16:51:47  : Ордер на покупку отменен, ID - 719288600
+Fri Aug 06 2021 16:52:10  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:52:10  : Выставлен ордер - 719289340
+Fri Aug 06 2021 16:52:10  : NEOUSDT-1627490958:cansel: orderid:719289340
+Fri Aug 06 2021 16:52:11  : Ордер на покупку отменен, ID - 719289340
+Fri Aug 06 2021 16:52:13  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:52:14  : Выставлен ордер - 719289423
+Fri Aug 06 2021 16:52:17  : NEOUSDT-1627490958:cansel: orderid:719289423
+Fri Aug 06 2021 16:52:17  : Ордер на покупку отменен, ID - 719289423
+Fri Aug 06 2021 16:52:18  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.342
+Fri Aug 06 2021 16:52:18  : Выставлен ордер - 719289556
+Fri Aug 06 2021 16:52:46  : NEOUSDT-1627490958:cansel: orderid:719289556
+Fri Aug 06 2021 16:52:47  : Ордер на покупку отменен, ID - 719289556
+Fri Aug 06 2021 17:01:51  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 17:01:51  : Выставлен ордер - 719298123
+Fri Aug 06 2021 17:02:02  : NEOUSDT-1627490958:cansel: orderid:719298123
+Fri Aug 06 2021 17:02:02  : Ордер на покупку отменен, ID - 719298123
+Fri Aug 06 2021 17:22:49  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.344
+Fri Aug 06 2021 17:22:49  : Выставлен ордер - 719316726
+Fri Aug 06 2021 17:22:55  : Ордер на покупку исполнен, ID - 719316726
+Fri Aug 06 2021 18:13:14  : Сброс к стартовым настройкам
+Fri Aug 06 2021 18:14:59  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.343
+Fri Aug 06 2021 18:15:00  : Выставлен ордер - 719355937
+Fri Aug 06 2021 18:15:00  : Ордер на покупку исполнен, ID - 719355937
+Fri Aug 06 2021 18:20:41  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 18:20:42  : выставили ttp ордер
+Fri Aug 06 2021 18:20:53  : cansel order id:719362697
+Fri Aug 06 2021 18:20:56  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263253886,
+		"end_node_time": 1628263253886,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263253886,
+		"end_node_time": 1628263253890,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263253891,
+		"end_node_time": 1628263253893,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263253893,
+		"end_node_time": 1628263253896,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263253901,
+		"end_node_time": 1628263253902,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263253907,
+		"end_node_time": 1628263253907,
+		"duration_node": 0,
+		"duration_step": 5
+	}
+]
+Fri Aug 06 2021 18:20:56  : cansel order id:719362697
+Fri Aug 06 2021 18:20:58  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263256185,
+		"end_node_time": 1628263256185,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263256185,
+		"end_node_time": 1628263256186,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263256187,
+		"end_node_time": 1628263256188,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263256188,
+		"end_node_time": 1628263256190,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263256192,
+		"end_node_time": 1628263256194,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263256199,
+		"end_node_time": 1628263256199,
+		"duration_node": 0,
+		"duration_step": 5
+	}
+]
+Fri Aug 06 2021 18:20:58  : cansel order id:719362697
+Fri Aug 06 2021 18:21:01  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263258683,
+		"end_node_time": 1628263258683,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263258690,
+		"end_node_time": 1628263258700,
+		"duration_node": 10,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263258722,
+		"end_node_time": 1628263258728,
+		"duration_node": 6,
+		"duration_step": 28
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263258729,
+		"end_node_time": 1628263258753,
+		"duration_node": 24,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263258761,
+		"end_node_time": 1628263258767,
+		"duration_node": 6,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263258785,
+		"end_node_time": 1628263258785,
+		"duration_node": 0,
+		"duration_step": 18
+	}
+]
+Fri Aug 06 2021 18:21:01  : cansel order id:719362697
+Fri Aug 06 2021 18:21:01  : cansel order id:719362697
+Fri Aug 06 2021 18:21:03  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263261282,
+		"end_node_time": 1628263261283,
+		"duration_node": 1,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263261283,
+		"end_node_time": 1628263261286,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263261284,
+		"end_node_time": 1628263261287,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263261288,
+		"end_node_time": 1628263261296,
+		"duration_node": 8,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263261294,
+		"end_node_time": 1628263261328,
+		"duration_node": 34,
+		"duration_step": 41
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263261329,
+		"end_node_time": 1628263261344,
+		"duration_node": 15,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263261339,
+		"end_node_time": 1628263261364,
+		"duration_node": 25,
+		"duration_step": 36
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263261424,
+		"end_node_time": 1628263261424,
+		"duration_node": 0,
+		"duration_step": 60
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263261388,
+		"end_node_time": 1628263261426,
+		"duration_node": 38,
+		"duration_step": 62
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263261468,
+		"end_node_time": 1628263261468,
+		"duration_node": 0,
+		"duration_step": 42
+	}
+]
+Fri Aug 06 2021 18:21:04  : cansel order id:719362697
+Fri Aug 06 2021 18:21:06  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263263848,
+		"end_node_time": 1628263263848,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263263856,
+		"end_node_time": 1628263263876,
+		"duration_node": 20,
+		"duration_step": 28
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263263891,
+		"end_node_time": 1628263263923,
+		"duration_node": 32,
+		"duration_step": 47
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263263926,
+		"end_node_time": 1628263263935,
+		"duration_node": 9,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263263959,
+		"end_node_time": 1628263263963,
+		"duration_node": 4,
+		"duration_step": 28
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263263990,
+		"end_node_time": 1628263263990,
+		"duration_node": 0,
+		"duration_step": 27
+	}
+]
+Fri Aug 06 2021 18:21:06  : cansel order id:719362697
+Fri Aug 06 2021 18:21:08  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263266052,
+		"end_node_time": 1628263266052,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263266057,
+		"end_node_time": 1628263266065,
+		"duration_node": 8,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263266067,
+		"end_node_time": 1628263266068,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263266068,
+		"end_node_time": 1628263266084,
+		"duration_node": 16,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263266096,
+		"end_node_time": 1628263266104,
+		"duration_node": 8,
+		"duration_step": 20
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263266121,
+		"end_node_time": 1628263266121,
+		"duration_node": 0,
+		"duration_step": 17
+	}
+]
+Fri Aug 06 2021 18:21:08  : cansel order id:719362697
+Fri Aug 06 2021 18:21:10  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263268476,
+		"end_node_time": 1628263268476,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263268484,
+		"end_node_time": 1628263268494,
+		"duration_node": 10,
+		"duration_step": 18
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263268495,
+		"end_node_time": 1628263268497,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263268497,
+		"end_node_time": 1628263268499,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263268519,
+		"end_node_time": 1628263268524,
+		"duration_node": 5,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263268525,
+		"end_node_time": 1628263268525,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Fri Aug 06 2021 18:21:11  : cansel order id:719362697
+Fri Aug 06 2021 18:21:13  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263271138,
+		"end_node_time": 1628263271138,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263271139,
+		"end_node_time": 1628263271146,
+		"duration_node": 7,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263271148,
+		"end_node_time": 1628263271152,
+		"duration_node": 4,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263271152,
+		"end_node_time": 1628263271155,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263271161,
+		"end_node_time": 1628263271164,
+		"duration_node": 3,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263271166,
+		"end_node_time": 1628263271166,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:21:14  : cansel order id:719362697
+Fri Aug 06 2021 18:21:16  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263274377,
+		"end_node_time": 1628263274377,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263274378,
+		"end_node_time": 1628263274378,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263274379,
+		"end_node_time": 1628263274379,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263274380,
+		"end_node_time": 1628263274380,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263274382,
+		"end_node_time": 1628263274383,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263274383,
+		"end_node_time": 1628263274383,
+		"duration_node": 0,
+		"duration_step": 0
+	}
+]
+Fri Aug 06 2021 18:21:16  : cansel order id:719362697
+Fri Aug 06 2021 18:21:18  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263276709,
+		"end_node_time": 1628263276709,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263276709,
+		"end_node_time": 1628263276709,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263276710,
+		"end_node_time": 1628263276711,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263276711,
+		"end_node_time": 1628263276712,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263276713,
+		"end_node_time": 1628263276714,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263276715,
+		"end_node_time": 1628263276715,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Fri Aug 06 2021 18:21:19  : cansel order id:719362697
+Fri Aug 06 2021 18:21:21  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263279039,
+		"end_node_time": 1628263279039,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263279040,
+		"end_node_time": 1628263279040,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263279041,
+		"end_node_time": 1628263279041,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263279041,
+		"end_node_time": 1628263279042,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263279043,
+		"end_node_time": 1628263279044,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263279045,
+		"end_node_time": 1628263279045,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Fri Aug 06 2021 18:21:21  : cansel order id:719362697
+Fri Aug 06 2021 18:21:23  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263281301,
+		"end_node_time": 1628263281301,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263281302,
+		"end_node_time": 1628263281303,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263281303,
+		"end_node_time": 1628263281304,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263281304,
+		"end_node_time": 1628263281305,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263281307,
+		"end_node_time": 1628263281308,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263281309,
+		"end_node_time": 1628263281309,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Fri Aug 06 2021 18:21:23  : cansel order id:719362697
+Fri Aug 06 2021 18:21:25  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628263283505,
+		"end_node_time": 1628263283505,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628263283505,
+		"end_node_time": 1628263283506,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263283507,
+		"end_node_time": 1628263283508,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263283508,
+		"end_node_time": 1628263283509,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263283511,
+		"end_node_time": 1628263283511,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628263283513,
+		"end_node_time": 1628263283513,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:23:09  : Сброс к стартовым настройкам
+Fri Aug 06 2021 18:25:42  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.341
+Fri Aug 06 2021 18:25:43  : Выставлен ордер - 719369261
+Fri Aug 06 2021 18:26:59  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:00  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263619096,
+		"end_node_time": 1628263619096,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263619099,
+		"end_node_time": 1628263619123,
+		"duration_node": 24,
+		"duration_step": 27
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263619130,
+		"end_node_time": 1628263619135,
+		"duration_node": 5,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263619139,
+		"end_node_time": 1628263619143,
+		"duration_node": 4,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263619147,
+		"end_node_time": 1628263619155,
+		"duration_node": 8,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263619157,
+		"end_node_time": 1628263619157,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263619162,
+		"end_node_time": 1628263619165,
+		"duration_node": 3,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263619165,
+		"end_node_time": 1628263619168,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263619177,
+		"end_node_time": 1628263619177,
+		"duration_node": 0,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263619178,
+		"end_node_time": 1628263619180,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:27:19  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:21  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263639758,
+		"end_node_time": 1628263639758,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263639759,
+		"end_node_time": 1628263639760,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263639761,
+		"end_node_time": 1628263639762,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263639762,
+		"end_node_time": 1628263639765,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263639766,
+		"end_node_time": 1628263639768,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263639769,
+		"end_node_time": 1628263639769,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263639769,
+		"end_node_time": 1628263639770,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263639771,
+		"end_node_time": 1628263639774,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263639780,
+		"end_node_time": 1628263639780,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263639781,
+		"end_node_time": 1628263639783,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:27:21  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:23  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263641774,
+		"end_node_time": 1628263641774,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263641774,
+		"end_node_time": 1628263641775,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263641776,
+		"end_node_time": 1628263641777,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263641777,
+		"end_node_time": 1628263641778,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263641779,
+		"end_node_time": 1628263641779,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263641780,
+		"end_node_time": 1628263641780,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263641780,
+		"end_node_time": 1628263641781,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263641781,
+		"end_node_time": 1628263641784,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263641789,
+		"end_node_time": 1628263641789,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263641790,
+		"end_node_time": 1628263641791,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:27:23  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:25  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263643774,
+		"end_node_time": 1628263643774,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263643775,
+		"end_node_time": 1628263643776,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263643776,
+		"end_node_time": 1628263643777,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263643778,
+		"end_node_time": 1628263643779,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263643779,
+		"end_node_time": 1628263643780,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263643780,
+		"end_node_time": 1628263643780,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263643781,
+		"end_node_time": 1628263643782,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263643782,
+		"end_node_time": 1628263643785,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263643790,
+		"end_node_time": 1628263643790,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263643790,
+		"end_node_time": 1628263643898,
+		"duration_node": 108,
+		"duration_step": 108
+	}
+]
+Fri Aug 06 2021 18:27:25  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:27  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263645777,
+		"end_node_time": 1628263645777,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263645778,
+		"end_node_time": 1628263645778,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263645779,
+		"end_node_time": 1628263645780,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263645780,
+		"end_node_time": 1628263645781,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263645781,
+		"end_node_time": 1628263645782,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263645783,
+		"end_node_time": 1628263645783,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263645783,
+		"end_node_time": 1628263645784,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263645785,
+		"end_node_time": 1628263645787,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263645790,
+		"end_node_time": 1628263645790,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263645791,
+		"end_node_time": 1628263645792,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:27:27  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:29  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263647779,
+		"end_node_time": 1628263647779,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263647780,
+		"end_node_time": 1628263647780,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263647781,
+		"end_node_time": 1628263647782,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263647782,
+		"end_node_time": 1628263647785,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263647785,
+		"end_node_time": 1628263647788,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263647788,
+		"end_node_time": 1628263647788,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263647789,
+		"end_node_time": 1628263647790,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263647790,
+		"end_node_time": 1628263647792,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263647795,
+		"end_node_time": 1628263647795,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263647796,
+		"end_node_time": 1628263647797,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:27:29  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:31  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263649780,
+		"end_node_time": 1628263649780,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263649780,
+		"end_node_time": 1628263649781,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263649782,
+		"end_node_time": 1628263649787,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263649787,
+		"end_node_time": 1628263649788,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263649789,
+		"end_node_time": 1628263649790,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263649790,
+		"end_node_time": 1628263649790,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263649791,
+		"end_node_time": 1628263649793,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263649794,
+		"end_node_time": 1628263649799,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263649838,
+		"end_node_time": 1628263649838,
+		"duration_node": 0,
+		"duration_step": 39
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263649839,
+		"end_node_time": 1628263649846,
+		"duration_node": 7,
+		"duration_step": 8
+	}
+]
+Fri Aug 06 2021 18:27:31  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:33  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263651783,
+		"end_node_time": 1628263651783,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263651783,
+		"end_node_time": 1628263651785,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263651785,
+		"end_node_time": 1628263651786,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263651787,
+		"end_node_time": 1628263651787,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263651788,
+		"end_node_time": 1628263651789,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263651789,
+		"end_node_time": 1628263651789,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263651790,
+		"end_node_time": 1628263651790,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263651791,
+		"end_node_time": 1628263651794,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263651798,
+		"end_node_time": 1628263651798,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263651798,
+		"end_node_time": 1628263651800,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:27:34  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:35  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263653785,
+		"end_node_time": 1628263653785,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263653788,
+		"end_node_time": 1628263653791,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263653794,
+		"end_node_time": 1628263653799,
+		"duration_node": 5,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263653801,
+		"end_node_time": 1628263653807,
+		"duration_node": 6,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263653808,
+		"end_node_time": 1628263653813,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263653815,
+		"end_node_time": 1628263653815,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263653817,
+		"end_node_time": 1628263653818,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263653819,
+		"end_node_time": 1628263653822,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "update bot floors, finance, sales",
+		"start_node_time": 1628263653827,
+		"end_node_time": 1628263653829,
+		"duration_node": 2,
+		"duration_step": 7
+	}
+]
+Fri Aug 06 2021 18:27:35  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:37  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263655798,
+		"end_node_time": 1628263655798,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263655799,
+		"end_node_time": 1628263655800,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263655801,
+		"end_node_time": 1628263655802,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263655802,
+		"end_node_time": 1628263655803,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263655803,
+		"end_node_time": 1628263655804,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263655805,
+		"end_node_time": 1628263655805,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263655805,
+		"end_node_time": 1628263655806,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263655807,
+		"end_node_time": 1628263655810,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263655814,
+		"end_node_time": 1628263655814,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263655814,
+		"end_node_time": 1628263655816,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:27:39  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:41  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263659552,
+		"end_node_time": 1628263659552,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263659553,
+		"end_node_time": 1628263659553,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263659554,
+		"end_node_time": 1628263659555,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263659555,
+		"end_node_time": 1628263659556,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263659557,
+		"end_node_time": 1628263659558,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263659558,
+		"end_node_time": 1628263659558,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263659558,
+		"end_node_time": 1628263659559,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263659560,
+		"end_node_time": 1628263659562,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263659565,
+		"end_node_time": 1628263659565,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263659566,
+		"end_node_time": 1628263659567,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:27:41  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:43  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263661558,
+		"end_node_time": 1628263661558,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263661558,
+		"end_node_time": 1628263661559,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263661560,
+		"end_node_time": 1628263661561,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263661561,
+		"end_node_time": 1628263661562,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263661563,
+		"end_node_time": 1628263661563,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263661564,
+		"end_node_time": 1628263661564,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263661564,
+		"end_node_time": 1628263661565,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263661566,
+		"end_node_time": 1628263661568,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "update bot floors, finance, sales",
+		"start_node_time": 1628263661573,
+		"end_node_time": 1628263661575,
+		"duration_node": 2,
+		"duration_step": 7
+	}
+]
+Fri Aug 06 2021 18:27:52  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:54  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263672748,
+		"end_node_time": 1628263672748,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263672749,
+		"end_node_time": 1628263672749,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263672750,
+		"end_node_time": 1628263672751,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263672751,
+		"end_node_time": 1628263672752,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263672753,
+		"end_node_time": 1628263672753,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263672754,
+		"end_node_time": 1628263672754,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263672754,
+		"end_node_time": 1628263672755,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263672755,
+		"end_node_time": 1628263672758,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263672763,
+		"end_node_time": 1628263672763,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263672763,
+		"end_node_time": 1628263672885,
+		"duration_node": 122,
+		"duration_step": 122
+	}
+]
+Fri Aug 06 2021 18:27:54  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:27:56  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263674754,
+		"end_node_time": 1628263674754,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263674754,
+		"end_node_time": 1628263674755,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263674755,
+		"end_node_time": 1628263674756,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263674757,
+		"end_node_time": 1628263674758,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263674758,
+		"end_node_time": 1628263674759,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263674759,
+		"end_node_time": 1628263674759,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263674759,
+		"end_node_time": 1628263674760,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263674761,
+		"end_node_time": 1628263674764,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263674770,
+		"end_node_time": 1628263674770,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263674770,
+		"end_node_time": 1628263674772,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:28:05  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:28:07  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263685556,
+		"end_node_time": 1628263685556,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263685556,
+		"end_node_time": 1628263685557,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263685557,
+		"end_node_time": 1628263685557,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263685558,
+		"end_node_time": 1628263685558,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263685559,
+		"end_node_time": 1628263685559,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263685559,
+		"end_node_time": 1628263685559,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263685559,
+		"end_node_time": 1628263685560,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263685560,
+		"end_node_time": 1628263685561,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263685562,
+		"end_node_time": 1628263685562,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263685563,
+		"end_node_time": 1628263685563,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Fri Aug 06 2021 18:29:50  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:29:52  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263790659,
+		"end_node_time": 1628263790659,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263790660,
+		"end_node_time": 1628263790661,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263790663,
+		"end_node_time": 1628263790665,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263790665,
+		"end_node_time": 1628263790667,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263790668,
+		"end_node_time": 1628263790669,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263790670,
+		"end_node_time": 1628263790670,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263790670,
+		"end_node_time": 1628263790675,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263790676,
+		"end_node_time": 1628263790678,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263790688,
+		"end_node_time": 1628263790688,
+		"duration_node": 0,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263790688,
+		"end_node_time": 1628263790706,
+		"duration_node": 18,
+		"duration_step": 18
+	}
+]
+Fri Aug 06 2021 18:30:09  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:30:11  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263809302,
+		"end_node_time": 1628263809302,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263809304,
+		"end_node_time": 1628263809305,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263809307,
+		"end_node_time": 1628263809308,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263809308,
+		"end_node_time": 1628263809311,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263809313,
+		"end_node_time": 1628263809314,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263809314,
+		"end_node_time": 1628263809314,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263809315,
+		"end_node_time": 1628263809317,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263809318,
+		"end_node_time": 1628263809319,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263809325,
+		"end_node_time": 1628263809325,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263809325,
+		"end_node_time": 1628263809327,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:30:11  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:30:13  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263811558,
+		"end_node_time": 1628263811558,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263811558,
+		"end_node_time": 1628263811559,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263811560,
+		"end_node_time": 1628263811561,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263811561,
+		"end_node_time": 1628263811562,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263811563,
+		"end_node_time": 1628263811563,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263811564,
+		"end_node_time": 1628263811564,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263811564,
+		"end_node_time": 1628263811566,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263811566,
+		"end_node_time": 1628263811571,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263811575,
+		"end_node_time": 1628263811575,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263811576,
+		"end_node_time": 1628263811578,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:30:13  : NEOUSDT-1627490958:cansel: orderid:719369261
+Fri Aug 06 2021 18:30:15  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263813574,
+		"end_node_time": 1628263813574,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263813574,
+		"end_node_time": 1628263813575,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263813576,
+		"end_node_time": 1628263813577,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263813577,
+		"end_node_time": 1628263813578,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263813578,
+		"end_node_time": 1628263813579,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263813579,
+		"end_node_time": 1628263813579,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263813580,
+		"end_node_time": 1628263813581,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263813581,
+		"end_node_time": 1628263813584,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263813589,
+		"end_node_time": 1628263813589,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263813589,
+		"end_node_time": 1628263813591,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:31:16  : Сброс к стартовым настройкам
+Fri Aug 06 2021 18:31:28  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:31:29  : Выставлен ордер - 719375386
+Fri Aug 06 2021 18:31:37  : NEOUSDT-1627490958:cansel: orderid:719375386
+Fri Aug 06 2021 18:31:39  : Ордер на покупку отменен, ID - 719375386
+Fri Aug 06 2021 18:31:45  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:31:46  : Выставлен ордер - 719375782
+Fri Aug 06 2021 18:31:46  : NEOUSDT-1627490958:cansel: orderid:719375782
+Fri Aug 06 2021 18:31:47  : Ордер на покупку отменен, ID - 719375782
+Fri Aug 06 2021 18:31:47  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:31:49  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263907435,
+		"end_node_time": 1628263907435,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263907436,
+		"end_node_time": 1628263907437,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263907437,
+		"end_node_time": 1628263907438,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263907438,
+		"end_node_time": 1628263907439,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263907440,
+		"end_node_time": 1628263907441,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263907441,
+		"end_node_time": 1628263907441,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263907443,
+		"end_node_time": 1628263907444,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263907444,
+		"end_node_time": 1628263907448,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263907452,
+		"end_node_time": 1628263907452,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263907453,
+		"end_node_time": 1628263907456,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Fri Aug 06 2021 18:31:49  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:31:51  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263909688,
+		"end_node_time": 1628263909688,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263909688,
+		"end_node_time": 1628263909689,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263909690,
+		"end_node_time": 1628263909691,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263909691,
+		"end_node_time": 1628263909693,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263909693,
+		"end_node_time": 1628263909694,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263909694,
+		"end_node_time": 1628263909694,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263909695,
+		"end_node_time": 1628263909696,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263909696,
+		"end_node_time": 1628263909700,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263909706,
+		"end_node_time": 1628263909706,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263909706,
+		"end_node_time": 1628263909708,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:31:51  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:31:53  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263911705,
+		"end_node_time": 1628263911705,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263911705,
+		"end_node_time": 1628263911706,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263911707,
+		"end_node_time": 1628263911708,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263911708,
+		"end_node_time": 1628263911709,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263911710,
+		"end_node_time": 1628263911711,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263911711,
+		"end_node_time": 1628263911711,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263911712,
+		"end_node_time": 1628263911713,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263911713,
+		"end_node_time": 1628263911716,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263911720,
+		"end_node_time": 1628263911720,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263911721,
+		"end_node_time": 1628263911724,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Fri Aug 06 2021 18:31:58  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:31:59  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263917995,
+		"end_node_time": 1628263917995,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263917996,
+		"end_node_time": 1628263917996,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263917997,
+		"end_node_time": 1628263917998,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263917998,
+		"end_node_time": 1628263917999,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263917999,
+		"end_node_time": 1628263918000,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263918001,
+		"end_node_time": 1628263918001,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263918001,
+		"end_node_time": 1628263918002,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263918003,
+		"end_node_time": 1628263918006,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263918012,
+		"end_node_time": 1628263918012,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263918012,
+		"end_node_time": 1628263918015,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:00  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:01  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263920011,
+		"end_node_time": 1628263920011,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263920011,
+		"end_node_time": 1628263920012,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263920013,
+		"end_node_time": 1628263920014,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263920014,
+		"end_node_time": 1628263920015,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263920015,
+		"end_node_time": 1628263920016,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263920016,
+		"end_node_time": 1628263920016,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263920017,
+		"end_node_time": 1628263920018,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263920018,
+		"end_node_time": 1628263920020,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263920025,
+		"end_node_time": 1628263920026,
+		"duration_node": 1,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263920026,
+		"end_node_time": 1628263920027,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 06 2021 18:32:02  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:03  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263922009,
+		"end_node_time": 1628263922009,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263922009,
+		"end_node_time": 1628263922010,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263922011,
+		"end_node_time": 1628263922012,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263922013,
+		"end_node_time": 1628263922014,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263922015,
+		"end_node_time": 1628263922017,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263922017,
+		"end_node_time": 1628263922017,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263922018,
+		"end_node_time": 1628263922019,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263922028,
+		"end_node_time": 1628263922034,
+		"duration_node": 6,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263922064,
+		"end_node_time": 1628263922064,
+		"duration_node": 0,
+		"duration_step": 30
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263922065,
+		"end_node_time": 1628263922068,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Fri Aug 06 2021 18:32:04  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:05  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263924075,
+		"end_node_time": 1628263924075,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263924076,
+		"end_node_time": 1628263924082,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263924085,
+		"end_node_time": 1628263924090,
+		"duration_node": 5,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263924093,
+		"end_node_time": 1628263924096,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263924098,
+		"end_node_time": 1628263924119,
+		"duration_node": 21,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263924120,
+		"end_node_time": 1628263924120,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263924121,
+		"end_node_time": 1628263924124,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263924124,
+		"end_node_time": 1628263924130,
+		"duration_node": 6,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263924145,
+		"end_node_time": 1628263924145,
+		"duration_node": 0,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263924146,
+		"end_node_time": 1628263924148,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:06  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:07  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263926025,
+		"end_node_time": 1628263926026,
+		"duration_node": 1,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263926026,
+		"end_node_time": 1628263926026,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263926027,
+		"end_node_time": 1628263926028,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263926029,
+		"end_node_time": 1628263926030,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263926031,
+		"end_node_time": 1628263926032,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263926032,
+		"end_node_time": 1628263926032,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263926033,
+		"end_node_time": 1628263926034,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263926035,
+		"end_node_time": 1628263926042,
+		"duration_node": 7,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263926047,
+		"end_node_time": 1628263926047,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263926047,
+		"end_node_time": 1628263926051,
+		"duration_node": 4,
+		"duration_step": 4
+	}
+]
+Fri Aug 06 2021 18:32:08  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:09  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263928046,
+		"end_node_time": 1628263928046,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263928047,
+		"end_node_time": 1628263928048,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263928050,
+		"end_node_time": 1628263928060,
+		"duration_node": 10,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263928061,
+		"end_node_time": 1628263928070,
+		"duration_node": 9,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263928075,
+		"end_node_time": 1628263928084,
+		"duration_node": 9,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263928085,
+		"end_node_time": 1628263928085,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263928086,
+		"end_node_time": 1628263928118,
+		"duration_node": 32,
+		"duration_step": 33
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263928120,
+		"end_node_time": 1628263928144,
+		"duration_node": 24,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263928175,
+		"end_node_time": 1628263928175,
+		"duration_node": 0,
+		"duration_step": 31
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263928176,
+		"end_node_time": 1628263928182,
+		"duration_node": 6,
+		"duration_step": 7
+	}
+]
+Fri Aug 06 2021 18:32:10  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:12  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263930344,
+		"end_node_time": 1628263930344,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263930346,
+		"end_node_time": 1628263930346,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263930347,
+		"end_node_time": 1628263930349,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263930349,
+		"end_node_time": 1628263930351,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263930352,
+		"end_node_time": 1628263930355,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263930356,
+		"end_node_time": 1628263930356,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263930356,
+		"end_node_time": 1628263930361,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263930362,
+		"end_node_time": 1628263930364,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263930370,
+		"end_node_time": 1628263930370,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263930370,
+		"end_node_time": 1628263930375,
+		"duration_node": 5,
+		"duration_step": 5
+	}
+]
+Fri Aug 06 2021 18:32:12  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:14  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263932296,
+		"end_node_time": 1628263932296,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263932297,
+		"end_node_time": 1628263932298,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263932298,
+		"end_node_time": 1628263932300,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263932300,
+		"end_node_time": 1628263932301,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263932301,
+		"end_node_time": 1628263932302,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263932303,
+		"end_node_time": 1628263932303,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263932303,
+		"end_node_time": 1628263932304,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263932304,
+		"end_node_time": 1628263932311,
+		"duration_node": 7,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263932316,
+		"end_node_time": 1628263932316,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263932317,
+		"end_node_time": 1628263932319,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:14  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:16  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263934304,
+		"end_node_time": 1628263934304,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263934305,
+		"end_node_time": 1628263934306,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263934306,
+		"end_node_time": 1628263934307,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263934308,
+		"end_node_time": 1628263934309,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263934310,
+		"end_node_time": 1628263934312,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263934313,
+		"end_node_time": 1628263934313,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263934313,
+		"end_node_time": 1628263934314,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263934315,
+		"end_node_time": 1628263934325,
+		"duration_node": 10,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263934329,
+		"end_node_time": 1628263934329,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263934330,
+		"end_node_time": 1628263934332,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:16  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:18  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263936322,
+		"end_node_time": 1628263936322,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263936324,
+		"end_node_time": 1628263936329,
+		"duration_node": 5,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263936331,
+		"end_node_time": 1628263936332,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263936332,
+		"end_node_time": 1628263936333,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263936334,
+		"end_node_time": 1628263936335,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263936335,
+		"end_node_time": 1628263936335,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263936335,
+		"end_node_time": 1628263936336,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263936337,
+		"end_node_time": 1628263936339,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263936342,
+		"end_node_time": 1628263936342,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263936343,
+		"end_node_time": 1628263936345,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:18  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:20  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263938308,
+		"end_node_time": 1628263938308,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263938309,
+		"end_node_time": 1628263938310,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263938311,
+		"end_node_time": 1628263938312,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263938312,
+		"end_node_time": 1628263938313,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263938314,
+		"end_node_time": 1628263938315,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263938315,
+		"end_node_time": 1628263938316,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263938316,
+		"end_node_time": 1628263938317,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263938318,
+		"end_node_time": 1628263938320,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263938323,
+		"end_node_time": 1628263938323,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263938323,
+		"end_node_time": 1628263938325,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:32:21  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:23  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263941572,
+		"end_node_time": 1628263941572,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263941573,
+		"end_node_time": 1628263941573,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263941574,
+		"end_node_time": 1628263941575,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263941575,
+		"end_node_time": 1628263941576,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263941577,
+		"end_node_time": 1628263941578,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263941578,
+		"end_node_time": 1628263941578,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263941579,
+		"end_node_time": 1628263941583,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263941584,
+		"end_node_time": 1628263941586,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263941589,
+		"end_node_time": 1628263941589,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263941590,
+		"end_node_time": 1628263941592,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:23  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:25  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263943826,
+		"end_node_time": 1628263943826,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263943827,
+		"end_node_time": 1628263943828,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263943828,
+		"end_node_time": 1628263943829,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263943830,
+		"end_node_time": 1628263943831,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263943832,
+		"end_node_time": 1628263943833,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263943834,
+		"end_node_time": 1628263943834,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263943834,
+		"end_node_time": 1628263943835,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263943836,
+		"end_node_time": 1628263943839,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263943842,
+		"end_node_time": 1628263943842,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263943842,
+		"end_node_time": 1628263943844,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:32:25  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:27  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263945833,
+		"end_node_time": 1628263945833,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263945833,
+		"end_node_time": 1628263945834,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263945835,
+		"end_node_time": 1628263945835,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263945836,
+		"end_node_time": 1628263945838,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263945838,
+		"end_node_time": 1628263945839,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263945839,
+		"end_node_time": 1628263945839,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263945840,
+		"end_node_time": 1628263945840,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263945841,
+		"end_node_time": 1628263945843,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263945846,
+		"end_node_time": 1628263945846,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263945846,
+		"end_node_time": 1628263945849,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Fri Aug 06 2021 18:32:27  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:29  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263947849,
+		"end_node_time": 1628263947849,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263947849,
+		"end_node_time": 1628263947850,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263947851,
+		"end_node_time": 1628263947852,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263947852,
+		"end_node_time": 1628263947853,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263947853,
+		"end_node_time": 1628263947854,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263947854,
+		"end_node_time": 1628263947854,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263947855,
+		"end_node_time": 1628263947855,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263947856,
+		"end_node_time": 1628263947858,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263947861,
+		"end_node_time": 1628263947861,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263947861,
+		"end_node_time": 1628263947863,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 18:32:30  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:32:31  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263949870,
+		"end_node_time": 1628263949870,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263949875,
+		"end_node_time": 1628263949878,
+		"duration_node": 3,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263949882,
+		"end_node_time": 1628263949884,
+		"duration_node": 2,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263949887,
+		"end_node_time": 1628263949891,
+		"duration_node": 4,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263949894,
+		"end_node_time": 1628263949919,
+		"duration_node": 25,
+		"duration_step": 28
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263949920,
+		"end_node_time": 1628263949920,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263949923,
+		"end_node_time": 1628263949928,
+		"duration_node": 5,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263949929,
+		"end_node_time": 1628263949941,
+		"duration_node": 12,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263949995,
+		"end_node_time": 1628263949995,
+		"duration_node": 0,
+		"duration_step": 54
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263949996,
+		"end_node_time": 1628263950019,
+		"duration_node": 23,
+		"duration_step": 24
+	}
+]
+Fri Aug 06 2021 18:32:32  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:35:46  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628263952080,
+		"end_node_time": 1628263952080,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628263952080,
+		"end_node_time": 1628263952083,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628263952084,
+		"end_node_time": 1628263952086,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628263952086,
+		"end_node_time": 1628263952088,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628263952088,
+		"end_node_time": 1628263952091,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628263952091,
+		"end_node_time": 1628263952091,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263952091,
+		"end_node_time": 1628263952094,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628263952094,
+		"end_node_time": 1628263952098,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628263952130,
+		"end_node_time": 1628263952130,
+		"duration_node": 0,
+		"duration_step": 32
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628263952130,
+		"end_node_time": 1628263952135,
+		"duration_node": 5,
+		"duration_step": 5
+	}
+]
+Fri Aug 06 2021 18:37:56  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.341
+Fri Aug 06 2021 18:37:56  : Выставлен ордер - 719382396
+Fri Aug 06 2021 18:37:56  : NEOUSDT-1627490958:cansel: orderid:719382396
+Fri Aug 06 2021 18:37:57  : Ордер на покупку отменен, ID - 719382396
+Fri Aug 06 2021 18:37:59  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.341
+Fri Aug 06 2021 18:38:00  : Выставлен ордер - 719382412
+Fri Aug 06 2021 18:38:01  : NEOUSDT-1627490958:cansel: orderid:719382412
+Fri Aug 06 2021 18:38:02  : Ордер на покупку отменен, ID - 719382412
+Fri Aug 06 2021 18:38:58  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.341
+Fri Aug 06 2021 18:38:59  : Выставлен ордер - 719383215
+Fri Aug 06 2021 18:39:11  : NEOUSDT-1627490958:cansel: orderid:719383215
+Fri Aug 06 2021 18:39:12  : Ордер на покупку отменен, ID - 719383215
+Fri Aug 06 2021 18:39:12  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.341
+Fri Aug 06 2021 18:39:13  : Выставлен ордер - 719383402
+Fri Aug 06 2021 18:46:56  : NEOUSDT-1627490958:cansel: orderid:719383402
+Fri Aug 06 2021 18:46:57  : Ордер на покупку отменен, ID - 719383402
+Fri Aug 06 2021 18:47:10  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:47:10  : Выставлен ордер - 719391651
+Fri Aug 06 2021 18:47:15  : NEOUSDT-1627490958:cansel: orderid:719391651
+Fri Aug 06 2021 18:47:16  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628264834945,
+		"end_node_time": 1628264834945,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628264834953,
+		"end_node_time": 1628264834966,
+		"duration_node": 13,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628264834975,
+		"end_node_time": 1628264834980,
+		"duration_node": 5,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628264834981,
+		"end_node_time": 1628264834987,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628264834989,
+		"end_node_time": 1628264834996,
+		"duration_node": 7,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628264835019,
+		"end_node_time": 1628264835019,
+		"duration_node": 0,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628264835020,
+		"end_node_time": 1628264835022,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628264835024,
+		"end_node_time": 1628264835028,
+		"duration_node": 4,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628264835045,
+		"end_node_time": 1628264835045,
+		"duration_node": 0,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628264835047,
+		"end_node_time": 1628264835051,
+		"duration_node": 4,
+		"duration_step": 6
+	}
+]
+Fri Aug 06 2021 18:47:16  : NEOUSDT-1627490958:cansel: orderid:719391651
+Fri Aug 06 2021 18:47:16  : Ордер на покупку отменен, ID - 719391651
+Fri Aug 06 2021 18:47:22  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:47:23  : Выставлен ордер - 719391898
+Fri Aug 06 2021 18:47:23  : NEOUSDT-1627490958:cansel: orderid:719391898
+Fri Aug 06 2021 18:47:23  : Ордер на покупку отменен, ID - 719391898
+Fri Aug 06 2021 18:47:24  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:47:25  : Выставлен ордер - 719391968
+Fri Aug 06 2021 18:47:25  : NEOUSDT-1627490958:cansel: orderid:719391968
+Fri Aug 06 2021 18:47:25  : Ордер на покупку отменен, ID - 719391968
+Fri Aug 06 2021 18:47:27  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:47:28  : Выставлен ордер - 719392037
+Fri Aug 06 2021 18:47:44  : NEOUSDT-1627490958:cansel: orderid:719392037
+Fri Aug 06 2021 18:47:45  : Ордер на покупку отменен, ID - 719392037
+Fri Aug 06 2021 18:47:47  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:47:48  : Выставлен ордер - 719392308
+Fri Aug 06 2021 18:47:50  : NEOUSDT-1627490958:cansel: orderid:719392308
+Fri Aug 06 2021 18:47:52  : Ордер на покупку отменен, ID - 719392308
+Fri Aug 06 2021 18:48:01  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.339
+Fri Aug 06 2021 18:48:01  : Выставлен ордер - 719392525
+Fri Aug 06 2021 18:48:05  : NEOUSDT-1627490958:cansel: orderid:719392525
+Fri Aug 06 2021 18:48:06  : Ордер на покупку отменен, ID - 719392525
+Fri Aug 06 2021 18:48:08  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.339
+Fri Aug 06 2021 18:48:10  : Выставлен ордер - 719392654
+Fri Aug 06 2021 18:48:11  : NEOUSDT-1627490958:cansel: orderid:719392654
+Fri Aug 06 2021 18:48:11  : Ордер на покупку отменен, ID - 719392654
+Fri Aug 06 2021 18:48:52  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:48:53  : Выставлен ордер - 719393205
+Fri Aug 06 2021 18:48:53  : NEOUSDT-1627490958:cansel: orderid:719393205
+Fri Aug 06 2021 18:48:53  : Ордер на покупку отменен, ID - 719393205
+Fri Aug 06 2021 18:49:06  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:49:06  : Выставлен ордер - 719393394
+Fri Aug 06 2021 18:49:10  : NEOUSDT-1627490958:cansel: orderid:719393394
+Fri Aug 06 2021 18:49:11  : Ордер на покупку отменен, ID - 719393394
+Fri Aug 06 2021 18:49:49  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:49:50  : Выставлен ордер - 719394088
+Fri Aug 06 2021 18:49:50  : NEOUSDT-1627490958:cansel: orderid:719394088
+Fri Aug 06 2021 18:49:51  : Ордер на покупку отменен, ID - 719394088
+Fri Aug 06 2021 18:49:51  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:49:53  : Выставлен ордер - 719394135
+Fri Aug 06 2021 18:49:53  : Длительноть трека -1999
+Fri Aug 06 2021 18:49:54  : NEOUSDT-1627490958:cansel: orderid:719394135
+Fri Aug 06 2021 18:49:55  : Ордер на покупку отменен, ID - 719394135
+Fri Aug 06 2021 18:49:55  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:49:56  : Выставлен ордер - 719394165
+Fri Aug 06 2021 18:50:06  : NEOUSDT-1627490958:cansel: orderid:719394165
+Fri Aug 06 2021 18:50:07  : Ордер на покупку отменен, ID - 719394165
+Fri Aug 06 2021 18:50:09  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.339
+Fri Aug 06 2021 18:50:10  : Выставлен ордер - 719394375
+Fri Aug 06 2021 18:50:23  : NEOUSDT-1627490958:cansel: orderid:719394375
+Fri Aug 06 2021 18:50:23  : NEOUSDT-1627490958:cansel: orderid:719394375
+Fri Aug 06 2021 18:50:24  : Ордер на покупку отменен, ID - 719394375
+Fri Aug 06 2021 18:50:25  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:50:26  : Выставлен ордер - 719394588
+Fri Aug 06 2021 18:51:57  : NEOUSDT-1627490958:cansel: orderid:719394588
+Fri Aug 06 2021 18:51:58  : Ордер на покупку отменен, ID - 719394588
+Fri Aug 06 2021 18:52:02  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.339
+Fri Aug 06 2021 18:52:03  : Выставлен ордер - 719395480
+Fri Aug 06 2021 18:52:04  : NEOUSDT-1627490958:cansel: orderid:719395480
+Fri Aug 06 2021 18:52:05  : Ордер на покупку отменен, ID - 719395480
+Fri Aug 06 2021 18:52:05  : NEOUSDT-1627490958:setbuy: price:43.714, quantity: 0.34
+Fri Aug 06 2021 18:52:05  : Выставлен ордер - 719395526
+Fri Aug 06 2021 18:52:23  : NEOUSDT-1627490958:cansel: orderid:719395526
+Fri Aug 06 2021 18:52:23  : Ордер на покупку отменен, ID - 719395526
+Fri Aug 06 2021 18:52:23  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.338
+Fri Aug 06 2021 18:52:24  : Выставлен ордер - 719396249
+Fri Aug 06 2021 18:52:26  : Ордер на покупку исполнен, ID - 719396249
+Fri Aug 06 2021 18:55:11  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 18:55:11  : выставили ttp ордер
+Fri Aug 06 2021 18:55:37  : cansel order id:719404354
+Fri Aug 06 2021 18:55:38  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 18:55:39  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 18:59:29  : cansel order id:719405392
+Fri Aug 06 2021 18:59:29  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 18:59:31  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 18:59:54  : cansel order id:719409709
+Fri Aug 06 2021 18:59:55  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 18:59:56  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:09  : cansel order id:719410131
+Fri Aug 06 2021 19:00:09  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:10  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:14  : cansel order id:719410515
+Fri Aug 06 2021 19:00:14  : cansel order id:719410515
+Fri Aug 06 2021 19:00:15  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:16  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:16  : cansel order id:719410637
+Fri Aug 06 2021 19:00:16  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:17  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:30  : cansel order id:719410693
+Fri Aug 06 2021 19:00:31  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:32  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:38  : cansel order id:719411184
+Fri Aug 06 2021 19:00:39  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:40  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:40  : cansel order id:719411739
+Fri Aug 06 2021 19:00:41  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:41  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:42  : cansel order id:719411790
+Fri Aug 06 2021 19:00:43  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:44  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:44  : cansel order id:719411908
+Fri Aug 06 2021 19:00:45  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:46  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:47  : cansel order id:719412049
+Fri Aug 06 2021 19:00:47  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:49  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:52  : cansel order id:719412203
+Fri Aug 06 2021 19:00:54  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:56  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:56  : Длительноть трека -2594
+Fri Aug 06 2021 19:00:57  : cansel order id:719412434
+Fri Aug 06 2021 19:00:57  : cansel order id:719412434
+Fri Aug 06 2021 19:00:57  : cansel order id:719412434
+Fri Aug 06 2021 19:00:57  : cansel order id:719412434
+Fri Aug 06 2021 19:00:57  : cansel order id:719412434
+Fri Aug 06 2021 19:00:58  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:00:59  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:00:59  : cansel order id:719412586
+Fri Aug 06 2021 19:00:59  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:00  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:04  : cansel order id:719412642
+Fri Aug 06 2021 19:01:05  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:05  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:05  : cansel order id:719412827
+Fri Aug 06 2021 19:01:06  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:07  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:18  : cansel order id:719412881
+Fri Aug 06 2021 19:01:19  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:20  : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628265678349,
+		"end_node_time": 1628265678349,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628265678353,
+		"end_node_time": 1628265678357,
+		"duration_node": 4,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628265678364,
+		"end_node_time": 1628265678369,
+		"duration_node": 5,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628265678375,
+		"end_node_time": 1628265678378,
+		"duration_node": 3,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628265678384,
+		"end_node_time": 1628265678388,
+		"duration_node": 4,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628265678394,
+		"end_node_time": 1628265678394,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "orderexec cansel",
+		"start_node_time": 1628265678425,
+		"end_node_time": 1628265679994,
+		"duration_node": 1569,
+		"duration_step": 1600
+	}
+]
+Fri Aug 06 2021 19:01:21  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:33  : cansel order id:719413583
+Fri Aug 06 2021 19:01:33  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:34  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:34  : cansel order id:719414336
+Fri Aug 06 2021 19:01:35  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:36  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:37  : cansel order id:719414464
+Fri Aug 06 2021 19:01:38  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:39  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:44  : cansel order id:719414597
+Fri Aug 06 2021 19:01:44  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:45  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:01:58  : cansel order id:719414844
+Fri Aug 06 2021 19:01:58  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:01:59  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:05  : cansel order id:719415255
+Fri Aug 06 2021 19:02:06  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:06  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:07  : cansel order id:719415489
+Fri Aug 06 2021 19:02:07  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:08  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:10  : cansel order id:719415545
+Fri Aug 06 2021 19:02:11  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:11  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:34  : cansel order id:719415609
+Fri Aug 06 2021 19:02:35  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:36  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:37  : cansel order id:719416529
+Fri Aug 06 2021 19:02:37  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:38  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:38  : cansel order id:719416592
+Fri Aug 06 2021 19:02:38  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:39  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:39  : cansel order id:719416613
+Fri Aug 06 2021 19:02:40  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:41  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:43  : cansel order id:719416655
+Fri Aug 06 2021 19:02:44  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:44  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:44  : cansel order id:719416726
+Fri Aug 06 2021 19:02:45  : setsellNEOUSDT-1627490958
+Fri Aug 06 2021 19:02:45  : переставили ttp ордер, q=0.338
+Fri Aug 06 2021 19:02:55  : ttp finish on 44.57100000
+Fri Aug 06 2021 19:02:55  : регистрация сделки - 44.304,44.571,0.338,0.09024599999999862,0.022529812500000003,0.06771618749999861
+Fri Aug 06 2021 19:02:55  : обнуление ттп
+Fri Aug 06 2021 19:02:55  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:02:56  : Выставлен ордер - 719417273
+Fri Aug 06 2021 19:02:56  : NEOUSDT-1627490958:cansel: orderid:719417273
+Fri Aug 06 2021 19:02:58  : Ордер на покупку отменен, ID - 719417273
+Fri Aug 06 2021 19:02:58  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628265776279,
+		"end_node_time": 1628265776279,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628265776283,
+		"end_node_time": 1628265776286,
+		"duration_node": 3,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628265776289,
+		"end_node_time": 1628265776292,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628265776293,
+		"end_node_time": 1628265776294,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628265776294,
+		"end_node_time": 1628265776295,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628265776295,
+		"end_node_time": 1628265776295,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628265776296,
+		"end_node_time": 1628265776296,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628265776297,
+		"end_node_time": 1628265776299,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628265776303,
+		"end_node_time": 1628265776303,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628265776303,
+		"end_node_time": 1628265776305,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 19:03:30  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:31  : Выставлен ордер - 719419918
+Fri Aug 06 2021 19:03:32  : NEOUSDT-1627490958:cansel: orderid:719419918
+Fri Aug 06 2021 19:03:33  : Ордер на покупку отменен, ID - 719419918
+Fri Aug 06 2021 19:03:33  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:35  : Выставлен ордер - 719420036
+Fri Aug 06 2021 19:03:35  : NEOUSDT-1627490958:cansel: orderid:719420036
+Fri Aug 06 2021 19:03:36  : Ордер на покупку отменен, ID - 719420036
+Fri Aug 06 2021 19:03:38  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:39  : Выставлен ордер - 719420173
+Fri Aug 06 2021 19:03:39  : NEOUSDT-1627490958:cansel: orderid:719420173
+Fri Aug 06 2021 19:03:40  : Ордер на покупку отменен, ID - 719420173
+Fri Aug 06 2021 19:03:43  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:43  : Выставлен ордер - 719420502
+Fri Aug 06 2021 19:03:44  : NEOUSDT-1627490958:cansel: orderid:719420502
+Fri Aug 06 2021 19:03:44  : Ордер на покупку отменен, ID - 719420502
+Fri Aug 06 2021 19:03:46  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:46  : Выставлен ордер - 719420613
+Fri Aug 06 2021 19:03:46  : NEOUSDT-1627490958:cansel: orderid:719420613
+Fri Aug 06 2021 19:03:47  : Ордер на покупку отменен, ID - 719420613
+Fri Aug 06 2021 19:03:48  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:49  : Выставлен ордер - 719420695
+Fri Aug 06 2021 19:03:49  : NEOUSDT-1627490958:cansel: orderid:719420695
+Fri Aug 06 2021 19:03:51  : Ордер на покупку отменен, ID - 719420695
+Fri Aug 06 2021 19:03:56  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:03:57  : Выставлен ордер - 719421033
+Fri Aug 06 2021 19:03:57  : NEOUSDT-1627490958:cansel: orderid:719421033
+Fri Aug 06 2021 19:03:58  : Ордер на покупку отменен, ID - 719421033
+Fri Aug 06 2021 19:04:34  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:04:37  : Выставлен ордер - 719422461
+Fri Aug 06 2021 19:04:37  : Длительноть трека -2786
+Fri Aug 06 2021 19:04:38  : NEOUSDT-1627490958:cansel: orderid:719422461
+Fri Aug 06 2021 19:04:39  : Ордер на покупку отменен, ID - 719422461
+Fri Aug 06 2021 19:04:47  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:04:48  : Выставлен ордер - 719422968
+Fri Aug 06 2021 19:04:48  : NEOUSDT-1627490958:cansel: orderid:719422968
+Fri Aug 06 2021 19:04:50  : Ордер на покупку отменен, ID - 719422968
+Fri Aug 06 2021 19:04:50  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628265888620,
+		"end_node_time": 1628265888620,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628265888620,
+		"end_node_time": 1628265888622,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628265888623,
+		"end_node_time": 1628265888624,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628265888624,
+		"end_node_time": 1628265888625,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628265888625,
+		"end_node_time": 1628265888627,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628265888628,
+		"end_node_time": 1628265888628,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628265888629,
+		"end_node_time": 1628265888629,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628265888630,
+		"end_node_time": 1628265888633,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628265888640,
+		"end_node_time": 1628265888640,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628265888640,
+		"end_node_time": 1628265888836,
+		"duration_node": 196,
+		"duration_step": 196
+	}
+]
+Fri Aug 06 2021 19:04:53  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:04:53  : Выставлен ордер - 719423172
+Fri Aug 06 2021 19:04:54  : NEOUSDT-1627490958:cansel: orderid:719423172
+Fri Aug 06 2021 19:04:54  : Ордер на покупку отменен, ID - 719423172
+Fri Aug 06 2021 19:05:03  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628265902723,
+		"end_node_time": 1628265902723,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628265902786,
+		"end_node_time": 1628265903024,
+		"duration_node": 238,
+		"duration_step": 301
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628265903298,
+		"end_node_time": 1628265903382,
+		"duration_node": 84,
+		"duration_step": 358
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628265903446,
+		"end_node_time": 1628265903551,
+		"duration_node": 105,
+		"duration_step": 169
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628265903566,
+		"end_node_time": 1628265903582,
+		"duration_node": 16,
+		"duration_step": 31
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628265903589,
+		"end_node_time": 1628265903589,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628265903593,
+		"end_node_time": 1628265903621,
+		"duration_node": 28,
+		"duration_step": 32
+	}
+]
+Fri Aug 06 2021 19:05:03  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:05:04  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:05:05  : Выставлен ордер - 719423682
+Fri Aug 06 2021 19:05:05  : Выставлен ордер - 719423687
+Fri Aug 06 2021 19:05:09  : NEOUSDT-1627490958:cansel: orderid:719423687
+Fri Aug 06 2021 19:05:09  : Ордер на покупку отменен, ID - 719423687
+Fri Aug 06 2021 19:05:09  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:05:10  : Выставлен ордер - 719423943
+Fri Aug 06 2021 19:05:53  : Длительноть трека -1968
+Fri Aug 06 2021 19:06:43  : NEOUSDT-1627490958:setbuy: price:44.902, quantity: 0.335
+Fri Aug 06 2021 19:06:44  : Выставлен ордер - 719427546
+Fri Aug 06 2021 19:06:47  : Ордер на покупку исполнен, ID - 719427546
+Fri Aug 06 2021 19:06:50  : NEOUSDT-1627490958:cansel: orderid:719423943
+Fri Aug 06 2021 19:06:51  : Ордер на покупку отменен, ID - 719423943
+Fri Aug 06 2021 19:06:51  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:06:52  : Выставлен ордер - 719427872
+Fri Aug 06 2021 19:06:52  : NEOUSDT-1627490958:cansel: orderid:719427872
+Fri Aug 06 2021 19:06:53  : Ордер на покупку отменен, ID - 719427872
+Fri Aug 06 2021 19:06:54  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:06:55  : Выставлен ордер - 719428011
+Fri Aug 06 2021 19:07:01  : NEOUSDT-1627490958:cansel: orderid:719428011
+Fri Aug 06 2021 19:07:02  : Ордер на покупку отменен, ID - 719428011
+Fri Aug 06 2021 19:07:02  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:03  : Выставлен ордер - 719428266
+Fri Aug 06 2021 19:07:05  : NEOUSDT-1627490958:cansel: orderid:719428266
+Fri Aug 06 2021 19:07:05  : Ордер на покупку отменен, ID - 719428266
+Fri Aug 06 2021 19:07:05  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:07  : Выставлен ордер - 719428390
+Fri Aug 06 2021 19:07:08  : NEOUSDT-1627490958:cansel: orderid:719428390
+Fri Aug 06 2021 19:07:09  : Ордер на покупку отменен, ID - 719428390
+Fri Aug 06 2021 19:07:09  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:10  : Выставлен ордер - 719428512
+Fri Aug 06 2021 19:07:12  : NEOUSDT-1627490958:cansel: orderid:719428512
+Fri Aug 06 2021 19:07:13  : Ордер на покупку отменен, ID - 719428512
+Fri Aug 06 2021 19:07:22  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:23  : Выставлен ордер - 719429176
+Fri Aug 06 2021 19:07:23  : NEOUSDT-1627490958:cansel: orderid:719429176
+Fri Aug 06 2021 19:07:24  : Ордер на покупку отменен, ID - 719429176
+Fri Aug 06 2021 19:07:26  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:28  : Выставлен ордер - 719429392
+Fri Aug 06 2021 19:07:28  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628266046897,
+		"end_node_time": 1628266046897,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628266046897,
+		"end_node_time": 1628266046898,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628266046899,
+		"end_node_time": 1628266046900,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628266046900,
+		"end_node_time": 1628266046901,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628266046902,
+		"end_node_time": 1628266046902,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628266046903,
+		"end_node_time": 1628266046903,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628266046903,
+		"end_node_time": 1628266046904,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628266046905,
+		"end_node_time": 1628266046908,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628266046912,
+		"end_node_time": 1628266046912,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628266046912,
+		"end_node_time": 1628266046914,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Fri Aug 06 2021 19:07:28  : NEOUSDT-1627490958:cansel: orderid:719429392
+Fri Aug 06 2021 19:07:29  : Ордер на покупку отменен, ID - 719429392
+Fri Aug 06 2021 19:07:29  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:30  : Выставлен ордер - 719429477
+Fri Aug 06 2021 19:07:31  : NEOUSDT-1627490958:cansel: orderid:719429477
+Fri Aug 06 2021 19:07:32  : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628266051156,
+		"end_node_time": 1628266051156,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628266051156,
+		"end_node_time": 1628266051161,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628266051162,
+		"end_node_time": 1628266051164,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628266051165,
+		"end_node_time": 1628266051167,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628266051167,
+		"end_node_time": 1628266051169,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628266051171,
+		"end_node_time": 1628266051171,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628266051172,
+		"end_node_time": 1628266051174,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628266051174,
+		"end_node_time": 1628266051189,
+		"duration_node": 15,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628266051203,
+		"end_node_time": 1628266051203,
+		"duration_node": 0,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628266051205,
+		"end_node_time": 1628266051362,
+		"duration_node": 157,
+		"duration_step": 159
+	}
+]
+Fri Aug 06 2021 19:07:32  : Ордер на покупку отменен, ID - 719429477
+Fri Aug 06 2021 19:07:33  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:34  : Выставлен ордер - 719429596
+Fri Aug 06 2021 19:07:37  : NEOUSDT-1627490958:cansel: orderid:719429596
+Fri Aug 06 2021 19:07:38  : Ордер на покупку отменен, ID - 719429596
+Fri Aug 06 2021 19:07:38  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:07:38  : Выставлен ордер - 719429736
+Fri Aug 06 2021 19:07:39  : NEOUSDT-1627490958:cansel: orderid:719429736
+Fri Aug 06 2021 19:07:39  : Ордер на покупку отменен, ID - 719429736
+Fri Aug 06 2021 19:09:35  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:09:36  : Выставлен ордер - 719433761
+Fri Aug 06 2021 19:09:36  : NEOUSDT-1627490958:cansel: orderid:719433761
+Fri Aug 06 2021 19:09:37  : Ордер на покупку отменен, ID - 719433761
+Fri Aug 06 2021 19:09:41  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:09:42  : Выставлен ордер - 719433929
+Fri Aug 06 2021 19:09:43  : NEOUSDT-1627490958:cansel: orderid:719433929
+Fri Aug 06 2021 19:09:43  : Ордер на покупку отменен, ID - 719433929
+Fri Aug 06 2021 19:09:45  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:09:46  : Выставлен ордер - 719434126
+Fri Aug 06 2021 19:09:46  : NEOUSDT-1627490958:cansel: orderid:719434126
+Fri Aug 06 2021 19:09:47  : Ордер на покупку отменен, ID - 719434126
+Fri Aug 06 2021 19:09:47  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:09:48  : Выставлен ордер - 719434173
+Fri Aug 06 2021 19:10:40  : NEOUSDT-1627490958:cansel: orderid:719434173
+Fri Aug 06 2021 19:10:42  : Ордер на покупку отменен, ID - 719434173
+Fri Aug 06 2021 19:10:42  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:10:42  : Выставлен ордер - 719436256
+Fri Aug 06 2021 19:13:30  : NEOUSDT-1627490958:cansel: orderid:719436256
+Fri Aug 06 2021 19:13:31  : Ордер на покупку отменен, ID - 719436256
+Fri Aug 06 2021 19:17:51  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:17:51  : Выставлен ордер - 719453204
+Fri Aug 06 2021 19:17:52  : NEOUSDT-1627490958:cansel: orderid:719453204
+Fri Aug 06 2021 19:17:53  : Ордер на покупку отменен, ID - 719453204
+Fri Aug 06 2021 19:17:55  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:17:56  : Выставлен ордер - 719453386
+Fri Aug 06 2021 19:17:59  : Длительноть трека -1932
+Fri Aug 06 2021 19:17:59  : NEOUSDT-1627490958:cansel: orderid:719453386
+Fri Aug 06 2021 19:17:59  : NEOUSDT-1627490958:cansel: orderid:719453386
+Fri Aug 06 2021 19:17:59  : Ордер на покупку отменен, ID - 719453386
+Fri Aug 06 2021 19:18:03  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.336
+Fri Aug 06 2021 19:18:04  : Выставлен ордер - 719453694
+Fri Aug 06 2021 19:20:48  : NEOUSDT-1627490958:cansel: orderid:719453694
+Fri Aug 06 2021 19:20:49  : Ордер на покупку отменен, ID - 719453694
+Fri Aug 06 2021 19:32:33  : Длительноть трека -3296
+Fri Aug 06 2021 19:33:07  : Длительноть трека -2980
+Fri Aug 06 2021 19:37:55  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:37:56  : Выставлен ордер - 719478176
+Fri Aug 06 2021 19:37:56  : NEOUSDT-1627490958:cansel: orderid:719478176
+Fri Aug 06 2021 19:37:57  : Ордер на покупку отменен, ID - 719478176
+Fri Aug 06 2021 19:37:57  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:37:58  : Выставлен ордер - 719478239
+Fri Aug 06 2021 19:38:03  : NEOUSDT-1627490958:cansel: orderid:719478239
+Fri Aug 06 2021 19:38:04  : Ордер на покупку отменен, ID - 719478239
+Fri Aug 06 2021 19:41:14  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:41:15  : Выставлен ордер - 719482694
+Fri Aug 06 2021 19:41:18  : NEOUSDT-1627490958:cansel: orderid:719482694
+Fri Aug 06 2021 19:41:18  : Ордер на покупку отменен, ID - 719482694
+Fri Aug 06 2021 19:42:03  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:42:04  : Выставлен ордер - 719483545
+Fri Aug 06 2021 19:42:13  : NEOUSDT-1627490958:cansel: orderid:719483545
+Fri Aug 06 2021 19:42:13  : Ордер на покупку отменен, ID - 719483545
+Fri Aug 06 2021 19:42:38  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:42:38  : Выставлен ордер - 719483989
+Fri Aug 06 2021 19:42:41  : NEOUSDT-1627490958:cansel: orderid:719483989
+Fri Aug 06 2021 19:42:41  : Ордер на покупку отменен, ID - 719483989
+Fri Aug 06 2021 19:42:46  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:42:46  : Выставлен ордер - 719484107
+Fri Aug 06 2021 19:42:48  : NEOUSDT-1627490958:cansel: orderid:719484107
+Fri Aug 06 2021 19:42:49  : Ордер на покупку отменен, ID - 719484107
+Fri Aug 06 2021 19:42:49  : Длительноть трека -2067
+Fri Aug 06 2021 19:43:40  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:43:41  : Выставлен ордер - 719484681
+Fri Aug 06 2021 19:43:52  : NEOUSDT-1627490958:cansel: orderid:719484681
+Fri Aug 06 2021 19:43:52  : Ордер на покупку отменен, ID - 719484681
+Fri Aug 06 2021 19:44:04  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:44:06  : Выставлен ордер - 719484888
+Fri Aug 06 2021 19:44:08  : NEOUSDT-1627490958:cansel: orderid:719484888
+Fri Aug 06 2021 19:44:09  : Ордер на покупку отменен, ID - 719484888
+Fri Aug 06 2021 19:44:31  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:44:31  : Выставлен ордер - 719485172
+Fri Aug 06 2021 19:44:48  : NEOUSDT-1627490958:cansel: orderid:719485172
+Fri Aug 06 2021 19:44:49  : Ордер на покупку отменен, ID - 719485172
+Fri Aug 06 2021 19:44:54  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:44:55  : Выставлен ордер - 719485439
+Fri Aug 06 2021 19:45:11  : NEOUSDT-1627490958:cansel: orderid:719485439
+Fri Aug 06 2021 19:45:11  : Ордер на покупку отменен, ID - 719485439
+Fri Aug 06 2021 19:45:11  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:45:12  : Выставлен ордер - 719485831
+Fri Aug 06 2021 19:45:22  : NEOUSDT-1627490958:cansel: orderid:719485831
+Fri Aug 06 2021 19:45:22  : Ордер на покупку отменен, ID - 719485831
+Fri Aug 06 2021 19:45:52  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:45:52  : Выставлен ордер - 719486968
+Fri Aug 06 2021 19:45:53  : NEOUSDT-1627490958:cansel: orderid:719486968
+Fri Aug 06 2021 19:45:54  : Ордер на покупку отменен, ID - 719486968
+Fri Aug 06 2021 19:46:02  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:46:03  : Выставлен ордер - 719487268
+Fri Aug 06 2021 19:46:03  : NEOUSDT-1627490958:cansel: orderid:719487268
+Fri Aug 06 2021 19:46:05  : Ордер на покупку отменен, ID - 719487268
+Fri Aug 06 2021 19:46:11  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:46:12  : Выставлен ордер - 719487493
+Fri Aug 06 2021 19:46:12  : NEOUSDT-1627490958:cansel: orderid:719487493
+Fri Aug 06 2021 19:46:13  : Ордер на покупку отменен, ID - 719487493
+Fri Aug 06 2021 19:46:14  : NEOUSDT-1627490958:setbuy: price:44.304, quantity: 0.335
+Fri Aug 06 2021 19:46:15  : Выставлен ордер - 719487604
+Fri Aug 06 2021 19:49:32  : NEOUSDT-1627490958:cansel: orderid:719487604
+Fri Aug 06 2021 19:49:34  : Ордер на покупку отменен, ID - 719487604
+Fri Aug 06 2021 19:52:35  : Сброс к стартовым настройкам
