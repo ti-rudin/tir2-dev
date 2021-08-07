@@ -1,0 +1,5281 @@
+Sun Aug 08 2021 02:16:43 -1628378203248 : Сброс к стартовым настройкам
+Sun Aug 08 2021 02:19:30 -1628378370707 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.321
+Sun Aug 08 2021 02:19:31 -1628378371284 : Выставлен ордер - 721542386
+Sun Aug 08 2021 02:19:31 -1628378371492 : NEOUSDT-1627490958:cansel: orderid:721542386
+Sun Aug 08 2021 02:19:32 -1628378372495 : Ордер на покупку отменен, ID - 721542386
+Sun Aug 08 2021 02:19:37 -1628378377230 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.321
+Sun Aug 08 2021 02:19:37 -1628378377797 : Выставлен ордер - 721542465
+Sun Aug 08 2021 02:19:40 -1628378380827 : NEOUSDT-1627490958:cansel: orderid:721542465
+Sun Aug 08 2021 02:19:41 -1628378381356 : Ордер на покупку отменен, ID - 721542465
+Sun Aug 08 2021 02:19:51 -1628378391270 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.321
+Sun Aug 08 2021 02:19:54 -1628378394439 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378391180,
+		"end_node_time": 1628378391180,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378391180,
+		"end_node_time": 1628378391182,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378391182,
+		"end_node_time": 1628378391184,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378391184,
+		"end_node_time": 1628378391186,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378391186,
+		"end_node_time": 1628378391188,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378391188,
+		"end_node_time": 1628378391188,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378391189,
+		"end_node_time": 1628378391196,
+		"duration_node": 7,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378391197,
+		"end_node_time": 1628378391222,
+		"duration_node": 25,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378391236,
+		"end_node_time": 1628378391236,
+		"duration_node": 0,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378391238,
+		"end_node_time": 1628378391242,
+		"duration_node": 4,
+		"duration_step": 6
+	}
+]
+Sun Aug 08 2021 02:19:54 -1628378394712 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.321
+Sun Aug 08 2021 02:19:55 -1628378395281 : Выставлен ордер - 721542741
+Sun Aug 08 2021 02:22:04 -1628378524206 : NEOUSDT-1627490958:cansel: orderid:721542741
+Sun Aug 08 2021 02:22:04 -1628378524732 : Ордер на покупку отменен, ID - 721542741
+Sun Aug 08 2021 02:22:06 -1628378526589 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:22:07 -1628378527195 : Выставлен ордер - 721544598
+Sun Aug 08 2021 02:22:07 -1628378527225 : Длительноть трека -2071
+Sun Aug 08 2021 02:22:43 -1628378563228 : NEOUSDT-1627490958:cansel: orderid:721544598
+Sun Aug 08 2021 02:22:43 -1628378563772 : Ордер на покупку отменен, ID - 721544598
+Sun Aug 08 2021 02:22:49 -1628378569250 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:22:52 -1628378572492 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378569226,
+		"end_node_time": 1628378569226,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378569227,
+		"end_node_time": 1628378569228,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378569228,
+		"end_node_time": 1628378569230,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378569230,
+		"end_node_time": 1628378569231,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378569231,
+		"end_node_time": 1628378569232,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378569233,
+		"end_node_time": 1628378569233,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378569233,
+		"end_node_time": 1628378569234,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378569234,
+		"end_node_time": 1628378569237,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378569241,
+		"end_node_time": 1628378569241,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378569242,
+		"end_node_time": 1628378569244,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:22:53 -1628378573627 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:22:56 -1628378576160 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378572739,
+		"end_node_time": 1628378572739,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378572740,
+		"end_node_time": 1628378572740,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378572741,
+		"end_node_time": 1628378572742,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378572742,
+		"end_node_time": 1628378572744,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378572744,
+		"end_node_time": 1628378572745,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378572745,
+		"end_node_time": 1628378572745,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378572746,
+		"end_node_time": 1628378572747,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378572747,
+		"end_node_time": 1628378572749,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378572844,
+		"end_node_time": 1628378572844,
+		"duration_node": 0,
+		"duration_step": 95
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378572984,
+		"end_node_time": 1628378573076,
+		"duration_node": 92,
+		"duration_step": 232
+	}
+]
+Sun Aug 08 2021 02:22:56 -1628378576477 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:22:59 -1628378579641 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378576399,
+		"end_node_time": 1628378576399,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378576418,
+		"end_node_time": 1628378576429,
+		"duration_node": 11,
+		"duration_step": 30
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378576432,
+		"end_node_time": 1628378576434,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378576435,
+		"end_node_time": 1628378576438,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378576440,
+		"end_node_time": 1628378576446,
+		"duration_node": 6,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378576447,
+		"end_node_time": 1628378576447,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378576448,
+		"end_node_time": 1628378576453,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378576456,
+		"end_node_time": 1628378576458,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378576469,
+		"end_node_time": 1628378576469,
+		"duration_node": 0,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378576469,
+		"end_node_time": 1628378576471,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:22:59 -1628378579911 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:03 -1628378583402 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378579889,
+		"end_node_time": 1628378579889,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378579890,
+		"end_node_time": 1628378579890,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378579891,
+		"end_node_time": 1628378579892,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378579892,
+		"end_node_time": 1628378579893,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378579893,
+		"end_node_time": 1628378579894,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378579894,
+		"end_node_time": 1628378579894,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378579895,
+		"end_node_time": 1628378579896,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378579896,
+		"end_node_time": 1628378579898,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378579901,
+		"end_node_time": 1628378579901,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378579902,
+		"end_node_time": 1628378579903,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:23:03 -1628378583677 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:07 -1628378587062 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378583656,
+		"end_node_time": 1628378583656,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378583656,
+		"end_node_time": 1628378583657,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378583657,
+		"end_node_time": 1628378583658,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378583659,
+		"end_node_time": 1628378583660,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378583660,
+		"end_node_time": 1628378583661,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378583661,
+		"end_node_time": 1628378583661,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378583662,
+		"end_node_time": 1628378583663,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378583663,
+		"end_node_time": 1628378583665,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378583669,
+		"end_node_time": 1628378583670,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378583670,
+		"end_node_time": 1628378583672,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:23:07 -1628378587533 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:10 -1628378590595 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378587447,
+		"end_node_time": 1628378587447,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378587448,
+		"end_node_time": 1628378587457,
+		"duration_node": 9,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378587465,
+		"end_node_time": 1628378587467,
+		"duration_node": 2,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378587468,
+		"end_node_time": 1628378587484,
+		"duration_node": 16,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378587485,
+		"end_node_time": 1628378587486,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378587487,
+		"end_node_time": 1628378587487,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378587487,
+		"end_node_time": 1628378587490,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378587490,
+		"end_node_time": 1628378587492,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378587499,
+		"end_node_time": 1628378587499,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378587500,
+		"end_node_time": 1628378587518,
+		"duration_node": 18,
+		"duration_step": 19
+	}
+]
+Sun Aug 08 2021 02:23:10 -1628378590869 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:14 -1628378594184 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378590845,
+		"end_node_time": 1628378590845,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378590846,
+		"end_node_time": 1628378590847,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378590848,
+		"end_node_time": 1628378590849,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378590849,
+		"end_node_time": 1628378590850,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378590851,
+		"end_node_time": 1628378590851,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378590852,
+		"end_node_time": 1628378590852,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378590852,
+		"end_node_time": 1628378590853,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378590854,
+		"end_node_time": 1628378590857,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378590860,
+		"end_node_time": 1628378590860,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378590861,
+		"end_node_time": 1628378590863,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:23:14 -1628378594723 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:17 -1628378597967 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378594684,
+		"end_node_time": 1628378594684,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378594685,
+		"end_node_time": 1628378594685,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378594686,
+		"end_node_time": 1628378594687,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378594688,
+		"end_node_time": 1628378594694,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378594695,
+		"end_node_time": 1628378594696,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378594697,
+		"end_node_time": 1628378594697,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378594698,
+		"end_node_time": 1628378594700,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378594701,
+		"end_node_time": 1628378594706,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378594712,
+		"end_node_time": 1628378594712,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378594713,
+		"end_node_time": 1628378594716,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:23:18 -1628378598225 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:21 -1628378601446 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378598185,
+		"end_node_time": 1628378598185,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378598185,
+		"end_node_time": 1628378598186,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378598186,
+		"end_node_time": 1628378598187,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378598187,
+		"end_node_time": 1628378598188,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378598189,
+		"end_node_time": 1628378598189,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378598190,
+		"end_node_time": 1628378598190,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378598190,
+		"end_node_time": 1628378598191,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378598191,
+		"end_node_time": 1628378598194,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378598201,
+		"end_node_time": 1628378598201,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378598202,
+		"end_node_time": 1628378598207,
+		"duration_node": 5,
+		"duration_step": 6
+	}
+]
+Sun Aug 08 2021 02:23:21 -1628378601716 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:24 -1628378604947 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378601695,
+		"end_node_time": 1628378601695,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378601696,
+		"end_node_time": 1628378601698,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378601699,
+		"end_node_time": 1628378601701,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378601701,
+		"end_node_time": 1628378601702,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378601702,
+		"end_node_time": 1628378601703,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378601704,
+		"end_node_time": 1628378601704,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378601704,
+		"end_node_time": 1628378601705,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378601705,
+		"end_node_time": 1628378601708,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378601710,
+		"end_node_time": 1628378601711,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378601711,
+		"end_node_time": 1628378601712,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Sun Aug 08 2021 02:23:25 -1628378605646 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:28 -1628378608698 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378605446,
+		"end_node_time": 1628378605446,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378605447,
+		"end_node_time": 1628378605447,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378605448,
+		"end_node_time": 1628378605449,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378605449,
+		"end_node_time": 1628378605450,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378605451,
+		"end_node_time": 1628378605452,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378605452,
+		"end_node_time": 1628378605452,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378605453,
+		"end_node_time": 1628378605455,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378605455,
+		"end_node_time": 1628378605471,
+		"duration_node": 16,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378605477,
+		"end_node_time": 1628378605477,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378605477,
+		"end_node_time": 1628378605631,
+		"duration_node": 154,
+		"duration_step": 154
+	}
+]
+Sun Aug 08 2021 02:23:28 -1628378608973 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:32 -1628378612260 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378608948,
+		"end_node_time": 1628378608948,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378608948,
+		"end_node_time": 1628378608949,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378608950,
+		"end_node_time": 1628378608950,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378608951,
+		"end_node_time": 1628378608952,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378608952,
+		"end_node_time": 1628378608953,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378608953,
+		"end_node_time": 1628378608953,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378608954,
+		"end_node_time": 1628378608955,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378608955,
+		"end_node_time": 1628378608958,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378608963,
+		"end_node_time": 1628378608963,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378608963,
+		"end_node_time": 1628378608966,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:23:32 -1628378612540 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:35 -1628378615754 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378612503,
+		"end_node_time": 1628378612503,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378612503,
+		"end_node_time": 1628378612504,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378612506,
+		"end_node_time": 1628378612507,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378612508,
+		"end_node_time": 1628378612510,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378612514,
+		"end_node_time": 1628378612515,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378612516,
+		"end_node_time": 1628378612516,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378612516,
+		"end_node_time": 1628378612518,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378612518,
+		"end_node_time": 1628378612522,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378612527,
+		"end_node_time": 1628378612527,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378612527,
+		"end_node_time": 1628378612529,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:23:36 -1628378616042 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:23:39 -1628378619256 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378616007,
+		"end_node_time": 1628378616007,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378616007,
+		"end_node_time": 1628378616009,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378616011,
+		"end_node_time": 1628378616018,
+		"duration_node": 7,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378616019,
+		"end_node_time": 1628378616021,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378616021,
+		"end_node_time": 1628378616023,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378616023,
+		"end_node_time": 1628378616023,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378616024,
+		"end_node_time": 1628378616026,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378616027,
+		"end_node_time": 1628378616030,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378616033,
+		"end_node_time": 1628378616033,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378616034,
+		"end_node_time": 1628378616036,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:23:59 -1628378639121 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:02 -1628378642430 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378639095,
+		"end_node_time": 1628378639095,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378639096,
+		"end_node_time": 1628378639097,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378639098,
+		"end_node_time": 1628378639099,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378639099,
+		"end_node_time": 1628378639100,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378639101,
+		"end_node_time": 1628378639102,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378639102,
+		"end_node_time": 1628378639102,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378639102,
+		"end_node_time": 1628378639103,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378639104,
+		"end_node_time": 1628378639107,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378639110,
+		"end_node_time": 1628378639110,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378639111,
+		"end_node_time": 1628378639113,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:24:02 -1628378642701 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:05 -1628378645978 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378642680,
+		"end_node_time": 1628378642680,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378642681,
+		"end_node_time": 1628378642681,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378642682,
+		"end_node_time": 1628378642683,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378642685,
+		"end_node_time": 1628378642686,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378642687,
+		"end_node_time": 1628378642688,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378642688,
+		"end_node_time": 1628378642688,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378642689,
+		"end_node_time": 1628378642689,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378642690,
+		"end_node_time": 1628378642692,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378642695,
+		"end_node_time": 1628378642695,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378642696,
+		"end_node_time": 1628378642697,
+		"duration_node": 1,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:24:06 -1628378646259 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:09 -1628378649501 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378646212,
+		"end_node_time": 1628378646212,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378646212,
+		"end_node_time": 1628378646213,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378646214,
+		"end_node_time": 1628378646220,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378646221,
+		"end_node_time": 1628378646222,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378646223,
+		"end_node_time": 1628378646224,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378646224,
+		"end_node_time": 1628378646224,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378646225,
+		"end_node_time": 1628378646230,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378646231,
+		"end_node_time": 1628378646234,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378646238,
+		"end_node_time": 1628378646238,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378646239,
+		"end_node_time": 1628378646248,
+		"duration_node": 9,
+		"duration_step": 10
+	}
+]
+Sun Aug 08 2021 02:24:20 -1628378660927 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:24 -1628378664147 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378660894,
+		"end_node_time": 1628378660894,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378660894,
+		"end_node_time": 1628378660896,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378660898,
+		"end_node_time": 1628378660902,
+		"duration_node": 4,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378660902,
+		"end_node_time": 1628378660903,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378660904,
+		"end_node_time": 1628378660905,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378660905,
+		"end_node_time": 1628378660905,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378660906,
+		"end_node_time": 1628378660907,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378660908,
+		"end_node_time": 1628378660913,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378660917,
+		"end_node_time": 1628378660917,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378660917,
+		"end_node_time": 1628378660919,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:24:24 -1628378664496 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:27 -1628378667677 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378664467,
+		"end_node_time": 1628378664467,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378664468,
+		"end_node_time": 1628378664469,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378664470,
+		"end_node_time": 1628378664472,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378664472,
+		"end_node_time": 1628378664474,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378664474,
+		"end_node_time": 1628378664476,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378664477,
+		"end_node_time": 1628378664477,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378664477,
+		"end_node_time": 1628378664479,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378664479,
+		"end_node_time": 1628378664483,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378664489,
+		"end_node_time": 1628378664489,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378664490,
+		"end_node_time": 1628378664492,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:24:30 -1628378670056 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:30 -1628378670069 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:32 -1628378672852 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378669950,
+		"end_node_time": 1628378669950,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378669952,
+		"end_node_time": 1628378669967,
+		"duration_node": 15,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378669969,
+		"end_node_time": 1628378669978,
+		"duration_node": 9,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378669977,
+		"end_node_time": 1628378669982,
+		"duration_node": 5,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378669983,
+		"end_node_time": 1628378669989,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378669983,
+		"end_node_time": 1628378669989,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378669990,
+		"end_node_time": 1628378669994,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378669990,
+		"end_node_time": 1628378669994,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378669995,
+		"end_node_time": 1628378669995,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378669995,
+		"end_node_time": 1628378669999,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378670000,
+		"end_node_time": 1628378670000,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378669997,
+		"end_node_time": 1628378670000,
+		"duration_node": 3,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378670018,
+		"end_node_time": 1628378670024,
+		"duration_node": 6,
+		"duration_step": 24
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378670019,
+		"end_node_time": 1628378670026,
+		"duration_node": 7,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378670028,
+		"end_node_time": 1628378670032,
+		"duration_node": 4,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378670038,
+		"end_node_time": 1628378670038,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378670041,
+		"end_node_time": 1628378670041,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378670039,
+		"end_node_time": 1628378670043,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378670044,
+		"end_node_time": 1628378670046,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:24:33 -1628378673390 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:36 -1628378676605 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378673354,
+		"end_node_time": 1628378673354,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378673355,
+		"end_node_time": 1628378673356,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378673357,
+		"end_node_time": 1628378673359,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378673360,
+		"end_node_time": 1628378673361,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378673362,
+		"end_node_time": 1628378673364,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378673365,
+		"end_node_time": 1628378673365,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378673366,
+		"end_node_time": 1628378673367,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378673367,
+		"end_node_time": 1628378673371,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378673376,
+		"end_node_time": 1628378673376,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378673377,
+		"end_node_time": 1628378673379,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:24:37 -1628378677025 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:40 -1628378680108 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378676857,
+		"end_node_time": 1628378676857,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378676857,
+		"end_node_time": 1628378676860,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378676861,
+		"end_node_time": 1628378676862,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378676863,
+		"end_node_time": 1628378676864,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378676864,
+		"end_node_time": 1628378676865,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378676866,
+		"end_node_time": 1628378676866,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378676866,
+		"end_node_time": 1628378676867,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378676868,
+		"end_node_time": 1628378676870,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378676877,
+		"end_node_time": 1628378676877,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378676877,
+		"end_node_time": 1628378676991,
+		"duration_node": 114,
+		"duration_step": 114
+	}
+]
+Sun Aug 08 2021 02:24:40 -1628378680386 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:43 -1628378683610 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378680356,
+		"end_node_time": 1628378680356,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378680357,
+		"end_node_time": 1628378680357,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378680358,
+		"end_node_time": 1628378680359,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378680359,
+		"end_node_time": 1628378680360,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378680361,
+		"end_node_time": 1628378680363,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378680363,
+		"end_node_time": 1628378680363,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378680364,
+		"end_node_time": 1628378680366,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378680366,
+		"end_node_time": 1628378680370,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378680374,
+		"end_node_time": 1628378680374,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378680375,
+		"end_node_time": 1628378680377,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:24:45 -1628378685424 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:48 -1628378688645 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378685391,
+		"end_node_time": 1628378685391,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378685391,
+		"end_node_time": 1628378685392,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378685393,
+		"end_node_time": 1628378685394,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378685394,
+		"end_node_time": 1628378685395,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378685395,
+		"end_node_time": 1628378685396,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378685397,
+		"end_node_time": 1628378685397,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378685397,
+		"end_node_time": 1628378685398,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378685399,
+		"end_node_time": 1628378685402,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378685409,
+		"end_node_time": 1628378685409,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378685410,
+		"end_node_time": 1628378685414,
+		"duration_node": 4,
+		"duration_step": 5
+	}
+]
+Sun Aug 08 2021 02:24:53 -1628378693448 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:24:56 -1628378696686 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378693430,
+		"end_node_time": 1628378693430,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378693431,
+		"end_node_time": 1628378693432,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378693432,
+		"end_node_time": 1628378693433,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378693433,
+		"end_node_time": 1628378693434,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378693435,
+		"end_node_time": 1628378693435,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378693436,
+		"end_node_time": 1628378693436,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378693436,
+		"end_node_time": 1628378693437,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378693437,
+		"end_node_time": 1628378693440,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378693443,
+		"end_node_time": 1628378693443,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378693443,
+		"end_node_time": 1628378693445,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:25:06 -1628378706279 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:09 -1628378709499 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378706257,
+		"end_node_time": 1628378706257,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378706258,
+		"end_node_time": 1628378706259,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378706259,
+		"end_node_time": 1628378706260,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378706261,
+		"end_node_time": 1628378706262,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378706262,
+		"end_node_time": 1628378706263,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378706264,
+		"end_node_time": 1628378706264,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378706264,
+		"end_node_time": 1628378706265,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378706265,
+		"end_node_time": 1628378706269,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378706272,
+		"end_node_time": 1628378706272,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378706273,
+		"end_node_time": 1628378706275,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:25:11 -1628378711287 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:14 -1628378714504 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378711251,
+		"end_node_time": 1628378711251,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378711252,
+		"end_node_time": 1628378711253,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378711254,
+		"end_node_time": 1628378711255,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378711256,
+		"end_node_time": 1628378711257,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378711258,
+		"end_node_time": 1628378711259,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378711259,
+		"end_node_time": 1628378711259,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378711260,
+		"end_node_time": 1628378711261,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378711262,
+		"end_node_time": 1628378711266,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378711273,
+		"end_node_time": 1628378711273,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378711274,
+		"end_node_time": 1628378711278,
+		"duration_node": 4,
+		"duration_step": 5
+	}
+]
+Sun Aug 08 2021 02:25:14 -1628378714777 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:18 -1628378718043 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378714754,
+		"end_node_time": 1628378714754,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378714754,
+		"end_node_time": 1628378714755,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378714756,
+		"end_node_time": 1628378714757,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378714757,
+		"end_node_time": 1628378714758,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378714758,
+		"end_node_time": 1628378714759,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378714760,
+		"end_node_time": 1628378714760,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378714760,
+		"end_node_time": 1628378714761,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378714761,
+		"end_node_time": 1628378714764,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378714768,
+		"end_node_time": 1628378714769,
+		"duration_node": 1,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378714769,
+		"end_node_time": 1628378714772,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:25:18 -1628378718331 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:21 -1628378721545 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378718294,
+		"end_node_time": 1628378718294,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378718295,
+		"end_node_time": 1628378718296,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378718296,
+		"end_node_time": 1628378718297,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378718298,
+		"end_node_time": 1628378718301,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378718302,
+		"end_node_time": 1628378718303,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378718304,
+		"end_node_time": 1628378718304,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378718304,
+		"end_node_time": 1628378718305,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378718306,
+		"end_node_time": 1628378718309,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378718313,
+		"end_node_time": 1628378718313,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378718314,
+		"end_node_time": 1628378718317,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:25:21 -1628378721830 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:25 -1628378725051 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378721796,
+		"end_node_time": 1628378721796,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378721796,
+		"end_node_time": 1628378721797,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378721798,
+		"end_node_time": 1628378721801,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378721801,
+		"end_node_time": 1628378721803,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378721803,
+		"end_node_time": 1628378721804,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378721805,
+		"end_node_time": 1628378721805,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378721805,
+		"end_node_time": 1628378721806,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378721807,
+		"end_node_time": 1628378721810,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378721815,
+		"end_node_time": 1628378721815,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378721815,
+		"end_node_time": 1628378721820,
+		"duration_node": 5,
+		"duration_step": 5
+	}
+]
+Sun Aug 08 2021 02:25:25 -1628378725626 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:28 -1628378728818 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378725557,
+		"end_node_time": 1628378725557,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378725558,
+		"end_node_time": 1628378725561,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378725562,
+		"end_node_time": 1628378725565,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378725565,
+		"end_node_time": 1628378725569,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378725570,
+		"end_node_time": 1628378725572,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378725573,
+		"end_node_time": 1628378725573,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378725573,
+		"end_node_time": 1628378725579,
+		"duration_node": 6,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378725580,
+		"end_node_time": 1628378725585,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378725595,
+		"end_node_time": 1628378725595,
+		"duration_node": 0,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378725596,
+		"end_node_time": 1628378725620,
+		"duration_node": 24,
+		"duration_step": 25
+	}
+]
+Sun Aug 08 2021 02:25:29 -1628378729104 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:32 -1628378732380 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378729067,
+		"end_node_time": 1628378729067,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378729068,
+		"end_node_time": 1628378729069,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378729070,
+		"end_node_time": 1628378729071,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378729072,
+		"end_node_time": 1628378729073,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378729074,
+		"end_node_time": 1628378729075,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378729075,
+		"end_node_time": 1628378729075,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378729076,
+		"end_node_time": 1628378729077,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378729077,
+		"end_node_time": 1628378729082,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378729086,
+		"end_node_time": 1628378729086,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378729087,
+		"end_node_time": 1628378729089,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:25:32 -1628378732654 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:35 -1628378735889 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378732629,
+		"end_node_time": 1628378732629,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378732630,
+		"end_node_time": 1628378732630,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378732631,
+		"end_node_time": 1628378732632,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378732632,
+		"end_node_time": 1628378732635,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378732635,
+		"end_node_time": 1628378732636,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378732637,
+		"end_node_time": 1628378732637,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378732637,
+		"end_node_time": 1628378732638,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378732639,
+		"end_node_time": 1628378732645,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378732648,
+		"end_node_time": 1628378732648,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378732648,
+		"end_node_time": 1628378732650,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:25:36 -1628378736319 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:39 -1628378739388 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378736135,
+		"end_node_time": 1628378736135,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378736136,
+		"end_node_time": 1628378736137,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378736138,
+		"end_node_time": 1628378736140,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378736141,
+		"end_node_time": 1628378736142,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378736143,
+		"end_node_time": 1628378736144,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378736144,
+		"end_node_time": 1628378736144,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378736145,
+		"end_node_time": 1628378736147,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378736147,
+		"end_node_time": 1628378736150,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378736157,
+		"end_node_time": 1628378736157,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378736158,
+		"end_node_time": 1628378736279,
+		"duration_node": 121,
+		"duration_step": 122
+	}
+]
+Sun Aug 08 2021 02:25:41 -1628378741465 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:44 -1628378744661 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378741422,
+		"end_node_time": 1628378741422,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378741423,
+		"end_node_time": 1628378741426,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378741426,
+		"end_node_time": 1628378741427,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378741427,
+		"end_node_time": 1628378741428,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378741429,
+		"end_node_time": 1628378741429,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378741430,
+		"end_node_time": 1628378741430,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378741430,
+		"end_node_time": 1628378741431,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378741433,
+		"end_node_time": 1628378741440,
+		"duration_node": 7,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378741451,
+		"end_node_time": 1628378741451,
+		"duration_node": 0,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378741452,
+		"end_node_time": 1628378741456,
+		"duration_node": 4,
+		"duration_step": 5
+	}
+]
+Sun Aug 08 2021 02:25:44 -1628378744932 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:48 -1628378748160 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378744908,
+		"end_node_time": 1628378744908,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378744909,
+		"end_node_time": 1628378744910,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378744911,
+		"end_node_time": 1628378744912,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378744912,
+		"end_node_time": 1628378744913,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378744914,
+		"end_node_time": 1628378744915,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378744915,
+		"end_node_time": 1628378744915,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378744916,
+		"end_node_time": 1628378744917,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378744917,
+		"end_node_time": 1628378744920,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378744926,
+		"end_node_time": 1628378744926,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378744926,
+		"end_node_time": 1628378744928,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:25:48 -1628378748442 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:51 -1628378751661 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378748411,
+		"end_node_time": 1628378748411,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378748411,
+		"end_node_time": 1628378748412,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378748413,
+		"end_node_time": 1628378748414,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378748415,
+		"end_node_time": 1628378748418,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378748419,
+		"end_node_time": 1628378748420,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378748421,
+		"end_node_time": 1628378748421,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378748421,
+		"end_node_time": 1628378748423,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378748423,
+		"end_node_time": 1628378748429,
+		"duration_node": 6,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378748433,
+		"end_node_time": 1628378748433,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378748434,
+		"end_node_time": 1628378748437,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:25:51 -1628378751929 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:55 -1628378755165 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378751908,
+		"end_node_time": 1628378751908,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378751909,
+		"end_node_time": 1628378751910,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378751910,
+		"end_node_time": 1628378751911,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378751912,
+		"end_node_time": 1628378751913,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378751913,
+		"end_node_time": 1628378751914,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378751915,
+		"end_node_time": 1628378751915,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378751915,
+		"end_node_time": 1628378751917,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378751917,
+		"end_node_time": 1628378751920,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378751923,
+		"end_node_time": 1628378751923,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378751923,
+		"end_node_time": 1628378751925,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:25:55 -1628378755511 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:25:58 -1628378758673 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378755416,
+		"end_node_time": 1628378755416,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378755416,
+		"end_node_time": 1628378755433,
+		"duration_node": 17,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378755434,
+		"end_node_time": 1628378755436,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378755436,
+		"end_node_time": 1628378755441,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378755441,
+		"end_node_time": 1628378755443,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378755443,
+		"end_node_time": 1628378755443,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378755444,
+		"end_node_time": 1628378755448,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378755451,
+		"end_node_time": 1628378755453,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378755467,
+		"end_node_time": 1628378755467,
+		"duration_node": 0,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378755467,
+		"end_node_time": 1628378755469,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:25:58 -1628378758942 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:02 -1628378762174 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378758916,
+		"end_node_time": 1628378758916,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378758917,
+		"end_node_time": 1628378758917,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378758918,
+		"end_node_time": 1628378758921,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378758921,
+		"end_node_time": 1628378758924,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378758924,
+		"end_node_time": 1628378758925,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378758926,
+		"end_node_time": 1628378758926,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378758926,
+		"end_node_time": 1628378758929,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378758930,
+		"end_node_time": 1628378758932,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378758935,
+		"end_node_time": 1628378758935,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378758936,
+		"end_node_time": 1628378758938,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:26:02 -1628378762454 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:05 -1628378765676 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378762425,
+		"end_node_time": 1628378762425,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378762425,
+		"end_node_time": 1628378762427,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378762428,
+		"end_node_time": 1628378762430,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378762431,
+		"end_node_time": 1628378762432,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378762432,
+		"end_node_time": 1628378762433,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378762434,
+		"end_node_time": 1628378762434,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378762434,
+		"end_node_time": 1628378762436,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378762436,
+		"end_node_time": 1628378762439,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378762443,
+		"end_node_time": 1628378762443,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378762443,
+		"end_node_time": 1628378762449,
+		"duration_node": 6,
+		"duration_step": 6
+	}
+]
+Sun Aug 08 2021 02:26:05 -1628378765946 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:09 -1628378769178 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378765925,
+		"end_node_time": 1628378765925,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378765925,
+		"end_node_time": 1628378765926,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378765926,
+		"end_node_time": 1628378765927,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378765927,
+		"end_node_time": 1628378765928,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378765929,
+		"end_node_time": 1628378765929,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378765930,
+		"end_node_time": 1628378765930,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378765930,
+		"end_node_time": 1628378765931,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378765931,
+		"end_node_time": 1628378765934,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378765938,
+		"end_node_time": 1628378765938,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378765938,
+		"end_node_time": 1628378765941,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:26:09 -1628378769708 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:12 -1628378772929 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378769677,
+		"end_node_time": 1628378769677,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378769678,
+		"end_node_time": 1628378769679,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378769680,
+		"end_node_time": 1628378769681,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378769681,
+		"end_node_time": 1628378769682,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378769683,
+		"end_node_time": 1628378769684,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378769684,
+		"end_node_time": 1628378769684,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378769685,
+		"end_node_time": 1628378769686,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378769687,
+		"end_node_time": 1628378769693,
+		"duration_node": 6,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378769697,
+		"end_node_time": 1628378769697,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378769698,
+		"end_node_time": 1628378769701,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:26:13 -1628378773206 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:16 -1628378776520 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378773180,
+		"end_node_time": 1628378773180,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378773180,
+		"end_node_time": 1628378773181,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378773181,
+		"end_node_time": 1628378773182,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378773182,
+		"end_node_time": 1628378773183,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378773184,
+		"end_node_time": 1628378773184,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378773185,
+		"end_node_time": 1628378773185,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378773185,
+		"end_node_time": 1628378773186,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378773187,
+		"end_node_time": 1628378773189,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378773194,
+		"end_node_time": 1628378773194,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378773195,
+		"end_node_time": 1628378773197,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:26:16 -1628378776746 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:19 -1628378779981 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378776723,
+		"end_node_time": 1628378776723,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378776724,
+		"end_node_time": 1628378776725,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378776725,
+		"end_node_time": 1628378776726,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378776727,
+		"end_node_time": 1628378776728,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378776728,
+		"end_node_time": 1628378776729,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378776729,
+		"end_node_time": 1628378776730,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378776730,
+		"end_node_time": 1628378776731,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378776731,
+		"end_node_time": 1628378776733,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378776736,
+		"end_node_time": 1628378776736,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378776737,
+		"end_node_time": 1628378776741,
+		"duration_node": 4,
+		"duration_step": 5
+	}
+]
+Sun Aug 08 2021 02:26:20 -1628378780249 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:23 -1628378783482 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378780230,
+		"end_node_time": 1628378780230,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378780230,
+		"end_node_time": 1628378780231,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378780232,
+		"end_node_time": 1628378780233,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378780233,
+		"end_node_time": 1628378780234,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378780234,
+		"end_node_time": 1628378780235,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378780235,
+		"end_node_time": 1628378780235,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378780236,
+		"end_node_time": 1628378780237,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378780237,
+		"end_node_time": 1628378780240,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378780242,
+		"end_node_time": 1628378780242,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378780243,
+		"end_node_time": 1628378780245,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:26:23 -1628378783763 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:27 -1628378787453 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378783732,
+		"end_node_time": 1628378783732,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378783733,
+		"end_node_time": 1628378783737,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378783738,
+		"end_node_time": 1628378783739,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378783740,
+		"end_node_time": 1628378783741,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378783742,
+		"end_node_time": 1628378783743,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378783743,
+		"end_node_time": 1628378783743,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378783744,
+		"end_node_time": 1628378783745,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378783746,
+		"end_node_time": 1628378783749,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378783753,
+		"end_node_time": 1628378783753,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378783754,
+		"end_node_time": 1628378783757,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:26:27 -1628378787624 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:31 -1628378791666 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378787570,
+		"end_node_time": 1628378787570,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378787570,
+		"end_node_time": 1628378787573,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378787585,
+		"end_node_time": 1628378787587,
+		"duration_node": 2,
+		"duration_step": 14
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378787587,
+		"end_node_time": 1628378787588,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378787589,
+		"end_node_time": 1628378787590,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378787590,
+		"end_node_time": 1628378787590,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378787591,
+		"end_node_time": 1628378787599,
+		"duration_node": 8,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378787599,
+		"end_node_time": 1628378787600,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378787622,
+		"end_node_time": 1628378787622,
+		"duration_node": 0,
+		"duration_step": 22
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378787622,
+		"end_node_time": 1628378787622,
+		"duration_node": 0,
+		"duration_step": 0
+	}
+]
+Sun Aug 08 2021 02:26:31 -1628378791974 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:35 -1628378795358 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378791898,
+		"end_node_time": 1628378791898,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378791898,
+		"end_node_time": 1628378791905,
+		"duration_node": 7,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378791906,
+		"end_node_time": 1628378791906,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378791907,
+		"end_node_time": 1628378791908,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378791908,
+		"end_node_time": 1628378791921,
+		"duration_node": 13,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378791926,
+		"end_node_time": 1628378791926,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378791927,
+		"end_node_time": 1628378791928,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378791929,
+		"end_node_time": 1628378791932,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378791943,
+		"end_node_time": 1628378791943,
+		"duration_node": 0,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378791944,
+		"end_node_time": 1628378791946,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:26:35 -1628378795844 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:40 -1628378800460 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378795638,
+		"end_node_time": 1628378795638,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378795639,
+		"end_node_time": 1628378795650,
+		"duration_node": 11,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378795651,
+		"end_node_time": 1628378795660,
+		"duration_node": 9,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378795663,
+		"end_node_time": 1628378795664,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378795665,
+		"end_node_time": 1628378795679,
+		"duration_node": 14,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378795680,
+		"end_node_time": 1628378795682,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378795683,
+		"end_node_time": 1628378795720,
+		"duration_node": 37,
+		"duration_step": 38
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378795722,
+		"end_node_time": 1628378795727,
+		"duration_node": 5,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378795791,
+		"end_node_time": 1628378795791,
+		"duration_node": 0,
+		"duration_step": 64
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378795792,
+		"end_node_time": 1628378795830,
+		"duration_node": 38,
+		"duration_step": 39
+	}
+]
+Sun Aug 08 2021 02:26:40 -1628378800741 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:41 -1628378801150 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:44 -1628378804587 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378800948,
+		"end_node_time": 1628378800948,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378800949,
+		"end_node_time": 1628378800950,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378800959,
+		"end_node_time": 1628378800961,
+		"duration_node": 2,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378800961,
+		"end_node_time": 1628378800962,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378800963,
+		"end_node_time": 1628378800974,
+		"duration_node": 11,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378800974,
+		"end_node_time": 1628378800974,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378800975,
+		"end_node_time": 1628378800987,
+		"duration_node": 12,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378800988,
+		"end_node_time": 1628378801027,
+		"duration_node": 39,
+		"duration_step": 40
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378801052,
+		"end_node_time": 1628378801052,
+		"duration_node": 0,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378801073,
+		"end_node_time": 1628378801086,
+		"duration_node": 13,
+		"duration_step": 34
+	}
+]
+Sun Aug 08 2021 02:26:45 -1628378805151 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:48 -1628378808859 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378804876,
+		"end_node_time": 1628378804876,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378804877,
+		"end_node_time": 1628378804895,
+		"duration_node": 18,
+		"duration_step": 19
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378804897,
+		"end_node_time": 1628378804898,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378804899,
+		"end_node_time": 1628378804919,
+		"duration_node": 20,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378804920,
+		"end_node_time": 1628378804936,
+		"duration_node": 16,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378804937,
+		"end_node_time": 1628378804937,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378804938,
+		"end_node_time": 1628378804948,
+		"duration_node": 10,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378804949,
+		"end_node_time": 1628378804965,
+		"duration_node": 16,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378805051,
+		"end_node_time": 1628378805051,
+		"duration_node": 0,
+		"duration_step": 86
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378805054,
+		"end_node_time": 1628378805067,
+		"duration_node": 13,
+		"duration_step": 16
+	}
+]
+Sun Aug 08 2021 02:26:49 -1628378809130 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:52 -1628378812592 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378808947,
+		"end_node_time": 1628378808947,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378808947,
+		"end_node_time": 1628378808956,
+		"duration_node": 9,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378808957,
+		"end_node_time": 1628378808972,
+		"duration_node": 15,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378808972,
+		"end_node_time": 1628378808997,
+		"duration_node": 25,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378808998,
+		"end_node_time": 1628378808999,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378808999,
+		"end_node_time": 1628378808999,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378809024,
+		"end_node_time": 1628378809025,
+		"duration_node": 1,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378809025,
+		"end_node_time": 1628378809049,
+		"duration_node": 24,
+		"duration_step": 24
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378809057,
+		"end_node_time": 1628378809057,
+		"duration_node": 0,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378809058,
+		"end_node_time": 1628378809075,
+		"duration_node": 17,
+		"duration_step": 18
+	}
+]
+Sun Aug 08 2021 02:26:53 -1628378813003 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:26:56 -1628378816500 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378812843,
+		"end_node_time": 1628378812843,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378812844,
+		"end_node_time": 1628378812845,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378812847,
+		"end_node_time": 1628378812849,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378812850,
+		"end_node_time": 1628378812851,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378812852,
+		"end_node_time": 1628378812854,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378812855,
+		"end_node_time": 1628378812855,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378812855,
+		"end_node_time": 1628378812866,
+		"duration_node": 11,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378812867,
+		"end_node_time": 1628378812890,
+		"duration_node": 23,
+		"duration_step": 24
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378812920,
+		"end_node_time": 1628378812920,
+		"duration_node": 0,
+		"duration_step": 30
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378812923,
+		"end_node_time": 1628378812928,
+		"duration_node": 5,
+		"duration_step": 8
+	}
+]
+Sun Aug 08 2021 02:26:57 -1628378817338 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:27:00 -1628378820240 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378816751,
+		"end_node_time": 1628378816751,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378816751,
+		"end_node_time": 1628378816753,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378816754,
+		"end_node_time": 1628378816756,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378816757,
+		"end_node_time": 1628378816759,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378816760,
+		"end_node_time": 1628378816761,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378816762,
+		"end_node_time": 1628378816762,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378816762,
+		"end_node_time": 1628378816764,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378816764,
+		"end_node_time": 1628378816767,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378816981,
+		"end_node_time": 1628378816981,
+		"duration_node": 0,
+		"duration_step": 214
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378817001,
+		"end_node_time": 1628378817025,
+		"duration_node": 24,
+		"duration_step": 44
+	}
+]
+Sun Aug 08 2021 02:27:11 -1628378831454 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:27:14 -1628378834702 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378831419,
+		"end_node_time": 1628378831419,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378831420,
+		"end_node_time": 1628378831422,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378831423,
+		"end_node_time": 1628378831425,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378831426,
+		"end_node_time": 1628378831428,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378831428,
+		"end_node_time": 1628378831430,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378831431,
+		"end_node_time": 1628378831431,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378831432,
+		"end_node_time": 1628378831434,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378831434,
+		"end_node_time": 1628378831438,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378831446,
+		"end_node_time": 1628378831446,
+		"duration_node": 0,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378831447,
+		"end_node_time": 1628378831449,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:27:14 -1628378834987 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:27:19 -1628378839025 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378834954,
+		"end_node_time": 1628378834954,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378834955,
+		"end_node_time": 1628378834956,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378834958,
+		"end_node_time": 1628378834959,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378834960,
+		"end_node_time": 1628378834962,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378834963,
+		"end_node_time": 1628378834965,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378834965,
+		"end_node_time": 1628378834965,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378834966,
+		"end_node_time": 1628378834968,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378834969,
+		"end_node_time": 1628378834972,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378834978,
+		"end_node_time": 1628378834978,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378834979,
+		"end_node_time": 1628378834982,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:27:19 -1628378839054 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378834954,
+		"end_node_time": 1628378834954,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378834955,
+		"end_node_time": 1628378834956,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378834958,
+		"end_node_time": 1628378834959,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378834960,
+		"end_node_time": 1628378834962,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378834963,
+		"end_node_time": 1628378834965,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378834965,
+		"end_node_time": 1628378834965,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378834966,
+		"end_node_time": 1628378834968,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378834969,
+		"end_node_time": 1628378834972,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378834978,
+		"end_node_time": 1628378834978,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378834979,
+		"end_node_time": 1628378834982,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:27:20 -1628378840523 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:27:23 -1628378843758 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378840488,
+		"end_node_time": 1628378840488,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378840488,
+		"end_node_time": 1628378840489,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378840490,
+		"end_node_time": 1628378840491,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378840492,
+		"end_node_time": 1628378840493,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378840493,
+		"end_node_time": 1628378840494,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378840495,
+		"end_node_time": 1628378840495,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378840495,
+		"end_node_time": 1628378840501,
+		"duration_node": 6,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378840501,
+		"end_node_time": 1628378840504,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378840515,
+		"end_node_time": 1628378840515,
+		"duration_node": 0,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378840515,
+		"end_node_time": 1628378840518,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:28:08 -1628378888590 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:11 -1628378891579 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378888218,
+		"end_node_time": 1628378888218,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378888219,
+		"end_node_time": 1628378888226,
+		"duration_node": 7,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378888227,
+		"end_node_time": 1628378888228,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378888228,
+		"end_node_time": 1628378888229,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378888230,
+		"end_node_time": 1628378888231,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378888231,
+		"end_node_time": 1628378888231,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378888232,
+		"end_node_time": 1628378888235,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378888235,
+		"end_node_time": 1628378888241,
+		"duration_node": 6,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378888247,
+		"end_node_time": 1628378888247,
+		"duration_node": 0,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378888247,
+		"end_node_time": 1628378888374,
+		"duration_node": 127,
+		"duration_step": 127
+	}
+]
+Sun Aug 08 2021 02:28:11 -1628378891861 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:15 -1628378895093 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378891838,
+		"end_node_time": 1628378891838,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378891838,
+		"end_node_time": 1628378891839,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378891840,
+		"end_node_time": 1628378891841,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378891841,
+		"end_node_time": 1628378891842,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378891842,
+		"end_node_time": 1628378891843,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378891843,
+		"end_node_time": 1628378891843,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378891844,
+		"end_node_time": 1628378891846,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378891846,
+		"end_node_time": 1628378891849,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378891852,
+		"end_node_time": 1628378891852,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378891853,
+		"end_node_time": 1628378891855,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:28:15 -1628378895380 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:18 -1628378898628 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378895343,
+		"end_node_time": 1628378895343,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378895343,
+		"end_node_time": 1628378895345,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378895345,
+		"end_node_time": 1628378895346,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378895347,
+		"end_node_time": 1628378895348,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378895349,
+		"end_node_time": 1628378895350,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378895350,
+		"end_node_time": 1628378895350,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378895351,
+		"end_node_time": 1628378895351,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378895352,
+		"end_node_time": 1628378895355,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378895359,
+		"end_node_time": 1628378895359,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378895359,
+		"end_node_time": 1628378895371,
+		"duration_node": 12,
+		"duration_step": 12
+	}
+]
+Sun Aug 08 2021 02:28:19 -1628378899269 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:22 -1628378902344 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378899190,
+		"end_node_time": 1628378899190,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378899220,
+		"end_node_time": 1628378899226,
+		"duration_node": 6,
+		"duration_step": 36
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378899229,
+		"end_node_time": 1628378899232,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378899232,
+		"end_node_time": 1628378899235,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378899235,
+		"end_node_time": 1628378899237,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378899238,
+		"end_node_time": 1628378899238,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378899238,
+		"end_node_time": 1628378899241,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378899242,
+		"end_node_time": 1628378899246,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378899255,
+		"end_node_time": 1628378899255,
+		"duration_node": 0,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378899256,
+		"end_node_time": 1628378899260,
+		"duration_node": 4,
+		"duration_step": 5
+	}
+]
+Sun Aug 08 2021 02:28:22 -1628378902637 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:26 -1628378906278 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378902595,
+		"end_node_time": 1628378902595,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378902598,
+		"end_node_time": 1628378902604,
+		"duration_node": 6,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378902610,
+		"end_node_time": 1628378902613,
+		"duration_node": 3,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378902614,
+		"end_node_time": 1628378902615,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378902616,
+		"end_node_time": 1628378902618,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378902618,
+		"end_node_time": 1628378902618,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378902619,
+		"end_node_time": 1628378902620,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378902621,
+		"end_node_time": 1628378902624,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378902629,
+		"end_node_time": 1628378902629,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378902630,
+		"end_node_time": 1628378902633,
+		"duration_node": 3,
+		"duration_step": 4
+	}
+]
+Sun Aug 08 2021 02:28:26 -1628378906727 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:29 -1628378909937 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378906675,
+		"end_node_time": 1628378906675,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378906675,
+		"end_node_time": 1628378906676,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378906677,
+		"end_node_time": 1628378906677,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378906678,
+		"end_node_time": 1628378906679,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378906679,
+		"end_node_time": 1628378906680,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378906680,
+		"end_node_time": 1628378906680,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378906681,
+		"end_node_time": 1628378906682,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378906682,
+		"end_node_time": 1628378906703,
+		"duration_node": 21,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378906719,
+		"end_node_time": 1628378906719,
+		"duration_node": 0,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378906719,
+		"end_node_time": 1628378906722,
+		"duration_node": 3,
+		"duration_step": 3
+	}
+]
+Sun Aug 08 2021 02:28:30 -1628378910204 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:33 -1628378913520 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378910185,
+		"end_node_time": 1628378910185,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378910185,
+		"end_node_time": 1628378910186,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378910186,
+		"end_node_time": 1628378910187,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378910188,
+		"end_node_time": 1628378910189,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378910189,
+		"end_node_time": 1628378910190,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378910190,
+		"end_node_time": 1628378910190,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378910191,
+		"end_node_time": 1628378910192,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378910192,
+		"end_node_time": 1628378910195,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378910198,
+		"end_node_time": 1628378910198,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378910198,
+		"end_node_time": 1628378910200,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:28:33 -1628378913735 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:36 -1628378916973 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378913717,
+		"end_node_time": 1628378913717,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378913717,
+		"end_node_time": 1628378913718,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378913719,
+		"end_node_time": 1628378913720,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378913720,
+		"end_node_time": 1628378913721,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378913721,
+		"end_node_time": 1628378913722,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378913723,
+		"end_node_time": 1628378913723,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378913723,
+		"end_node_time": 1628378913724,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378913724,
+		"end_node_time": 1628378913727,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378913730,
+		"end_node_time": 1628378913730,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378913730,
+		"end_node_time": 1628378913732,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:28:37 -1628378917267 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:40 -1628378920515 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378917228,
+		"end_node_time": 1628378917228,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378917228,
+		"end_node_time": 1628378917230,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378917231,
+		"end_node_time": 1628378917233,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378917233,
+		"end_node_time": 1628378917235,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378917236,
+		"end_node_time": 1628378917238,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378917239,
+		"end_node_time": 1628378917239,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378917239,
+		"end_node_time": 1628378917241,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378917241,
+		"end_node_time": 1628378917246,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378917255,
+		"end_node_time": 1628378917255,
+		"duration_node": 0,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378917256,
+		"end_node_time": 1628378917261,
+		"duration_node": 5,
+		"duration_step": 6
+	}
+]
+Sun Aug 08 2021 02:28:40 -1628378920805 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:28:44 -1628378924112 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628378920766,
+		"end_node_time": 1628378920766,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628378920766,
+		"end_node_time": 1628378920767,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628378920768,
+		"end_node_time": 1628378920770,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628378920770,
+		"end_node_time": 1628378920774,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628378920774,
+		"end_node_time": 1628378920781,
+		"duration_node": 7,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628378920781,
+		"end_node_time": 1628378920781,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378920782,
+		"end_node_time": 1628378920784,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628378920784,
+		"end_node_time": 1628378920787,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628378920797,
+		"end_node_time": 1628378920797,
+		"duration_node": 0,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628378920797,
+		"end_node_time": 1628378920799,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sun Aug 08 2021 02:28:44 -1628378924390 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.319
+Sun Aug 08 2021 02:28:45 -1628378925000 : Выставлен ордер - 721549782
+Sun Aug 08 2021 02:31:29 -1628379089672 : NEOUSDT-1627490958:cansel: orderid:721549782
+Sun Aug 08 2021 02:31:31 -1628379091071 : Ордер на покупку отменен, ID - 721549782
+Sun Aug 08 2021 02:31:31 -1628379091572 : Длительноть трека -2439
+Sun Aug 08 2021 02:33:55 -1628379235824 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.319
+Sun Aug 08 2021 02:33:56 -1628379236445 : Выставлен ордер - 721554832
+Sun Aug 08 2021 02:35:11 -1628379311043 : NEOUSDT-1627490958:cansel: orderid:721554832
+Sun Aug 08 2021 02:35:11 -1628379311625 : Ордер на покупку отменен, ID - 721554832
+Sun Aug 08 2021 02:35:11 -1628379311832 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:35:12 -1628379312542 : Выставлен ордер - 721556049
+Sun Aug 08 2021 02:36:10 -1628379370891 : NEOUSDT-1627490958:cansel: orderid:721556049
+Sun Aug 08 2021 02:36:11 -1628379371474 : Ордер на покупку отменен, ID - 721556049
+Sun Aug 08 2021 02:36:15 -1628379375442 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:36:16 -1628379376046 : Выставлен ордер - 721557110
+Sun Aug 08 2021 02:36:18 -1628379378240 : NEOUSDT-1627490958:cansel: orderid:721557110
+Sun Aug 08 2021 02:36:18 -1628379378986 : Ордер на покупку отменен, ID - 721557110
+Sun Aug 08 2021 02:36:26 -1628379386646 : NEOUSDT-1627490958:setbuy: price:46.745, quantity: 0.32
+Sun Aug 08 2021 02:36:27 -1628379387265 : Выставлен ордер - 721557259
