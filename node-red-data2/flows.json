@@ -21111,7 +21111,7 @@
         "start": "",
         "inout": "out",
         "septopics": true,
-        "property": "payload",
+        "property": "bot",
         "topi": "topic",
         "x": 930,
         "y": 80,
