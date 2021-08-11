@@ -43,3 +43,256 @@ Wed Aug 11 2021 04:28:47 -1628645327190 : Сброс ttp LINKUPUSDT-1627480656
 		"duration_step": 3
 	}
 ]
+Wed Aug 11 2021 06:02:38 -1628650958853 : Сброс NEOUSDT-1627490958 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628650955654,
+		"end_node_time": 1628650955654,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628650955654,
+		"end_node_time": 1628650955657,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628650955659,
+		"end_node_time": 1628650955669,
+		"duration_node": 10,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628650955670,
+		"end_node_time": 1628650955672,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628650955673,
+		"end_node_time": 1628650955675,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628650955675,
+		"end_node_time": 1628650955675,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628650955676,
+		"end_node_time": 1628650955679,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628650955680,
+		"end_node_time": 1628650955682,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628650955693,
+		"end_node_time": 1628650955693,
+		"duration_node": 0,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628650955693,
+		"end_node_time": 1628650955694,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Wed Aug 11 2021 06:27:10 -1628652430913 : Сброс ttp NEOUSDT-1627490958 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628652426729,
+		"end_node_time": 1628652426729,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628652426730,
+		"end_node_time": 1628652426730,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628652426731,
+		"end_node_time": 1628652426732,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628652426732,
+		"end_node_time": 1628652426734,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628652426736,
+		"end_node_time": 1628652426738,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628652426744,
+		"end_node_time": 1628652426744,
+		"duration_node": 0,
+		"duration_step": 6
+	}
+]
+Wed Aug 11 2021 08:30:08 -1628659808595 : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628659804209,
+		"end_node_time": 1628659804209,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628659804209,
+		"end_node_time": 1628659804211,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628659804212,
+		"end_node_time": 1628659804216,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628659804217,
+		"end_node_time": 1628659804219,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628659804230,
+		"end_node_time": 1628659804234,
+		"duration_node": 4,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628659804240,
+		"end_node_time": 1628659804240,
+		"duration_node": 0,
+		"duration_step": 6
+	}
+]
+Wed Aug 11 2021 08:42:14 -1628660534069 : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628660529634,
+		"end_node_time": 1628660529634,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628660529635,
+		"end_node_time": 1628660529636,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628660529639,
+		"end_node_time": 1628660529641,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628660529641,
+		"end_node_time": 1628660529642,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628660529645,
+		"end_node_time": 1628660529646,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628660529650,
+		"end_node_time": 1628660529650,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Wed Aug 11 2021 12:57:59 -1628675879667 : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628675875471,
+		"end_node_time": 1628675875471,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628675875472,
+		"end_node_time": 1628675875474,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628675875475,
+		"end_node_time": 1628675875480,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628675875483,
+		"end_node_time": 1628675875485,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628675875488,
+		"end_node_time": 1628675875489,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628675875492,
+		"end_node_time": 1628675875492,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
