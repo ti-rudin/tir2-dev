@@ -1,6 +1,67 @@
-Sun Aug 08 2021 04:18:01 -1628385481955 : Длительноть трека -1915
-Sun Aug 08 2021 04:18:47 -1628385527538 : Длительноть трека -2002
-Sun Aug 08 2021 04:19:13 -1628385553557 : Длительноть трека -2279
-Sun Aug 08 2021 04:22:51 -1628385771931 : Длительноть трека -2133
-Sun Aug 08 2021 04:25:16 -1628385916284 : Длительноть трека -2135
-Sun Aug 08 2021 04:25:41 -1628385941085 : Длительноть трека -2089
+Wed Aug 11 2021 04:28:16 -1628645296548 : setsellLINKUPUSDT-1627480656
+Wed Aug 11 2021 04:28:17 -1628645297123 : выставили ttp ордер
+Wed Aug 11 2021 04:28:17 -1628645297938 : cansel order id:172404338
+Wed Aug 11 2021 04:28:18 -1628645298499 : setsellLINKUPUSDT-1627480656
+Wed Aug 11 2021 04:28:19 -1628645299060 : переставили ttp ордер, q=5.19
+Wed Aug 11 2021 04:28:41 -1628645321877 : cansel order id:172404363
+Wed Aug 11 2021 04:28:42 -1628645322435 : setsellLINKUPUSDT-1627480656
+Wed Aug 11 2021 04:28:43 -1628645323016 : переставили ttp ордер, q=5.19
+Wed Aug 11 2021 04:28:47 -1628645327190 : Сброс ttp busy 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628645323058,
+		"end_node_time": 1628645323058,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628645323058,
+		"end_node_time": 1628645323059,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628645323060,
+		"end_node_time": 1628645323062,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628645323062,
+		"end_node_time": 1628645323064,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628645323068,
+		"end_node_time": 1628645323070,
+		"duration_node": 2,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628645323073,
+		"end_node_time": 1628645323073,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Wed Aug 11 2021 04:29:36 -1628645376819 : cansel order id:172404427
+Wed Aug 11 2021 04:29:37 -1628645377382 : setsellLINKUPUSDT-1627480656
+Wed Aug 11 2021 04:29:38 -1628645378452 : переставили ttp ордер, q=5.19
+Wed Aug 11 2021 04:30:11 -1628645411797 : ttp finish on 2.89830000
+Wed Aug 11 2021 04:30:12 -1628645412207 : регистрация сделки - 2.8874,2.8983,5.19,0.05657099999999954,0.022520837250000002,0.03405016274999954
+Wed Aug 11 2021 04:30:12 -1628645412216 : обнуление ттп
+Wed Aug 11 2021 04:31:32 -1628645492818 : LINKUPUSDT-1627480656:setbuy: price:2.8874, quantity: 5.18
+Wed Aug 11 2021 04:31:33 -1628645493391 : Выставлен ордер - 172406169
+Wed Aug 11 2021 04:31:41 -1628645501541 : LINKUPUSDT-1627480656:cansel: orderid:172406169
+Wed Aug 11 2021 04:31:42 -1628645502526 : Ордер на покупку отменен, ID - 172406169
+Wed Aug 11 2021 04:32:01 -1628645521450 : LINKUPUSDT-1627480656:setbuy: price:2.8874, quantity: 5.18
+Wed Aug 11 2021 04:32:02 -1628645522571 : Выставлен ордер - 172406451
+Wed Aug 11 2021 04:34:42 -1628645682695 : LINKUPUSDT-1627480656:cansel: orderid:172406451
+Wed Aug 11 2021 04:34:43 -1628645683430 : Ордер на покупку отменен, ID - 172406451

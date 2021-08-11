@@ -1,4 +1,45 @@
-Sun Aug 08 2021 04:15:05 -1628385305280 : Стоп
-Sun Aug 08 2021 04:15:29 -1628385329818 :  
- 
- Старт
+Wed Aug 11 2021 04:28:47 -1628645327190 : Сброс ttp LINKUPUSDT-1627480656 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1628645323058,
+		"end_node_time": 1628645323058,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1628645323058,
+		"end_node_time": 1628645323059,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628645323060,
+		"end_node_time": 1628645323062,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628645323062,
+		"end_node_time": 1628645323064,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628645323068,
+		"end_node_time": 1628645323070,
+		"duration_node": 2,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1628645323073,
+		"end_node_time": 1628645323073,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
