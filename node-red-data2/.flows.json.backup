@@ -14137,11 +14137,9 @@
         "finalize": "",
         "libs": [],
         "x": 1130,
-        "y": 1040,
+        "y": 1000,
         "wires": [
-            [
-                "f61923546f307623"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-bolt"
     },
@@ -14401,7 +14399,8 @@
         "y": 1040,
         "wires": [
             [
-                "2f33c6be414bb186"
+                "5785e488da51173a",
+                "f61923546f307623"
             ]
         ]
     },
@@ -14841,7 +14840,14 @@
             "aa5c8214700f80d1",
             "9749ef3a9a8c6349",
             "ccdecaaa4dad9420",
-            "0faae939f8adb6b8"
+            "0faae939f8adb6b8",
+            "edc02330fb9cd001",
+            "56d57c1b4e2f677a",
+            "c5bb7cb3aa6ea35a",
+            "c9a0a43259a49081",
+            "e9aacb0ba78c7334",
+            "a35cd6db05d8aaec",
+            "3b489b91837a0c1b"
         ],
         "x": 235,
         "y": 40,
@@ -15260,7 +15266,7 @@
                 "efaab471cf56cb4e"
             ],
             [
-                "ccdecaaa4dad9420"
+                "0ce90b2b8e8f6e59"
             ],
             [
                 "6598bd75a258c536"
@@ -15319,7 +15325,7 @@
         "name": "CANCELED",
         "info": "",
         "x": 1570,
-        "y": 620,
+        "y": 600,
         "wires": []
     },
     {
@@ -15337,7 +15343,8 @@
         "y": 320,
         "wires": [
             [
-                "20d6dc8b3cd24fa9"
+                "edc02330fb9cd001",
+                "89699a879776b15f"
             ]
         ]
     },
@@ -15406,7 +15413,7 @@
                 "e5f7814bba0f57f2"
             ],
             [
-                "0faae939f8adb6b8"
+                "079186e7234febe5"
             ],
             [
                 "aee5c0eafdd96ec0"
@@ -15452,7 +15459,7 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 2295,
+        "x": 2795,
         "y": 320,
         "wires": []
     },
@@ -15467,7 +15474,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2130,
+        "x": 2630,
         "y": 320,
         "wires": [
             [
@@ -15511,7 +15518,8 @@
         "y": 400,
         "wires": [
             [
-                "21ac039b91fc7d55"
+                "c5bb7cb3aa6ea35a",
+                "1488744febb59cad"
             ]
         ]
     },
@@ -15526,7 +15534,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2010,
+        "x": 2690,
         "y": 400,
         "wires": [
             [
@@ -15543,7 +15551,7 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 2175,
+        "x": 2855,
         "y": 400,
         "wires": []
     },
@@ -15661,7 +15669,8 @@
         "y": 760,
         "wires": [
             [
-                "efb4aa25ac0d8e63"
+                "7c07bbbccc0a0ed3",
+                "3b489b91837a0c1b"
             ]
         ]
     },
@@ -15673,8 +15682,8 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 1215,
-        "y": 760,
+        "x": 1175,
+        "y": 680,
         "wires": []
     },
     {
@@ -15688,8 +15697,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 760,
+        "x": 1050,
+        "y": 680,
         "wires": [
             [
                 "2c9442a2b966c69a"
@@ -15708,8 +15717,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 80,
+        "x": 2030,
+        "y": 100,
         "wires": [
             [
                 "0153eae0f2c743da"
@@ -15738,8 +15747,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1290,
-        "y": 80,
+        "x": 2230,
+        "y": 100,
         "wires": [
             [
                 "f2116151a09ea8c3"
@@ -15757,8 +15766,8 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 1855,
-        "y": 60,
+        "x": 2155,
+        "y": 40,
         "wires": []
     },
     {
@@ -15772,8 +15781,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 120,
+        "x": 2250,
+        "y": 140,
         "wires": [
             [
                 "4970e284f21b629f"
@@ -15788,8 +15797,8 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 1415,
-        "y": 120,
+        "x": 2355,
+        "y": 140,
         "wires": []
     },
     {
@@ -15803,7 +15812,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2350,
+        "x": 2850,
         "y": 460,
         "wires": [
             [
@@ -15833,7 +15842,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2550,
+        "x": 3050,
         "y": 460,
         "wires": [
             [],
@@ -15852,7 +15861,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2530,
+        "x": 3030,
         "y": 500,
         "wires": [
             [
@@ -15868,7 +15877,7 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 2615,
+        "x": 3115,
         "y": 500,
         "wires": []
     },
@@ -15883,11 +15892,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1470,
-        "y": 60,
+        "x": 2410,
+        "y": 80,
         "wires": [
             [
-                "c90ea828ee39cd78"
+                "a35cd6db05d8aaec",
+                "fa151a6886b00af3"
             ]
         ]
     },
@@ -15902,8 +15912,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1690,
-        "y": 60,
+        "x": 1990,
+        "y": 40,
         "wires": [
             [
                 "2aaf81456a47ee40"
@@ -16062,11 +16072,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2140,
+        "x": 1740,
         "y": 600,
         "wires": [
             [
-                "a6f1f133be098ad9"
+                "e9aacb0ba78c7334",
+                "10affdf0874640b2"
             ]
         ]
     },
@@ -16078,7 +16089,7 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 2555,
+        "x": 3055,
         "y": 600,
         "wires": []
     },
@@ -16093,7 +16104,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2390,
+        "x": 2890,
         "y": 600,
         "wires": [
             [
@@ -16117,7 +16128,8 @@
         "y": 680,
         "wires": [
             [
-                "3eeb905cd046b7e5"
+                "c9a0a43259a49081",
+                "8f4fd8db921095c6"
             ]
         ]
     },
@@ -16132,8 +16144,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1990,
-        "y": 680,
+        "x": 2670,
+        "y": 700,
         "wires": [
             [
                 "d208742dc4eeb9ef"
@@ -16149,8 +16161,8 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 2155,
-        "y": 680,
+        "x": 2835,
+        "y": 700,
         "wires": []
     },
     {
@@ -16347,7 +16359,12 @@
             "d9ea79fabffefa3c",
             "a370932bd18df9e5",
             "b1773801680c5023",
-            "170138b74311dd62"
+            "170138b74311dd62",
+            "4ce0a48bf5dffca8",
+            "a7faaa6d526e6c9c",
+            "34931257ff9e6898",
+            "5d3d637e90a55a63",
+            "de748f799ff1f766"
         ],
         "x": 315,
         "y": 40,
@@ -16606,7 +16623,7 @@
         "name": "NEW",
         "info": "",
         "x": 1550,
-        "y": 560,
+        "y": 520,
         "wires": []
     },
     {
@@ -16665,7 +16682,7 @@
                 "9b59fe644870dcb3"
             ],
             [
-                "b1773801680c5023"
+                "b37d074bf610e532"
             ],
             [
                 "7ad0ca694885a11c"
@@ -16732,7 +16749,7 @@
         "type": "function",
         "z": "cde16a2385b7b659",
         "name": "change floors, finance ",
-        "func": "node.warn(\"cancel order \" + msg.bot.currentfloor[14]);\nlet tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\n\nmsg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet botname = msg.bot.settings.botname;\n\nlet data = \"Ордер на покупку отменен, ID - \" + msg.bot.currentfloor[8];\nconst tilog = global.get('tilog')(botname, data);\ntilog;\n\nlet currentfloor = msg.bot.currentfloor;\ncurrentfloor[7] = 0;\ncurrentfloor[8] = 0;\ncurrentfloor[10] = 0;\ncurrentfloor[14] = 0;\n\nmsg.bot.floors[currentfloor[0] - 1] = currentfloor;\n\nnode.status({ fill: \"green\", shape: \"ring\"});\n\nreturn msg;",
+        "func": "node.warn(\"cancel order \" + msg.bot.currentfloor[14]);\nlet tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\n\nmsg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet botname = msg.bot.settings.botname;\n\nlet data = \"Ордер на покупку отменен, ID - \" + msg.bot.currentfloor[8];\nconst tilog = global.get('tilog')(botname, data);\ntilog;\n\nlet currentfloor = msg.bot.currentfloor;\ncurrentfloor[7] = 0;\ncurrentfloor[8] = 0;\ncurrentfloor[10] = 0;\ncurrentfloor[14] = 0;\n\nmsg.bot.floors[currentfloor[0] - 1] = currentfloor;\n\nnode.status({ fill: \"green\", shape: \"ring\"});\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16742,7 +16759,8 @@
         "y": 320,
         "wires": [
             [
-                "6cba708aa5d29904"
+                "a87fc94c445546d9",
+                "34931257ff9e6898"
             ]
         ]
     },
@@ -16811,13 +16829,15 @@
                 "bc395de2f7c3ab2c"
             ],
             [
-                "170138b74311dd62"
+                "39b7a927848a7634"
             ],
             [
                 "be1a57d609e724b9"
             ],
             [],
-            [],
+            [
+                "bc395de2f7c3ab2c"
+            ],
             [
                 "bc395de2f7c3ab2c"
             ]
@@ -16857,8 +16877,8 @@
         "links": [
             "8c8e6e2242d53271"
         ],
-        "x": 2175,
-        "y": 320,
+        "x": 2915,
+        "y": 360,
         "wires": []
     },
     {
@@ -16872,8 +16892,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2010,
-        "y": 320,
+        "x": 2750,
+        "y": 360,
         "wires": [
             [
                 "664b9b0502536137"
@@ -16916,7 +16936,8 @@
         "y": 400,
         "wires": [
             [
-                "06884669c5d38081"
+                "68bab7165952aa8b",
+                "5d3d637e90a55a63"
             ]
         ]
     },
@@ -16931,8 +16952,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2010,
-        "y": 400,
+        "x": 2750,
+        "y": 440,
         "wires": [
             [
                 "3ab93ddcd20fce27"
@@ -16948,8 +16969,8 @@
         "links": [
             "8c8e6e2242d53271"
         ],
-        "x": 2175,
-        "y": 400,
+        "x": 2915,
+        "y": 440,
         "wires": []
     },
     {
@@ -16992,7 +17013,7 @@
         "z": "cde16a2385b7b659",
         "name": "null",
         "info": "",
-        "x": 1930,
+        "x": 1810,
         "y": 260,
         "wires": []
     },
@@ -17031,8 +17052,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1670,
-        "y": 540,
+        "x": 2650,
+        "y": 280,
         "wires": [
             [
                 "f93839a9e2f1d035"
@@ -17061,12 +17082,10 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1870,
-        "y": 540,
+        "x": 2850,
+        "y": 280,
         "wires": [
-            [
-                "b37d074bf610e532"
-            ],
+            [],
             [
                 "59a77540343da333"
             ]
@@ -17082,8 +17101,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1850,
-        "y": 580,
+        "x": 2830,
+        "y": 320,
         "wires": [
             [
                 "069ba31222e8f95c"
@@ -17098,8 +17117,8 @@
         "links": [
             "8c8e6e2242d53271"
         ],
-        "x": 1935,
-        "y": 580,
+        "x": 2915,
+        "y": 320,
         "wires": []
     },
     {
@@ -17236,11 +17255,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2140,
-        "y": 600,
+        "x": 1760,
+        "y": 620,
         "wires": [
             [
-                "5178e5b8a9ce7395"
+                "5ffe05370e3e7fab",
+                "4ce0a48bf5dffca8"
             ]
         ]
     },
@@ -17252,7 +17272,7 @@
         "links": [
             "8c8e6e2242d53271"
         ],
-        "x": 2555,
+        "x": 2875,
         "y": 600,
         "wires": []
     },
@@ -17261,13 +17281,13 @@
         "type": "function",
         "z": "cde16a2385b7b659",
         "name": "update bot floors, finance",
-        "func": "let volname = msg.bot.settings.userid + \"-bots:\" + msg.botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.bot.finance),\n    \"floors\": JSON.stringify(msg.bot.floors),\n    \"sales\": JSON.stringify(msg.bot.sales)\n\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
+        "func": "let volname = msg.bot.settings.userid + \"-bots:\" + msg.botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.bot.finance),\n    \"floors\": JSON.stringify(msg.bot.floors),\n    \"sales\": JSON.stringify(msg.bot.sales)\n\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2390,
+        "x": 2710,
         "y": 600,
         "wires": [
             [
@@ -17287,11 +17307,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1740,
+        "x": 1760,
         "y": 680,
         "wires": [
             [
-                "2474a1f40e2832e1"
+                "a7faaa6d526e6c9c",
+                "60de2b0a7c94ae1a"
             ]
         ]
     },
@@ -17306,8 +17327,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1990,
-        "y": 680,
+        "x": 2690,
+        "y": 660,
         "wires": [
             [
                 "f5d81c602697cefa"
@@ -17323,8 +17344,8 @@
         "links": [
             "8c8e6e2242d53271"
         ],
-        "x": 2155,
-        "y": 680,
+        "x": 2855,
+        "y": 660,
         "wires": []
     },
     {
@@ -20634,7 +20655,8 @@
         "y": 760,
         "wires": [
             [
-                "e7bd56f13aa9eedb"
+                "de748f799ff1f766",
+                "fba2db77d9c5105c"
             ]
         ]
     },
@@ -20646,8 +20668,8 @@
         "links": [
             "8c8e6e2242d53271"
         ],
-        "x": 1215,
-        "y": 760,
+        "x": 1255,
+        "y": 880,
         "wires": []
     },
     {
@@ -20661,8 +20683,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 760,
+        "x": 1130,
+        "y": 880,
         "wires": [
             [
                 "52073b4ca6822d37"
@@ -20891,7 +20913,7 @@
         "finalize": "",
         "libs": [],
         "x": 830,
-        "y": 160,
+        "y": 120,
         "wires": [
             [
                 "4b70a3ede126670e",
@@ -20911,7 +20933,7 @@
             "cf818f1f6ec91c1b"
         ],
         "x": 975,
-        "y": 160,
+        "y": 140,
         "wires": []
     },
     {
@@ -20969,8 +20991,9 @@
         "y": 1320,
         "wires": [
             [
-                "ea37fedfb1591bb8",
-                "3ca4a7878a84e004"
+                "3ca4a7878a84e004",
+                "a22493fd4828f6e2",
+                "29a722f6ed3387cc"
             ]
         ]
     },
@@ -20985,12 +21008,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 1320,
+        "x": 450,
+        "y": 1400,
         "wires": [
-            [
-                "a22493fd4828f6e2"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-bolt"
     },
@@ -21711,7 +21732,7 @@
             },
             {
                 "t": "eq",
-                "v": "b",
+                "v": "update",
                 "vt": "str"
             }
         ],
@@ -21729,7 +21750,8 @@
                 "d3ee6389fac5f32d"
             ],
             [
-                "dc66e9cd11dc34e5"
+                "dc66e9cd11dc34e5",
+                "0b16666c52c83a0b"
             ]
         ]
     },
@@ -21738,14 +21760,14 @@
         "type": "debug",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1050,
-        "y": 440,
+        "x": 1070,
+        "y": 400,
         "wires": []
     },
     {
@@ -21753,14 +21775,14 @@
         "type": "debug",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1050,
-        "y": 500,
+        "x": 1070,
+        "y": 480,
         "wires": []
     },
     {
@@ -22098,8 +22120,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 1260,
-        "y": 20,
+        "x": 1200,
+        "y": 40,
         "wires": []
     },
     {
@@ -22113,8 +22135,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 20,
+        "x": 1030,
+        "y": 40,
         "wires": [
             [
                 "25bafa0116434f92"
@@ -22220,8 +22242,8 @@
         "links": [
             "cf818f1f6ec91c1b"
         ],
-        "x": 1015,
-        "y": 120,
+        "x": 975,
+        "y": 80,
         "wires": []
     },
     {
@@ -22421,9 +22443,7 @@
         "x": 1230,
         "y": 360,
         "wires": [
-            [
-                "e68cc0d5478bbd4c"
-            ],
+            [],
             [
                 "11a5c4150d018ca6"
             ]
@@ -22466,7 +22486,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "change floors, finance ",
-        "func": "node.warn(\"cancel order \" + msg.bot.currentfloor[14]);\nlet tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\n\nmsg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet botname = msg.bot.settings.botname;\n\nlet data = \"Ордер на покупку отменен, ID - \" + msg.bot.currentfloor[8];\nconst tilog = global.get('tilog')(botname, data);\ntilog;\n\nlet currentfloor = msg.bot.currentfloor;\ncurrentfloor[7] = 0;\ncurrentfloor[8] = 0;\ncurrentfloor[10] = 0;\ncurrentfloor[14] = 0;\n\nmsg.bot.floors[currentfloor[0] - 1] = currentfloor;\n\nnode.status({ fill: \"green\", shape: \"ring\"});\n\nreturn msg;",
+        "func": "node.warn(\"cancel order \" + msg.bot.currentfloor[14]);\nlet tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\n\nmsg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet botname = msg.bot.settings.botname;\n\nlet data = \"Ордер на покупку отменен, ID - \" + msg.bot.currentfloor[8];\nconst tilog = global.get('tilog')(botname, data);\ntilog;\n\nlet currentfloor = msg.bot.currentfloor;\ncurrentfloor[7] = 0;\ncurrentfloor[8] = 0;\ncurrentfloor[10] = 0;\ncurrentfloor[14] = 0;\n\nmsg.bot.floors[currentfloor[0] - 1] = currentfloor;\n\nnode.status({ fill: \"green\", shape: \"ring\"});\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22540,18 +22560,6 @@
         ],
         "x": 1655,
         "y": 500,
-        "wires": []
-    },
-    {
-        "id": "ccdecaaa4dad9420",
-        "type": "link out",
-        "z": "90fc9ad8367cb513",
-        "name": "",
-        "links": [
-            "cf818f1f6ec91c1b"
-        ],
-        "x": 1675,
-        "y": 620,
         "wires": []
     },
     {
@@ -22632,6 +22640,582 @@
         ],
         "x": 1495,
         "y": 320,
+        "wires": []
+    },
+    {
+        "id": "251006f2ed854d5c",
+        "type": "redis-out",
+        "z": "cde16a2385b7b659",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2140,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5ffe05370e3e7fab",
+        "type": "function",
+        "z": "cde16a2385b7b659",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 580,
+        "wires": [
+            [
+                "251006f2ed854d5c"
+            ]
+        ]
+    },
+    {
+        "id": "0b16666c52c83a0b",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "update bot floors, finance",
+        "func": "let botname = msg.bot.settings.botname;\nlet volname = msg.bot.settings.userid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.payload.data.finance),\n    \"floors\": JSON.stringify(msg.payload.data.floors),\n    \"sales\": JSON.stringify(msg.payload.data.sales)\n\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 440,
+        "wires": [
+            []
+        ],
+        "icon": "font-awesome/fa-bolt"
+    },
+    {
+        "id": "4ce0a48bf5dffca8",
+        "type": "link out",
+        "z": "cde16a2385b7b659",
+        "name": "",
+        "links": [
+            "8c8e6e2242d53271"
+        ],
+        "x": 1915,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "a7faaa6d526e6c9c",
+        "type": "link out",
+        "z": "cde16a2385b7b659",
+        "name": "",
+        "links": [
+            "8c8e6e2242d53271"
+        ],
+        "x": 1915,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "362d2712ddfe6a75",
+        "type": "redis-out",
+        "z": "cde16a2385b7b659",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2140,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "60de2b0a7c94ae1a",
+        "type": "function",
+        "z": "cde16a2385b7b659",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 720,
+        "wires": [
+            [
+                "362d2712ddfe6a75"
+            ]
+        ]
+    },
+    {
+        "id": "00c7f634b81d35db",
+        "type": "redis-out",
+        "z": "cde16a2385b7b659",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a87fc94c445546d9",
+        "type": "function",
+        "z": "cde16a2385b7b659",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 280,
+        "wires": [
+            [
+                "00c7f634b81d35db"
+            ]
+        ]
+    },
+    {
+        "id": "34931257ff9e6898",
+        "type": "link out",
+        "z": "cde16a2385b7b659",
+        "name": "",
+        "links": [
+            "8c8e6e2242d53271"
+        ],
+        "x": 1915,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5d3d637e90a55a63",
+        "type": "link out",
+        "z": "cde16a2385b7b659",
+        "name": "",
+        "links": [
+            "8c8e6e2242d53271"
+        ],
+        "x": 1915,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5783083fa362b477",
+        "type": "redis-out",
+        "z": "cde16a2385b7b659",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2120,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "68bab7165952aa8b",
+        "type": "function",
+        "z": "cde16a2385b7b659",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 440,
+        "wires": [
+            [
+                "5783083fa362b477"
+            ]
+        ]
+    },
+    {
+        "id": "de748f799ff1f766",
+        "type": "link out",
+        "z": "cde16a2385b7b659",
+        "name": "",
+        "links": [
+            "8c8e6e2242d53271"
+        ],
+        "x": 1035,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "a4397ceba99bdbbd",
+        "type": "redis-out",
+        "z": "cde16a2385b7b659",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 1260,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "fba2db77d9c5105c",
+        "type": "function",
+        "z": "cde16a2385b7b659",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 800,
+        "wires": [
+            [
+                "a4397ceba99bdbbd"
+            ]
+        ]
+    },
+    {
+        "id": "bb61ca341de9e577",
+        "type": "redis-out",
+        "z": "90fc9ad8367cb513",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2280,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "89699a879776b15f",
+        "type": "function",
+        "z": "90fc9ad8367cb513",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2110,
+        "y": 360,
+        "wires": [
+            [
+                "bb61ca341de9e577"
+            ]
+        ]
+    },
+    {
+        "id": "edc02330fb9cd001",
+        "type": "link out",
+        "z": "90fc9ad8367cb513",
+        "name": "",
+        "links": [
+            "cf818f1f6ec91c1b"
+        ],
+        "x": 2055,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "9e34646af2e2e946",
+        "type": "redis-out",
+        "z": "90fc9ad8367cb513",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2140,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1488744febb59cad",
+        "type": "function",
+        "z": "90fc9ad8367cb513",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 440,
+        "wires": [
+            [
+                "9e34646af2e2e946"
+            ]
+        ]
+    },
+    {
+        "id": "c5bb7cb3aa6ea35a",
+        "type": "link out",
+        "z": "90fc9ad8367cb513",
+        "name": "",
+        "links": [
+            "cf818f1f6ec91c1b"
+        ],
+        "x": 1915,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "12b6ec6ba411ec3a",
+        "type": "redis-out",
+        "z": "90fc9ad8367cb513",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2120,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "8f4fd8db921095c6",
+        "type": "function",
+        "z": "90fc9ad8367cb513",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1950,
+        "y": 720,
+        "wires": [
+            [
+                "12b6ec6ba411ec3a"
+            ]
+        ]
+    },
+    {
+        "id": "c9a0a43259a49081",
+        "type": "link out",
+        "z": "90fc9ad8367cb513",
+        "name": "",
+        "links": [
+            "cf818f1f6ec91c1b"
+        ],
+        "x": 1895,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "11dfabf5b10a513a",
+        "type": "redis-out",
+        "z": "90fc9ad8367cb513",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2120,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "10affdf0874640b2",
+        "type": "function",
+        "z": "90fc9ad8367cb513",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1950,
+        "y": 640,
+        "wires": [
+            [
+                "11dfabf5b10a513a"
+            ]
+        ]
+    },
+    {
+        "id": "e9aacb0ba78c7334",
+        "type": "link out",
+        "z": "90fc9ad8367cb513",
+        "name": "",
+        "links": [
+            "cf818f1f6ec91c1b"
+        ],
+        "x": 1895,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "433f865cc1911ab1",
+        "type": "redis-out",
+        "z": "90fc9ad8367cb513",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 2760,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fa151a6886b00af3",
+        "type": "function",
+        "z": "90fc9ad8367cb513",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2590,
+        "y": 120,
+        "wires": [
+            [
+                "433f865cc1911ab1"
+            ]
+        ]
+    },
+    {
+        "id": "a35cd6db05d8aaec",
+        "type": "link out",
+        "z": "90fc9ad8367cb513",
+        "name": "",
+        "links": [
+            "cf818f1f6ec91c1b"
+        ],
+        "x": 2535,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1199c8bba460f221",
+        "type": "redis-out",
+        "z": "90fc9ad8367cb513",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 1260,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "7c07bbbccc0a0ed3",
+        "type": "function",
+        "z": "90fc9ad8367cb513",
+        "name": "task setbuy",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"setbuy\";\n//let quantity = Number((Number(msg.bot.finance.depo) * Number(msg.bot.settings.ordersize) / 100 / msg.bot.status.currentprice).toFixed(msg.bot.settings.digitq));\nlet price = Number((msg.bot.currentfloor[3]).toFixed(msg.bot.settings.digitprice));\n\nlet data = {\n    \"cmd\": cmd,\n    \"price\": price\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n\n\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 760,
+        "wires": [
+            [
+                "1199c8bba460f221"
+            ]
+        ]
+    },
+    {
+        "id": "3b489b91837a0c1b",
+        "type": "link out",
+        "z": "90fc9ad8367cb513",
+        "name": "",
+        "links": [
+            "cf818f1f6ec91c1b"
+        ],
+        "x": 1035,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "1846c611581d0fd3",
+        "type": "redis-out",
+        "z": "5df15275.2888ec",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 1220,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "5785e488da51173a",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 960,
+        "wires": [
+            [
+                "1846c611581d0fd3"
+            ]
+        ]
+    },
+    {
+        "id": "249aeacdf46ebeae",
+        "type": "redis-out",
+        "z": "5df15275.2888ec",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 580,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "29a722f6ed3387cc",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"update\";\n\n\nlet data = {\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1480,
+        "wires": [
+            [
+                "249aeacdf46ebeae"
+            ]
+        ]
+    },
+    {
+        "id": "04ae917016906fc7",
+        "type": "comment",
+        "z": "901cd11f1c81ce5d",
+        "name": "update",
+        "info": "",
+        "x": 970,
+        "y": 420,
         "wires": []
     }
 ]
