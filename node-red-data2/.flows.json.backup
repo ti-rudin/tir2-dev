@@ -128,7 +128,9 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419
+        "y": 419,
+        "w": 632,
+        "h": 162
     },
     {
         "id": "3684cd36.8432c2",
@@ -182,7 +184,9 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 699
+        "y": 699,
+        "w": 1612,
+        "h": 122
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -223,7 +227,9 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839
+        "y": 1839,
+        "w": 1422,
+        "h": 422
     },
     {
         "id": "a0a5df595c9dd619",
@@ -318,7 +324,9 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1552,
+        "h": 682
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -442,7 +450,9 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "f8a5c66461864831",
@@ -488,7 +498,9 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699
+        "y": 1699,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "586e39dc007e0cae",
@@ -707,7 +719,9 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579
+        "y": 579,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "b1c9866420e73130",
@@ -745,7 +759,9 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2754,
-        "y": 1859
+        "y": 1859,
+        "w": 692,
+        "h": 562
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -994,7 +1010,9 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179
+        "y": 1179,
+        "w": 1352,
+        "h": 82
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -1017,7 +1035,9 @@
             "792187aede59b6ac"
         ],
         "x": 2474,
-        "y": 1299
+        "y": 1299,
+        "w": 1332,
+        "h": 82
     },
     {
         "id": "9364657534c1325f",
@@ -1038,7 +1058,9 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439
+        "y": 1439,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -1059,7 +1081,9 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539
+        "y": 1539,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -21324,7 +21348,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec cansel",
-        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.data.orderid;\nlet moneta = msg.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid, \"bot\": msg.bot};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\nlet data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\nconst tilog = global.get('tilog')(botname,data2);\ntilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n\n        \n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
+        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid, \"bot\": msg.bot};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\nlet data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\nconst tilog = global.get('tilog')(botname,data2);\ntilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n\n        \n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21450,7 +21474,7 @@
         "type": "function",
         "z": "cde16a2385b7b659",
         "name": "task canselbuy",
-        "func": "msg.topic = \"MUT\";\n\nlet bot = msg.bot;\nlet cmd = \"canselbuy\";\nlet orderid = msg.bot.currentfloor[8];\n\nlet data = {\n    \"cmd\": cmd,\n    \"orderid\": orderid\n}\nmsg.payload = {bot, cmd, data};\nreturn msg;\n",
+        "func": "msg.topic = \"MUT\";\n\nlet cmd = \"canselbuy\";\nlet orderid = msg.bot.currentfloor[8];\n\nlet data = {\n    \"botname\": msg.botname,\n    \"cmd\": cmd,\n    \"orderid\": orderid,\n    \"moneta\": msg.bot.settings.moneta\n}\nmsg.payload = { cmd, data };\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",

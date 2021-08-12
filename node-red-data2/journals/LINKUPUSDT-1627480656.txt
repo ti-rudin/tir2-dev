@@ -1,2 +1,603 @@
-Fri Aug 13 2021 02:44:08 -1628811848509 : LINKUPUSDT-1627480656:setbuy: price:2.7366, quantity: 5.42
-Fri Aug 13 2021 02:44:09 -1628811849385 : Выставлен ордер - 173875121
+Fri Aug 13 2021 02:52:04 -1628812324961 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812321697,
+		"end_node_time": 1628812321697,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812321697,
+		"end_node_time": 1628812321698,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812321699,
+		"end_node_time": 1628812321701,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812321702,
+		"end_node_time": 1628812321702,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812321703,
+		"end_node_time": 1628812321703,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812321703,
+		"end_node_time": 1628812321703,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812321704,
+		"end_node_time": 1628812321704,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812321705,
+		"end_node_time": 1628812321706,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812321713,
+		"end_node_time": 1628812321713,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812321713,
+		"end_node_time": 1628812321714,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:52:08 -1628812328459 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812325209,
+		"end_node_time": 1628812325209,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812325209,
+		"end_node_time": 1628812325210,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812325211,
+		"end_node_time": 1628812325211,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812325211,
+		"end_node_time": 1628812325212,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812325212,
+		"end_node_time": 1628812325213,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812325213,
+		"end_node_time": 1628812325213,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812325213,
+		"end_node_time": 1628812325213,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812325214,
+		"end_node_time": 1628812325214,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812325217,
+		"end_node_time": 1628812325217,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812325217,
+		"end_node_time": 1628812325218,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:52:12 -1628812332213 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812328959,
+		"end_node_time": 1628812328959,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812328959,
+		"end_node_time": 1628812328962,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812328964,
+		"end_node_time": 1628812328966,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812328967,
+		"end_node_time": 1628812328968,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812328969,
+		"end_node_time": 1628812328970,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812328970,
+		"end_node_time": 1628812328970,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812328973,
+		"end_node_time": 1628812328975,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812328975,
+		"end_node_time": 1628812328976,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812328979,
+		"end_node_time": 1628812328979,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812328979,
+		"end_node_time": 1628812328980,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:52:15 -1628812335721 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812332461,
+		"end_node_time": 1628812332461,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812332462,
+		"end_node_time": 1628812332462,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812332463,
+		"end_node_time": 1628812332464,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812332465,
+		"end_node_time": 1628812332465,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812332467,
+		"end_node_time": 1628812332468,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812332468,
+		"end_node_time": 1628812332468,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812332469,
+		"end_node_time": 1628812332470,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812332470,
+		"end_node_time": 1628812332472,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812332477,
+		"end_node_time": 1628812332477,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812332477,
+		"end_node_time": 1628812332481,
+		"duration_node": 4,
+		"duration_step": 4
+	}
+]
+Fri Aug 13 2021 02:52:19 -1628812339225 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812335973,
+		"end_node_time": 1628812335973,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812335973,
+		"end_node_time": 1628812335974,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812335974,
+		"end_node_time": 1628812335975,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812335975,
+		"end_node_time": 1628812335976,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812335976,
+		"end_node_time": 1628812335976,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812335976,
+		"end_node_time": 1628812335976,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812335977,
+		"end_node_time": 1628812335977,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812335977,
+		"end_node_time": 1628812335978,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812335983,
+		"end_node_time": 1628812335983,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812335983,
+		"end_node_time": 1628812335984,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:52:22 -1628812342783 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812339474,
+		"end_node_time": 1628812339474,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812339474,
+		"end_node_time": 1628812339475,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812339476,
+		"end_node_time": 1628812339476,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812339476,
+		"end_node_time": 1628812339477,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812339477,
+		"end_node_time": 1628812339478,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812339478,
+		"end_node_time": 1628812339478,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812339478,
+		"end_node_time": 1628812339478,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812339479,
+		"end_node_time": 1628812339480,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812339483,
+		"end_node_time": 1628812339483,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812339483,
+		"end_node_time": 1628812339484,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:52:26 -1628812346307 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812343034,
+		"end_node_time": 1628812343034,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812343034,
+		"end_node_time": 1628812343035,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812343036,
+		"end_node_time": 1628812343037,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812343037,
+		"end_node_time": 1628812343038,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812343038,
+		"end_node_time": 1628812343039,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812343039,
+		"end_node_time": 1628812343039,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812343039,
+		"end_node_time": 1628812343040,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812343040,
+		"end_node_time": 1628812343042,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812343047,
+		"end_node_time": 1628812343047,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812343047,
+		"end_node_time": 1628812343048,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:53:30 -1628812410419 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1628812346548,
+		"end_node_time": 1628812346548,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1628812346548,
+		"end_node_time": 1628812346549,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1628812346549,
+		"end_node_time": 1628812346550,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1628812346550,
+		"end_node_time": 1628812346551,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1628812346551,
+		"end_node_time": 1628812346551,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1628812346552,
+		"end_node_time": 1628812346552,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812346552,
+		"end_node_time": 1628812346552,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1628812346552,
+		"end_node_time": 1628812346553,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "определяем этаж",
+		"start_node_time": 1628812346556,
+		"end_node_time": 1628812346556,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1628812346556,
+		"end_node_time": 1628812346557,
+		"duration_node": 1,
+		"duration_step": 1
+	}
+]
+Fri Aug 13 2021 02:53:30 -1628812410695 : LINKUPUSDT-1627480656:cansel: orderid:173875775
+Fri Aug 13 2021 02:53:31 -1628812411468 : Ордер на покупку отменен, ID - 173875775
+Fri Aug 13 2021 02:53:32 -1628812412234 : LINKUPUSDT-1627480656:cansel: orderid:173875121
+Fri Aug 13 2021 02:53:34 -1628812414630 : Ордер на покупку отменен, ID - 173875121
+Fri Aug 13 2021 02:55:26 -1628812526125 : setsellLINKUPUSDT-1627480656
+Fri Aug 13 2021 02:55:26 -1628812526741 : выставили ttp ордер
+Fri Aug 13 2021 02:56:54 -1628812614933 : ttp finish on 2.81650000
+Fri Aug 13 2021 02:56:55 -1628812615044 : регистрация сделки - 2.811,2.8165,5.32,0.029260000000000324,0.022453724999999997,0.006806275000000327
+Fri Aug 13 2021 02:56:55 -1628812615055 : обнуление ттп
+Fri Aug 13 2021 02:56:55 -1628812615074 : setsellLINKUPUSDT-1627480656
+Fri Aug 13 2021 02:56:55 -1628812615663 : Ошибка при выставлении ордера - {"code":-2010,"msg":"Account has insufficient balance for requested action."}
+Fri Aug 13 2021 02:58:24 -1628812704884 : LINKUPUSDT-1627480656:setbuy: price:2.811, quantity: 5.31
+Fri Aug 13 2021 02:58:25 -1628812705547 : Выставлен ордер - 173882570
+Fri Aug 13 2021 02:58:27 -1628812707799 : LINKUPUSDT-1627480656:cansel: orderid:173882570
+Fri Aug 13 2021 02:58:28 -1628812708677 : Ордер на покупку отменен, ID - 173882570
+Fri Aug 13 2021 02:58:53 -1628812733447 : LINKUPUSDT-1627480656:setbuy: price:2.811, quantity: 5.31
+Fri Aug 13 2021 02:58:54 -1628812734039 : Выставлен ордер - 173882792
+Fri Aug 13 2021 02:59:10 -1628812750182 : LINKUPUSDT-1627480656:cansel: orderid:173882792
+Fri Aug 13 2021 02:59:10 -1628812750887 : Ордер на покупку отменен, ID - 173882792
