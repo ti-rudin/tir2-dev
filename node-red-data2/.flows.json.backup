@@ -3030,7 +3030,8 @@
             "e0a18e1cc9e2532d",
             "c55aa818edeee318",
             "ff26ac7ccf964923",
-            "1b3e671be6b572d5"
+            "1b3e671be6b572d5",
+            "378e488cecf6ffc2"
         ],
         "x": 2375,
         "y": 600,
@@ -20351,8 +20352,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2380,
-        "y": 1440,
+        "x": 2300,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -21392,7 +21393,8 @@
                 "ff26ac7ccf964923"
             ],
             [
-                "11a5c4150d018ca6"
+                "11a5c4150d018ca6",
+                "378e488cecf6ffc2"
             ]
         ]
     },
@@ -21747,7 +21749,7 @@
         "wires": [
             [
                 "4a189b4385237720",
-                "d3ee6389fac5f32d"
+                "011fa77a88868c27"
             ]
         ]
     },
@@ -22321,5 +22323,36 @@
                 "29a430569a15b32f"
             ]
         ]
+    },
+    {
+        "id": "011fa77a88868c27",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "getbot_settings",
+        "func": "\nmsg.floor = msg.payload.data.floor - 1;\nlet bot = {};\nmsg.bot = bot;\nconst gb = global.get('getbot_settings')(msg.topic);\n\ngb.then(gb => {\n\n    msg.bot.settings = JSON.parse(gb);\n\n   \n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n   \n    node.status({ fill: \"red\", shape: \"dot\" });\n\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 360,
+        "wires": [
+            [
+                "d3ee6389fac5f32d"
+            ]
+        ]
+    },
+    {
+        "id": "378e488cecf6ffc2",
+        "type": "link out",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "links": [
+            "e34a5b68.726ec8"
+        ],
+        "x": 1735,
+        "y": 380,
+        "wires": []
     }
 ]
