@@ -36,9 +36,9 @@ function execution_update(data) {
     }
     //NEW, CANCELED, REPLACED, REJECTED, TRADE, EXPIRED
     console.log(symbol + "\t" + side + " " + executionType + " " + orderType + " ORDER #" + orderId);
-    if (orderStatus == "CANCELED") {
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 130);
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 130);
+    if ((orderStatus == "CANCELED") || (orderStatus == "NEW")) {
+        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 5000);
+        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 5000);
     }
     else {
         if (orderStatus == "PARTIALLY_FILLED") {
