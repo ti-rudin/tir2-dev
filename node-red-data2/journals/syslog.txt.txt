@@ -1,169 +1,1838 @@
-Tue Aug 17 2021 15:31:16 -1629203476923 :  
+Tue Aug 17 2021 23:02:30 -1629230550108 :  
  
  Старт
-Tue Aug 17 2021 15:31:23 -1629203483154 : Сброс ttp LINKUPUSDT-1629203055 
- ""
-Tue Aug 17 2021 15:31:23 -1629203483155 : Сброс ttp NEOUSDT-1629203201 
- ""
-Tue Aug 17 2021 15:33:34 -1629203614193 : Стоп
-Tue Aug 17 2021 15:33:45 -1629203625812 :  
+Tue Aug 17 2021 23:12:13 -1629231133252 :  
  
  Старт
-Tue Aug 17 2021 17:06:03 -1629209163595 : Сброс NEOUSDT-1629203201 
+Tue Aug 17 2021 23:12:20 -1629231140189 : Стоп
+Tue Aug 17 2021 23:12:22 -1629231142400 :  
+ 
+ Старт
+Tue Aug 17 2021 23:19:15 -1629231555748 : Стоп
+Tue Aug 17 2021 23:19:25 -1629231565762 :  
+ 
+ Старт
+Tue Aug 17 2021 23:35:15 -1629232515795 : Сброс ttp NEOUSDT-1629203201 
  [
 	{
-		"steptitle": "start",
-		"start_node_time": 1629209160333,
-		"end_node_time": 1629209160333,
+		"steptitle": "start ttp",
+		"start_node_time": 1629232510652,
+		"end_node_time": 1629232510652,
 		"duration_node": 0,
 		"duration_step": 0
 	},
 	{
-		"steptitle": "setbot_busy, service step count",
-		"start_node_time": 1629209160333,
-		"end_node_time": 1629209160334,
-		"duration_node": 1,
-		"duration_step": 1
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232510654,
+		"end_node_time": 1629232510676,
+		"duration_node": 22,
+		"duration_step": 24
 	},
 	{
 		"steptitle": "getbot_settings",
-		"start_node_time": 1629209160335,
-		"end_node_time": 1629209160335,
-		"duration_node": 0,
-		"duration_step": 1
-	},
-	{
-		"steptitle": "getbot_status",
-		"start_node_time": 1629209160336,
-		"end_node_time": 1629209160337,
-		"duration_node": 1,
-		"duration_step": 2
-	},
-	{
-		"steptitle": "getprice",
-		"start_node_time": 1629209160337,
-		"end_node_time": 1629209160338,
-		"duration_node": 1,
-		"duration_step": 1
-	},
-	{
-		"steptitle": "MA zapret calculate",
-		"start_node_time": 1629209160339,
-		"end_node_time": 1629209160339,
-		"duration_node": 0,
-		"duration_step": 1
-	},
-	{
-		"steptitle": "setbot_status",
-		"start_node_time": 1629209160339,
-		"end_node_time": 1629209160340,
-		"duration_node": 1,
-		"duration_step": 1
+		"start_node_time": 1629232510683,
+		"end_node_time": 1629232510689,
+		"duration_node": 6,
+		"duration_step": 13
 	},
 	{
 		"steptitle": "getbot_data",
-		"start_node_time": 1629209160341,
-		"end_node_time": 1629209160343,
-		"duration_node": 2,
-		"duration_step": 3
+		"start_node_time": 1629232510692,
+		"end_node_time": 1629232510720,
+		"duration_node": 28,
+		"duration_step": 31
 	},
 	{
-		"steptitle": "определяем этаж",
-		"start_node_time": 1629209160346,
-		"end_node_time": 1629209160346,
+		"steptitle": "getprice",
+		"start_node_time": 1629232511488,
+		"end_node_time": 1629232511497,
+		"duration_node": 9,
+		"duration_step": 777
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232511562,
+		"end_node_time": 1629232511562,
 		"duration_node": 0,
-		"duration_step": 3
-	},
-	{
-		"steptitle": "setbot_status",
-		"start_node_time": 1629209160347,
-		"end_node_time": 1629209160349,
-		"duration_node": 2,
-		"duration_step": 3
+		"duration_step": 65
 	}
 ]
-Tue Aug 17 2021 20:40:38 -1629222038934 : Сброс NEOUSDT-1629203201 
+Tue Aug 17 2021 23:35:20 -1629232520960 : Сброс ttp NEOUSDT-1629203201 
  [
 	{
-		"steptitle": "start",
-		"start_node_time": 1629222035689,
-		"end_node_time": 1629222035689,
+		"steptitle": "start ttp",
+		"start_node_time": 1629232515877,
+		"end_node_time": 1629232515877,
 		"duration_node": 0,
 		"duration_step": 0
 	},
 	{
-		"steptitle": "setbot_busy, service step count",
-		"start_node_time": 1629222035690,
-		"end_node_time": 1629222035692,
-		"duration_node": 2,
-		"duration_step": 3
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232515879,
+		"end_node_time": 1629232515882,
+		"duration_node": 3,
+		"duration_step": 5
 	},
 	{
 		"steptitle": "getbot_settings",
-		"start_node_time": 1629222035693,
-		"end_node_time": 1629222035696,
-		"duration_node": 3,
-		"duration_step": 4
-	},
-	{
-		"steptitle": "getbot_status",
-		"start_node_time": 1629222035697,
-		"end_node_time": 1629222035719,
-		"duration_node": 22,
-		"duration_step": 23
-	},
-	{
-		"steptitle": "getprice",
-		"start_node_time": 1629222035720,
-		"end_node_time": 1629222035723,
-		"duration_node": 3,
-		"duration_step": 4
-	},
-	{
-		"steptitle": "MA zapret calculate",
-		"start_node_time": 1629222035724,
-		"end_node_time": 1629222035724,
-		"duration_node": 0,
-		"duration_step": 1
-	},
-	{
-		"steptitle": "setbot_status",
-		"start_node_time": 1629222035725,
-		"end_node_time": 1629222035727,
-		"duration_node": 2,
-		"duration_step": 3
-	},
-	{
-		"steptitle": "getbot_data",
-		"start_node_time": 1629222035728,
-		"end_node_time": 1629222035734,
-		"duration_node": 6,
-		"duration_step": 7
-	},
-	{
-		"steptitle": "определяем этаж",
-		"start_node_time": 1629222035743,
-		"end_node_time": 1629222035743,
-		"duration_node": 0,
+		"start_node_time": 1629232515886,
+		"end_node_time": 1629232515891,
+		"duration_node": 5,
 		"duration_step": 9
 	},
 	{
-		"steptitle": "setbot_status",
-		"start_node_time": 1629222035743,
-		"end_node_time": 1629222035745,
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232515893,
+		"end_node_time": 1629232515899,
+		"duration_node": 6,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232515941,
+		"end_node_time": 1629232515948,
+		"duration_node": 7,
+		"duration_step": 49
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232515953,
+		"end_node_time": 1629232515953,
+		"duration_node": 0,
+		"duration_step": 5
+	}
+]
+Tue Aug 17 2021 23:36:07 -1629232567220 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232562083,
+		"end_node_time": 1629232562083,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232562086,
+		"end_node_time": 1629232562094,
+		"duration_node": 8,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232562117,
+		"end_node_time": 1629232562136,
+		"duration_node": 19,
+		"duration_step": 42
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232562140,
+		"end_node_time": 1629232562156,
+		"duration_node": 16,
+		"duration_step": 20
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232562297,
+		"end_node_time": 1629232562313,
+		"duration_node": 16,
+		"duration_step": 157
+	}
+]
+Tue Aug 17 2021 23:36:13 -1629232573592 : Стоп
+Tue Aug 17 2021 23:37:24 -1629232644152 :  
+ 
+ Старт
+Tue Aug 17 2021 23:37:52 -1629232672855 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232665658,
+		"end_node_time": 1629232665658,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232665658,
+		"end_node_time": 1629232665663,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232665663,
+		"end_node_time": 1629232665667,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232665668,
+		"end_node_time": 1629232665671,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232665679,
+		"end_node_time": 1629232665682,
+		"duration_node": 3,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232665690,
+		"end_node_time": 1629232665690,
+		"duration_node": 0,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232665696,
+		"end_node_time": 1629232666767,
+		"duration": 1071,
+		"duration_step": 1077,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232666777,
+		"end_node_time": 1629232666777,
+		"duration_node": 0,
+		"duration_step": 10
+	}
+]
+Tue Aug 17 2021 23:37:52 -1629232672892 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232665658,
+		"end_node_time": 1629232665658,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232665658,
+		"end_node_time": 1629232665663,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232665663,
+		"end_node_time": 1629232665667,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232665668,
+		"end_node_time": 1629232665671,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232665679,
+		"end_node_time": 1629232665682,
+		"duration_node": 3,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232665690,
+		"end_node_time": 1629232665690,
+		"duration_node": 0,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232665696,
+		"end_node_time": 1629232666767,
+		"duration": 1071,
+		"duration_step": 1077,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232666777,
+		"end_node_time": 1629232666777,
+		"duration_node": 0,
+		"duration_step": 10
+	}
+]
+Tue Aug 17 2021 23:37:53 -1629232673237 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232666896,
+		"end_node_time": 1629232666896,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232666896,
+		"end_node_time": 1629232666899,
+		"duration_node": 3,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232666919,
+		"end_node_time": 1629232666922,
+		"duration_node": 3,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232666923,
+		"end_node_time": 1629232666935,
+		"duration_node": 12,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232666939,
+		"end_node_time": 1629232666941,
 		"duration_node": 2,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232666943,
+		"end_node_time": 1629232666943,
+		"duration_node": 0,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232666943,
+		"end_node_time": 1629232668071,
+		"duration": 1128,
+		"duration_step": 1128,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232668141,
+		"end_node_time": 1629232668141,
+		"duration_node": 0,
+		"duration_step": 70
+	}
+]
+Tue Aug 17 2021 23:37:58 -1629232678045 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232673062,
+		"end_node_time": 1629232673062,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232673080,
+		"end_node_time": 1629232673146,
+		"duration_node": 66,
+		"duration_step": 84
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232673154,
+		"end_node_time": 1629232673229,
+		"duration_node": 75,
+		"duration_step": 83
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232673178,
+		"end_node_time": 1629232673229,
+		"duration_node": 51,
+		"duration_step": 83
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232673201,
+		"end_node_time": 1629232673230,
+		"duration_node": 29,
+		"duration_step": 84
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232673235,
+		"end_node_time": 1629232673245,
+		"duration_node": 10,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232673235,
+		"end_node_time": 1629232673246,
+		"duration_node": 11,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232673236,
+		"end_node_time": 1629232673265,
+		"duration_node": 29,
+		"duration_step": 35
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232673238,
+		"end_node_time": 1629232673266,
+		"duration_node": 28,
+		"duration_step": 36
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232673275,
+		"end_node_time": 1629232673323,
+		"duration_node": 48,
+		"duration_step": 57
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232673350,
+		"end_node_time": 1629232673355,
+		"duration_node": 5,
+		"duration_step": 32
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232673350,
+		"end_node_time": 1629232673355,
+		"duration_node": 5,
+		"duration_step": 32
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232673350,
+		"end_node_time": 1629232673356,
+		"duration_node": 6,
+		"duration_step": 33
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232673380,
+		"end_node_time": 1629232673380,
+		"duration_node": 0,
+		"duration_step": 24
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232673380,
+		"end_node_time": 1629232673380,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232673381,
+		"end_node_time": 1629232673381,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232673362,
+		"end_node_time": 1629232673382,
+		"duration_node": 20,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232673438,
+		"end_node_time": 1629232673438,
+		"duration_node": 0,
+		"duration_step": 56
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232673384,
+		"end_node_time": 1629232674725,
+		"duration": 1341,
+		"duration_step": 1343,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232674749,
+		"end_node_time": 1629232674749,
+		"duration_node": 0,
+		"duration_step": 24
+	}
+]
+Tue Aug 17 2021 23:37:58 -1629232678562 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232673352,
+		"end_node_time": 1629232673352,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232673352,
+		"end_node_time": 1629232673357,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232673353,
+		"end_node_time": 1629232673357,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232673362,
+		"end_node_time": 1629232673374,
+		"duration_node": 12,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232673373,
+		"end_node_time": 1629232673395,
+		"duration_node": 22,
+		"duration_step": 38
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232673420,
+		"end_node_time": 1629232673441,
+		"duration_node": 21,
+		"duration_step": 46
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232673439,
+		"end_node_time": 1629232673461,
+		"duration_node": 22,
+		"duration_step": 66
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232673659,
+		"end_node_time": 1629232673659,
+		"duration_node": 0,
+		"duration_step": 198
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232673491,
+		"end_node_time": 1629232673682,
+		"duration_node": 191,
+		"duration_step": 221
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232673835,
+		"end_node_time": 1629232673835,
+		"duration_node": 0,
+		"duration_step": 153
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232673873,
+		"end_node_time": 1629232675344,
+		"duration": 1471,
+		"duration_step": 1509,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232675637,
+		"end_node_time": 1629232675637,
+		"duration_node": 0,
+		"duration_step": 293
+	}
+]
+Tue Aug 17 2021 23:38:11 -1629232691373 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232686845,
+		"end_node_time": 1629232686845,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232686846,
+		"end_node_time": 1629232686855,
+		"duration_node": 9,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232686863,
+		"end_node_time": 1629232686873,
+		"duration_node": 10,
+		"duration_step": 18
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232686874,
+		"end_node_time": 1629232686878,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232686890,
+		"end_node_time": 1629232686918,
+		"duration_node": 28,
+		"duration_step": 40
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232686938,
+		"end_node_time": 1629232686938,
+		"duration_node": 0,
+		"duration_step": 20
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232686941,
+		"end_node_time": 1629232687720,
+		"duration": 779,
+		"duration_step": 782,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232687744,
+		"end_node_time": 1629232687744,
+		"duration_node": 0,
+		"duration_step": 24
+	}
+]
+Tue Aug 17 2021 23:38:17 -1629232697684 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232691467,
+		"end_node_time": 1629232691467,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232691469,
+		"end_node_time": 1629232691471,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232691474,
+		"end_node_time": 1629232691476,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232691477,
+		"end_node_time": 1629232691482,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232691491,
+		"end_node_time": 1629232691494,
+		"duration_node": 3,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232691546,
+		"end_node_time": 1629232691546,
+		"duration_node": 0,
+		"duration_step": 52
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232691550,
+		"end_node_time": 1629232692860,
+		"duration": 1310,
+		"duration_step": 1314,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232692883,
+		"end_node_time": 1629232692883,
+		"duration_node": 0,
+		"duration_step": 23
+	}
+]
+Tue Aug 17 2021 23:38:24 -1629232704569 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232698096,
+		"end_node_time": 1629232698096,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232698133,
+		"end_node_time": 1629232698147,
+		"duration_node": 14,
+		"duration_step": 51
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232698149,
+		"end_node_time": 1629232698159,
+		"duration_node": 10,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232698156,
+		"end_node_time": 1629232698163,
+		"duration_node": 7,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232698160,
+		"end_node_time": 1629232698170,
+		"duration_node": 10,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232698165,
+		"end_node_time": 1629232698172,
+		"duration_node": 7,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232698188,
+		"end_node_time": 1629232698194,
+		"duration_node": 6,
+		"duration_step": 22
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232698190,
+		"end_node_time": 1629232698198,
+		"duration_node": 8,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232698235,
+		"end_node_time": 1629232698235,
+		"duration_node": 0,
+		"duration_step": 37
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232698245,
+		"end_node_time": 1629232698245,
+		"duration_node": 0,
+		"duration_step": 10
+	}
+]
+Tue Aug 17 2021 23:38:33 -1629232713072 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232706188,
+		"end_node_time": 1629232706188,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232706189,
+		"end_node_time": 1629232706192,
+		"duration_node": 3,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232706194,
+		"end_node_time": 1629232706197,
+		"duration_node": 3,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232706197,
+		"end_node_time": 1629232706223,
+		"duration_node": 26,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232706228,
+		"end_node_time": 1629232706231,
+		"duration_node": 3,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232706234,
+		"end_node_time": 1629232706234,
+		"duration_node": 0,
+		"duration_step": 3
+	}
+]
+Tue Aug 17 2021 23:38:37 -1629232717658 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232713151,
+		"end_node_time": 1629232713151,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232713151,
+		"end_node_time": 1629232713157,
+		"duration_node": 6,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232713162,
+		"end_node_time": 1629232713165,
+		"duration_node": 3,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232713166,
+		"end_node_time": 1629232713171,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232713184,
+		"end_node_time": 1629232713192,
+		"duration_node": 8,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232713319,
+		"end_node_time": 1629232713319,
+		"duration_node": 0,
+		"duration_step": 127
+	}
+]
+Tue Aug 17 2021 23:38:42 -1629232722472 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232717744,
+		"end_node_time": 1629232717744,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232717745,
+		"end_node_time": 1629232717747,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232717749,
+		"end_node_time": 1629232717750,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232717751,
+		"end_node_time": 1629232717753,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232717756,
+		"end_node_time": 1629232717758,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232717762,
+		"end_node_time": 1629232717762,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Tue Aug 17 2021 23:38:46 -1629232726897 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232721400,
+		"end_node_time": 1629232721400,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232721401,
+		"end_node_time": 1629232721421,
+		"duration_node": 20,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232721425,
+		"end_node_time": 1629232721430,
+		"duration_node": 5,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232721432,
+		"end_node_time": 1629232721436,
+		"duration_node": 4,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232721448,
+		"end_node_time": 1629232721449,
+		"duration_node": 1,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232721457,
+		"end_node_time": 1629232721457,
+		"duration_node": 0,
+		"duration_step": 8
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232721457,
+		"end_node_time": 1629232722737,
+		"duration": 1280,
+		"duration_step": 1280,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232722739,
+		"end_node_time": 1629232722739,
+		"duration_node": 0,
 		"duration_step": 2
 	}
 ]
-Tue Aug 17 2021 22:25:50 -1629228350342 : Стоп
-Tue Aug 17 2021 22:25:57 -1629228357940 :  
+Tue Aug 17 2021 23:38:50 -1629232730292 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232723465,
+		"end_node_time": 1629232723465,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232723465,
+		"end_node_time": 1629232723469,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232723473,
+		"end_node_time": 1629232723476,
+		"duration_node": 3,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232723478,
+		"end_node_time": 1629232723481,
+		"duration_node": 3,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232723488,
+		"end_node_time": 1629232723494,
+		"duration_node": 6,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232723521,
+		"end_node_time": 1629232723521,
+		"duration_node": 0,
+		"duration_step": 27
+	}
+]
+Tue Aug 17 2021 23:38:50 -1629232730342 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232723465,
+		"end_node_time": 1629232723465,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232723465,
+		"end_node_time": 1629232723469,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232723473,
+		"end_node_time": 1629232723476,
+		"duration_node": 3,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232723478,
+		"end_node_time": 1629232723481,
+		"duration_node": 3,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232723488,
+		"end_node_time": 1629232723494,
+		"duration_node": 6,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232723521,
+		"end_node_time": 1629232723521,
+		"duration_node": 0,
+		"duration_step": 27
+	}
+]
+Tue Aug 17 2021 23:38:54 -1629232734073 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232727964,
+		"end_node_time": 1629232727964,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232727967,
+		"end_node_time": 1629232727969,
+		"duration_node": 2,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232727972,
+		"end_node_time": 1629232727973,
+		"duration_node": 1,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232727976,
+		"end_node_time": 1629232727995,
+		"duration_node": 19,
+		"duration_step": 22
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232727999,
+		"end_node_time": 1629232728018,
+		"duration_node": 19,
+		"duration_step": 23
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232728035,
+		"end_node_time": 1629232728035,
+		"duration_node": 0,
+		"duration_step": 17
+	}
+]
+Tue Aug 17 2021 23:38:56 -1629232736075 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232730500,
+		"end_node_time": 1629232730500,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232730520,
+		"end_node_time": 1629232730543,
+		"duration_node": 23,
+		"duration_step": 43
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232730553,
+		"end_node_time": 1629232730568,
+		"duration_node": 15,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232730572,
+		"end_node_time": 1629232730584,
+		"duration_node": 12,
+		"duration_step": 16
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232730576,
+		"end_node_time": 1629232730590,
+		"duration_node": 14,
+		"duration_step": 22
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232730597,
+		"end_node_time": 1629232730633,
+		"duration_node": 36,
+		"duration_step": 43
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232730638,
+		"end_node_time": 1629232730646,
+		"duration_node": 8,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232730644,
+		"end_node_time": 1629232730658,
+		"duration_node": 14,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232730665,
+		"end_node_time": 1629232730665,
+		"duration_node": 0,
+		"duration_step": 7
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232730656,
+		"end_node_time": 1629232730667,
+		"duration_node": 11,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232730677,
+		"end_node_time": 1629232730677,
+		"duration_node": 0,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232730717,
+		"end_node_time": 1629232730717,
+		"duration_node": 0,
+		"duration_step": 40
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232730668,
+		"end_node_time": 1629232731770,
+		"duration": 1102,
+		"duration_step": 1103,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232731776,
+		"end_node_time": 1629232731776,
+		"duration_node": 0,
+		"duration_step": 6
+	}
+]
+Tue Aug 17 2021 23:38:59 -1629232739354 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232734176,
+		"end_node_time": 1629232734176,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232734176,
+		"end_node_time": 1629232734178,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232734178,
+		"end_node_time": 1629232734180,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232734180,
+		"end_node_time": 1629232734182,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232734185,
+		"end_node_time": 1629232734188,
+		"duration_node": 3,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232734191,
+		"end_node_time": 1629232734191,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232734191,
+		"end_node_time": 1629232735373,
+		"duration": 1182,
+		"duration_step": 1182,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232735433,
+		"end_node_time": 1629232735433,
+		"duration_node": 0,
+		"duration_step": 60
+	}
+]
+Tue Aug 17 2021 23:39:01 -1629232741674 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232736337,
+		"end_node_time": 1629232736337,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232736343,
+		"end_node_time": 1629232736347,
+		"duration_node": 4,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232736350,
+		"end_node_time": 1629232736356,
+		"duration_node": 6,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232736354,
+		"end_node_time": 1629232736359,
+		"duration_node": 5,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232736358,
+		"end_node_time": 1629232736366,
+		"duration_node": 8,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232736363,
+		"end_node_time": 1629232736368,
+		"duration_node": 5,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232736378,
+		"end_node_time": 1629232736381,
+		"duration_node": 3,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232736381,
+		"end_node_time": 1629232736385,
+		"duration_node": 4,
+		"duration_step": 17
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232736390,
+		"end_node_time": 1629232736390,
+		"duration_node": 0,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232736397,
+		"end_node_time": 1629232736397,
+		"duration_node": 0,
+		"duration_step": 7
+	}
+]
+Tue Aug 17 2021 23:39:06 -1629232746339 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232739464,
+		"end_node_time": 1629232739464,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232739465,
+		"end_node_time": 1629232739466,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232739467,
+		"end_node_time": 1629232739468,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232739469,
+		"end_node_time": 1629232739473,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232739485,
+		"end_node_time": 1629232739488,
+		"duration_node": 3,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232739492,
+		"end_node_time": 1629232739492,
+		"duration_node": 0,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232739492,
+		"end_node_time": 1629232741073,
+		"duration": 1581,
+		"duration_step": 1581,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232741082,
+		"end_node_time": 1629232741082,
+		"duration_node": 0,
+		"duration_step": 9
+	}
+]
+Tue Aug 17 2021 23:39:07 -1629232747662 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232742152,
+		"end_node_time": 1629232742152,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232742152,
+		"end_node_time": 1629232742157,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232742159,
+		"end_node_time": 1629232742162,
+		"duration_node": 3,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232742163,
+		"end_node_time": 1629232742168,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232742175,
+		"end_node_time": 1629232742178,
+		"duration_node": 3,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232742188,
+		"end_node_time": 1629232742188,
+		"duration_node": 0,
+		"duration_step": 10
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232742188,
+		"end_node_time": 1629232743245,
+		"duration": 1057,
+		"duration_step": 1057,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232743247,
+		"end_node_time": 1629232743247,
+		"duration_node": 0,
+		"duration_step": 2
+	}
+]
+Tue Aug 17 2021 23:39:11 -1629232751392 : Сброс ttp LINKUPUSDT-1629203055 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232746449,
+		"end_node_time": 1629232746449,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232746449,
+		"end_node_time": 1629232746451,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232746453,
+		"end_node_time": 1629232746454,
+		"duration_node": 1,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232746454,
+		"end_node_time": 1629232746463,
+		"duration_node": 9,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232746481,
+		"end_node_time": 1629232746484,
+		"duration_node": 3,
+		"duration_step": 21
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232746495,
+		"end_node_time": 1629232746495,
+		"duration_node": 0,
+		"duration_step": 11
+	}
+]
+Tue Aug 17 2021 23:39:15 -1629232755553 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232750481,
+		"end_node_time": 1629232750481,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232750482,
+		"end_node_time": 1629232750486,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232750487,
+		"end_node_time": 1629232750491,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232750492,
+		"end_node_time": 1629232750496,
+		"duration_node": 4,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232750524,
+		"end_node_time": 1629232750527,
+		"duration_node": 3,
+		"duration_step": 31
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232750539,
+		"end_node_time": 1629232750539,
+		"duration_node": 0,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232750540,
+		"end_node_time": 1629232751359,
+		"duration": 819,
+		"duration_step": 820,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232751363,
+		"end_node_time": 1629232751363,
+		"duration_node": 0,
+		"duration_step": 4
+	}
+]
+Tue Aug 17 2021 23:39:21 -1629232761049 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232755679,
+		"end_node_time": 1629232755679,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232755680,
+		"end_node_time": 1629232755690,
+		"duration_node": 10,
+		"duration_step": 11
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232755691,
+		"end_node_time": 1629232755696,
+		"duration_node": 5,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232755697,
+		"end_node_time": 1629232755726,
+		"duration_node": 29,
+		"duration_step": 30
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232755761,
+		"end_node_time": 1629232755767,
+		"duration_node": 6,
+		"duration_step": 41
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232755785,
+		"end_node_time": 1629232755785,
+		"duration_node": 0,
+		"duration_step": 18
+	}
+]
+Tue Aug 17 2021 23:39:26 -1629232766876 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232761068,
+		"end_node_time": 1629232761068,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232761070,
+		"end_node_time": 1629232761072,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232761074,
+		"end_node_time": 1629232761076,
+		"duration_node": 2,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232761078,
+		"end_node_time": 1629232761081,
+		"duration_node": 3,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232761086,
+		"end_node_time": 1629232761090,
+		"duration_node": 4,
+		"duration_step": 9
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232761093,
+		"end_node_time": 1629232761093,
+		"duration_node": 0,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232761093,
+		"end_node_time": 1629232763229,
+		"duration": 2136,
+		"duration_step": 2136,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232763251,
+		"end_node_time": 1629232763251,
+		"duration_node": 0,
+		"duration_step": 22
+	}
+]
+Tue Aug 17 2021 23:39:32 -1629232772860 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232766975,
+		"end_node_time": 1629232766975,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232766975,
+		"end_node_time": 1629232766976,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232766976,
+		"end_node_time": 1629232766977,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232766983,
+		"end_node_time": 1629232766992,
+		"duration_node": 9,
+		"duration_step": 15
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232766994,
+		"end_node_time": 1629232766998,
+		"duration_node": 4,
+		"duration_step": 6
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232767024,
+		"end_node_time": 1629232767024,
+		"duration_node": 0,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232767024,
+		"end_node_time": 1629232768295,
+		"duration": 1271,
+		"duration_step": 1271,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232768343,
+		"end_node_time": 1629232768343,
+		"duration_node": 0,
+		"duration_step": 48
+	}
+]
+Tue Aug 17 2021 23:39:35 -1629232775472 : Стоп
+Tue Aug 17 2021 23:39:36 -1629232776880 : Стоп
+Tue Aug 17 2021 23:39:53 -1629232793830 : Стоп
+Wed Aug 18 2021 00:24:15 -1629235455943 :  
  
  Старт
-Tue Aug 17 2021 22:32:26 -1629228746130 : Стоп
-Tue Aug 17 2021 22:32:31 -1629228751951 :  
+Wed Aug 18 2021 00:24:20 -1629235460293 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629232772900,
+		"end_node_time": 1629232772900,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629232772931,
+		"end_node_time": 1629232772936,
+		"duration_node": 5,
+		"duration_step": 36
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629232772943,
+		"end_node_time": 1629232772949,
+		"duration_node": 6,
+		"duration_step": 13
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629232772949,
+		"end_node_time": 1629232772953,
+		"duration_node": 4,
+		"duration_step": 4
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629232773024,
+		"end_node_time": 1629232773039,
+		"duration_node": 15,
+		"duration_step": 86
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232773064,
+		"end_node_time": 1629232773064,
+		"duration_node": 0,
+		"duration_step": 25
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629232773067,
+		"end_node_time": 1629232773965,
+		"duration": 898,
+		"duration_step": 901,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629232773994,
+		"end_node_time": 1629232773994,
+		"duration_node": 0,
+		"duration_step": 29
+	}
+]
+Wed Aug 18 2021 00:24:21 -1629235461129 : Стоп
+Wed Aug 18 2021 00:24:25 -1629235465754 : Стоп
+Wed Aug 18 2021 00:37:46 -1629236266378 :  
  
  Старт
-Tue Aug 17 2021 22:33:26 -1629228806535 : Стоп
-Tue Aug 17 2021 22:33:37 -1629228817134 :  
- 
- Старт
+Wed Aug 18 2021 00:37:52 -1629236272151 : Сброс ttp NEOUSDT-1629203201 
+ [
+	{
+		"steptitle": "start ttp",
+		"start_node_time": 1629235460467,
+		"end_node_time": 1629235460467,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setttp_busy",
+		"start_node_time": 1629235460468,
+		"end_node_time": 1629235460485,
+		"duration_node": 17,
+		"duration_step": 18
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629235460521,
+		"end_node_time": 1629235460530,
+		"duration_node": 9,
+		"duration_step": 45
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629235460530,
+		"end_node_time": 1629235460535,
+		"duration_node": 5,
+		"duration_step": 5
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629235460547,
+		"end_node_time": 1629235460553,
+		"duration_node": 6,
+		"duration_step": 18
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629235460565,
+		"end_node_time": 1629235460565,
+		"duration_node": 0,
+		"duration_step": 12
+	},
+	{
+		"steptitle": "orderexec cansel-faile",
+		"start_node_time": 1629235460579,
+		"end_node_time": 1629235462393,
+		"duration": 1814,
+		"duration_step": 1828,
+		"error": "{\"code\":-2011,\"msg\":\"Unknown order sent.\"}"
+	},
+	{
+		"steptitle": "prepare get ttp order status",
+		"start_node_time": 1629235462394,
+		"end_node_time": 1629235462394,
+		"duration_node": 0,
+		"duration_step": 1
+	}
+]
+Wed Aug 18 2021 00:37:55 -1629236275141 : Стоп

@@ -20779,7 +20779,9 @@
                 "9b72287608f77d0f"
             ],
             [
-                "0b16666c52c83a0b"
+                "0b16666c52c83a0b",
+                "4ee69cb630ca0202",
+                "8363e0919dd1093d"
             ],
             [
                 "ad577ba17817a4bb"
@@ -21579,8 +21581,7 @@
         "y": 500,
         "wires": [
             [
-                "1b3e671be6b572d5",
-                "4ee69cb630ca0202"
+                "1b3e671be6b572d5"
             ]
         ],
         "icon": "font-awesome/fa-bolt"
@@ -23514,8 +23515,42 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1250,
+        "x": 1130,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c62c23ae0ab35614",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1150,
         "y": 560,
         "wires": []
+    },
+    {
+        "id": "8363e0919dd1093d",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "func": "let floors = msg.payload.data.floors;\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = msg.payload.data.finance.startdepo;\nlet baseinorders = 0;\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - baseinorders;\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\nmsg.payload = [baseinorders, basenal, quotainorders, quotanal];\nreturn msg;\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 560,
+        "wires": [
+            [
+                "c62c23ae0ab35614"
+            ]
+        ]
     }
 ]

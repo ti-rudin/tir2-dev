@@ -20780,7 +20780,8 @@
             ],
             [
                 "0b16666c52c83a0b",
-                "4ee69cb630ca0202"
+                "4ee69cb630ca0202",
+                "8363e0919dd1093d"
             ],
             [
                 "ad577ba17817a4bb"
@@ -23514,8 +23515,42 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1250,
+        "x": 1130,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c62c23ae0ab35614",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1150,
         "y": 560,
         "wires": []
+    },
+    {
+        "id": "8363e0919dd1093d",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.payload.data.finance;\nlet floors = msg.payload.data.floors;\nlet sales = msg.payload.data.sales;\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = msg.payload.data.finance.startdepo;\nlet baseinorders = 0;\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = basenal;\nfinance.baseinorders = baseinorders;\n\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\nmsg.payload = botdata;\nreturn msg;\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 560,
+        "wires": [
+            [
+                "c62c23ae0ab35614"
+            ]
+        ]
     }
 ]
