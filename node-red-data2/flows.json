@@ -135,7 +135,9 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419
+        "y": 419,
+        "w": 632,
+        "h": 162
     },
     {
         "id": "3684cd36.8432c2",
@@ -189,7 +191,9 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 699
+        "y": 739,
+        "w": 1612,
+        "h": 122
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -230,7 +234,9 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839
+        "y": 1839,
+        "w": 1422,
+        "h": 422
     },
     {
         "id": "a0a5df595c9dd619",
@@ -325,7 +331,9 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1552,
+        "h": 682
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -449,7 +457,9 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "f8a5c66461864831",
@@ -470,8 +480,8 @@
             "3e4dcaaa699a170c",
             "a7628168.861ce"
         ],
-        "x": 1034,
-        "y": 39,
+        "x": 1214,
+        "y": 19,
         "w": 792,
         "h": 122
     },
@@ -495,7 +505,9 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699
+        "y": 1699,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "586e39dc007e0cae",
@@ -647,7 +659,8 @@
             "be118eed.3c8348",
             "32fce615.5af6c2",
             "8f9ec476.3b8e88",
-            "40175d8a.67b97c"
+            "40175d8a.67b97c",
+            "6daf5e3ee3c8d469"
         ],
         "x": 34,
         "y": 479,
@@ -722,7 +735,9 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579
+        "y": 579,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "b1c9866420e73130",
@@ -759,8 +774,10 @@
             "26f6329ebf714e14",
             "9f0a5643b5b416e8"
         ],
-        "x": 2754,
-        "y": 1859
+        "x": 2654,
+        "y": 1859,
+        "w": 692,
+        "h": 562
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -1009,7 +1026,9 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179
+        "y": 1179,
+        "w": 1352,
+        "h": 82
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -1032,7 +1051,9 @@
             "792187aede59b6ac"
         ],
         "x": 2474,
-        "y": 1299
+        "y": 1299,
+        "w": 1332,
+        "h": 82
     },
     {
         "id": "9364657534c1325f",
@@ -1053,7 +1074,9 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439
+        "y": 1439,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -1074,7 +1097,9 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539
+        "y": 1539,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -1096,7 +1121,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 214,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "f120eab2.0a60a8",
@@ -2410,7 +2437,8 @@
         "y": 600,
         "wires": [
             [
-                "4bd2ed9.fa5d114"
+                "4bd2ed9.fa5d114",
+                "6daf5e3ee3c8d469"
             ]
         ]
     },
@@ -2437,7 +2465,8 @@
         "y": 600,
         "wires": [
             [
-                "a790f90b.998d8"
+                "a790f90b.998d8",
+                "7d65555b5a5be5fb"
             ]
         ]
     },
@@ -5673,7 +5702,7 @@
         "overwriteFile": "false",
         "encoding": "none",
         "x": 830,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "afaf3a2c.646c88"
@@ -5693,7 +5722,7 @@
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "eb0ebfc5.9889a"
@@ -5713,7 +5742,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "6868e3af.6c4b4c"
@@ -5733,7 +5762,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 170,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "6526e141.43af9"
@@ -5752,7 +5781,7 @@
         "initialize": "",
         "finalize": "",
         "x": 980,
-        "y": 780,
+        "y": 820,
         "wires": []
     },
     {
@@ -5778,7 +5807,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 1220,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "81a608ac.0eeab8"
@@ -5797,7 +5826,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1390,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "d615849.c726078"
@@ -5819,7 +5848,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1550,
-        "y": 780,
+        "y": 820,
         "wires": []
     },
     {
@@ -5882,8 +5911,8 @@
         "name": "",
         "topic": "redis",
         "location": "flow",
-        "x": 1750,
-        "y": 100,
+        "x": 1930,
+        "y": 80,
         "wires": []
     },
     {
@@ -6076,7 +6105,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "cansel order",
-        "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\treconnect: false,\n\tuseServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet orderid = msg.payload.orderid;\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function() {\nbinance.cancel(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n        \n\n\n    node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n    node.send(msg);\n        \n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        \n\n    node.status({fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n        \n    }\n    //node.status({}); //clear status message\n})});\n\n\n\n\n",
+        "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\treconnect: false,\n\tuseServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet orderid = msg.payload.orderid;\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function() {\nbinance.cancel(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n        \n\n    msg.err = err;\n    node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n    node.send(msg);\n        \n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        \n\n    node.status({fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n        \n    }\n    //node.status({}); //clear status message\n})});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6136,7 +6165,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -6901,7 +6930,7 @@
         "z": "5f98db3a.7ab21c",
         "g": "8ff1d3c1.b9bf5",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11458,7 +11487,8 @@
         "y": 1220,
         "wires": [
             [
-                "f33e9568474183b7"
+                "f33e9568474183b7",
+                "ce8d836f2e10dc86"
             ]
         ]
     },
@@ -11498,7 +11528,8 @@
         "y": 1220,
         "wires": [
             [
-                "bf1c13c6979ef555"
+                "bf1c13c6979ef555",
+                "a27961fd36927619"
             ]
         ]
     },
@@ -11533,16 +11564,18 @@
         "z": "5f98db3a.7ab21c",
         "g": "b1c9866420e73130",
         "name": "getbot_start_set",
-        "func": "\nlet botname = msg.payload.botname;\n\nconst gb = global.get('getbot_start_set')(botname);\n\ngb.then(gb => {\n\n    msg.payload = gb;\n    node.send(msg);\n\n}).catch(error => {\n    node.error(error);\n});",
+        "func": "\nlet botname = msg.payload.botname;\n\nconst gb = global.get('getbot_start_set')(botname);\n\ngb.then(gb => {\nnode.warn(gb);\n    msg.payload = gb;\n    node.send(msg);\n\n}).catch(error => {\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3080,
+        "libs": [],
+        "x": 2980,
         "y": 1960,
         "wires": [
             [
-                "5944b81ec7e464fc"
+                "5944b81ec7e464fc",
+                "673c67310929e64a"
             ]
         ]
     },
@@ -11559,7 +11592,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3350,
+        "x": 3250,
         "y": 2020,
         "wires": [
             []
@@ -11576,7 +11609,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3120,
+        "x": 3020,
         "y": 2020,
         "wires": [
             [
@@ -11595,7 +11628,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3110,
+        "x": 3010,
         "y": 2080,
         "wires": [
             [
@@ -11616,7 +11649,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3330,
+        "x": 3230,
         "y": 2080,
         "wires": [
             []
@@ -11633,7 +11666,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3120,
+        "x": 3020,
         "y": 2140,
         "wires": [
             [
@@ -11654,7 +11687,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3350,
+        "x": 3250,
         "y": 2140,
         "wires": [
             []
@@ -11671,7 +11704,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3100,
+        "x": 3000,
         "y": 2200,
         "wires": [
             [
@@ -11692,7 +11725,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3310,
+        "x": 3210,
         "y": 2200,
         "wires": [
             []
@@ -11710,7 +11743,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3110,
+        "x": 3010,
         "y": 2260,
         "wires": [
             [
@@ -11731,7 +11764,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3330,
+        "x": 3230,
         "y": 2260,
         "wires": [
             []
@@ -11746,7 +11779,7 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 3250,
+        "x": 3150,
         "y": 1960,
         "wires": [
             [
@@ -11755,7 +11788,6 @@
                 "a2fba486886cf22e",
                 "43efea3d8f426bec",
                 "aff96d6cd010b51b",
-                "673c67310929e64a",
                 "bb31b6f014975fd6",
                 "26f6329ebf714e14"
             ]
@@ -11771,7 +11803,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2860,
+        "x": 2760,
         "y": 1960,
         "wires": [
             [
@@ -11788,7 +11820,7 @@
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 2880,
+        "x": 2780,
         "y": 2020,
         "wires": []
     },
@@ -11808,9 +11840,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "LINKDOWNUSDT-1626792009",
+        "payload": "LINKUPUSDT-1627480656",
         "payloadType": "str",
-        "x": 2930,
+        "x": 2810,
         "y": 1900,
         "wires": [
             [
@@ -11824,7 +11856,7 @@
         "z": "5f98db3a.7ab21c",
         "g": "b1c9866420e73130",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11832,7 +11864,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3250,
+        "x": 3150,
         "y": 1900,
         "wires": []
     },
@@ -11847,7 +11879,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3050,
+        "x": 2950,
         "y": 2380,
         "wires": [
             [
@@ -11866,7 +11898,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3190,
+        "x": 3090,
         "y": 2380,
         "wires": [
             []
@@ -12759,8 +12791,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1550,
-        "y": 80,
+        "x": 1730,
+        "y": 60,
         "wires": [
             [
                 "cc6dddd66c6674e8"
@@ -12777,8 +12809,8 @@
         "name": "",
         "topic": "stop",
         "obj": false,
-        "x": 1550,
-        "y": 120,
+        "x": 1730,
+        "y": 100,
         "wires": []
     },
     {
@@ -12799,8 +12831,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1130,
-        "y": 80,
+        "x": 1310,
+        "y": 60,
         "wires": [
             [
                 "eebc64656127b52b"
@@ -12817,8 +12849,8 @@
         "name": "",
         "topic": "start",
         "obj": false,
-        "x": 1130,
-        "y": 120,
+        "x": 1310,
+        "y": 100,
         "wires": []
     },
     {
@@ -12839,8 +12871,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1310,
-        "y": 80,
+        "x": 1490,
+        "y": 60,
         "wires": [
             [
                 "3e4dcaaa699a170c"
@@ -12857,8 +12889,8 @@
         "name": "",
         "topic": "start1",
         "obj": false,
-        "x": 1310,
-        "y": 120,
+        "x": 1490,
+        "y": 100,
         "wires": []
     },
     {
@@ -13491,7 +13523,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3110,
+        "x": 3010,
         "y": 2320,
         "wires": [
             [
@@ -13512,7 +13544,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3330,
+        "x": 3230,
         "y": 2320,
         "wires": [
             []
@@ -14148,7 +14180,8 @@
         "y": 1120,
         "wires": [
             [
-                "72e46f8aeb6442f9"
+                "72e46f8aeb6442f9",
+                "e35a38320cbeabd7"
             ]
         ]
     },
@@ -14248,7 +14281,7 @@
         "type": "debug",
         "z": "5df15275.2888ec",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -14352,7 +14385,7 @@
         "repair": false,
         "outputs": 1,
         "x": 690,
-        "y": 740,
+        "y": 780,
         "wires": [
             []
         ]
@@ -15746,7 +15779,8 @@
         "y": 1320,
         "wires": [
             [
-                "b519994e581e8bdd"
+                "b519994e581e8bdd",
+                "d2defd5285e34ff1"
             ]
         ]
     },
@@ -20135,7 +20169,7 @@
         "z": "5f98db3a.7ab21c",
         "g": "1af578fa0e07ad5a",
         "name": "getbot_data",
-        "func": "msg.bot = {};\nlet botname = msg.payload;\n\nconst gb = global.get('getbot_data')(botname);\n\ngb.then(gb => {\n    //node.warn(gb);\n    let bot = {...msg.bot,\n        \"floors\":JSON.parse(gb.floors),\n        \"finance\":JSON.parse(gb.finance),\n        \"sales\":JSON.parse(gb.sales)\n    };\n    msg.bot = bot;\n    node.send(msg);\n\n}).catch(error => {\n    node.error(error);\n});",
+        "func": "msg.bot = {};\nlet botname = msg.payload;\n\nconst gb = global.get('getbot_data')(botname);\n\n\ngb.then(gb => {\n    node.warn(gb);\n    let floors = JSON.parse(gb.floors);\n    let finance = JSON.parse(gb.finance);\n    let sales = JSON.parse(gb.sales);\n    let bot = {\n        \"floors\": floors,\n        \"finance\": finance,\n        \"sales\": sales\n    };\n    msg.bot = bot;\n    node.send(msg);\n\n}).catch(error => {\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20451,7 +20485,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20468,7 +20502,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20538,7 +20572,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2110,
+        "x": 2070,
         "y": 440,
         "wires": [
             [
@@ -20609,7 +20643,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 430,
+        "x": 490,
         "y": 780,
         "wires": []
     },
@@ -20745,7 +20779,8 @@
                 "9b72287608f77d0f"
             ],
             [
-                "0b16666c52c83a0b"
+                "0b16666c52c83a0b",
+                "4ee69cb630ca0202"
             ],
             [
                 "ad577ba17817a4bb"
@@ -21376,13 +21411,13 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec cansel",
-        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid, \"bot\": msg.bot};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\nlet data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\nconst tilog = global.get('tilog')(botname,data2);\ntilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n\n        \n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
+        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid, \"bot\": msg.bot};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\nlet data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\nconst tilog = global.get('tilog')(botname,data2);\ntilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n\n        \n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        //msg.bot.ttp.curorderid = 0;\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
+        "x": 1430,
         "y": 360,
         "wires": [
             [
@@ -21412,7 +21447,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1470,
+        "x": 1630,
         "y": 360,
         "wires": [
             [
@@ -21421,7 +21456,7 @@
             ],
             [
                 "11a5c4150d018ca6",
-                "c48a76fa56f88a29"
+                "378e488cecf6ffc2"
             ]
         ]
     },
@@ -21468,7 +21503,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1630,
+        "x": 1790,
         "y": 380,
         "wires": []
     },
@@ -21806,7 +21841,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1630,
+        "x": 1790,
         "y": 340,
         "wires": []
     },
@@ -22316,7 +22351,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1735,
+        "x": 2295,
         "y": 340,
         "wires": []
     },
@@ -22366,7 +22401,7 @@
         "y": 360,
         "wires": [
             [
-                "d3ee6389fac5f32d"
+                "7f5634a091169a62"
             ]
         ]
     },
@@ -22378,7 +22413,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1915,
+        "x": 2295,
         "y": 380,
         "wires": []
     },
@@ -23302,12 +23337,185 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1750,
+        "x": 1910,
         "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6daf5e3ee3c8d469",
+        "type": "debug",
+        "z": "5df15275.2888ec",
+        "g": "9ddf7eea0825c30f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "7d65555b5a5be5fb",
+        "type": "debug",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1450,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "186bfe28121e64ff",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "update bot floors, finance",
+        "func": "let volname = msg.bot.settings.userid + \"-bots:\" + msg.bot.settings.botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.bot.finance),\n    \"floors\": JSON.stringify(msg.bot.floors),\n    \"sales\": JSON.stringify(msg.bot.sales)\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\n// @ts-ignore\nupd.then(upd => {\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    msg.payload = upd;\n    node.done();\n    node.send(msg);\n\n}).catch(error => {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 320,
+        "wires": [
+            [
+                "ff26ac7ccf964923"
+            ]
+        ],
+        "icon": "font-awesome/fa-bolt"
+    },
+    {
+        "id": "951d0cfb61983ef9",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "update bot floors, finance",
+        "func": "let volname = msg.bot.settings.userid + \"-bots:\" + msg.bot.settings.botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.bot.finance),\n    \"floors\": JSON.stringify(msg.bot.floors),\n    \"sales\": JSON.stringify(msg.bot.sales)\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\n// @ts-ignore\nupd.then(upd => {\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    msg.payload = upd;\n    node.done();\n    node.send(msg);\n\n}).catch(error => {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 400,
         "wires": [
             [
                 "378e488cecf6ffc2"
             ]
+        ],
+        "icon": "font-awesome/fa-bolt"
+    },
+    {
+        "id": "7f5634a091169a62",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "getbot_data",
+        "func": "\n\nlet botname = msg.topic;\n\nconst gb = global.get('getbot_data')(botname);\n\ngb.then(gb => {\n    //node.warn(gb);\n    let bot = {\n        ...msg.bot,\n        \"floors\": JSON.parse(gb.floors),\n        \"finance\": JSON.parse(gb.finance),\n        \"sales\": JSON.parse(gb.sales)\n    };\n    msg.bot = bot;\n   \n\n    node.send(msg);\n\n}).catch(error => {\n\n   \n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 360,
+        "wires": [
+            [
+                "d3ee6389fac5f32d"
+            ]
         ]
+    },
+    {
+        "id": "a27961fd36927619",
+        "type": "debug",
+        "z": "5f98db3a.7ab21c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3060,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "ce8d836f2e10dc86",
+        "type": "debug",
+        "z": "5f98db3a.7ab21c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2910,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "d2defd5285e34ff1",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "tester___",
+        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 900,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e35a38320cbeabd7",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "tester___",
+        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 620,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ee69cb630ca0202",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1250,
+        "y": 560,
+        "wires": []
     }
 ]
