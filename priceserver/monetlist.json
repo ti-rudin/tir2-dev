@@ -1,13 +1,6 @@
 [
-    "BTCUSDT",
     "BNBUSDT",
-    "ETHUPUSDT",
-    "ETHDOWNUSDT",
-    "IOTAUSDT",
     "LINKDOWNUSDT",
     "LINKUPUSDT",
-    "MATICUSDT",
-    "NEOUSDT",
-    "STXUSDT",
-    "FETUSDT"
+    "NEOUSDT"
 ]
