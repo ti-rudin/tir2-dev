@@ -1,1 +1,120 @@
 Thu Aug 19 2021 11:18:52 -1629361132280 : Сброс к стартовым настройкам
+Sat Aug 21 2021 01:18:30 -1629497910604 : Сброс к стартовым настройкам
+Sat Aug 21 2021 01:31:17 -1629498677728 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1629498673436,
+		"end_node_time": 1629498673436,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1629498673437,
+		"end_node_time": 1629498673439,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629498673440,
+		"end_node_time": 1629498673442,
+		"duration_node": 2,
+		"duration_step": 3
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1629498673442,
+		"end_node_time": 1629498673444,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629498673445,
+		"end_node_time": 1629498673446,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1629498673447,
+		"end_node_time": 1629498673447,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1629498673447,
+		"end_node_time": 1629498673449,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629498673449,
+		"end_node_time": 1629498673451,
+		"duration_node": 2,
+		"duration_step": 2
+	}
+]
+Sat Aug 21 2021 01:53:31 -1629500011729 : Сброс busy 
+ [
+	{
+		"steptitle": "start",
+		"start_node_time": 1629500007476,
+		"end_node_time": 1629500007476,
+		"duration_node": 0,
+		"duration_step": 0
+	},
+	{
+		"steptitle": "setbot_busy, service step count",
+		"start_node_time": 1629500007477,
+		"end_node_time": 1629500007478,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_settings",
+		"start_node_time": 1629500007479,
+		"end_node_time": 1629500007480,
+		"duration_node": 1,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getbot_status",
+		"start_node_time": 1629500007480,
+		"end_node_time": 1629500007482,
+		"duration_node": 2,
+		"duration_step": 2
+	},
+	{
+		"steptitle": "getprice",
+		"start_node_time": 1629500007482,
+		"end_node_time": 1629500007483,
+		"duration_node": 1,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "MA zapret calculate",
+		"start_node_time": 1629500007484,
+		"end_node_time": 1629500007484,
+		"duration_node": 0,
+		"duration_step": 1
+	},
+	{
+		"steptitle": "setbot_status",
+		"start_node_time": 1629500007508,
+		"end_node_time": 1629500007510,
+		"duration_node": 2,
+		"duration_step": 26
+	},
+	{
+		"steptitle": "getbot_data",
+		"start_node_time": 1629500007511,
+		"end_node_time": 1629500007513,
+		"duration_node": 2,
+		"duration_step": 3
+	}
+]
