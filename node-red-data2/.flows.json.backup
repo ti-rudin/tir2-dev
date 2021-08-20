@@ -15674,8 +15674,7 @@
         "wires": [
             [
                 "3cca40b6fb3f74a7",
-                "ed01713a0f7a87c7",
-                "ae58197fa987bcdd"
+                "ed01713a0f7a87c7"
             ]
         ]
     },
@@ -15683,7 +15682,6 @@
         "id": "3cca40b6fb3f74a7",
         "type": "link out",
         "z": "5df15275.2888ec",
-        "d": true,
         "name": "",
         "links": [
             "e34a5b68.726ec8"
