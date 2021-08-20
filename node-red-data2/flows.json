@@ -164,9 +164,7 @@
             "8d1c9d05.67e5e8"
         ],
         "x": 94,
-        "y": 139,
-        "w": 1382,
-        "h": 162
+        "y": 139
     },
     {
         "id": "4bf7491f.8e70b",
@@ -417,8 +415,8 @@
             "61f763b0.65d2b4",
             "43e93874.b7141"
         ],
-        "x": 1094,
-        "y": 1439,
+        "x": 1294,
+        "y": 1819,
         "w": 592,
         "h": 122
     },
@@ -806,9 +804,7 @@
             "142a08cea70917c4"
         ],
         "x": 314,
-        "y": 479,
-        "w": 1382,
-        "h": 162
+        "y": 479
     },
     {
         "id": "7a59f38fd450bc7d",
@@ -888,9 +884,7 @@
             "563d3c7cf2cd4b45"
         ],
         "x": 194,
-        "y": 1519,
-        "w": 2442,
-        "h": 1042
+        "y": 1519
     },
     {
         "id": "c54480d87a18b156",
@@ -912,9 +906,7 @@
             "3fb2e4e22e831909"
         ],
         "x": 1414,
-        "y": 339,
-        "w": 392,
-        "h": 122
+        "y": 339
     },
     {
         "id": "6d6802907a34719d",
@@ -1008,9 +1000,7 @@
             "315a6dc929402e0e"
         ],
         "x": 20,
-        "y": 3699,
-        "w": 4006,
-        "h": 1061
+        "y": 3699
     },
     {
         "id": "1af578fa0e07ad5a",
@@ -1131,7 +1121,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 214,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "f120eab2.0a60a8",
@@ -1283,23 +1275,6 @@
         "disp": true,
         "width": "8",
         "collapse": false
-    },
-    {
-        "id": "d139ad3f.b28af",
-        "type": "mqtt-broker",
-        "broker": "localhost",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": true,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
     },
     {
         "id": "5b28d55badce77cc",
@@ -2170,7 +2145,6 @@
         "id": "7ee8ada7.9818bc",
         "type": "catch",
         "z": "5df15275.2888ec",
-        "d": true,
         "g": "071ea57d613d087c",
         "name": "",
         "scope": null,
@@ -4815,7 +4789,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "set market sell",
-        "func": "\nfunction parseApiError(error) {\n    if (error.body) {\n        try {\n            var resp = JSON.parse(error.body);\n            return resp.msg;\n        } catch (error) {/* pass thru */ }\n    }\n    return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n    APIKEY: key,\n    APISECRET: secret,\n    reconnect: false,\n    useServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet quantity = Number(msg.payload.quantity);\n\nnode.warn(\"market sell sp:\" + \" q:\" + quantity);\n\nbinance.useServerTime(function () {\n    binance.sell(moneta, quantity, 0, \"MARKET\", function (err, resp) {\n        if (err) {\n            var errorMsg = parseApiError(err);\n            msg.err = err;\n            node.error(errorMsg, msg);\n            node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n            node.send(msg);\n\n\n        }\n        if (resp) {\n            //msg.bot.ttp.curorderid = resp.orderId;\n            //resp.curstop = stopprice;\n            //msg.bot.ttp.quantity = quantity;\n            msg.resp = resp;\n            node.status({ fill: \"green\", shape: \"ring\" });\n            node.send(msg);\n        }\n        //node.status({}); //clear status message\n\n\n\n        //return;\n    })\n\n});\n\n",
+        "func": "\nfunction parseApiError(error) {\n    if (error.body) {\n        try {\n            var resp = JSON.parse(error.body);\n            return resp.msg;\n        } catch (error) {/* pass thru */ }\n    }\n    return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n    APIKEY: key,\n    APISECRET: secret,\n    reconnect: false,\n    useServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet quantity = Number(msg.payload.quantity);\n\nnode.warn(\"market sell sp:\" + \" q:\" + quantity);\n\nbinance.useServerTime(function () {\n    binance.marketSell(moneta, quantity, function (err, resp) {\n        if (err) {\n            var errorMsg = parseApiError(err);\n            msg.err = err;\n            node.error(errorMsg, msg);\n            node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n            node.send(msg);\n\n\n        }\n        if (resp) {\n            //msg.bot.ttp.curorderid = resp.orderId;\n            //resp.curstop = stopprice;\n            //msg.bot.ttp.quantity = quantity;\n            msg.resp = resp;\n            node.status({ fill: \"green\", shape: \"ring\" });\n            node.send(msg);\n        }\n        //node.status({}); //clear status message\n\n\n\n        //return;\n    })\n\n});\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5972,8 +5946,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1610,
-        "y": 1480,
+        "x": 1810,
+        "y": 1860,
         "wires": [
             [
                 "ba11b816.73cd58"
@@ -5990,8 +5964,8 @@
         "name": "",
         "topic": "stop",
         "obj": false,
-        "x": 1610,
-        "y": 1520,
+        "x": 1810,
+        "y": 1900,
         "wires": []
     },
     {
@@ -6011,8 +5985,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 1190,
-        "y": 1480,
+        "x": 1390,
+        "y": 1860,
         "wires": [
             [
                 "82b5feb8.b8894"
@@ -6029,8 +6003,8 @@
         "name": "",
         "topic": "start",
         "obj": false,
-        "x": 1190,
-        "y": 1520,
+        "x": 1390,
+        "y": 1900,
         "wires": []
     },
     {
@@ -6051,8 +6025,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1370,
-        "y": 1480,
+        "x": 1570,
+        "y": 1860,
         "wires": [
             [
                 "43e93874.b7141"
@@ -6069,8 +6043,8 @@
         "name": "",
         "topic": "start1",
         "obj": false,
-        "x": 1370,
-        "y": 1520,
+        "x": 1570,
+        "y": 1900,
         "wires": []
     },
     {
@@ -6824,13 +6798,13 @@
         "id": "c687d087.0896d",
         "type": "link out",
         "z": "5df15275.2888ec",
+        "d": true,
         "name": "",
         "links": [
-            "e34a5b68.726ec8",
-            "e3e1e22a.f958b"
+            "e34a5b68.726ec8"
         ],
-        "x": 1615,
-        "y": 1320,
+        "x": 1415,
+        "y": 1420,
         "wires": []
     },
     {
@@ -13326,12 +13300,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1140,
+        "x": 1080,
         "y": 1160,
         "wires": [
             [
                 "0ff0634f1d848d61",
-                "6d26f9c496701730",
                 "fdc19edac875acf3"
             ]
         ],
@@ -14213,8 +14186,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
-        "y": 1040,
+        "x": 1080,
+        "y": 1060,
         "wires": [
             [
                 "7a7bbd231d4fa5e4",
@@ -14235,8 +14208,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1390,
-        "y": 1000,
+        "x": 1030,
+        "y": 1100,
         "wires": []
     },
     {
@@ -14248,8 +14221,8 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1495,
-        "y": 1040,
+        "x": 1215,
+        "y": 1060,
         "wires": []
     },
     {
@@ -15696,11 +15669,10 @@
         "z": "5df15275.2888ec",
         "name": "",
         "env": [],
-        "x": 1350,
+        "x": 1270,
         "y": 1160,
         "wires": [
             [
-                "1f045d87f4c35178",
                 "3cca40b6fb3f74a7",
                 "ed01713a0f7a87c7"
             ]
@@ -15712,10 +15684,9 @@
         "z": "5df15275.2888ec",
         "name": "",
         "links": [
-            "e34a5b68.726ec8",
-            "e3e1e22a.f958b"
+            "e34a5b68.726ec8"
         ],
-        "x": 1615,
+        "x": 1395,
         "y": 1160,
         "wires": []
     },
@@ -15730,8 +15701,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 1320,
+        "x": 490,
+        "y": 1420,
         "wires": [
             [
                 "b519994e581e8bdd",
@@ -15751,8 +15722,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 870,
-        "y": 1320,
+        "x": 670,
+        "y": 1420,
         "wires": [
             [
                 "537dc01b45bda0bc"
@@ -15770,8 +15741,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1060,
-        "y": 1320,
+        "x": 860,
+        "y": 1420,
         "wires": [
             [
                 "e940ea9779e7f564",
@@ -15799,12 +15770,14 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1430,
-        "y": 1320,
+        "x": 1230,
+        "y": 1420,
         "wires": [
             [
                 "ab5c06142b412e58",
-                "c687d087.0896d"
+                "c687d087.0896d",
+                "b1ec632af7fb25ba",
+                "9ff9a7c8601507fd"
             ]
         ]
     },
@@ -16624,8 +16597,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "env": [],
-        "x": 1270,
-        "y": 1320,
+        "x": 1070,
+        "y": 1420,
         "wires": [
             [
                 "43b759ee534eaeb9"
@@ -19827,7 +19800,7 @@
         "id": "a0731e6ebbef3bfd",
         "type": "function",
         "z": "ef9c825cf92ee31b",
-        "name": "",
+        "name": "get env",
         "func": "let foo = env.get(\"GOOGUID\");\nmsg.foo = foo;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
@@ -20084,8 +20057,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 180,
-        "y": 1320,
+        "x": 280,
+        "y": 1420,
         "wires": [
             [
                 "3ca4a7878a84e004",
@@ -20123,8 +20096,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 210,
-        "y": 1360,
+        "x": 310,
+        "y": 1460,
         "wires": []
     },
     {
@@ -20404,36 +20377,6 @@
         "wires": []
     },
     {
-        "id": "6d26f9c496701730",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1270,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "1f045d87f4c35178",
-        "type": "debug",
-        "z": "5df15275.2888ec",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1490,
-        "y": 1100,
-        "wires": []
-    },
-    {
         "id": "3b02c75b1b966e0c",
         "type": "debug",
         "z": "5f98db3a.7ab21c",
@@ -20448,38 +20391,6 @@
         "statusType": "auto",
         "x": 1230,
         "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "948fcae22e6f0ed6",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "task",
-        "func": "msg.topic = \"main\";\nlet data = {\"botname\" : msg.botname, \"service\" : msg.service};\nmsg.payload = data;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2070,
-        "y": 440,
-        "wires": [
-            [
-                "2aa81acb6206df4c"
-            ]
-        ]
-    },
-    {
-        "id": "2aa81acb6206df4c",
-        "type": "redis-out",
-        "z": "5df15275.2888ec",
-        "server": "f120eab2.0a60a8",
-        "command": "publish",
-        "name": "",
-        "topic": "",
-        "obj": true,
-        "x": 2240,
-        "y": 440,
         "wires": []
     },
     {
@@ -20572,8 +20483,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "MUT",
-        "x": 1570,
-        "y": 900,
+        "x": 1550,
+        "y": 1000,
         "wires": [
             [
                 "c7c50b82d4751d23"
@@ -20589,8 +20500,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 2040,
-        "y": 900,
+        "x": 2020,
+        "y": 1000,
         "wires": []
     },
     {
@@ -20604,8 +20515,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1790,
-        "y": 900,
+        "x": 1770,
+        "y": 1000,
         "wires": [
             [
                 "9df11f607ae426b9"
@@ -20693,8 +20604,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "MUT",
-        "x": 1590,
-        "y": 1020,
+        "x": 1570,
+        "y": 1120,
         "wires": [
             [
                 "86786ee60ee5eb93"
@@ -20710,8 +20621,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 2060,
-        "y": 1020,
+        "x": 2040,
+        "y": 1120,
         "wires": []
     },
     {
@@ -20725,8 +20636,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1830,
-        "y": 1020,
+        "x": 1810,
+        "y": 1120,
         "wires": [
             [
                 "6b2dedde1bc12c8d"
@@ -20824,7 +20735,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1830,
+        "x": 1970,
         "y": 280,
         "wires": []
     },
@@ -20874,8 +20785,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "MUT",
-        "x": 1570,
-        "y": 820,
+        "x": 1370,
+        "y": 920,
         "wires": [
             [
                 "c4a108c5a416829a"
@@ -20891,8 +20802,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 2040,
-        "y": 820,
+        "x": 2020,
+        "y": 920,
         "wires": []
     },
     {
@@ -20906,8 +20817,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1790,
-        "y": 820,
+        "x": 1770,
+        "y": 920,
         "wires": [
             [
                 "30d2be6752ba32c6"
@@ -20947,26 +20858,6 @@
         "wires": []
     },
     {
-        "id": "436ab96c312cd0cb",
-        "type": "comment",
-        "z": "901cd11f1c81ce5d",
-        "name": "обновить этаж",
-        "info": "",
-        "x": 500,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "2a34da55aa2469ea",
-        "type": "comment",
-        "z": "901cd11f1c81ce5d",
-        "name": "обновить этаж",
-        "info": "",
-        "x": 420,
-        "y": 720,
-        "wires": []
-    },
-    {
         "id": "48e8346ef9e105cc",
         "type": "comment",
         "z": "901cd11f1c81ce5d",
@@ -20994,16 +20885,6 @@
         "info": "",
         "x": 230,
         "y": 1320,
-        "wires": []
-    },
-    {
-        "id": "f408103a8b2db2ac",
-        "type": "comment",
-        "z": "901cd11f1c81ce5d",
-        "name": "setbuy",
-        "info": "",
-        "x": 270,
-        "y": 660,
         "wires": []
     },
     {
@@ -21049,12 +20930,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1470,
+        "x": 1610,
         "y": 260,
         "wires": [
             [
-                "a2520642114e399e",
-                "199af388cedc93c7"
+                "a2520642114e399e"
             ]
         ]
     },
@@ -21080,12 +20960,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1810,
         "y": 260,
         "wires": [
             [
-                "8a3a5f2d194e9072",
-                "63afa5cea1534aef"
+                "8a3a5f2d194e9072"
             ],
             [
                 "4739cd8e9ffaa492",
@@ -21104,7 +20983,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1850,
+        "x": 1990,
         "y": 240,
         "wires": [
             [
@@ -21274,7 +21153,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1490,
+        "x": 1810,
         "y": 360,
         "wires": [
             [
@@ -21304,7 +21183,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1690,
+        "x": 2010,
         "y": 360,
         "wires": [
             [
@@ -21360,7 +21239,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1850,
+        "x": 2170,
         "y": 380,
         "wires": []
     },
@@ -21421,26 +21300,6 @@
         "x": 1515,
         "y": 520,
         "wires": []
-    },
-    {
-        "id": "0b16666c52c83a0b",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "update bot floors, finance",
-        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(msg.payload.data.finance),\n    \"floors\": JSON.stringify(msg.payload.data.floors),\n    \"sales\": JSON.stringify(msg.payload.data.sales)\n\n};\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1070,
-        "y": 500,
-        "wires": [
-            [
-                "1b3e671be6b572d5"
-            ]
-        ],
-        "icon": "font-awesome/fa-bolt"
     },
     {
         "id": "4ce0a48bf5dffca8",
@@ -21663,7 +21522,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 940,
+        "x": 1040,
         "y": 360,
         "wires": [
             [
@@ -21683,7 +21542,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1110,
+        "x": 1210,
         "y": 400,
         "wires": []
     },
@@ -21698,7 +21557,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1850,
+        "x": 2170,
         "y": 340,
         "wires": []
     },
@@ -21794,7 +21653,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
+        "x": 1040,
         "y": 260,
         "wires": [
             [
@@ -21813,7 +21672,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
+        "x": 1430,
         "y": 260,
         "wires": [
             [
@@ -22118,8 +21977,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 1160,
-        "y": 940,
+        "x": 1240,
+        "y": 1000,
         "wires": []
     },
     {
@@ -22133,8 +21992,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 940,
+        "x": 1070,
+        "y": 1000,
         "wires": [
             [
                 "5df0a0c4e84d4822"
@@ -22150,8 +22009,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 1820,
-        "y": 1260,
+        "x": 1620,
+        "y": 1360,
         "wires": []
     },
     {
@@ -22165,28 +22024,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1670,
-        "y": 1260,
+        "x": 1470,
+        "y": 1360,
         "wires": [
             [
                 "a88642747524fe82"
             ]
         ]
-    },
-    {
-        "id": "199af388cedc93c7",
-        "type": "debug",
-        "z": "901cd11f1c81ce5d",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1670,
-        "y": 200,
-        "wires": []
     },
     {
         "id": "c55aa818edeee318",
@@ -22196,8 +22040,8 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 2265,
-        "y": 160,
+        "x": 2415,
+        "y": 240,
         "wires": []
     },
     {
@@ -22208,20 +22052,8 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 2435,
+        "x": 2775,
         "y": 340,
-        "wires": []
-    },
-    {
-        "id": "1b3e671be6b572d5",
-        "type": "link out",
-        "z": "901cd11f1c81ce5d",
-        "name": "",
-        "links": [
-            "e34a5b68.726ec8"
-        ],
-        "x": 1255,
-        "y": 500,
         "wires": []
     },
     {
@@ -22235,7 +22067,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
+        "x": 1240,
         "y": 260,
         "wires": [
             [
@@ -22254,11 +22086,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
+        "x": 1220,
         "y": 360,
         "wires": [
             [
-                "7f5634a091169a62"
+                "ff72eb4425cbfdba"
             ]
         ]
     },
@@ -22270,8 +22102,8 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 2115,
-        "y": 400,
+        "x": 2355,
+        "y": 420,
         "wires": []
     },
     {
@@ -22558,8 +22390,8 @@
         "z": "901cd11f1c81ce5d",
         "name": "canselsell",
         "info": "",
-        "x": 1020,
-        "y": 600,
+        "x": 1000,
+        "y": 580,
         "wires": []
     },
     {
@@ -22573,7 +22405,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
+        "x": 1410,
         "y": 640,
         "wires": [
             [
@@ -22603,7 +22435,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1550,
+        "x": 1610,
         "y": 640,
         "wires": [
             [
@@ -22627,7 +22459,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1710,
+        "x": 1770,
         "y": 660,
         "wires": []
     },
@@ -22648,7 +22480,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 960,
+        "x": 1020,
         "y": 640,
         "wires": [
             [
@@ -22668,7 +22500,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1130,
+        "x": 1190,
         "y": 680,
         "wires": []
     },
@@ -22698,7 +22530,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1140,
+        "x": 1200,
         "y": 640,
         "wires": [
             [
@@ -22726,7 +22558,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1815,
+        "x": 1875,
         "y": 660,
         "wires": []
     },
@@ -22777,7 +22609,7 @@
         "type": "function",
         "z": "8ae264f761228eed",
         "name": "",
-        "func": "msg.topic = \"mtrx\";\n\nlet botname = \"qqq-11\";\nlet floors = [];\nlet finance = {};\nlet sales = [];\nlet data = {\n    \"botname\": botname,\n    \"floors\": floors\n}\nmsg.payload = floors;\nreturn msg;",
+        "func": "msg.topic = \"mtrx\";\n\nlet botname = \"qqq-11\";\nlet floors = [333];\nlet finance = {};\nlet sales = [];\nlet data = {\n    \"botname\": botname,\n    \"floors\": floors\n}\nmsg.payload = data;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -23195,8 +23027,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1910,
-        "y": 440,
+        "x": 2210,
+        "y": 420,
         "wires": [
             [
                 "378e488cecf6ffc2"
@@ -23249,7 +23081,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
+        "x": 1610,
         "y": 360,
         "wires": [
             [
@@ -23301,8 +23133,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 900,
-        "y": 1260,
+        "x": 700,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -23349,8 +23181,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1510,
-        "y": 580,
+        "x": 1630,
+        "y": 540,
         "wires": []
     },
     {
@@ -23358,14 +23190,14 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "update bot floors, finance triger",
-        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.payload.data.finance;\nlet floors = msg.payload.data.floors;\nlet sales = msg.payload.data.sales;\n\nlet sumsales = 0;\nsales.all.forEach(function (element) {\n    sumsales = sumsales + element[5];\n\n});\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = Number(finance.startdepo) + Number(sumsales); // надо еще добавить результаты торгов\nlet baseinorders = 0;\n\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\n",
+        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.payload.data.finance;\nlet floors = msg.payload.data.floors;\nlet sales = msg.payload.data.sales;\n\nlet sumsales = 0;\nsales.all.forEach(function (element) {\n    sumsales = sumsales + element[5];\n\n});\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = Number(finance.startdepo) + Number(sumsales); \nlet baseinorders = 0;\n\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\nlet p = Number(msg.bot.status.currentprice);\nfinance.depo = Number((Number(finance.quotanal) * p + Number(finance.quotainorders) * p + Number(finance.basenal) + Number(finance.baseinorders)).toFixed(msg.bot.settings.digitprice));\n\n\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 540,
+        "x": 1490,
+        "y": 500,
         "wires": [
             [
                 "c62c23ae0ab35614",
@@ -23381,8 +23213,8 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1535,
-        "y": 540,
+        "x": 1675,
+        "y": 500,
         "wires": []
     },
     {
@@ -23486,7 +23318,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2020,
+        "x": 2340,
         "y": 340,
         "wires": [
             [
@@ -23502,7 +23334,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1975,
+        "x": 2095,
         "y": 280,
         "wires": []
     },
@@ -23519,8 +23351,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 1400,
+        "x": 570,
+        "y": 1500,
         "wires": []
     },
     {
@@ -23541,17 +23373,18 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "update bot floors, finance triger",
-        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.bot.finance;\nlet floors = msg.bot.floors;\nlet sales = msg.bot.sales;\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = finance.startdepo; // надо еще добавить результаты торгов\nlet baseinorders = 0;\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\n",
+        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.bot.finance;\nlet floors = msg.bot.floors;\nlet sales = msg.bot.sales;\n\nlet sumsales = 0;\nsales.all.forEach(function (element) {\n    sumsales = sumsales + element[5];\n\n});\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = Number(finance.startdepo) + Number(sumsales);\nlet baseinorders = 0;\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\nlet p = Number(msg.bot.status.currentprice);\nfinance.depo = Number((Number(finance.quotanal) * p + Number(finance.quotainorders) * p + Number(finance.basenal) + Number(finance.baseinorders)).toFixed(msg.bot.settings.digitprice));\n\n\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 120,
+        "x": 2230,
+        "y": 240,
         "wires": [
             [
-                "c55aa818edeee318"
+                "c55aa818edeee318",
+                "2da8146ec0d56935"
             ]
         ]
     },
@@ -23560,17 +23393,18 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "update bot floors, finance triger",
-        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.bot.finance;\nlet floors = msg.bot.floors;\nlet sales = msg.bot.sales;\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = finance.startdepo; // надо еще добавить результаты торгов\nlet baseinorders = 0;\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\n",
+        "func": "let botname = msg.topic;\nlet guid = global.get('guid');\n\nlet finance = msg.bot.finance;\nlet floors = msg.bot.floors;\nlet sales = msg.bot.sales;\n\nlet sumsales = 0;\nsales.all.forEach(function (element) {\n    sumsales = sumsales + element[5];\n\n});\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = Number(finance.startdepo) + Number(sumsales);\nlet baseinorders = 0;\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = quotanal;\nfinance.quotainorders = quotainorders;\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\nlet p = Number(msg.bot.status.currentprice);\nfinance.depo = Number((Number(finance.quotanal) * p + Number(finance.quotainorders) * p + Number(finance.basenal) + Number(finance.baseinorders)).toFixed(msg.bot.settings.digitprice));\n\nlet volname = guid + \"-bots:\" + botname + \":data\";\nlet botdata = {\n    \"finance\": JSON.stringify(finance),\n    \"floors\": JSON.stringify(floors),\n    \"sales\": JSON.stringify(sales)\n\n};\n\n//node.warn([baseinorders, basenal, quotainorders, quotanal]);\n\n\nconst upd = global.get('setbot_data')(volname, botdata);\n\nupd.then(upd => {\n\n    msg.payload = upd;\n\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"ring\", text: \"error\" });\n    node.error(error);\n});\n\n\n\n\n\n//let buyprice = Number(item[10]);\n//let quantity = Number(item[14]);\n//let p = quantity * (sellprice - buyprice);\n//let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n//let net = p - c;\n//tempfin2 = tempfin2 - c;\n//msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n//msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n//\n//node.warn([buyprice, sellprice, quantity, p, c, net]);\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2310,
-        "y": 400,
+        "x": 2590,
+        "y": 340,
         "wires": [
             [
-                "ff26ac7ccf964923"
+                "ff26ac7ccf964923",
+                "66b3e3d03896da0c"
             ]
         ]
     },
@@ -23585,28 +23419,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 540,
+        "x": 1040,
+        "y": 500,
         "wires": [
             [
-                "8363e0919dd1093d"
+                "d7156eb4bf62cf87"
             ]
         ]
-    },
-    {
-        "id": "63afa5cea1534aef",
-        "type": "debug",
-        "z": "901cd11f1c81ce5d",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1850,
-        "y": 180,
-        "wires": []
     },
     {
         "id": "ae58197fa987bcdd",
@@ -23619,8 +23438,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1530,
-        "y": 1200,
+        "x": 1430,
+        "y": 1240,
         "wires": [
             [
                 "9c05e80d4b7fc6a3"
@@ -23636,8 +23455,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 1680,
-        "y": 1200,
+        "x": 1580,
+        "y": 1240,
         "wires": []
     },
     {
@@ -23651,8 +23470,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 1200,
+        "x": 260,
+        "y": 1120,
         "wires": [
             [
                 "9e128ee38e73a55b"
@@ -23834,8 +23653,8 @@
         "links": [
             "85d1e7884404218a"
         ],
-        "x": 1355,
-        "y": 980,
+        "x": 1135,
+        "y": 1100,
         "wires": []
     },
     {
@@ -23846,7 +23665,7 @@
         "links": [
             "85d1e7884404218a"
         ],
-        "x": 1615,
+        "x": 1395,
         "y": 1120,
         "wires": []
     },
@@ -23858,8 +23677,8 @@
         "links": [
             "85d1e7884404218a"
         ],
-        "x": 1555,
-        "y": 1360,
+        "x": 1355,
+        "y": 1460,
         "wires": []
     },
     {
@@ -23870,8 +23689,8 @@
         "links": [
             "85d1e7884404218a"
         ],
-        "x": 1235,
-        "y": 1360,
+        "x": 1035,
+        "y": 1460,
         "wires": []
     },
     {
@@ -23894,8 +23713,8 @@
         "links": [
             "85d1e7884404218a"
         ],
-        "x": 1295,
-        "y": 1220,
+        "x": 1135,
+        "y": 1200,
         "wires": []
     },
     {
@@ -24038,8 +23857,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1490,
-        "y": 1260,
+        "x": 1290,
+        "y": 1360,
         "wires": []
     },
     {
@@ -24274,5 +24093,73 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "d7156eb4bf62cf87",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "getbot_status",
+        "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n    msg.bot.status = JSON.parse(gb);\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 500,
+        "wires": [
+            [
+                "8363e0919dd1093d"
+            ]
+        ]
+    },
+    {
+        "id": "ff72eb4425cbfdba",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "getbot_status",
+        "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n    msg.bot.status = JSON.parse(gb);\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 360,
+        "wires": [
+            [
+                "7f5634a091169a62"
+            ]
+        ]
+    },
+    {
+        "id": "2da8146ec0d56935",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 2530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "66b3e3d03896da0c",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 2790,
+        "y": 220,
+        "wires": []
     }
 ]

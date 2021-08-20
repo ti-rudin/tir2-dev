@@ -866,5 +866,24 @@
                 "file": "/data/node_modules/node-red-contrib-state/lib/setState.js"
             }
         }
+    },
+    "node-red-contrib-xstate-machine": {
+        "name": "node-red-contrib-xstate-machine",
+        "version": "1.1.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "smxstate": {
+                "name": "smxstate",
+                "types": [
+                    "smxstate"
+                ],
+                "enabled": false,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-xstate-machine",
+                "file": "/data/node_modules/node-red-contrib-xstate-machine/dist/smxstate-node.js"
+            }
+        }
     }
 }
