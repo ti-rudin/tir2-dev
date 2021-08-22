@@ -26636,10 +26636,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 2660,
-        "y": 200,
+        "x": 2610,
+        "y": 100,
         "wires": [
-            []
+            [
+                "865516a592726194"
+            ]
         ]
     },
     {
@@ -26762,6 +26764,22 @@
         "statusType": "auto",
         "x": 3410,
         "y": 220,
+        "wires": []
+    },
+    {
+        "id": "865516a592726194",
+        "type": "debug",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2860,
+        "y": 100,
         "wires": []
     }
 ]

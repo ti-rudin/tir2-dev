@@ -7,16 +7,23 @@
         "info": "нормально прописать логирование\nбэктест\nмежду этажами не знает какое ордер проверять?\nнаращивание ттп\nпроскальзывание ттп\n\nдребезг при выставлении/отмене buy ордеров\nрегистрация сделки\nпроверка этажа\nдописать ордерэкзек на ттп"
     },
     {
-        "id": "5f98db3a.7ab21c",
+        "id": "2a761808.610238",
         "type": "tab",
-        "label": "API",
+        "label": "TTP",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "2a761808.610238",
+        "id": "901cd11f1c81ce5d",
         "type": "tab",
-        "label": "TTP",
+        "label": "PubSub CORE",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5f98db3a.7ab21c",
+        "type": "tab",
+        "label": "API",
         "disabled": false,
         "info": ""
     },
@@ -31,13 +38,6 @@
         "id": "ef9c825cf92ee31b",
         "type": "tab",
         "label": "sandbox",
-        "disabled": false,
-        "info": ""
-    },
-    {
-        "id": "901cd11f1c81ce5d",
-        "type": "tab",
-        "label": "PubSub CORE",
         "disabled": false,
         "info": ""
     },
@@ -1156,7 +1156,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 214,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "2e00c445949ad59a",
@@ -26330,7 +26332,7 @@
         "type": "function",
         "z": "3c980e5965444d95",
         "name": "task update",
-        "func": "msg.topic = \"MUT\";\n\nlet cmd = \"update\";\n\nlet data = {\n    \"botname\": msg.botname,\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {cmd, data};\n\nglobal.set(msg.botname, msg.bot);\nreturn msg;\n",
+        "func": "msg.topic = \"MUT\";\n\nlet cmd = \"update\";\n\nlet data = {\n    \"botname\": msg.botname,\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {cmd, data};\n\n//global.set(msg.botname, msg.bot);\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
