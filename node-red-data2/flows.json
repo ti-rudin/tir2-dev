@@ -550,9 +550,7 @@
             "dd73e1c4557a5e65"
         ],
         "x": 1414,
-        "y": 59,
-        "w": 792,
-        "h": 122
+        "y": 59
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -578,9 +576,7 @@
             "70c9b4b33e033727"
         ],
         "x": 2654,
-        "y": 239,
-        "w": 752,
-        "h": 242
+        "y": 239
     },
     {
         "id": "62f84306b9b0d2ef",
@@ -619,9 +615,7 @@
             "ccbca6c6.392f58"
         ],
         "x": 54,
-        "y": 259,
-        "w": 2252,
-        "h": 222
+        "y": 259
     },
     {
         "id": "82f0b612794a2ab3",
@@ -642,9 +636,7 @@
             "1324ce12644bf966"
         ],
         "x": 74,
-        "y": 1679,
-        "w": 592,
-        "h": 122
+        "y": 1679
     },
     {
         "id": "9ddf7eea0825c30f",
@@ -3834,7 +3826,7 @@
         "z": "2a761808.610238",
         "g": "62f84306b9b0d2ef",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -22226,7 +22218,7 @@
         "z": "5df15275.2888ec",
         "g": "9ddf7eea0825c30f",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -26501,7 +26493,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 2610,
+        "x": 2510,
         "y": 100,
         "wires": [
             [
