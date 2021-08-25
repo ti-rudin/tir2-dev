@@ -168,9 +168,7 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419,
-        "w": 632,
-        "h": 162
+        "y": 419
     },
     {
         "id": "3684cd36.8432c2",
@@ -197,7 +195,9 @@
             "8d1c9d05.67e5e8"
         ],
         "x": 94,
-        "y": 139
+        "y": 139,
+        "w": 1382,
+        "h": 162
     },
     {
         "id": "4bf7491f.8e70b",
@@ -224,9 +224,7 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 739,
-        "w": 1612,
-        "h": 122
+        "y": 739
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -267,9 +265,7 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839,
-        "w": 1422,
-        "h": 422
+        "y": 1839
     },
     {
         "id": "a0a5df595c9dd619",
@@ -364,9 +360,7 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1552,
-        "h": 682
+        "y": 19
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -490,9 +484,7 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39,
-        "w": 1052,
-        "h": 502
+        "y": 39
     },
     {
         "id": "f8a5c66461864831",
@@ -538,9 +530,7 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699,
-        "w": 792,
-        "h": 122
+        "y": 1699
     },
     {
         "id": "586e39dc007e0cae",
@@ -760,9 +750,7 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579,
-        "w": 1052,
-        "h": 502
+        "y": 579
     },
     {
         "id": "b1c9866420e73130",
@@ -800,9 +788,7 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2654,
-        "y": 1859,
-        "w": 692,
-        "h": 562
+        "y": 1859
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -911,7 +897,9 @@
             "563d3c7cf2cd4b45"
         ],
         "x": 194,
-        "y": 1519
+        "y": 1519,
+        "w": 2442,
+        "h": 1042
     },
     {
         "id": "c54480d87a18b156",
@@ -933,7 +921,9 @@
             "3fb2e4e22e831909"
         ],
         "x": 1414,
-        "y": 339
+        "y": 339,
+        "w": 392,
+        "h": 122
     },
     {
         "id": "6d6802907a34719d",
@@ -1027,7 +1017,9 @@
             "315a6dc929402e0e"
         ],
         "x": 20,
-        "y": 3699
+        "y": 3699,
+        "w": 4006,
+        "h": 1061
     },
     {
         "id": "1af578fa0e07ad5a",
@@ -1053,9 +1045,7 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179,
-        "w": 1352,
-        "h": 82
+        "y": 1179
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -1078,9 +1068,7 @@
             "792187aede59b6ac"
         ],
         "x": 2474,
-        "y": 1299,
-        "w": 1332,
-        "h": 82
+        "y": 1299
     },
     {
         "id": "9364657534c1325f",
@@ -1101,9 +1089,7 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439,
-        "w": 792,
-        "h": 82
+        "y": 1439
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -1124,9 +1110,7 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539,
-        "w": 792,
-        "h": 82
+        "y": 1539
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -1418,22 +1402,6 @@
         "collapse": false
     },
     {
-        "id": "5b28d55badce77cc",
-        "type": "shared-state",
-        "name": "state1",
-        "lbl": "qe",
-        "tags": "qe",
-        "historyCount": "2",
-        "dataType": "obj",
-        "boolType": "bool",
-        "boolStrTrue": "",
-        "boolStrFalse": "",
-        "precision": "",
-        "numMin": "",
-        "numMax": "",
-        "unit": ""
-    },
-    {
         "id": "34e1566a.fe282a",
         "type": "function",
         "z": "5df15275.2888ec",
@@ -1712,47 +1680,6 @@
         "x": 4160,
         "y": 1580,
         "wires": []
-    },
-    {
-        "id": "50198026.187798",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "register guid",
-        "func": "let guid = msg.payload;\nglobal.set('guid',guid);\n\nlet botlistname = guid+\"-botlist\";\nglobal.set('guid',guid);\nglobal.set(botlistname,[]);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 470,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c866516d.ec8d7",
-        "type": "inject",
-        "z": "5df15275.2888ec",
-        "name": "d3fmoh2rVoVNgIcpLTFZBE0jHnI2",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "d3fmoh2rVoVNgIcpLTFZBE0jHnI2",
-        "payloadType": "str",
-        "x": 220,
-        "y": 60,
-        "wires": [
-            [
-                "50198026.187798"
-            ]
-        ]
     },
     {
         "id": "338b53fe.bad3b4",
@@ -2235,53 +2162,6 @@
         "x": 4390,
         "y": 1460,
         "wires": []
-    },
-    {
-        "id": "7b1b57ca.c72288",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "register keypar",
-        "func": "let key = msg.key;\nlet secret = msg.secret\nglobal.set('key',key);\nglobal.set('secret',secret);\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 920,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "36430d18.7c1cea",
-        "type": "inject",
-        "z": "5df15275.2888ec",
-        "name": "my keypair",
-        "props": [
-            {
-                "p": "key",
-                "v": "m0dqmIilej2JPuK6vTzNGPMSc0N6pCHCCA0L5Jtes15gWIDteQ23mlrqCxJjSXOb",
-                "vt": "str"
-            },
-            {
-                "p": "secret",
-                "v": "AI4qXclwJWQcBdkNZdGDAB3wVdiJMEwc9OBp54XxFECGjZRHL96Kcv0siBaPC5Kh",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "str",
-        "x": 690,
-        "y": 60,
-        "wires": [
-            [
-                "7b1b57ca.c72288"
-            ]
-        ]
     },
     {
         "id": "7ee8ada7.9818bc",
@@ -6043,6 +5923,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 740,
         "y": 120,
         "wires": [
@@ -19830,8 +19711,9 @@
         "id": "a0731e6ebbef3bfd",
         "type": "function",
         "z": "ef9c825cf92ee31b",
+        "d": true,
         "name": "get env",
-        "func": "let foo = env.get(\"GOOGUID\");\nmsg.foo = foo;\nreturn msg;",
+        "func": "let guid = env.get(\"GOOGLEUID\");\nglobal.set('guid', guid);\n\nlet botlistname = guid + \"-botlist\";\nglobal.set(botlistname, []);\n\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\nglobal.set('key', key);\nglobal.set('secret', secret);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19866,8 +19748,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 390,
-        "y": 380,
+        "x": 380,
+        "y": 360,
         "wires": [
             [
                 "a0731e6ebbef3bfd"
@@ -27154,5 +27036,138 @@
         "x": 1400,
         "y": 1320,
         "wires": []
+    },
+    {
+        "id": "0ed71afeb06cccf1",
+        "type": "function",
+        "z": "ef9c825cf92ee31b",
+        "d": true,
+        "name": "register guid",
+        "func": "let guid = msg.payload;\nglobal.set('guid',guid);\n\nlet botlistname = guid+\"-botlist\";\nglobal.set('guid',guid);\nglobal.set(botlistname,[]);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5fe42929eaaba46",
+        "type": "inject",
+        "z": "ef9c825cf92ee31b",
+        "name": "d3fmoh2rVoVNgIcpLTFZBE0jHnI2",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "d3fmoh2rVoVNgIcpLTFZBE0jHnI2",
+        "payloadType": "str",
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "0ed71afeb06cccf1"
+            ]
+        ]
+    },
+    {
+        "id": "fde693da5d1265e6",
+        "type": "function",
+        "z": "ef9c825cf92ee31b",
+        "d": true,
+        "name": "register keypar",
+        "func": "let key = msg.key;\nlet secret = msg.secret\nglobal.set('key',key);\nglobal.set('secret',secret);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f35c30187a088fe7",
+        "type": "inject",
+        "z": "ef9c825cf92ee31b",
+        "name": "my keypair",
+        "props": [
+            {
+                "p": "key",
+                "v": "m0dqmIilej2JPuK6vTzNGPMSc0N6pCHCCA0L5Jtes15gWIDteQ23mlrqCxJjSXOb",
+                "vt": "str"
+            },
+            {
+                "p": "secret",
+                "v": "AI4qXclwJWQcBdkNZdGDAB3wVdiJMEwc9OBp54XxFECGjZRHL96Kcv0siBaPC5Kh",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 730,
+        "y": 280,
+        "wires": [
+            [
+                "fde693da5d1265e6"
+            ]
+        ]
+    },
+    {
+        "id": "d3e0688d41cc172c",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "get env",
+        "func": "let guid = env.get(\"GOOGLEUID\");\nglobal.set('guid', guid);\n\nlet botlistname = guid + \"-botlist\";\nglobal.set(botlistname, []);\n\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\nglobal.set('key', key);\nglobal.set('secret', secret);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "579577e08c6abb4c",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "name": "onLoad",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 60,
+        "wires": [
+            [
+                "d3e0688d41cc172c"
+            ]
+        ]
     }
 ]

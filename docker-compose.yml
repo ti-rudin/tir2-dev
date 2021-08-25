@@ -6,9 +6,7 @@ services:
     build:
       context: .
       dockerfile: ./nodered2.Dockerfile
-    environment:
-      - TZ=Europe/Moscow
-      - GOOGUID=aaaad3fmoh2rVoVNgIcpLTFZBE0jHnI2
+    env_file: .env
     ports:
       - "1880:1880"
     networks:
