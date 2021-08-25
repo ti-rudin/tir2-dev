@@ -878,7 +878,7 @@
                 "types": [
                     "smxstate"
                 ],
-                "enabled": false,
+                "enabled": true,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-xstate-machine",
