@@ -18,3 +18,5 @@ yarn-error.log
 /frontend/node_modules/smelte/node_modules/
 /frontend/node_modules/
 node-red-data2/externalModules/
+/redis-data/
+node-red-data2/journals/

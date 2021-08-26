@@ -37,6 +37,7 @@ services:
     build:
       context: ./priceserver
       dockerfile: ./Dockerfile.dev
+    env_file: .env
     volumes:
       - './priceserver/:/usr/src/app'
     restart: always

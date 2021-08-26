@@ -5,11 +5,13 @@ const redis = require("redis");
 const client = redis.createClient("//redis:6379");
 client.auth("YzRAdGgkFg");
 
-const userid = "d3fmoh2rVoVNgIcpLTFZBE0jHnI2";
+const userid = process.env.GOOGLEUID;
+const binancekey = process.env.BINANCEKEY;
+const binancesecret = process.env.BINANCESECRET;
 
 const binance = new Binance().options({
-    APIKEY: 'm0dqmIilej2JPuK6vTzNGPMSc0N6pCHCCA0L5Jtes15gWIDteQ23mlrqCxJjSXOb',
-    APISECRET: 'AI4qXclwJWQcBdkNZdGDAB3wVdiJMEwc9OBp54XxFECGjZRHL96Kcv0siBaPC5Kh',
+    APIKEY: binancekey,
+    APISECRET: binancesecret,
     'reconnect': false
 });
 
