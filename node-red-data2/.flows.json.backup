@@ -1130,7 +1130,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 214,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "2e00c445949ad59a",
@@ -20562,7 +20564,7 @@
         "z": "901cd11f1c81ce5d",
         "name": "setbuy",
         "info": "",
-        "x": 990,
+        "x": 970,
         "y": 220,
         "wires": []
     },
@@ -21704,6 +21706,7 @@
         "id": "c55aa818edeee318",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
+        "d": true,
         "name": "",
         "links": [
             "e34a5b68.726ec8"
@@ -21716,6 +21719,7 @@
         "id": "ff26ac7ccf964923",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
+        "d": true,
         "name": "",
         "links": [
             "e34a5b68.726ec8"
@@ -21766,6 +21770,7 @@
         "id": "378e488cecf6ffc2",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
+        "d": true,
         "name": "",
         "links": [
             "e34a5b68.726ec8"
@@ -22179,6 +22184,7 @@
         "id": "18718405350be09f",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
+        "d": true,
         "name": "",
         "links": [
             "ccd55cdb.7ed72",
@@ -22516,6 +22522,7 @@
         "id": "24b7b6edbf44e542",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
+        "d": true,
         "name": "",
         "links": [
             "e34a5b68.726ec8"
@@ -26501,7 +26508,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 2610,
+        "x": 2510,
         "y": 100,
         "wires": [
             [
