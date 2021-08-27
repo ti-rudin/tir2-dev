@@ -223,8 +223,8 @@
             "d615849.c726078",
             "04c874ce359ca023"
         ],
-        "x": 34,
-        "y": 739,
+        "x": -6,
+        "y": 719,
         "w": 1612,
         "h": 122
     },
@@ -394,9 +394,7 @@
             "1dda6867.b90808"
         ],
         "x": 2414,
-        "y": 479,
-        "w": 892,
-        "h": 222
+        "y": 479
     },
     {
         "id": "071ea57d613d087c",
@@ -423,9 +421,7 @@
             "842e37da.0d09"
         ],
         "x": 2374,
-        "y": 739,
-        "w": 892,
-        "h": 202
+        "y": 739
     },
     {
         "id": "e83aa13614517c81",
@@ -449,9 +445,7 @@
             "43e93874.b7141"
         ],
         "x": 1294,
-        "y": 1819,
-        "w": 592,
-        "h": 122
+        "y": 1819
     },
     {
         "id": "1ce3921709fe3854",
@@ -514,9 +508,7 @@
             "a7628168.861ce"
         ],
         "x": 1214,
-        "y": 19,
-        "w": 792,
-        "h": 122
+        "y": 19
     },
     {
         "id": "a6e4d859c0057b6f",
@@ -688,9 +680,7 @@
             "6daf5e3ee3c8d469"
         ],
         "x": 34,
-        "y": 479,
-        "w": 2242,
-        "h": 222
+        "y": 479
     },
     {
         "id": "11634dc8e4f3bcfa",
@@ -720,8 +710,6 @@
         ],
         "x": 34,
         "y": 259,
-        "w": 2272,
-        "h": 142,
         "info": "Раз в 10 секунд выборка активных ботов, расчет МА, регистрация значений"
     },
     {
@@ -5680,8 +5668,8 @@
         "createDir": true,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 830,
-        "y": 820,
+        "x": 790,
+        "y": 800,
         "wires": [
             [
                 "afaf3a2c.646c88"
@@ -5700,8 +5688,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 820,
+        "x": 470,
+        "y": 800,
         "wires": [
             [
                 "eb0ebfc5.9889a"
@@ -5720,8 +5708,8 @@
         "initialize": "let guid = global.get('guid');\n\n\nlet tilog = function (botname = msg.topic, data = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = botname;\n    msg.payload = data;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('tilog', tilog);",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 820,
+        "x": 310,
+        "y": 800,
         "wires": [
             [
                 "6868e3af.6c4b4c"
@@ -5740,8 +5728,8 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 170,
-        "y": 820,
+        "x": 130,
+        "y": 800,
         "wires": [
             [
                 "6526e141.43af9"
@@ -5759,8 +5747,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 980,
-        "y": 820,
+        "x": 940,
+        "y": 800,
         "wires": []
     },
     {
@@ -5785,8 +5773,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1220,
-        "y": 820,
+        "x": 1180,
+        "y": 800,
         "wires": [
             [
                 "81a608ac.0eeab8"
@@ -5804,8 +5792,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1390,
-        "y": 820,
+        "x": 1350,
+        "y": 800,
         "wires": [
             [
                 "d615849.c726078"
@@ -5826,8 +5814,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1550,
-        "y": 820,
+        "x": 1510,
+        "y": 800,
         "wires": []
     },
     {
@@ -14336,8 +14324,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 670,
-        "y": 780,
+        "x": 630,
+        "y": 760,
         "wires": [
             []
         ]
@@ -22301,7 +22289,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -22318,7 +22306,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -27253,7 +27241,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
