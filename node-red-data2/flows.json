@@ -45,7 +45,7 @@
         "id": "aa608523e76bb32e",
         "type": "tab",
         "label": "Flow 1",
-        "disabled": false,
+        "disabled": true,
         "info": ""
     },
     {
@@ -137,7 +137,7 @@
                 "y": 30,
                 "wires": [
                     {
-                        "id": "b41f1cae0fda56f6",
+                        "id": "1cfdac89cf38a974",
                         "port": 0
                     }
                 ]
@@ -15840,7 +15840,8 @@
             [
                 "9ff9a7c8601507fd",
                 "ab5c06142b412e58",
-                "b72d192f770419d4"
+                "b72d192f770419d4",
+                "cc8bbb08a6ac0af2"
             ]
         ]
     },
@@ -20602,7 +20603,7 @@
         "z": "901cd11f1c81ce5d",
         "name": "canselbuy",
         "info": "",
-        "x": 1000,
+        "x": 980,
         "y": 320,
         "wires": []
     },
@@ -20667,7 +20668,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1970,
+        "x": 1610,
         "y": 280,
         "wires": []
     },
@@ -20862,7 +20863,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1610,
+        "x": 1250,
         "y": 260,
         "wires": [
             [
@@ -20892,7 +20893,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1810,
+        "x": 1450,
         "y": 260,
         "wires": [
             [
@@ -20915,7 +20916,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1990,
+        "x": 1630,
         "y": 240,
         "wires": [
             [
@@ -21085,7 +21086,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1810,
+        "x": 1430,
         "y": 360,
         "wires": [
             [
@@ -21115,7 +21116,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2010,
+        "x": 1630,
         "y": 360,
         "wires": [
             [
@@ -21171,7 +21172,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 2170,
+        "x": 1790,
         "y": 380,
         "wires": []
     },
@@ -21479,7 +21480,7 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 2170,
+        "x": 1790,
         "y": 340,
         "wires": []
     },
@@ -21569,32 +21570,13 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "getbot_settings",
-        "func": "\nmsg.floorindex = msg.payload.data.floorindex;\nlet bot = {};\nmsg.bot = bot;\nconst gb = global.get('getbot_settings')(msg.topic);\n\ngb.then(gb => {\n\n    msg.bot.settings = JSON.parse(gb);\n\n   \n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n   \n    node.status({ fill: \"red\", shape: \"dot\" });\n\n    node.error(error);\n});",
+        "func": "\nmsg.floorindex = msg.payload.data.floorindex;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1040,
-        "y": 260,
-        "wires": [
-            [
-                "3c085e9ce12f92a4"
-            ]
-        ]
-    },
-    {
-        "id": "29a430569a15b32f",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "getbot_data",
-        "func": "\n\nlet botname = msg.topic;\n\nconst gb = global.get('getbot_data')(botname);\n\ngb.then(gb => {\n    //node.warn(gb);\n    let bot = {\n        ...msg.bot,\n        \"floors\": JSON.parse(gb.floors),\n        \"finance\": JSON.parse(gb.finance),\n        \"sales\": JSON.parse(gb.sales)\n    };\n    msg.bot = bot;\n   \n\n    node.send(msg);\n\n}).catch(error => {\n\n   \n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1430,
         "y": 260,
         "wires": [
             [
@@ -21699,38 +21681,6 @@
         ]
     },
     {
-        "id": "a88642747524fe82",
-        "type": "redis-out",
-        "z": "5df15275.2888ec",
-        "server": "f120eab2.0a60a8",
-        "command": "publish",
-        "name": "",
-        "topic": "",
-        "obj": true,
-        "x": 2420,
-        "y": 2040,
-        "wires": []
-    },
-    {
-        "id": "b1ec632af7fb25ba",
-        "type": "function",
-        "z": "5df15275.2888ec",
-        "name": "task update",
-        "func": "msg.topic = \"MUT\";\n\nlet cmd = \"update\";\n\nlet data = {\n    \"botname\": msg.botname,\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {cmd, data};\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2270,
-        "y": 2040,
-        "wires": [
-            [
-                "a88642747524fe82"
-            ]
-        ]
-    },
-    {
         "id": "c55aa818edeee318",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
@@ -21739,7 +21689,7 @@
             "e34a5b68.726ec8",
             "f45f3249dbec7058"
         ],
-        "x": 2415,
+        "x": 2075,
         "y": 240,
         "wires": []
     },
@@ -21752,35 +21702,16 @@
             "e34a5b68.726ec8",
             "f45f3249dbec7058"
         ],
-        "x": 2775,
+        "x": 2395,
         "y": 340,
         "wires": []
-    },
-    {
-        "id": "3c085e9ce12f92a4",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "getbot_status",
-        "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n    msg.bot.status = JSON.parse(gb);\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1240,
-        "y": 260,
-        "wires": [
-            [
-                "29a430569a15b32f"
-            ]
-        ]
     },
     {
         "id": "011fa77a88868c27",
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "getbot_settings",
-        "func": "\nmsg.floorindex = msg.payload.data.floorindex;\nlet bot = {};\nmsg.bot = bot;\nconst gb = global.get('getbot_settings')(msg.topic);\n\ngb.then(gb => {\n\n    msg.bot.settings = JSON.parse(gb);\n\n   \n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n   \n    node.status({ fill: \"red\", shape: \"dot\" });\n\n    node.error(error);\n});",
+        "func": "\nmsg.floorindex = msg.payload.data.floorindex;\n\nlet bot = global.get(msg.botname);\nmsg.bot = bot;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21790,7 +21721,7 @@
         "y": 360,
         "wires": [
             [
-                "ff72eb4425cbfdba"
+                "d3ee6389fac5f32d"
             ]
         ]
     },
@@ -21803,7 +21734,7 @@
             "e34a5b68.726ec8",
             "f45f3249dbec7058"
         ],
-        "x": 2355,
+        "x": 1975,
         "y": 420,
         "wires": []
     },
@@ -22247,7 +22178,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2210,
+        "x": 1830,
         "y": 420,
         "wires": [
             [
@@ -22272,25 +22203,6 @@
         "x": 3990,
         "y": 860,
         "wires": []
-    },
-    {
-        "id": "7f5634a091169a62",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "getbot_data",
-        "func": "\n\nlet botname = msg.topic;\n\nconst gb = global.get('getbot_data')(botname);\n\ngb.then(gb => {\n    //node.warn(gb);\n    let bot = {\n        ...msg.bot,\n        \"floors\": JSON.parse(gb.floors),\n        \"finance\": JSON.parse(gb.finance),\n        \"sales\": JSON.parse(gb.sales)\n    };\n    msg.bot = bot;\n   \n\n    node.send(msg);\n\n}).catch(error => {\n\n   \n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1610,
-        "y": 360,
-        "wires": [
-            [
-                "d3ee6389fac5f32d"
-            ]
-        ]
     },
     {
         "id": "a27961fd36927619",
@@ -22523,7 +22435,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2340,
+        "x": 1960,
         "y": 340,
         "wires": [
             [
@@ -22535,13 +22447,12 @@
         "id": "24b7b6edbf44e542",
         "type": "link out",
         "z": "901cd11f1c81ce5d",
-        "d": true,
         "name": "",
         "links": [
             "e34a5b68.726ec8",
             "f45f3249dbec7058"
         ],
-        "x": 2095,
+        "x": 1735,
         "y": 280,
         "wires": []
     },
@@ -22586,7 +22497,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2230,
+        "x": 1870,
         "y": 240,
         "wires": [
             [
@@ -22606,7 +22517,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2590,
+        "x": 2210,
         "y": 340,
         "wires": [
             [
@@ -23142,30 +23053,11 @@
         ]
     },
     {
-        "id": "ff72eb4425cbfdba",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "getbot_status",
-        "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n    msg.bot.status = JSON.parse(gb);\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1420,
-        "y": 360,
-        "wires": [
-            [
-                "7f5634a091169a62"
-            ]
-        ]
-    },
-    {
         "id": "2da8146ec0d56935",
         "type": "debug",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -23198,8 +23090,8 @@
         "links": [
             "85d1e7884404218a"
         ],
-        "x": 1735,
-        "y": 1820,
+        "x": 1535,
+        "y": 1880,
         "wires": []
     },
     {
@@ -29157,17 +29049,69 @@
         "id": "b41f1cae0fda56f6",
         "type": "function",
         "z": "3c980e5965444d95",
-        "name": "",
+        "name": "global.set(msg.botname, msg.bot);",
         "func": "global.set(msg.botname, msg.bot);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 190,
+        "x": 270,
         "y": 300,
         "wires": [
-            []
+            [
+                "1cfdac89cf38a974"
+            ]
         ]
+    },
+    {
+        "id": "cc8bbb08a6ac0af2",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "task update",
+        "func": "msg.topic = \"MUT\";\n\nlet cmd = \"update\";\n\nlet data = {\n    \"botname\": msg.botname,\n    \"cmd\": cmd,\n    \"floors\": msg.bot.floors,\n    \"finance\": msg.bot.finance,\n    \"sales\": msg.bot.sales\n\n}\nmsg.payload = {cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1940,
+        "wires": [
+            [
+                "41d7ddab1cfc50b4"
+            ]
+        ]
+    },
+    {
+        "id": "41d7ddab1cfc50b4",
+        "type": "redis-out",
+        "z": "5df15275.2888ec",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 1800,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "1cfdac89cf38a974",
+        "type": "function",
+        "z": "3c980e5965444d95",
+        "name": "setbot_status",
+        "func": "\n\nmsg.topic = msg.bot.settings.userid + \"-bots:\" + msg.bot.settings.botname + \":status\";\nmsg.bot.status.updated = new Date().getTime();\nmsg.payload = JSON.stringify(msg.bot.status);\nconst upd = global.get('setbot_status')(msg.topic, msg.payload);\n\n\nupd.then(upd => {\n\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 420,
+        "wires": [
+            []
+        ],
+        "icon": "font-awesome/fa-bolt"
     }
 ]
