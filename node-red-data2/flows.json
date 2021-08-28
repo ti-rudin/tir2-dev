@@ -994,7 +994,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 214,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "b3c2073060265260",
@@ -1374,13 +1376,12 @@
             "9f535577.3cdc98",
             "203e6ef2.430c62",
             "26cad534.28973a",
-            "2ebe95ca.a5fdaa",
             "ccd55cdb.7ed72"
         ],
-        "x": 2514,
+        "x": 2474,
         "y": 99,
         "w": 652,
-        "h": 222
+        "h": 182
     },
     {
         "id": "25717fc3f4b161cb",
@@ -2350,12 +2351,12 @@
             "a8ad35e94e6b4915",
             "40bcf14c4c7a5a7c"
         ],
-        "x": 2555,
+        "x": 2515,
         "y": 200,
         "wires": [
             [
                 "26cad534.28973a",
-                "2ebe95ca.a5fdaa"
+                "84372d0e6d93e364"
             ]
         ]
     },
@@ -18203,8 +18204,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3060,
-        "y": 600,
+        "x": 2500,
+        "y": 660,
         "wires": [
             []
         ]
@@ -30511,7 +30512,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2920,
+        "x": 2880,
         "y": 200,
         "wires": [
             [
@@ -30556,7 +30557,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 3080,
+        "x": 3040,
         "y": 200,
         "wires": [
             []
@@ -30576,7 +30577,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2730,
+        "x": 2690,
         "y": 240,
         "wires": []
     },
@@ -30587,7 +30588,7 @@
         "g": "93bf1a09029b1ecf",
         "name": "Финиш трека. Семафор = \"Свободно\"",
         "info": "",
-        "x": 2800,
+        "x": 2760,
         "y": 140,
         "wires": []
     },
@@ -30603,7 +30604,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2710,
+        "x": 2670,
         "y": 200,
         "wires": [
             [
@@ -30612,23 +30613,6 @@
             ]
         ],
         "icon": "font-awesome/fa-bolt"
-    },
-    {
-        "id": "2ebe95ca.a5fdaa",
-        "type": "function",
-        "z": "2a761808.610238",
-        "g": "93bf1a09029b1ecf",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2700,
-        "y": 280,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "79c849c0dbfa5d25",
@@ -30762,5 +30746,21 @@
         "x": 1450,
         "y": 120,
         "wires": []
+    },
+    {
+        "id": "84372d0e6d93e364",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "tester___",
+        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2380,
+        "y": 120,
+        "wires": [
+            []
+        ]
     }
 ]
