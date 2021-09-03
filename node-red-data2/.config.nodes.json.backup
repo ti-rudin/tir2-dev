@@ -1,7 +1,7 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "2.0.3",
+        "version": "2.0.6",
         "local": false,
         "user": false,
         "nodes": {
@@ -883,6 +883,91 @@
                 "user": false,
                 "module": "node-red-contrib-xstate-machine",
                 "file": "/data/node_modules/node-red-contrib-xstate-machine/dist/smxstate-node.js"
+            }
+        }
+    },
+    "node-red-contrib-rxjs": {
+        "name": "node-red-contrib-rxjs",
+        "version": "0.0.4",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "rx of": {
+                "name": "rx of",
+                "types": [
+                    "rx of"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-of.js"
+            },
+            "rx timer": {
+                "name": "rx timer",
+                "types": [
+                    "rx timer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-timer.js"
+            },
+            "rx range": {
+                "name": "rx range",
+                "types": [
+                    "rx range"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-range.js"
+            },
+            "rx subscribe": {
+                "name": "rx subscribe",
+                "types": [
+                    "rx subscriber"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-subscriber.js"
+            },
+            "rx operator": {
+                "name": "rx operator",
+                "types": [
+                    "rx operator"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-operator.js"
+            },
+            "rx combine": {
+                "name": "rx combine",
+                "types": [
+                    "rx combine"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-combine.js"
+            },
+            "rx observer": {
+                "name": "rx observer",
+                "types": [
+                    "rx observer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-rxjs",
+                "file": "/data/node_modules/node-red-contrib-rxjs/src/rx-observer.js"
             }
         }
     }
