@@ -182,7 +182,9 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419
+        "y": 419,
+        "w": 632,
+        "h": 162
     },
     {
         "id": "3684cd36.8432c2",
@@ -236,7 +238,9 @@
             "04c874ce359ca023"
         ],
         "x": -6,
-        "y": 719
+        "y": 719,
+        "w": 1612,
+        "h": 122
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -277,7 +281,9 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839
+        "y": 1839,
+        "w": 1422,
+        "h": 422
     },
     {
         "id": "a0a5df595c9dd619",
@@ -372,7 +378,9 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1552,
+        "h": 682
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -497,7 +505,9 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "f8a5c66461864831",
@@ -543,7 +553,9 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699
+        "y": 1699,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "586e39dc007e0cae",
@@ -605,7 +617,9 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579
+        "y": 579,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "b1c9866420e73130",
@@ -643,7 +657,9 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2654,
-        "y": 1859
+        "y": 1859,
+        "w": 692,
+        "h": 562
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -894,7 +910,9 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179
+        "y": 1179,
+        "w": 1352,
+        "h": 82
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -917,7 +935,9 @@
             "792187aede59b6ac"
         ],
         "x": 2474,
-        "y": 1299
+        "y": 1299,
+        "w": 1332,
+        "h": 82
     },
     {
         "id": "9364657534c1325f",
@@ -938,7 +958,9 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439
+        "y": 1439,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -959,7 +981,9 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539
+        "y": 1539,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -1262,7 +1286,9 @@
             "ac0b473ca8f11faf"
         ],
         "x": 1434,
-        "y": 59
+        "y": 59,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "5063e471deb87919",
@@ -1283,7 +1309,9 @@
             "8e7db1953351afd8"
         ],
         "x": 94,
-        "y": 1679
+        "y": 1679,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "928a15b0fd8b6f59",
@@ -1309,7 +1337,9 @@
             "5d2dd8b63ca2642e"
         ],
         "x": 2674,
-        "y": 239
+        "y": 239,
+        "w": 752,
+        "h": 242
     },
     {
         "id": "f4f90b1391070951",
@@ -19433,8 +19463,8 @@
             [
                 "217c43fc2b7e5524",
                 "87238f2de96efe56",
-                "deda99f111556bea",
-                "1d3063e027dc1c0c"
+                "1d3063e027dc1c0c",
+                "deda99f111556bea"
             ]
         ]
     },
@@ -19483,7 +19513,6 @@
         "y": 1760,
         "wires": [
             [
-                "46607ceede3526b3",
                 "00337d82a97b0c0f"
             ],
             [
@@ -30209,7 +30238,7 @@
         "name": "",
         "info": "",
         "x": 1480,
-        "y": 40,
+        "y": 80,
         "wires": []
     },
     {
@@ -30656,14 +30685,14 @@
         "y": 2080,
         "wires": [
             [
-                "74bba3301ae3c8e3"
+                "54115ef31c662280",
+                "43738b3fd67617ee"
             ],
             [
                 "9011d963f8a5cefa"
             ],
             [
-                "162237023b02e360",
-                "46607ceede3526b3"
+                "162237023b02e360"
             ],
             [
                 "68b374aac5485516"
@@ -30800,7 +30829,7 @@
             "ccd55cdb.7ed72"
         ],
         "x": 1575,
-        "y": 2000,
+        "y": 2020,
         "wires": []
     },
     {
@@ -31635,7 +31664,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1270,
+        "x": 1210,
         "y": 1820,
         "wires": []
     },
@@ -31652,8 +31681,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1210,
-        "y": 1680,
+        "x": 1170,
+        "y": 1700,
         "wires": []
     },
     {
@@ -31802,5 +31831,61 @@
         "x": 1650,
         "y": 1660,
         "wires": []
+    },
+    {
+        "id": "46e40dc46576977a",
+        "type": "redis-out",
+        "z": "2a761808.610238",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "",
+        "obj": true,
+        "x": 1900,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "54115ef31c662280",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "task canselsell",
+        "func": "global.set(msg.botname + \"-ttp\", msg.bot.ttp);\nmsg.topic = \"MUT\";\n\nlet cmd = \"canselsell\";\nlet orderid = msg.bot.ttp.curorderid;\nlet floorindex = msg.bot.currentfloor[0] - 1;\n\nlet data = {\n    \"botname\": msg.botname,\n    \"cmd\": cmd,\n    \"orderid\": orderid,\n    \"moneta\": msg.bot.settings.moneta,\n    \"floorindex\": floorindex\n}\nmsg.payload = {cmd, data};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1720,
+        "y": 1920,
+        "wires": [
+            [
+                "46e40dc46576977a"
+            ]
+        ]
+    },
+    {
+        "id": "43738b3fd67617ee",
+        "type": "delay",
+        "z": "2a761808.610238",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1460,
+        "y": 1860,
+        "wires": [
+            [
+                "46607ceede3526b3"
+            ]
+        ]
     }
 ]
