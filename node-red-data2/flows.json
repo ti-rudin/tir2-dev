@@ -1092,7 +1092,7 @@
             "26cad534.28973a",
             "ccd55cdb.7ed72"
         ],
-        "x": 2434,
+        "x": 2594,
         "y": 99,
         "w": 712,
         "h": 202
@@ -2087,7 +2087,7 @@
             "5c8811b06f0a9055",
             "f3d254f3a9ced1b1"
         ],
-        "x": 2475,
+        "x": 2635,
         "y": 200,
         "wires": [
             [
@@ -2306,7 +2306,7 @@
                 "1d26132c.06016d"
             ],
             [
-                "228b4d369ecd8ef8"
+                "b0d5adc0.69eab"
             ],
             [
                 "b5bd6f90.f563b"
@@ -21599,7 +21599,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2900,
+        "x": 3060,
         "y": 200,
         "wires": [
             [
@@ -21645,7 +21645,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 3060,
+        "x": 3220,
         "y": 200,
         "wires": [
             []
@@ -21665,7 +21665,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2690,
+        "x": 2850,
         "y": 260,
         "wires": []
     },
@@ -21676,7 +21676,7 @@
         "g": "93bf1a09029b1ecf",
         "name": "Финиш трека. Семафор = \"Свободно\"",
         "info": "",
-        "x": 2780,
+        "x": 2940,
         "y": 140,
         "wires": []
     },
@@ -21692,7 +21692,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2640,
+        "x": 2800,
         "y": 200,
         "wires": [
             [
@@ -22134,7 +22134,7 @@
         "name": "",
         "info": "",
         "x": 1480,
-        "y": 100,
+        "y": 140,
         "wires": []
     },
     {
@@ -22917,12 +22917,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2010,
-        "y": 1220,
+        "x": 2400,
+        "y": 1160,
         "wires": [
-            [
-                "b0d5adc0.69eab"
-            ]
+            []
         ]
     },
     {
@@ -24312,7 +24310,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec cansel",
-        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        msg.bot.ttp.curorderid = 0;\n        msg.bot.ttp.curstop = 0;\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n",
+        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot.ttp.curorderid = 0;\n        msg.bot.ttp.curstop = 0;\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -25004,7 +25002,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "",
-        "func": "msg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nreturn msg;",
+        "func": "//msg.bot.ttp.curorderid = 0;\n//msg.bot.ttp.curstop = 0;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
