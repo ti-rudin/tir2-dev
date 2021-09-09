@@ -142,9 +142,7 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419,
-        "w": 632,
-        "h": 162
+        "y": 419
     },
     {
         "id": "3684cd36.8432c2",
@@ -198,9 +196,7 @@
             "04c874ce359ca023"
         ],
         "x": -6,
-        "y": 719,
-        "w": 1612,
-        "h": 122
+        "y": 719
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -241,9 +237,7 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839,
-        "w": 1422,
-        "h": 422
+        "y": 1839
     },
     {
         "id": "a0a5df595c9dd619",
@@ -338,9 +332,7 @@
             "2a1dbc968d324ddf"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1552,
-        "h": 682
+        "y": 19
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -463,9 +455,7 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39,
-        "w": 1052,
-        "h": 502
+        "y": 39
     },
     {
         "id": "f8a5c66461864831",
@@ -511,9 +501,7 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699,
-        "w": 792,
-        "h": 122
+        "y": 1699
     },
     {
         "id": "586e39dc007e0cae",
@@ -575,9 +563,7 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579,
-        "w": 1052,
-        "h": 502
+        "y": 579
     },
     {
         "id": "b1c9866420e73130",
@@ -615,9 +601,7 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2654,
-        "y": 1859,
-        "w": 692,
-        "h": 562
+        "y": 1859
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -866,9 +850,7 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179,
-        "w": 1352,
-        "h": 82
+        "y": 1179
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -891,9 +873,7 @@
             "792187aede59b6ac"
         ],
         "x": 2474,
-        "y": 1299,
-        "w": 1332,
-        "h": 82
+        "y": 1299
     },
     {
         "id": "9364657534c1325f",
@@ -914,9 +894,7 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439,
-        "w": 792,
-        "h": 82
+        "y": 1439
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -937,9 +915,7 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539,
-        "w": 792,
-        "h": 82
+        "y": 1539
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -961,9 +937,7 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39,
-        "w": 792,
-        "h": 122
+        "y": 39
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -2155,7 +2129,9 @@
             "f48f2978a8c94b10",
             "3ab3f5ece6ebd7ba",
             "550777029e1aaff1",
-            "2c0ca6c8b35ddbad"
+            "2c0ca6c8b35ddbad",
+            "0ae9a0c6dce0b591",
+            "f300e177011a7052"
         ],
         "x": 2475,
         "y": 200,
@@ -2446,7 +2422,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19129,7 +19105,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20225,7 +20201,7 @@
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
-        "timeoutUnits": "seconds",
+        "timeoutUnits": "milliseconds",
         "rate": "1",
         "nbRateUnits": "1",
         "rateUnits": "second",
@@ -20234,7 +20210,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 280,
+        "x": 290,
         "y": 1000,
         "wires": [
             [
@@ -25570,13 +25546,14 @@
         "y": 2080,
         "wires": [
             [
-                "74bba3301ae3c8e3"
+                "4210ad04408c7c10"
             ],
             [
                 "9011d963f8a5cefa"
             ],
             [
-                "162237023b02e360"
+                "162237023b02e360",
+                "ddbf28619540b228"
             ],
             [
                 "68b374aac5485516"
@@ -25644,7 +25621,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -25967,7 +25944,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\n\nmsg.bot.ttp.final_price = msg.payload;\n//msg.bot.ttp.final_quantity = msg.bot.ttp.quantity;\n//msg.bot.ttp.quantity = 0;\n\n\nreturn msg;",
+        "func": "\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -25988,7 +25965,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price calc",
-        "func": "\n\n\nmsg.bot.ttp.final_price = Number(msg.orderexec.statusBody.cummulativeQuoteQty) / msg.bot.ttp.quantity;\n//msg.bot.ttp.final_quantity = msg.bot.ttp.quantity;\n//msg.bot.ttp.quantity = 0;\n\nreturn msg;",
+        "func": "\nmsg.bot.ttp.final_price = Number(msg.orderexec.statusBody.cummulativeQuoteQty) / msg.bot.ttp.quantity;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26009,7 +25986,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\n\nmsg.bot.ttp.final_price = msg.payload;\n//msg.bot.ttp.final_quantity = msg.bot.ttp.quantity;\n//msg.bot.ttp.quantity = 0;\n\nreturn msg;",
+        "func": "\n\n\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -28354,7 +28331,7 @@
         "type": "debug",
         "z": "5df15275.2888ec",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -28371,7 +28348,7 @@
         "type": "debug",
         "z": "5df15275.2888ec",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -28411,7 +28388,91 @@
             [
                 "1d3063e027dc1c0c"
             ],
-            []
+            [
+                "e10657389d2a48c5"
+            ]
+        ]
+    },
+    {
+        "id": "e10657389d2a48c5",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "",
+        "func": "msg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 2060,
+        "wires": [
+            [
+                "0ae9a0c6dce0b591"
+            ]
+        ]
+    },
+    {
+        "id": "0ae9a0c6dce0b591",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 735,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "4210ad04408c7c10",
+        "type": "rbe",
+        "z": "2a761808.610238",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1200,
+        "y": 1940,
+        "wires": [
+            [
+                "74bba3301ae3c8e3"
+            ]
+        ]
+    },
+    {
+        "id": "f300e177011a7052",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 1755,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "ddbf28619540b228",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "",
+        "func": "msg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 2080,
+        "wires": [
+            [
+                "f300e177011a7052"
+            ]
         ]
     }
 ]
