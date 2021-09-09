@@ -242,7 +242,7 @@
 
 <main>
 
-    <div class="textitem px-2">
+    <div class="textitem px-2 py-3">
         <div class="rowbalanceitem balancehead">
             <label>Баланс</label>
         </div>
