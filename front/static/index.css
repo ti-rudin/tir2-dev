@@ -733,10 +733,6 @@ img {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .top-0 {
   top: 0;
 }
@@ -827,10 +823,6 @@ img {
 
 .z-10 {
   z-index: 10;
-}
-
-.z-20 {
-  z-index: 20;
 }
 
 @media (min-width: 640px) {
