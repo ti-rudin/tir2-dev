@@ -10448,7 +10448,7 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": "10",
         "topic": "",
         "payloadType": "date",
