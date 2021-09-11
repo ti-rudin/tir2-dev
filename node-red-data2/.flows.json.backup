@@ -236,20 +236,6 @@
             "color": "#ffffff"
         },
         "nodes": [
-            "e6ec9254f36610c0",
-            "25f5507bc50a674d",
-            "0046aff6b2b50e2e",
-            "dc0f18c849449aed",
-            "efc4f70eea514ec7",
-            "dabee9685cb54b6d",
-            "1e7b29c971fa62f5",
-            "94cc69cd5a219c7d",
-            "0fa5699070a6108e",
-            "296c00e5d3e99fbb",
-            "9c05c136a91dbfdf",
-            "243c1bf582b64002",
-            "b760680d27a6dd1d",
-            "1f4861ade1a88327",
             "382a503f4e67ab59",
             "2f422e4d0ce76250",
             "3ea20577e61d637e",
@@ -274,10 +260,6 @@
             "d3d2d3d7a6bbdff7",
             "3ef68805d9b584b8",
             "7c08b0b5b7bcfd86",
-            "b18e0afd2ba78b89",
-            "18a329d0d3f925a9",
-            "c6f57dbe2564edbd",
-            "a7d6b85bafb33975",
             "a713b8aa07e16e63",
             "dd10f10ea4f57a40",
             "8812bbd571059ab4",
@@ -286,14 +268,6 @@
             "c154464254f3387d",
             "be9d5b5c3682927e",
             "35682148fb7efa9b",
-            "95fb43b5354257c0",
-            "c0646124a302aa2c",
-            "8746db723c6bc2f6",
-            "1e82a89aecf97004",
-            "7d955c944482dd1f",
-            "a919a353f7b0be87",
-            "1fe131c4d12aa0bf",
-            "20fb3198225f6a9e",
             "0af2f0d1357e3a82",
             "a3dce78903158487",
             "bbe4e1e92aa2f964",
@@ -309,13 +283,7 @@
             "a387bc9ca753da20",
             "e2bef8f03e88fbc4",
             "74dfccbf45336d82",
-            "426d2443aff4e59c",
-            "8d958d67db6f443f",
-            "2c2b920d47617035",
-            "c83061d2301328bd",
-            "f86ec00ad5b25698",
-            "cba8e515781d3119",
-            "2a1dbc968d324ddf"
+            "426d2443aff4e59c"
         ],
         "x": 34,
         "y": 19
@@ -440,7 +408,7 @@
             "895a95157b57f221",
             "527f5893eeafc366"
         ],
-        "x": 2554,
+        "x": 2544,
         "y": 39
     },
     {
@@ -509,9 +477,7 @@
             "dd73e1c4557a5e65"
         ],
         "x": 114,
-        "y": 479,
-        "w": 792,
-        "h": 122
+        "y": 479
     },
     {
         "id": "8a452b1de9e087aa",
@@ -586,7 +552,7 @@
             "26f6329ebf714e14",
             "9f0a5643b5b416e8"
         ],
-        "x": 2654,
+        "x": 2644,
         "y": 1859
     },
     {
@@ -809,8 +775,8 @@
             "978fe36d9c01fa64",
             "315a6dc929402e0e"
         ],
-        "x": 20,
-        "y": 3699
+        "x": 80,
+        "y": 3399
     },
     {
         "id": "1af578fa0e07ad5a",
@@ -858,7 +824,7 @@
             "47e93aedcfbe3a73",
             "792187aede59b6ac"
         ],
-        "x": 2474,
+        "x": 2684,
         "y": 1299
     },
     {
@@ -952,7 +918,7 @@
         ],
         "x": 54,
         "y": 679,
-        "w": 1972,
+        "w": 1982,
         "h": 162
     },
     {
@@ -1032,9 +998,7 @@
             "014ff17437138c5a"
         ],
         "x": 34,
-        "y": 59,
-        "w": 2182,
-        "h": 342
+        "y": 59
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -1058,9 +1022,7 @@
             "ccd55cdb.7ed72"
         ],
         "x": 2594,
-        "y": 79,
-        "w": 712,
-        "h": 202
+        "y": 79
     },
     {
         "id": "a0fe11145e7edf84",
@@ -2524,12 +2486,10 @@
         "y": 1080,
         "wires": [
             [
-                "61acbe1ca90546ee",
                 "2cfa357e.60327a"
             ],
             [
-                "241d62c4.835d6e",
-                "ed4fd6ba46f8516f"
+                "241d62c4.835d6e"
             ],
             [
                 "56c6a73caae35c2f",
@@ -2573,8 +2533,7 @@
         "y": 960,
         "wires": [
             [
-                "be53914b.bf62b",
-                "af22321898c8895b"
+                "be53914b.bf62b"
             ]
         ]
     },
@@ -2721,8 +2680,7 @@
         "y": 1260,
         "wires": [
             [
-                "8eca3137.03e0a8",
-                "4cfd5bbd.59f8dc"
+                "8eca3137.03e0a8"
             ]
         ]
     },
@@ -2841,23 +2799,6 @@
         "layout": "row-spread",
         "x": 2230,
         "y": 480,
-        "wires": []
-    },
-    {
-        "id": "4cfd5bbd.59f8dc",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 1220,
         "wires": []
     },
     {
@@ -3576,22 +3517,6 @@
         "x": 1510,
         "y": 800,
         "wires": []
-    },
-    {
-        "id": "efc7fd64.6f06b8",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "name": "tilog",
-        "func": "//запись в журнал\nlet botname = msg.bot.settings.botname;\nlet data = \"Ошибка при выставлении ордера на бирже - \"+msg.err.body;\n\nconst tilog = global.get('tilog')(botname,data);\n\ntilog;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 730,
-        "y": 1520,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "a7628168.861ce",
@@ -4498,16 +4423,6 @@
         "statusType": "auto",
         "x": 3410,
         "y": 960,
-        "wires": []
-    },
-    {
-        "id": "7f01fc9d.9aefb4",
-        "type": "comment",
-        "z": "5f98db3a.7ab21c",
-        "name": "ситуация \\n робот думает, что статус new и шлет на биржу команду кансел, а кансел уже состоялся \\n (а робот про это не узнал) ",
-        "info": "",
-        "x": 2020,
-        "y": 820,
         "wires": []
     },
     {
@@ -7545,271 +7460,6 @@
         "wires": []
     },
     {
-        "id": "e6ec9254f36610c0",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "get_ttp_q()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet get_ttp_q = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttpq\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('get_ttp_q', get_ttp_q);",
-        "finalize": "",
-        "x": 1070,
-        "y": 540,
-        "wires": [
-            [
-                "0046aff6b2b50e2e"
-            ]
-        ]
-    },
-    {
-        "id": "25f5507bc50a674d",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1460,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "0046aff6b2b50e2e",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get ttp q",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1280,
-        "y": 540,
-        "wires": [
-            [
-                "25f5507bc50a674d"
-            ]
-        ]
-    },
-    {
-        "id": "dc0f18c849449aed",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getttp_busy()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getttp_busy = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttpbusy\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getttp_busy', getttp_busy);",
-        "finalize": "",
-        "x": 310,
-        "y": 540,
-        "wires": [
-            [
-                "1e7b29c971fa62f5"
-            ]
-        ]
-    },
-    {
-        "id": "efc4f70eea514ec7",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 540,
-        "wires": [
-            [
-                "dc0f18c849449aed"
-            ]
-        ]
-    },
-    {
-        "id": "dabee9685cb54b6d",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "1e7b29c971fa62f5",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get ttp busy",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 540,
-        "wires": [
-            [
-                "dabee9685cb54b6d"
-            ]
-        ]
-    },
-    {
-        "id": "94cc69cd5a219c7d",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setttp_busy()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\nlet setttp_busy = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n     msg.topic = guid+\"-bots:\"+botname+\":ttpbusy\";\n    msg.payload = \"true\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setttp_busy', setttp_busy);",
-        "finalize": "",
-        "x": 310,
-        "y": 600,
-        "wires": [
-            [
-                "9c05c136a91dbfdf"
-            ]
-        ]
-    },
-    {
-        "id": "0fa5699070a6108e",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 600,
-        "wires": [
-            [
-                "94cc69cd5a219c7d"
-            ]
-        ]
-    },
-    {
-        "id": "296c00e5d3e99fbb",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "9c05c136a91dbfdf",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 600,
-        "wires": [
-            [
-                "296c00e5d3e99fbb"
-            ]
-        ]
-    },
-    {
-        "id": "243c1bf582b64002",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setttp_free()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\nlet setttp_free = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n    msg.topic = guid+\"-bots:\"+botname+\":ttpbusy\";\n    msg.payload = \"false\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setttp_free', setttp_free);",
-        "finalize": "",
-        "x": 310,
-        "y": 660,
-        "wires": [
-            [
-                "1f4861ade1a88327"
-            ]
-        ]
-    },
-    {
-        "id": "b760680d27a6dd1d",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 660,
-        "wires": [
-            [
-                "243c1bf582b64002"
-            ]
-        ]
-    },
-    {
-        "id": "1f4861ade1a88327",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 660,
-        "wires": [
-            [
-                "2a1dbc968d324ddf"
-            ]
-        ]
-    },
-    {
         "id": "382a503f4e67ab59",
         "type": "function",
         "z": "5f98db3a.7ab21c",
@@ -8262,82 +7912,6 @@
         ]
     },
     {
-        "id": "b18e0afd2ba78b89",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_busy()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_busy = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":busy\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_busy', getbot_busy);",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 360,
-        "wires": [
-            [
-                "a7d6b85bafb33975"
-            ]
-        ]
-    },
-    {
-        "id": "18a329d0d3f925a9",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 360,
-        "wires": [
-            [
-                "b18e0afd2ba78b89"
-            ]
-        ]
-    },
-    {
-        "id": "c6f57dbe2564edbd",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "a7d6b85bafb33975",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get bot busy",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 360,
-        "wires": [
-            [
-                "c6f57dbe2564edbd"
-            ]
-        ]
-    },
-    {
         "id": "a713b8aa07e16e63",
         "type": "function",
         "z": "5f98db3a.7ab21c",
@@ -8489,156 +8063,6 @@
         ]
     },
     {
-        "id": "95fb43b5354257c0",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setbot_busy()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\nlet setbot_busy = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n     msg.topic = guid+\"-bots:\"+botname+\":busy\";\n    msg.payload = \"true\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_busy', setbot_busy);",
-        "finalize": "",
-        "x": 320,
-        "y": 420,
-        "wires": [
-            [
-                "1e82a89aecf97004"
-            ]
-        ]
-    },
-    {
-        "id": "c0646124a302aa2c",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 420,
-        "wires": [
-            [
-                "95fb43b5354257c0"
-            ]
-        ]
-    },
-    {
-        "id": "8746db723c6bc2f6",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "1e82a89aecf97004",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 420,
-        "wires": [
-            [
-                "8746db723c6bc2f6"
-            ]
-        ]
-    },
-    {
-        "id": "7d955c944482dd1f",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setbot_free()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\nlet setbot_free = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n    msg.topic = guid+\"-bots:\"+botname+\":busy\";\n    msg.payload = \"false\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_free', setbot_free);",
-        "finalize": "",
-        "x": 310,
-        "y": 480,
-        "wires": [
-            [
-                "20fb3198225f6a9e"
-            ]
-        ]
-    },
-    {
-        "id": "a919a353f7b0be87",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 480,
-        "wires": [
-            [
-                "7d955c944482dd1f"
-            ]
-        ]
-    },
-    {
-        "id": "1fe131c4d12aa0bf",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "20fb3198225f6a9e",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 480,
-        "wires": [
-            [
-                "1fe131c4d12aa0bf"
-            ]
-        ]
-    },
-    {
         "id": "0af2f0d1357e3a82",
         "type": "function",
         "z": "5f98db3a.7ab21c",
@@ -8649,6 +8073,7 @@
         "noerr": 0,
         "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_data = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":data\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_data', getbot_data);",
         "finalize": "",
+        "libs": [],
         "x": 1070,
         "y": 420,
         "wires": [
@@ -8940,116 +8365,6 @@
         ]
     },
     {
-        "id": "8d958d67db6f443f",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 900,
-        "y": 540,
-        "wires": [
-            [
-                "e6ec9254f36610c0"
-            ]
-        ]
-    },
-    {
-        "id": "2c2b920d47617035",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname, ttpq",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 920,
-        "y": 600,
-        "wires": [
-            [
-                "c83061d2301328bd"
-            ]
-        ]
-    },
-    {
-        "id": "c83061d2301328bd",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "set_ttp_q()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\nlet set_ttp_q = function (botname = msg.topic, ttpq = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttpq\";\n    msg.payload = ttpq;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('set_ttp_q', set_ttp_q);",
-        "finalize": "",
-        "x": 1110,
-        "y": 600,
-        "wires": [
-            [
-                "f86ec00ad5b25698"
-            ]
-        ]
-    },
-    {
-        "id": "f86ec00ad5b25698",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1290,
-        "y": 600,
-        "wires": [
-            [
-                "cba8e515781d3119"
-            ]
-        ]
-    },
-    {
-        "id": "cba8e515781d3119",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1480,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "2a1dbc968d324ddf",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 660,
-        "wires": []
-    },
-    {
         "id": "20e930bc4e51c612",
         "type": "http in",
         "z": "5f98db3a.7ab21c",
@@ -9063,8 +8378,7 @@
         "y": 1220,
         "wires": [
             [
-                "250d741d8a5745e6",
-                "7db357973ec21c20"
+                "250d741d8a5745e6"
             ]
         ]
     },
@@ -9096,8 +8410,7 @@
         "y": 1220,
         "wires": [
             [
-                "f33e9568474183b7",
-                "ce8d836f2e10dc86"
+                "f33e9568474183b7"
             ]
         ]
     },
@@ -9117,8 +8430,7 @@
         "y": 1220,
         "wires": [
             [
-                "577c5da19353e540",
-                "9ebc0f4e2567153a"
+                "577c5da19353e540"
             ]
         ]
     },
@@ -9138,8 +8450,7 @@
         "y": 1220,
         "wires": [
             [
-                "bf1c13c6979ef555",
-                "a27961fd36927619"
+                "bf1c13c6979ef555"
             ]
         ]
     },
@@ -9916,7 +9227,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2570,
+        "x": 2790,
         "y": 1340,
         "wires": [
             [
@@ -9952,7 +9263,7 @@
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 3720,
+        "x": 3520,
         "y": 1340,
         "wires": []
     },
@@ -9968,7 +9279,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3550,
+        "x": 3350,
         "y": 1340,
         "wires": [
             [
@@ -11405,7 +10716,7 @@
         "z": "5df15275.2888ec",
         "g": "d4a5f2307ef8b222",
         "name": "setbot_ttp reset",
-        "func": "\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.raschstopprice = 0;\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.sold = false;\nmsg.bot.ttp.ttpbusy = false;\nmsg.bot.ttp.currentprice = 0;\nmsg.bot.ttp.quantity = 0;\nmsg.bot.ttp.final_price = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.raschstopprice = 0;\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.sold = false;\nmsg.bot.ttp.ttpbusy = false;\nmsg.bot.ttp.currentprice = 0;\nmsg.bot.ttp.quantity = 0;\nmsg.bot.ttp.final_price = 0;\nmsg.bot.ttp.finalorder = 0;\n\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14978,8 +14289,8 @@
         "name": "",
         "scope": null,
         "uncaught": false,
-        "x": 940,
-        "y": 4160,
+        "x": 1000,
+        "y": 3860,
         "wires": [
             [
                 "e0c6df4acdc09987"
@@ -14998,8 +14309,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1090,
-        "y": 4160,
+        "x": 1150,
+        "y": 3860,
         "wires": []
     },
     {
@@ -15039,8 +14350,8 @@
         "topic": "botlist:d3fmoh2rVoVNgIcpLTFZBE0jHnI2",
         "payload": "{}",
         "payloadType": "json",
-        "x": 116,
-        "y": 4340,
+        "x": 176,
+        "y": 4040,
         "wires": [
             []
         ]
@@ -15062,8 +14373,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 166,
-        "y": 4220,
+        "x": 226,
+        "y": 3920,
         "wires": [
             [
                 "6b472db8a26e881f"
@@ -15077,8 +14388,8 @@
         "g": "6d6802907a34719d",
         "name": "Получаем список ботов пользователя",
         "info": "Получаем список ботов пользователя",
-        "x": 320,
-        "y": 3778,
+        "x": 380,
+        "y": 3478,
         "wires": []
     },
     {
@@ -15104,8 +14415,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 296,
-        "y": 4340,
+        "x": 356,
+        "y": 4040,
         "wires": [
             []
         ]
@@ -15122,8 +14433,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 213,
-        "y": 3819,
+        "x": 273,
+        "y": 3519,
         "wires": [
             [
                 "1f80872966579308"
@@ -15139,8 +14450,8 @@
         "property": "payload",
         "action": "",
         "pretty": true,
-        "x": 216,
-        "y": 3900,
+        "x": 276,
+        "y": 3600,
         "wires": [
             [
                 "4da801b7823b5aa0"
@@ -15158,8 +14469,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 633,
-        "y": 3819,
+        "x": 693,
+        "y": 3519,
         "wires": [
             [
                 "000deb87a0348c69"
@@ -15174,8 +14485,8 @@
         "g": "6d6802907a34719d",
         "name": "для каждого бота - получение данных",
         "info": "",
-        "x": 703,
-        "y": 3778,
+        "x": 763,
+        "y": 3478,
         "wires": []
     },
     {
@@ -15187,8 +14498,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 593,
-        "y": 3939,
+        "x": 653,
+        "y": 3639,
         "wires": [
             [
                 "e65ef98d1295b092"
@@ -15206,8 +14517,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 3999,
+        "x": 663,
+        "y": 3699,
         "wires": [
             [
                 "67831fc8c9a40edf"
@@ -15225,8 +14536,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 4119,
+        "x": 663,
+        "y": 3819,
         "wires": [
             [
                 "f1be1df36da23a6e"
@@ -15244,8 +14555,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 4239,
+        "x": 663,
+        "y": 3939,
         "wires": [
             [
                 "6b588e688c3d99f6"
@@ -15263,8 +14574,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 4359,
+        "x": 663,
+        "y": 4059,
         "wires": [
             [
                 "a552b6406b9ee3da"
@@ -15282,8 +14593,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 4479,
+        "x": 663,
+        "y": 4179,
         "wires": [
             [
                 "f1ead0e62bbb5074"
@@ -15301,8 +14612,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 4599,
+        "x": 663,
+        "y": 4299,
         "wires": [
             [
                 "6d207d038eeaad2c"
@@ -15320,8 +14631,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 603,
-        "y": 4719,
+        "x": 663,
+        "y": 4419,
         "wires": [
             [
                 "629a66d95364d694"
@@ -15351,8 +14662,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 940,
-        "y": 3940,
+        "x": 1000,
+        "y": 3640,
         "wires": [
             [
                 "9e31ae86227c8207"
@@ -15369,8 +14680,8 @@
         "g": "6d6802907a34719d",
         "name": "ttp pilot",
         "info": "",
-        "x": 910,
-        "y": 3901,
+        "x": 970,
+        "y": 3601,
         "wires": []
     },
     {
@@ -15384,8 +14695,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1600,
-        "y": 3821,
+        "x": 1660,
+        "y": 3521,
         "wires": [
             [
                 "475d4281a5f72ba7"
@@ -15415,8 +14726,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1890,
-        "y": 3821,
+        "x": 1950,
+        "y": 3521,
         "wires": [
             [
                 "5ab5a242ff8647ee"
@@ -15433,8 +14744,8 @@
         "g": "6d6802907a34719d",
         "name": "запускаем ТТП / передвигаем ордер",
         "info": "",
-        "x": 2233,
-        "y": 3781,
+        "x": 2293,
+        "y": 3481,
         "wires": []
     },
     {
@@ -15444,8 +14755,8 @@
         "g": "6d6802907a34719d",
         "name": "слушаем статус ордера",
         "info": "",
-        "x": 2196,
-        "y": 4300,
+        "x": 2256,
+        "y": 4000,
         "wires": []
     },
     {
@@ -15471,8 +14782,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2373,
-        "y": 3815,
+        "x": 2433,
+        "y": 3515,
         "wires": [
             [
                 "c193d63a633ed422"
@@ -15493,8 +14804,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2609,
-        "y": 3809,
+        "x": 2669,
+        "y": 3509,
         "wires": [
             [
                 "0ac214621e21b21c",
@@ -15517,8 +14828,8 @@
         "g": "6d6802907a34719d",
         "name": "стартуем ттп",
         "info": "",
-        "x": 2599,
-        "y": 3775,
+        "x": 2659,
+        "y": 3475,
         "wires": []
     },
     {
@@ -15528,8 +14839,8 @@
         "g": "6d6802907a34719d",
         "name": "Передвигаем ордер",
         "info": "",
-        "x": 2629,
-        "y": 3976,
+        "x": 2689,
+        "y": 3676,
         "wires": []
     },
     {
@@ -15543,8 +14854,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3340,
-        "y": 3809,
+        "x": 3400,
+        "y": 3509,
         "wires": [
             [
                 "86da9b3847237ec1"
@@ -15562,8 +14873,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2599,
-        "y": 4010,
+        "x": 2659,
+        "y": 3710,
         "wires": [
             [
                 "d34a51ee4207c39b",
@@ -15590,8 +14901,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2809,
-        "y": 3809,
+        "x": 2869,
+        "y": 3509,
         "wires": [
             [
                 "132fb542b7e7a88d"
@@ -15616,8 +14927,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2810,
-        "y": 3856,
+        "x": 2870,
+        "y": 3556,
         "wires": [
             [
                 "c3b88926069614ae"
@@ -15645,8 +14956,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 3910,
-        "y": 3869,
+        "x": 3970,
+        "y": 3569,
         "wires": []
     },
     {
@@ -15660,8 +14971,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2789,
-        "y": 4010,
+        "x": 2849,
+        "y": 3710,
         "wires": [
             [
                 "4afe7cf87488fade",
@@ -15687,8 +14998,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3009,
-        "y": 4010,
+        "x": 3069,
+        "y": 3710,
         "wires": [
             [
                 "b1c98d94ab07d052"
@@ -15713,8 +15024,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3009,
-        "y": 3970,
+        "x": 3069,
+        "y": 3670,
         "wires": [
             [
                 "768bb7560e26759d"
@@ -15751,8 +15062,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2393,
-        "y": 4341,
+        "x": 2453,
+        "y": 4041,
         "wires": [
             [
                 "4d43f920cbc01357"
@@ -15771,8 +15082,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2563,
-        "y": 4334,
+        "x": 2623,
+        "y": 4034,
         "wires": [
             [
                 "0824abbc13f177f2"
@@ -15802,8 +15113,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": true,
-        "x": 376,
-        "y": 4220,
+        "x": 436,
+        "y": 3920,
         "wires": [
             [
                 "50a6cb97e1d9a45f"
@@ -15824,8 +15135,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2790,
-        "y": 4120,
+        "x": 2850,
+        "y": 3820,
         "wires": []
     },
     {
@@ -15839,8 +15150,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3700,
-        "y": 3809,
+        "x": 3760,
+        "y": 3509,
         "wires": [
             [
                 "ed5921c36d15b09e",
@@ -15866,8 +15177,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2799,
-        "y": 4056,
+        "x": 2859,
+        "y": 3756,
         "wires": [
             [
                 "6e1b7f28c9f6481f"
@@ -15904,8 +15215,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1179,
-        "y": 3827,
+        "x": 1239,
+        "y": 3527,
         "wires": [
             [
                 "89c44489038ab0e4"
@@ -15924,8 +15235,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2163,
-        "y": 3941,
+        "x": 2223,
+        "y": 3641,
         "wires": [
             [
                 "8761f23b64d7a2f9",
@@ -15951,8 +15262,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1180,
-        "y": 4040,
+        "x": 1240,
+        "y": 3740,
         "wires": [
             [
                 "5ab6a3bcae284753"
@@ -15970,8 +15281,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1340,
-        "y": 4040,
+        "x": 1400,
+        "y": 3740,
         "wires": [
             [
                 "978fe36d9c01fa64"
@@ -16001,8 +15312,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": true,
-        "x": 1350,
-        "y": 3821,
+        "x": 1410,
+        "y": 3521,
         "wires": [
             [
                 "863c12030905b90b"
@@ -16025,8 +15336,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 3510,
-        "y": 3809,
+        "x": 3570,
+        "y": 3509,
         "wires": [
             [
                 "4ab36d4af5ef3a05"
@@ -16049,8 +15360,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1973,
-        "y": 4341,
+        "x": 2033,
+        "y": 4041,
         "wires": [
             [
                 "61f3c56bf5b1d0ad"
@@ -16068,8 +15379,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2144,
-        "y": 3815,
+        "x": 2204,
+        "y": 3515,
         "wires": [
             [
                 "8296b2a9118bb691",
@@ -16090,8 +15401,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2350,
-        "y": 3900,
+        "x": 2410,
+        "y": 3600,
         "wires": []
     },
     {
@@ -16105,8 +15416,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2070,
-        "y": 4660,
+        "x": 2130,
+        "y": 4360,
         "wires": [
             [
                 "315a6dc929402e0e"
@@ -16127,8 +15438,8 @@
         "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 2630,
-        "y": 4660,
+        "x": 2690,
+        "y": 4360,
         "wires": []
     },
     {
@@ -16159,8 +15470,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1880,
-        "y": 4660,
+        "x": 1940,
+        "y": 4360,
         "wires": [
             [
                 "61f3c56bf5b1d0ad"
@@ -16178,8 +15489,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2460,
-        "y": 4570,
+        "x": 2520,
+        "y": 4270,
         "wires": [
             [
                 "16aa10e995b20267",
@@ -16205,8 +15516,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1090,
-        "y": 3880,
+        "x": 1150,
+        "y": 3580,
         "wires": [
             [
                 "b2e04c7fe56786bb"
@@ -16224,8 +15535,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1810,
-        "y": 3740,
+        "x": 1870,
+        "y": 3440,
         "wires": [
             [
                 "ac46bb0276956f73"
@@ -16245,8 +15556,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1980,
-        "y": 3740,
+        "x": 2040,
+        "y": 3440,
         "wires": []
     },
     {
@@ -16262,8 +15573,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 236,
-        "y": 3980,
+        "x": 296,
+        "y": 3680,
         "wires": [
             [
                 "8f8c6d4e6b670c18"
@@ -16283,8 +15594,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 623,
-        "y": 3879,
+        "x": 683,
+        "y": 3579,
         "wires": [
             [
                 "33c339510a7ccd51"
@@ -16304,8 +15615,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 623,
-        "y": 4059,
+        "x": 683,
+        "y": 3759,
         "wires": [
             [
                 "e70da76f151fb410"
@@ -16325,8 +15636,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 613,
-        "y": 4179,
+        "x": 673,
+        "y": 3879,
         "wires": [
             [
                 "fcbcf0e05abbda11"
@@ -16346,8 +15657,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 633,
-        "y": 4299,
+        "x": 693,
+        "y": 3999,
         "wires": [
             [
                 "7c4eaeecf6d76197"
@@ -16367,8 +15678,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 623,
-        "y": 4419,
+        "x": 683,
+        "y": 4119,
         "wires": [
             [
                 "0b5582c012edbab5"
@@ -16388,8 +15699,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 613,
-        "y": 4539,
+        "x": 673,
+        "y": 4239,
         "wires": [
             [
                 "ec3532237df3d45d"
@@ -16409,8 +15720,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 623,
-        "y": 4659,
+        "x": 683,
+        "y": 4359,
         "wires": [
             [
                 "3662a85f7fdb2d18"
@@ -16430,8 +15741,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2992,
-        "y": 3809,
+        "x": 3052,
+        "y": 3509,
         "wires": [
             [
                 "be92eae3c497607e"
@@ -16451,8 +15762,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2983,
-        "y": 3856,
+        "x": 3043,
+        "y": 3556,
         "wires": [
             []
         ]
@@ -16470,8 +15781,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3192,
-        "y": 4010,
+        "x": 3252,
+        "y": 3710,
         "wires": [
             [
                 "be92eae3c497607e"
@@ -16491,8 +15802,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3182,
-        "y": 3970,
+        "x": 3242,
+        "y": 3670,
         "wires": [
             []
         ]
@@ -16510,8 +15821,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2753,
-        "y": 4334,
+        "x": 2813,
+        "y": 4034,
         "wires": [
             []
         ]
@@ -16529,8 +15840,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3890,
-        "y": 3809,
+        "x": 3950,
+        "y": 3509,
         "wires": [
             []
         ]
@@ -16548,8 +15859,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3029,
-        "y": 4056,
+        "x": 3089,
+        "y": 3756,
         "wires": [
             []
         ]
@@ -16567,8 +15878,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2353,
-        "y": 3941,
+        "x": 2413,
+        "y": 3641,
         "wires": [
             []
         ]
@@ -16586,8 +15897,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 1510,
-        "y": 4041,
+        "x": 1570,
+        "y": 3741,
         "wires": [
             []
         ]
@@ -16605,8 +15916,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2240,
-        "y": 4660,
+        "x": 2300,
+        "y": 4360,
         "wires": [
             [
                 "7ab04c7bf934d908"
@@ -16893,8 +16204,7 @@
         "y": 1220,
         "wires": [
             [
-                "d3749cac89a0e2c9",
-                "d350ef9a48368ee2"
+                "d3749cac89a0e2c9"
             ]
         ]
     },
@@ -16917,76 +16227,6 @@
                 "b4a4e83ed0643f2c"
             ]
         ]
-    },
-    {
-        "id": "61acbe1ca90546ee",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1310,
-        "y": 940,
-        "wires": []
-    },
-    {
-        "id": "af22321898c8895b",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2050,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "3e830c03aa1c5334",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "name": "clean payload",
-        "func": "let moneta = msg.payload.moneta;\nlet price = msg.payload.price;\nlet quantity = msg.payload.quantity;\n\nmsg.payload = {};\n\nmsg.payload.moneta = moneta;\nmsg.payload.price = price;\nmsg.payload.quantity = quantity;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1480,
-        "y": 920,
-        "wires": [
-            [
-                "4536c9aab720b34a"
-            ]
-        ]
-    },
-    {
-        "id": "4536c9aab720b34a",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1550,
-        "y": 860,
-        "wires": []
     },
     {
         "id": "264a85cd815392d3",
@@ -17031,7 +16271,7 @@
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 3220,
+        "x": 3000,
         "y": 1480,
         "wires": []
     },
@@ -17082,7 +16322,7 @@
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 3240,
+        "x": 3080,
         "y": 1580,
         "wires": []
     },
@@ -17120,8 +16360,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3710,
-        "y": 1420,
+        "x": 3670,
+        "y": 1340,
         "wires": []
     },
     {
@@ -17137,8 +16377,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3050,
-        "y": 1400,
+        "x": 3150,
+        "y": 1480,
         "wires": []
     },
     {
@@ -17901,23 +17141,6 @@
         "wires": []
     },
     {
-        "id": "ed4fd6ba46f8516f",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1790,
-        "y": 1080,
-        "wires": []
-    },
-    {
         "id": "0c245c89ee18c959",
         "type": "catch",
         "z": "5f98db3a.7ab21c",
@@ -18165,40 +17388,6 @@
         ],
         "x": 2555,
         "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "a27961fd36927619",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3060,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "ce8d836f2e10dc86",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2910,
-        "y": 1140,
         "wires": []
     },
     {
@@ -18857,23 +18046,6 @@
         "wires": []
     },
     {
-        "id": "d350ef9a48368ee2",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3270,
-        "y": 1160,
-        "wires": []
-    },
-    {
         "id": "180bacca6db5568a",
         "type": "function",
         "z": "5df15275.2888ec",
@@ -18934,7 +18106,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "getbot_settings",
-        "func": "msg.botname = msg.payload;\nlet bot = {};\nmsg.bot = bot;\nconst gb = global.get('getbot_settings')(msg.botname);\n\ngb.then(gb => {\n\n    msg.bot.settings = JSON.parse(gb);\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "func": "msg.botname = msg.payload;\nlet bot = {};\nmsg.bot = bot;\nconst gb = global.get('getbot_settings')(msg.botname);\n\ngb.then(gb => {\n\n    msg.bot.settings = JSON.parse(gb);\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.done();\n    node.send(msg);\n\n}).catch(error => {\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -18953,7 +18125,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "getbot_status",
-        "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n\n    msg.bot.status = JSON.parse(gb);\n\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});\n\n",
+        "func": "\nconst gb = global.get('getbot_status')(msg.botname);\n\ngb.then(gb => {\n\n    msg.bot.status = JSON.parse(gb);\n\n    node.done();\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -18973,7 +18145,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "getbot_data",
-        "func": "\n\nlet botname = msg.botname;\n\nconst gb = global.get('getbot_data')(botname);\n\ngb.then(gb => {\n    //node.warn(gb);\n    let bot = {\n        ...msg.bot,\n        \"floors\": JSON.parse(gb.floors),\n        \"finance\": JSON.parse(gb.finance),\n        \"sales\": JSON.parse(gb.sales)\n    };\n    msg.bot = bot;\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "func": "\n\nlet botname = msg.botname;\n\nconst gb = global.get('getbot_data')(botname);\n\ngb.then(gb => {\n    //node.warn(gb);\n    let bot = {\n        ...msg.bot,\n        \"floors\": JSON.parse(gb.floors),\n        \"finance\": JSON.parse(gb.finance),\n        \"sales\": JSON.parse(gb.sales)\n    };\n    msg.bot = bot;\n    node.done();\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19023,7 +18195,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": "1",
+        "onceDelay": "3",
         "topic": "",
         "payloadType": "date",
         "x": 170,
@@ -21139,23 +20311,6 @@
         ]
     },
     {
-        "id": "7db357973ec21c20",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2710,
-        "y": 1140,
-        "wires": []
-    },
-    {
         "id": "f8cd782d3223fa1e",
         "type": "switch",
         "z": "5df15275.2888ec",
@@ -21500,8 +20655,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1500,
-        "y": 120,
+        "x": 1480,
+        "y": 100,
         "wires": []
     },
     {
@@ -23996,7 +23151,7 @@
         "type": "debug",
         "z": "5df15275.2888ec",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -25192,23 +24347,6 @@
         "wires": []
     },
     {
-        "id": "9ebc0f4e2567153a",
-        "type": "debug",
-        "z": "5f98db3a.7ab21c",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3590,
-        "y": 1140,
-        "wires": []
-    },
-    {
         "id": "e8c7019d4c4acba1",
         "type": "debug",
         "z": "5f98db3a.7ab21c",
@@ -25221,8 +24359,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3790,
-        "y": 1140,
+        "x": 3910,
+        "y": 1220,
         "wires": []
     },
     {
@@ -25416,5 +24554,574 @@
         "x": 415,
         "y": 760,
         "wires": []
+    },
+    {
+        "id": "7f759c078b46c313",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "getttp_busy()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet getttp_busy = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttpbusy\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getttp_busy', getttp_busy);",
+        "finalize": "",
+        "x": 350,
+        "y": 4600,
+        "wires": [
+            [
+                "4199f5d3a2bc14c9"
+            ]
+        ]
+    },
+    {
+        "id": "1a7d84d0c03a315a",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 4600,
+        "wires": [
+            [
+                "7f759c078b46c313"
+            ]
+        ]
+    },
+    {
+        "id": "7e7f1cfe99b1a794",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 4600,
+        "wires": []
+    },
+    {
+        "id": "4199f5d3a2bc14c9",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get ttp busy",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 550,
+        "y": 4600,
+        "wires": [
+            [
+                "7e7f1cfe99b1a794"
+            ]
+        ]
+    },
+    {
+        "id": "9dd15a159eecb19b",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "setttp_busy()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\nlet setttp_busy = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n     msg.topic = guid+\"-bots:\"+botname+\":ttpbusy\";\n    msg.payload = \"true\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setttp_busy', setttp_busy);",
+        "finalize": "",
+        "x": 350,
+        "y": 4660,
+        "wires": [
+            [
+                "70d67a5ae63a8632"
+            ]
+        ]
+    },
+    {
+        "id": "766506ae325781ad",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 4660,
+        "wires": [
+            [
+                "9dd15a159eecb19b"
+            ]
+        ]
+    },
+    {
+        "id": "812fe63188c62371",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 4660,
+        "wires": []
+    },
+    {
+        "id": "70d67a5ae63a8632",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 550,
+        "y": 4660,
+        "wires": [
+            [
+                "812fe63188c62371"
+            ]
+        ]
+    },
+    {
+        "id": "d7bf781dd3fd88e2",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "setttp_free()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\nlet setttp_free = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n    msg.topic = guid+\"-bots:\"+botname+\":ttpbusy\";\n    msg.payload = \"false\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setttp_free', setttp_free);",
+        "finalize": "",
+        "x": 350,
+        "y": 4720,
+        "wires": [
+            [
+                "957d92bd26fd6cf1"
+            ]
+        ]
+    },
+    {
+        "id": "b8b65298c7faf936",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 4720,
+        "wires": [
+            [
+                "d7bf781dd3fd88e2"
+            ]
+        ]
+    },
+    {
+        "id": "957d92bd26fd6cf1",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 550,
+        "y": 4720,
+        "wires": [
+            [
+                "1d576e81490830e4"
+            ]
+        ]
+    },
+    {
+        "id": "1d576e81490830e4",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 4720,
+        "wires": []
+    },
+    {
+        "id": "68291d1511fd4293",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "get_ttp_q()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet get_ttp_q = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttpq\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('get_ttp_q', get_ttp_q);",
+        "finalize": "",
+        "x": 1110,
+        "y": 4600,
+        "wires": [
+            [
+                "1ff306d57ef6bdc3"
+            ]
+        ]
+    },
+    {
+        "id": "ef024bdea7e2057b",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1500,
+        "y": 4600,
+        "wires": []
+    },
+    {
+        "id": "1ff306d57ef6bdc3",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get ttp q",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1320,
+        "y": 4600,
+        "wires": [
+            [
+                "ef024bdea7e2057b"
+            ]
+        ]
+    },
+    {
+        "id": "058b216ea15a1594",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 940,
+        "y": 4600,
+        "wires": [
+            [
+                "68291d1511fd4293"
+            ]
+        ]
+    },
+    {
+        "id": "2b33be9784bef7d2",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname, ttpq",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 960,
+        "y": 4660,
+        "wires": [
+            [
+                "f3b293e3a15d2aa6"
+            ]
+        ]
+    },
+    {
+        "id": "f3b293e3a15d2aa6",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "set_ttp_q()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\nlet set_ttp_q = function (botname = msg.topic, ttpq = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttpq\";\n    msg.payload = ttpq;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('set_ttp_q', set_ttp_q);",
+        "finalize": "",
+        "x": 1150,
+        "y": 4660,
+        "wires": [
+            [
+                "77bd40a2acefa4bb"
+            ]
+        ]
+    },
+    {
+        "id": "77bd40a2acefa4bb",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1330,
+        "y": 4660,
+        "wires": [
+            [
+                "874724887d3757b6"
+            ]
+        ]
+    },
+    {
+        "id": "874724887d3757b6",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1520,
+        "y": 4660,
+        "wires": []
+    },
+    {
+        "id": "06cc75b9ace7c183",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "getbot_busy()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_busy = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":busy\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_busy', getbot_busy);",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 4800,
+        "wires": [
+            [
+                "dea14eabf1b30488"
+            ]
+        ]
+    },
+    {
+        "id": "96b7b3cfd1ba3eaf",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 4800,
+        "wires": [
+            [
+                "06cc75b9ace7c183"
+            ]
+        ]
+    },
+    {
+        "id": "c02a7b298c933199",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 4800,
+        "wires": []
+    },
+    {
+        "id": "dea14eabf1b30488",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get bot busy",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 550,
+        "y": 4800,
+        "wires": [
+            [
+                "c02a7b298c933199"
+            ]
+        ]
+    },
+    {
+        "id": "fc400e7bb1e5c2d3",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "setbot_busy()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\nlet setbot_busy = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n     msg.topic = guid+\"-bots:\"+botname+\":busy\";\n    msg.payload = \"true\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_busy', setbot_busy);",
+        "finalize": "",
+        "x": 360,
+        "y": 4860,
+        "wires": [
+            [
+                "8a75bd5cc920a560"
+            ]
+        ]
+    },
+    {
+        "id": "cb4de1b00e5df9c6",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 4860,
+        "wires": [
+            [
+                "fc400e7bb1e5c2d3"
+            ]
+        ]
+    },
+    {
+        "id": "e7ed7bb962581a15",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 4860,
+        "wires": []
+    },
+    {
+        "id": "8a75bd5cc920a560",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 550,
+        "y": 4860,
+        "wires": [
+            [
+                "e7ed7bb962581a15"
+            ]
+        ]
+    },
+    {
+        "id": "c821b937e08a99c5",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "setbot_free()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\nlet setbot_free = function (botname = msg.topic) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n    msg.topic = guid+\"-bots:\"+botname+\":busy\";\n    msg.payload = \"false\";\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_free', setbot_free);",
+        "finalize": "",
+        "x": 350,
+        "y": 4920,
+        "wires": [
+            [
+                "2eeda9dfec63a44c"
+            ]
+        ]
+    },
+    {
+        "id": "30d0bafc0cadc27f",
+        "type": "inject",
+        "z": "654ea140.2275a8",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 4920,
+        "wires": [
+            [
+                "c821b937e08a99c5"
+            ]
+        ]
+    },
+    {
+        "id": "20671e29985b1cdb",
+        "type": "function",
+        "z": "654ea140.2275a8",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 4920,
+        "wires": []
+    },
+    {
+        "id": "2eeda9dfec63a44c",
+        "type": "redis-command",
+        "z": "654ea140.2275a8",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 550,
+        "y": 4920,
+        "wires": [
+            [
+                "20671e29985b1cdb"
+            ]
+        ]
     }
 ]
