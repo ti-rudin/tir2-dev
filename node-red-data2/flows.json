@@ -2550,7 +2550,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "set buy order on binance",
-        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\nlet moneta = msg.payload.moneta;\nlet quantity = Number(msg.payload.quantity);\nlet price = Number(msg.payload.price);\n//node.warn(moneta+\" set buy order q = \"+quantity+\" p = \"+price);\n\n\n\n\nbinance.useServerTime(function() {\n    binance.buy(moneta, quantity, price, {type:'LIMIT'}, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n\n        msg.err = err;\n        node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n        \n        node.send(msg);\n        //return [msg, null];\n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        node.status({fill: \"green\", shape: \"ring\", text: resp.orderId});\n        \n        node.send(msg);\n       // return [null,msg];\n                \n    }\n    //node.status({}); //clear status message\n});\n\t\n});",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\nlet moneta = msg.payload.moneta;\nlet quantity = Number(msg.payload.quantity);\nlet price = Number(msg.payload.price);\n//node.warn(moneta+\" set buy order q = \"+quantity+\" p = \"+price);\n\n\n\n\nbinance.useServerTime(function() {\n    binance.buy(moneta, quantity, price, {type:'LIMIT'}, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n\n        msg.err = err;\n        node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n        \n        node.send(msg);\n        //return [msg, null];\n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        node.status({fill: \"green\", shape: \"ring\", text: resp.orderId});\n        \n        node.send(msg);\n       // return [null,msg];\n                \n    }\n    //node.status({}); //clear status message\n});\n\t\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2574,7 +2574,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "set market sell",
-        "func": "\nfunction parseApiError(error) {\n    if (error.body) {\n        try {\n            var resp = JSON.parse(error.body);\n            return resp.msg;\n        } catch (error) {/* pass thru */ }\n    }\n    return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n    APIKEY: key,\n    APISECRET: secret,\n    reconnect: false,\n    useServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet quantity = Number(msg.payload.quantity);\n\nnode.warn(\"market sell sp:\" + \" q:\" + quantity);\n\nbinance.useServerTime(function () {\n    binance.marketSell(moneta, quantity, function (err, resp) {\n        if (err) {\n            var errorMsg = parseApiError(err);\n            msg.err = err;\n            node.error(errorMsg, msg);\n            node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n            node.send(msg);\n\n\n        }\n        if (resp) {\n\n            msg.resp = resp;\n            node.status({ fill: \"green\", shape: \"ring\" });\n            node.send(msg);\n        }\n\n    })\n\n});\n\n",
+        "func": "\nfunction parseApiError(error) {\n    if (error.body) {\n        try {\n            var resp = JSON.parse(error.body);\n            return resp.msg;\n        } catch (error) {/* pass thru */ }\n    }\n    return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n    APIKEY: key,\n    APISECRET: secret,\n    reconnect: false,\n    useServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet quantity = Number(msg.payload.quantity);\n\nnode.warn(\"market sell sp:\" + \" q:\" + quantity);\n\nbinance.useServerTime(function () {\n    binance.marketSell(moneta, quantity, function (err, resp) {\n        if (err) {\n            var errorMsg = parseApiError(err);\n            msg.err = err;\n            node.error(errorMsg, msg);\n            node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n            node.send(msg);\n\n\n        }\n        if (resp) {\n\n            msg.resp = resp;\n            node.status({ fill: \"green\", shape: \"ring\" });\n            node.send(msg);\n        }\n\n    })\n\n});\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3753,7 +3753,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "cansel order",
-        "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\treconnect: false,\n\tuseServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet orderid = msg.payload.orderid;\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function() {\nbinance.cancel(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n        \n\n    msg.err = err;\n    node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n    node.send(msg);\n        \n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        \n\n    node.status({fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n        \n    }\n    //node.status({}); //clear status message\n})});\n\n\n\n\n",
+        "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\treconnect: false,\n\tuseServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet orderid = msg.payload.orderid;\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function() {\nbinance.cancel(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n        \n\n    msg.err = err;\n    node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n    node.send(msg);\n        \n    \n    }\n    if (resp) {\n        msg.orderid = resp.orderId;\n        msg.resp = resp;\n        \n\n    node.status({fill: \"green\", shape: \"ring\"});\n    node.send(msg);\n        \n    }\n    //node.status({}); //clear status message\n})});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8875,8 +8875,8 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
-        "onceDelay": "10",
+        "once": true,
+        "onceDelay": "5",
         "topic": "",
         "payloadType": "date",
         "x": 150,
@@ -9618,7 +9618,7 @@
         "type": "function",
         "z": "5f98db3a.7ab21c",
         "name": "set stop sell order",
-        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  reconnect: false,\n  useServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet quantity = msg.payload.quantity;\nlet priceb = msg.payload.priceb;\nlet stopprice = msg.payload.stopprice;\n\nbinance.useServerTime(function () {\n  binance.sell(moneta, quantity, priceb, { stopPrice: stopprice, type: \"STOP_LOSS_LIMIT\" }, function (err, resp) {\n    if (err) {\n      var errorMsg = parseApiError(err);\n      msg.err = err;\n      node.error(errorMsg, msg);\n      node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n      node.send(msg);\n\n    }\n    if (resp) {\n      //msg.bot.ttp.curorderid = resp.orderId;\n      resp.curstop = stopprice;\n      //msg.bot.ttp.quantity = quantity;\n      msg.resp = resp;\n      node.status({ fill: \"green\", shape: \"ring\" });\n      node.send(msg);\n    }\n \n  })\n\n});",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  reconnect: false,\n  useServerTime: true\n});\n\nlet moneta = msg.payload.moneta;\nlet quantity = msg.payload.quantity;\nlet priceb = msg.payload.priceb;\nlet stopprice = msg.payload.stopprice;\n\nbinance.useServerTime(function () {\n  binance.sell(moneta, quantity, priceb, { stopPrice: stopprice, type: \"STOP_LOSS_LIMIT\" }, function (err, resp) {\n    if (err) {\n      var errorMsg = parseApiError(err);\n      msg.err = err;\n      node.error(errorMsg, msg);\n      node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n      node.send(msg);\n\n    }\n    if (resp) {\n      //msg.bot.ttp.curorderid = resp.orderId;\n      resp.curstop = stopprice;\n      //msg.bot.ttp.quantity = quantity;\n      msg.resp = resp;\n      node.status({ fill: \"green\", shape: \"ring\" });\n      node.send(msg);\n    }\n \n  })\n\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17322,7 +17322,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": "5",
+        "onceDelay": "2",
         "topic": "",
         "payloadType": "date",
         "x": 170,
@@ -17384,7 +17384,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2650,
+        "x": 2610,
         "y": 340,
         "wires": []
     },
@@ -19415,7 +19415,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
+        "x": 1120,
         "y": 360,
         "wires": [
             []
@@ -19782,7 +19782,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1480,
+        "x": 1460,
         "y": 100,
         "wires": []
     },
@@ -24335,8 +24335,9 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_status = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":status\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_status', getbot_status);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\nlet getbot_status = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":status\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_status', getbot_status);",
         "finalize": "",
+        "libs": [],
         "x": 340,
         "y": 2720,
         "wires": [
@@ -24486,8 +24487,9 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_settings = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":settings\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_settings', getbot_settings);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\n\nlet getbot_settings = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":settings\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_settings', getbot_settings);",
         "finalize": "",
+        "libs": [],
         "x": 350,
         "y": 2780,
         "wires": [
@@ -24548,7 +24550,8 @@
         "y": 2780,
         "wires": [
             [
-                "2276db5a72b84475"
+                "2276db5a72b84475",
+                "234d1d62c2f1100e"
             ]
         ]
     },
@@ -24561,8 +24564,9 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_ttp = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttp\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_ttp', getbot_ttp);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\nlet getbot_ttp = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttp\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_ttp', getbot_ttp);",
         "finalize": "",
+        "libs": [],
         "x": 330,
         "y": 2840,
         "wires": [
@@ -24636,7 +24640,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_onoff = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":onoff\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_onoff', getbot_onoff);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\nlet getbot_onoff = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":onoff\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_onoff', getbot_onoff);",
         "finalize": "",
         "libs": [],
         "x": 340,
@@ -24863,7 +24867,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_data = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":data\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_data', getbot_data);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\nlet getbot_data = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":data\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_data', getbot_data);",
         "finalize": "",
         "libs": [],
         "x": 1090,
@@ -24939,8 +24943,9 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet setbot_data = function (volname = msg.topic, data = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = volname;\n    msg.payload = data;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_data', setbot_data);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\nlet setbot_data = function (volname = msg.topic, data = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = volname;\n    msg.payload = data;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_data', setbot_data);",
         "finalize": "",
+        "libs": [],
         "x": 1090,
         "y": 2840,
         "wires": [
@@ -25014,8 +25019,9 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_start_set = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":start_set\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_start_set', getbot_start_set);",
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\nlet getbot_start_set = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":start_set\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_start_set', getbot_start_set);",
         "finalize": "",
+        "libs": [],
         "x": 1110,
         "y": 3080,
         "wires": [
@@ -25155,5 +25161,22 @@
                 "afd540eb32b04345"
             ]
         ]
+    },
+    {
+        "id": "234d1d62c2f1100e",
+        "type": "debug",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 2540,
+        "wires": []
     }
 ]

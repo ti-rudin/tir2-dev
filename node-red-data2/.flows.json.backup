@@ -226,69 +226,6 @@
         "y": 1839
     },
     {
-        "id": "a0a5df595c9dd619",
-        "type": "group",
-        "z": "5f98db3a.7ab21c",
-        "name": "Functions",
-        "style": {
-            "fill": "#3f3f3f",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "382a503f4e67ab59",
-            "2f422e4d0ce76250",
-            "3ea20577e61d637e",
-            "41032c7d5c5dd176",
-            "b7aba5b37ed37139",
-            "70ed2b2d70d9944d",
-            "246eff8809325a29",
-            "c643f8c7edc72be1",
-            "e42a384d2534d732",
-            "c00bedacd35da1c0",
-            "7a5997cacf7a8bce",
-            "bf6e252fdcd88a55",
-            "029f8854d99d2799",
-            "696678b09fed07b3",
-            "ccc3aeede3d8a8b3",
-            "12b0d6644ffae05b",
-            "65f41478d829a80f",
-            "475e4953b0e1f1d3",
-            "7d6a7893273afcaa",
-            "5b4a4b752fd5b8ce",
-            "50d957a47610c2d0",
-            "d3d2d3d7a6bbdff7",
-            "3ef68805d9b584b8",
-            "7c08b0b5b7bcfd86",
-            "a713b8aa07e16e63",
-            "dd10f10ea4f57a40",
-            "8812bbd571059ab4",
-            "c012203851d0ebcd",
-            "3bef7797c26b1a5f",
-            "c154464254f3387d",
-            "be9d5b5c3682927e",
-            "35682148fb7efa9b",
-            "0af2f0d1357e3a82",
-            "a3dce78903158487",
-            "bbe4e1e92aa2f964",
-            "2b492f081698596f",
-            "a26a29ba43723e01",
-            "c3289de2ea50e5ea",
-            "1b8e8f2b9e955bc3",
-            "9a443f63d0615ef9",
-            "447c87dceb07fc6e",
-            "dc41b6b6c1974b34",
-            "cc793ccb2692b6f7",
-            "184f6029b46bff83",
-            "a387bc9ca753da20",
-            "e2bef8f03e88fbc4",
-            "74dfccbf45336d82",
-            "426d2443aff4e59c"
-        ],
-        "x": 34,
-        "y": 19
-    },
-    {
         "id": "89e4eb3d636bee6a",
         "type": "group",
         "z": "5df15275.2888ec",
@@ -1142,6 +1079,71 @@
         "y": 59,
         "w": 472,
         "h": 122
+    },
+    {
+        "id": "89163c507731c271",
+        "type": "group",
+        "z": "5df15275.2888ec",
+        "name": "Functions",
+        "style": {
+            "fill": "#3f3f3f",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "92bf9eb287ff8b72",
+            "b2c0b4eddc23eb36",
+            "cafc06f7d626740b",
+            "436ca69eede8d00d",
+            "0ec784994cc2abbd",
+            "22a92ea768b2ecd7",
+            "335cb1cd03d27577",
+            "2479d844bad1e7fc",
+            "dd5c08138f96dc32",
+            "1f040c10a40660a3",
+            "bcf6c8b52c1af9eb",
+            "7bd086b4fd422d4f",
+            "b3ea86a7e3f0059d",
+            "24916037ee63d8e4",
+            "2276db5a72b84475",
+            "e6bb4468e08a1439",
+            "30585984732e275d",
+            "268120b0545e3f76",
+            "f8786a6b0e8948af",
+            "b4f18b25b5511991",
+            "4ea886954fbbf0d3",
+            "f7bf90f65d105f4b",
+            "9c41520562a95389",
+            "75b186b17887b567",
+            "27fecf09e199aa44",
+            "64da5f313c0a8c5d",
+            "b6413decd52c6c26",
+            "b8d8ac42e0a9b219",
+            "bd3a0b4713461d59",
+            "df267976143a87d8",
+            "849ac9106e04a774",
+            "d57df1b7bbea2a80",
+            "7cc6d70d92fc95ea",
+            "bf28598e43e6eec1",
+            "c96ea93b6302e1ef",
+            "111ec00fe5fd83b5",
+            "ec942e95be192be0",
+            "3d4349198388a2a2",
+            "06cc58b23ba4ccc1",
+            "6fcf11fcb8e95428",
+            "9e3df88617341377",
+            "158fe166577dee34",
+            "d857e16e145360ae",
+            "f34512efb2196521",
+            "13aace7415920e34",
+            "6ffc61ebd2405c2d",
+            "afd540eb32b04345",
+            "d7a0305e5b6bbcc6"
+        ],
+        "x": 54,
+        "y": 2619,
+        "w": 1552,
+        "h": 502
     },
     {
         "id": "f120eab2.0a60a8",
@@ -2420,7 +2422,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "1",
         "topic": "",
         "x": 250,
         "y": 960,
@@ -2717,7 +2719,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "1",
         "topic": "",
         "payload": "binance",
         "payloadType": "str",
@@ -3426,7 +3428,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "1",
         "topic": "",
         "x": 130,
         "y": 800,
@@ -3849,7 +3851,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "1",
         "topic": "",
         "x": 220,
         "y": 1880,
@@ -7458,911 +7460,6 @@
         "x": 2200,
         "y": 1320,
         "wires": []
-    },
-    {
-        "id": "382a503f4e67ab59",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getprice()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet getprice = function (moneta = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = \"prices:\"+moneta;\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getprice', getprice);",
-        "finalize": "",
-        "x": 1080,
-        "y": 60,
-        "wires": [
-            [
-                "3ea20577e61d637e"
-            ]
-        ]
-    },
-    {
-        "id": "2f422e4d0ce76250",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "moneta",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 900,
-        "y": 60,
-        "wires": [
-            [
-                "382a503f4e67ab59"
-            ]
-        ]
-    },
-    {
-        "id": "3ea20577e61d637e",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get price",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1240,
-        "y": 60,
-        "wires": [
-            [
-                "41032c7d5c5dd176"
-            ]
-        ]
-    },
-    {
-        "id": "41032c7d5c5dd176",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1460,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "b7aba5b37ed37139",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_status()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_status = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":status\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_status', getbot_status);",
-        "finalize": "",
-        "x": 320,
-        "y": 120,
-        "wires": [
-            [
-                "bf6e252fdcd88a55"
-            ]
-        ]
-    },
-    {
-        "id": "70ed2b2d70d9944d",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 120,
-        "wires": [
-            [
-                "b7aba5b37ed37139"
-            ]
-        ]
-    },
-    {
-        "id": "246eff8809325a29",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "c643f8c7edc72be1",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbotlist()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet getbotlist = function (guid = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-botlist\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbotlist', getbotlist);",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 60,
-        "wires": [
-            [
-                "c00bedacd35da1c0"
-            ]
-        ]
-    },
-    {
-        "id": "e42a384d2534d732",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "guid",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 130,
-        "y": 60,
-        "wires": [
-            [
-                "c643f8c7edc72be1"
-            ]
-        ]
-    },
-    {
-        "id": "c00bedacd35da1c0",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get botlist",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 460,
-        "y": 60,
-        "wires": [
-            [
-                "7a5997cacf7a8bce"
-            ]
-        ]
-    },
-    {
-        "id": "7a5997cacf7a8bce",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 620,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "bf6e252fdcd88a55",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get bot status",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 520,
-        "y": 120,
-        "wires": [
-            [
-                "246eff8809325a29"
-            ]
-        ]
-    },
-    {
-        "id": "029f8854d99d2799",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_settings()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_settings = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":settings\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_settings', getbot_settings);",
-        "finalize": "",
-        "x": 330,
-        "y": 180,
-        "wires": [
-            [
-                "12b0d6644ffae05b"
-            ]
-        ]
-    },
-    {
-        "id": "696678b09fed07b3",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 180,
-        "wires": [
-            [
-                "029f8854d99d2799"
-            ]
-        ]
-    },
-    {
-        "id": "ccc3aeede3d8a8b3",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 720,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "12b0d6644ffae05b",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get bot settings",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 540,
-        "y": 180,
-        "wires": [
-            [
-                "ccc3aeede3d8a8b3"
-            ]
-        ]
-    },
-    {
-        "id": "65f41478d829a80f",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_ttp()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_ttp = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttp\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_ttp', getbot_ttp);",
-        "finalize": "",
-        "x": 310,
-        "y": 240,
-        "wires": [
-            [
-                "5b4a4b752fd5b8ce"
-            ]
-        ]
-    },
-    {
-        "id": "475e4953b0e1f1d3",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 240,
-        "wires": [
-            [
-                "65f41478d829a80f"
-            ]
-        ]
-    },
-    {
-        "id": "7d6a7893273afcaa",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 680,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "5b4a4b752fd5b8ce",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get bot ttp",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 490,
-        "y": 240,
-        "wires": [
-            [
-                "7d6a7893273afcaa"
-            ]
-        ]
-    },
-    {
-        "id": "50d957a47610c2d0",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_onoff()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_onoff = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":onoff\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_onoff', getbot_onoff);",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 300,
-        "wires": [
-            [
-                "7c08b0b5b7bcfd86"
-            ]
-        ]
-    },
-    {
-        "id": "d3d2d3d7a6bbdff7",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 300,
-        "wires": [
-            [
-                "50d957a47610c2d0"
-            ]
-        ]
-    },
-    {
-        "id": "3ef68805d9b584b8",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 700,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "7c08b0b5b7bcfd86",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get bot onoff",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 510,
-        "y": 300,
-        "wires": [
-            [
-                "3ef68805d9b584b8"
-            ]
-        ]
-    },
-    {
-        "id": "a713b8aa07e16e63",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setbotlist()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet setbotlist = function (guid = msg.payload.guid, botlist = msg.payload.botlist) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-botlist\";\n    msg.payload = botlist;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbotlist', setbotlist);",
-        "finalize": "",
-        "libs": [],
-        "x": 1090,
-        "y": 120,
-        "wires": [
-            [
-                "c012203851d0ebcd"
-            ]
-        ]
-    },
-    {
-        "id": "dd10f10ea4f57a40",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "guid, botlist",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 910,
-        "y": 120,
-        "wires": [
-            [
-                "a713b8aa07e16e63"
-            ]
-        ]
-    },
-    {
-        "id": "8812bbd571059ab4",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1420,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "c012203851d0ebcd",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "set botlist",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1260,
-        "y": 120,
-        "wires": [
-            [
-                "8812bbd571059ab4"
-            ]
-        ]
-    },
-    {
-        "id": "3bef7797c26b1a5f",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setbot_status()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "\nlet setbot_status = function (botname = msg.topic, status = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = botname;\n    msg.payload = status;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_status', setbot_status);",
-        "finalize": "",
-        "x": 1120,
-        "y": 180,
-        "wires": [
-            [
-                "35682148fb7efa9b"
-            ]
-        ]
-    },
-    {
-        "id": "c154464254f3387d",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname, status",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 920,
-        "y": 180,
-        "wires": [
-            [
-                "3bef7797c26b1a5f"
-            ]
-        ]
-    },
-    {
-        "id": "be9d5b5c3682927e",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1500,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "35682148fb7efa9b",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1310,
-        "y": 180,
-        "wires": [
-            [
-                "be9d5b5c3682927e"
-            ]
-        ]
-    },
-    {
-        "id": "0af2f0d1357e3a82",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_data()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_data = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":data\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_data', getbot_data);",
-        "finalize": "",
-        "libs": [],
-        "x": 1070,
-        "y": 420,
-        "wires": [
-            [
-                "2b492f081698596f"
-            ]
-        ]
-    },
-    {
-        "id": "a3dce78903158487",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 900,
-        "y": 420,
-        "wires": [
-            [
-                "0af2f0d1357e3a82"
-            ]
-        ]
-    },
-    {
-        "id": "bbe4e1e92aa2f964",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1460,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "2b492f081698596f",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "hgetall",
-        "name": "",
-        "topic": "",
-        "params": "{}",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1250,
-        "y": 420,
-        "wires": [
-            [
-                "bbe4e1e92aa2f964"
-            ]
-        ]
-    },
-    {
-        "id": "a26a29ba43723e01",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setbot_data()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet setbot_data = function (volname = msg.topic, data = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = volname;\n    msg.payload = data;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_data', setbot_data);",
-        "finalize": "",
-        "x": 1070,
-        "y": 240,
-        "wires": [
-            [
-                "9a443f63d0615ef9"
-            ]
-        ]
-    },
-    {
-        "id": "c3289de2ea50e5ea",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 900,
-        "y": 240,
-        "wires": [
-            [
-                "a26a29ba43723e01"
-            ]
-        ]
-    },
-    {
-        "id": "1b8e8f2b9e955bc3",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1460,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "9a443f63d0615ef9",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "hmset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1250,
-        "y": 240,
-        "wires": [
-            [
-                "1b8e8f2b9e955bc3"
-            ]
-        ]
-    },
-    {
-        "id": "447c87dceb07fc6e",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "getbot_start_set()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_start_set = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":start_set\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_start_set', getbot_start_set);",
-        "finalize": "",
-        "x": 1090,
-        "y": 480,
-        "wires": [
-            [
-                "184f6029b46bff83"
-            ]
-        ]
-    },
-    {
-        "id": "dc41b6b6c1974b34",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 900,
-        "y": 480,
-        "wires": [
-            [
-                "447c87dceb07fc6e"
-            ]
-        ]
-    },
-    {
-        "id": "cc793ccb2692b6f7",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1500,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "184f6029b46bff83",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get bot starts_set",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1310,
-        "y": 480,
-        "wires": [
-            [
-                "cc793ccb2692b6f7"
-            ]
-        ]
-    },
-    {
-        "id": "a387bc9ca753da20",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "setbot_ttp()",
-        "func": "",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "\nlet setbot_ttp = function (botname = msg.topic, ttp = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = botname;\n    msg.payload = ttp;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_ttp', setbot_ttp);",
-        "finalize": "",
-        "libs": [],
-        "x": 1110,
-        "y": 360,
-        "wires": [
-            [
-                "426d2443aff4e59c"
-            ]
-        ]
-    },
-    {
-        "id": "e2bef8f03e88fbc4",
-        "type": "inject",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "botname, ttp",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 910,
-        "y": 360,
-        "wires": [
-            [
-                "a387bc9ca753da20"
-            ]
-        ]
-    },
-    {
-        "id": "74dfccbf45336d82",
-        "type": "function",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "name": "resolve",
-        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
-        "outputs": "0",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1500,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "426d2443aff4e59c",
-        "type": "redis-command",
-        "z": "5f98db3a.7ab21c",
-        "g": "a0a5df595c9dd619",
-        "server": "f120eab2.0a60a8",
-        "command": "getset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1310,
-        "y": 360,
-        "wires": [
-            [
-                "74dfccbf45336d82"
-            ]
-        ]
     },
     {
         "id": "20e930bc4e51c612",
@@ -18195,7 +17292,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": "3",
+        "onceDelay": "2",
         "topic": "",
         "payloadType": "date",
         "x": 170,
@@ -18257,7 +17354,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2650,
+        "x": 2610,
         "y": 340,
         "wires": []
     },
@@ -20288,7 +19385,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
+        "x": 1120,
         "y": 360,
         "wires": [
             []
@@ -20655,7 +19752,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1480,
+        "x": 1460,
         "y": 100,
         "wires": []
     },
@@ -25123,5 +24220,929 @@
                 "20671e29985b1cdb"
             ]
         ]
+    },
+    {
+        "id": "92bf9eb287ff8b72",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getprice()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet getprice = function (moneta = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = \"prices:\"+moneta;\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getprice', getprice);",
+        "finalize": "",
+        "x": 1100,
+        "y": 2660,
+        "wires": [
+            [
+                "cafc06f7d626740b"
+            ]
+        ]
+    },
+    {
+        "id": "b2c0b4eddc23eb36",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "moneta",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 920,
+        "y": 2660,
+        "wires": [
+            [
+                "92bf9eb287ff8b72"
+            ]
+        ]
+    },
+    {
+        "id": "cafc06f7d626740b",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get price",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1260,
+        "y": 2660,
+        "wires": [
+            [
+                "436ca69eede8d00d"
+            ]
+        ]
+    },
+    {
+        "id": "436ca69eede8d00d",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1480,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "0ec784994cc2abbd",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbot_status()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_status = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":status\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_status', getbot_status);",
+        "finalize": "",
+        "x": 340,
+        "y": 2720,
+        "wires": [
+            [
+                "7bd086b4fd422d4f"
+            ]
+        ]
+    },
+    {
+        "id": "22a92ea768b2ecd7",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 160,
+        "y": 2720,
+        "wires": [
+            [
+                "0ec784994cc2abbd"
+            ]
+        ]
+    },
+    {
+        "id": "335cb1cd03d27577",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "2479d844bad1e7fc",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbotlist()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet getbotlist = function (guid = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-botlist\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbotlist', getbotlist);",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 2660,
+        "wires": [
+            [
+                "1f040c10a40660a3"
+            ]
+        ]
+    },
+    {
+        "id": "dd5c08138f96dc32",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "guid",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 150,
+        "y": 2660,
+        "wires": [
+            [
+                "2479d844bad1e7fc"
+            ]
+        ]
+    },
+    {
+        "id": "1f040c10a40660a3",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get botlist",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 480,
+        "y": 2660,
+        "wires": [
+            [
+                "bcf6c8b52c1af9eb"
+            ]
+        ]
+    },
+    {
+        "id": "bcf6c8b52c1af9eb",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 640,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "7bd086b4fd422d4f",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get bot status",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 540,
+        "y": 2720,
+        "wires": [
+            [
+                "335cb1cd03d27577"
+            ]
+        ]
+    },
+    {
+        "id": "b3ea86a7e3f0059d",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbot_settings()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = env.get(\"GOOGLEUID\");\n\n\nlet getbot_settings = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":settings\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_settings', getbot_settings);",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 2780,
+        "wires": [
+            [
+                "e6bb4468e08a1439"
+            ]
+        ]
+    },
+    {
+        "id": "24916037ee63d8e4",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 160,
+        "y": 2780,
+        "wires": [
+            [
+                "b3ea86a7e3f0059d"
+            ]
+        ]
+    },
+    {
+        "id": "2276db5a72b84475",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "e6bb4468e08a1439",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get bot settings",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 560,
+        "y": 2780,
+        "wires": [
+            [
+                "2276db5a72b84475",
+                "234d1d62c2f1100e"
+            ]
+        ]
+    },
+    {
+        "id": "30585984732e275d",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbot_ttp()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_ttp = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":ttp\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_ttp', getbot_ttp);",
+        "finalize": "",
+        "x": 330,
+        "y": 2840,
+        "wires": [
+            [
+                "b4f18b25b5511991"
+            ]
+        ]
+    },
+    {
+        "id": "268120b0545e3f76",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 160,
+        "y": 2840,
+        "wires": [
+            [
+                "30585984732e275d"
+            ]
+        ]
+    },
+    {
+        "id": "f8786a6b0e8948af",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 700,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "b4f18b25b5511991",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get bot ttp",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 510,
+        "y": 2840,
+        "wires": [
+            [
+                "f8786a6b0e8948af"
+            ]
+        ]
+    },
+    {
+        "id": "4ea886954fbbf0d3",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbot_onoff()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_onoff = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":onoff\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_onoff', getbot_onoff);",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 2900,
+        "wires": [
+            [
+                "75b186b17887b567"
+            ]
+        ]
+    },
+    {
+        "id": "f7bf90f65d105f4b",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 160,
+        "y": 2900,
+        "wires": [
+            [
+                "4ea886954fbbf0d3"
+            ]
+        ]
+    },
+    {
+        "id": "9c41520562a95389",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "75b186b17887b567",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get bot onoff",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 530,
+        "y": 2900,
+        "wires": [
+            [
+                "9c41520562a95389"
+            ]
+        ]
+    },
+    {
+        "id": "27fecf09e199aa44",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "setbotlist()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\n// Code added here will be run once\n// whenever the node is deployed.\nlet setbotlist = function (guid = msg.payload.guid, botlist = msg.payload.botlist) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-botlist\";\n    msg.payload = botlist;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbotlist', setbotlist);",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 2720,
+        "wires": [
+            [
+                "b8d8ac42e0a9b219"
+            ]
+        ]
+    },
+    {
+        "id": "64da5f313c0a8c5d",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "guid, botlist",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 930,
+        "y": 2720,
+        "wires": [
+            [
+                "27fecf09e199aa44"
+            ]
+        ]
+    },
+    {
+        "id": "b6413decd52c6c26",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1440,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "b8d8ac42e0a9b219",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "set botlist",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1280,
+        "y": 2720,
+        "wires": [
+            [
+                "b6413decd52c6c26"
+            ]
+        ]
+    },
+    {
+        "id": "bd3a0b4713461d59",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "setbot_status()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\nlet setbot_status = function (botname = msg.topic, status = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = botname;\n    msg.payload = status;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_status', setbot_status);",
+        "finalize": "",
+        "x": 1140,
+        "y": 2780,
+        "wires": [
+            [
+                "d57df1b7bbea2a80"
+            ]
+        ]
+    },
+    {
+        "id": "df267976143a87d8",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname, status",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 940,
+        "y": 2780,
+        "wires": [
+            [
+                "bd3a0b4713461d59"
+            ]
+        ]
+    },
+    {
+        "id": "849ac9106e04a774",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1520,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "d57df1b7bbea2a80",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1330,
+        "y": 2780,
+        "wires": [
+            [
+                "849ac9106e04a774"
+            ]
+        ]
+    },
+    {
+        "id": "7cc6d70d92fc95ea",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbot_data()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\n\nlet getbot_data = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":data\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_data', getbot_data);",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 3020,
+        "wires": [
+            [
+                "111ec00fe5fd83b5"
+            ]
+        ]
+    },
+    {
+        "id": "bf28598e43e6eec1",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 920,
+        "y": 3020,
+        "wires": [
+            [
+                "7cc6d70d92fc95ea"
+            ]
+        ]
+    },
+    {
+        "id": "c96ea93b6302e1ef",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1480,
+        "y": 3020,
+        "wires": []
+    },
+    {
+        "id": "111ec00fe5fd83b5",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "hgetall",
+        "name": "",
+        "topic": "",
+        "params": "{}",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1270,
+        "y": 3020,
+        "wires": [
+            [
+                "c96ea93b6302e1ef"
+            ]
+        ]
+    },
+    {
+        "id": "ec942e95be192be0",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "setbot_data()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet setbot_data = function (volname = msg.topic, data = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = volname;\n    msg.payload = data;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_data', setbot_data);",
+        "finalize": "",
+        "x": 1090,
+        "y": 2840,
+        "wires": [
+            [
+                "6fcf11fcb8e95428"
+            ]
+        ]
+    },
+    {
+        "id": "3d4349198388a2a2",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 920,
+        "y": 2840,
+        "wires": [
+            [
+                "ec942e95be192be0"
+            ]
+        ]
+    },
+    {
+        "id": "06cc58b23ba4ccc1",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1480,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "6fcf11fcb8e95428",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "hmset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1270,
+        "y": 2840,
+        "wires": [
+            [
+                "06cc58b23ba4ccc1"
+            ]
+        ]
+    },
+    {
+        "id": "9e3df88617341377",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "getbot_start_set()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let guid = global.get('guid');\n\n\nlet getbot_start_set = function (botname = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = guid+\"-bots:\"+botname+\":start_set\";\n    msg.payload = [];\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('getbot_start_set', getbot_start_set);",
+        "finalize": "",
+        "x": 1110,
+        "y": 3080,
+        "wires": [
+            [
+                "f34512efb2196521"
+            ]
+        ]
+    },
+    {
+        "id": "158fe166577dee34",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 920,
+        "y": 3080,
+        "wires": [
+            [
+                "9e3df88617341377"
+            ]
+        ]
+    },
+    {
+        "id": "d857e16e145360ae",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1520,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "f34512efb2196521",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get bot starts_set",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1330,
+        "y": 3080,
+        "wires": [
+            [
+                "d857e16e145360ae"
+            ]
+        ]
+    },
+    {
+        "id": "13aace7415920e34",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "setbot_ttp()",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\nlet setbot_ttp = function (botname = msg.topic, ttp = msg.payload) {\n    \n    let promise = new Promise((resolve, reject) => {\n        msg.resolve = resolve;\n        msg.reject = reject;\n    });\n    \n\n    msg.topic = botname;\n    msg.payload = ttp;\n\n    node.send(Object.assign({}, msg));\n    \n    return promise;\n};\n\nglobal.set('setbot_ttp', setbot_ttp);",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 2960,
+        "wires": [
+            [
+                "d7a0305e5b6bbcc6"
+            ]
+        ]
+    },
+    {
+        "id": "6ffc61ebd2405c2d",
+        "type": "inject",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "botname, ttp",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 930,
+        "y": 2960,
+        "wires": [
+            [
+                "13aace7415920e34"
+            ]
+        ]
+    },
+    {
+        "id": "afd540eb32b04345",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "name": "resolve",
+        "func": "msg.resolve(msg.payload);\n\n// reject\n// setTimeout(function () {\n//     msg.reject({message: 'Could not request joke'});\n// }, 2000);",
+        "outputs": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1520,
+        "y": 2960,
+        "wires": []
+    },
+    {
+        "id": "d7a0305e5b6bbcc6",
+        "type": "redis-command",
+        "z": "5df15275.2888ec",
+        "g": "89163c507731c271",
+        "server": "f120eab2.0a60a8",
+        "command": "getset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 1330,
+        "y": 2960,
+        "wires": [
+            [
+                "afd540eb32b04345"
+            ]
+        ]
+    },
+    {
+        "id": "234d1d62c2f1100e",
+        "type": "debug",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 2540,
+        "wires": []
     }
 ]
