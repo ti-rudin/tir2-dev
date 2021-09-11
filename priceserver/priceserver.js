@@ -39,15 +39,15 @@ function execution_update(data) {
     //NEW, CANCELED, REPLACED, REJECTED, TRADE, EXPIRED
     console.log(symbol + "\t" + side + " " + executionType + " " + orderType + " ORDER #" + orderId);
     if ((orderStatus == "CANCELED") || (orderStatus == "NEW")) {
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 5000);
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 5000);
+        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3000);
+        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 3000);
     }
     else {
         if (orderStatus == "PARTIALLY_FILLED") {
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3000);
         }
         else {
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 172800);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3000);
             client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 172800);
             client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa, 'EX', 172800);
             console.log(data);
