@@ -13,7 +13,7 @@ RUN npm install --silent
 
 #COPY . .
 WORKDIR /usr/src/app
-ENV HOST 0.0.0.0
+#ENV HOST 0.0.0.0
 
 #CMD [ "/bin/sh"]
 CMD ["npm", "run", "dev"]
