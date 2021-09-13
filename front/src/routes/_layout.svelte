@@ -6,6 +6,7 @@
     import NavigationDrawer from 'smelte/src/components/NavigationDrawer';
     import AppBar from 'smelte/src/components/AppBar';
     import breakpoints from 'smelte/src/breakpoints';
+
     export let segment;
     const bp = breakpoints();
     import 'smelte/src/tailwind.css';
@@ -14,7 +15,7 @@
 
     let darkMode = dark();
     let showzagl;
-    
+
     import Button from 'smelte/src/components/Button';
     // export let segment;
 
@@ -23,7 +24,19 @@
         //console.log ($stateStore.show);
         return $stateStore.showmenu;
     }
+    //import dotenv from 'dotenv';
+    //const result = dotenv.config();
+//
+    //if (result.error) {
+    //    throw result.error;
+    //}
+
+    //console.log(result.parsed.HOSTIP);
+    
     let urlhost = 'http://152.70.160.183:1880/';
+    //let urlhost = 'http://77.87.212.38:1880/';
+    //let urlhost = "http://" + result.parsed.HOSTIP + ":1880/";
+    console.log(urlhost);
     $stateStore.urlhost = urlhost;
     //localStorage.setItem('darkmode', 'on');
     if ($bp === 'sm') showzagl = false;
@@ -34,9 +47,9 @@
         }
     }
 
-     function gohome() {
-            $stateStore.rout = 'botlist';
-        }
+    function gohome() {
+        $stateStore.rout = 'botlist';
+    }
 </script>
 
 <style>
@@ -53,12 +66,12 @@
         margin-bottom: 2rem;
     }
     .chatpriglos {
-       display: inline-flex;
+        display: inline-flex;
         flex-grow: 2;
         text-align: center;
         border: 1px solid #85898b;
         border-radius: 5px;
-        margin : 1rem;
+        margin: 1rem;
     }
     .usermenu {
         line-height: inherit;
