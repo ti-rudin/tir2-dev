@@ -25170,8 +25170,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1270,
-        "y": 720,
+        "x": 1250,
+        "y": 760,
         "wires": []
     },
     {
@@ -25179,7 +25179,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
