@@ -15,12 +15,7 @@
 
     import IndLoad from './IndLoad.svelte';
 
-    //require('dotenv').config();
-    //console.log(process.env.HOSTIP);
-   // require('dotenv').config();
-    //console.log(process.env.HOSTIP);
     let urlhost = $stateStore.urlhost;
-    
 
     let bots = [];
     let urlbotslist = urlhost + 'botslist';
@@ -247,7 +242,7 @@
 
 <main>
 
-    <div class="textitem px-2">
+    <div class="textitem px-2 py-3">
         <div class="rowbalanceitem balancehead">
             <label>Баланс</label>
         </div>

@@ -1,6 +1,6 @@
 <script>
     import Button from 'smelte/src/components/Button';
-    import MenuUser from 'smelte/src/components/Menu/MenuUser.svelte';
+    import MenuUser from './MenuUser.svelte';
     import { signOut } from '../firebase';
     ///import List from 'smelte/src/components/List';
 

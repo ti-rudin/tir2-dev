@@ -2,7 +2,7 @@
     import { stateStore } from '../stores/statebot.js';
     clearInterval($stateStore.timerId);
     clearInterval($stateStore.timerIdlist);
-    //require('dotenv').config();
+
     import BotsList from '../components/BotsList.svelte';
     import { authStore } from '../stores/auth';
 
