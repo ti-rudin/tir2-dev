@@ -4,7 +4,7 @@
 	import "smelte/src/tailwind.css";
 	//import NewBot from './NewBot.svelte';
 	import BotStatus from '../components/BotStatus.svelte';
-	export let urlhost = "https://dev.ti-robots.ru/back/";
+	export let urlhost = "http://152.70.160.183:1880/";  
 	export let comission;
 	import dark from "./dark";
 	
