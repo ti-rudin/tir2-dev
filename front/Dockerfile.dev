@@ -10,7 +10,7 @@ COPY . /usr/src/app/
 #RUN npm audit fix
 #COPY package*.json ./
 #RUN npm install -g npm@7.0.13 
-#RUN npm install --silent
+RUN npm install --silent
 
 #COPY . .
 
