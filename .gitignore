@@ -140,3 +140,4 @@ exports
 _cacache/*
 
 build
+redis-data/dump.rdb
