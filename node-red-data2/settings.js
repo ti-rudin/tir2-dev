@@ -19,7 +19,7 @@
  *  - Node Settings
  *
  **/
-
+process.env.UV_THREADPOOL_SIZE = 128;
 module.exports = {
 
     /*******************************************************************************
@@ -484,4 +484,5 @@ module.exports = {
     //    *   - reason: if result is false, the HTTP reason string to return
     //    */
     //},
+
 }
