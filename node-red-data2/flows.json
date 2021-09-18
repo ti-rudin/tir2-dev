@@ -18158,7 +18158,7 @@
         "z": "5df15275.2888ec",
         "g": "a0fe11145e7edf84",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20482,7 +20482,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20755,7 +20755,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec setbuy",
-        "func": "let cmd = \"setbuy\";\n\nlet quantity = Number((Number(msg.bot.finance.depo) * Number(msg.bot.settings.ordersize) / 100 / msg.bot.status.currentprice).toFixed(msg.bot.settings.digitq));\nlet floor = msg.floorindex;\nlet price = msg.bot.floors[floor][3].toFixed(msg.bot.settings.digitprice);\nlet data = { moneta: msg.bot.settings.moneta, price: price, quantity: quantity};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = botname + \":\" + cmd + \": price:\" + data.price + \", quantity: \" + data.quantity;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        //node.done();\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
+        "func": "let cmd = \"setbuy\";\n\nlet quantity = Number((Number(msg.bot.finance.depo) * Number(msg.bot.settings.ordersize) / 100 / msg.bot.status.currentprice).toFixed(msg.bot.settings.digitq));\nlet floor = msg.floorindex;\nlet price = msg.bot.floors[floor][3].toFixed(msg.bot.settings.digitprice);\nlet data = { moneta: msg.bot.settings.moneta, price: price, quantity: quantity};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = botname + \":\" + cmd + \": price:\" + data.price + \", quantity: \" + data.quantity;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        //node.done();\n        let flooor = msg.floorindex +1;\n        node.warn(\"set buy: \" + botname + \" on floor:\" + flooor + \" q: \" + quantity );\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20937,7 +20937,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec cansel",
-        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n\n        \n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        //msg.bot.ttp.curorderid = 0;\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
+        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.botname;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n        let floor = msg.floorindex + 1;\n        node.warn(\"cansel buy: \" + botname + \" on floor:\" + floor);\n        node.send(msg);\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        //msg.bot.ttp.curorderid = 0;\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21163,12 +21163,12 @@
         "topic": "SETSELL",
         "obj": true,
         "timeout": 0,
-        "x": 160,
-        "y": 920,
+        "x": 180,
+        "y": 1080,
         "wires": [
             [
                 "4643b14a1c8406ba",
-                "697fe0269f493571"
+                "9cfde8b009ac5a26"
             ]
         ]
     },
@@ -21177,14 +21177,14 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "getbot, set ttpbusy",
-        "func": "msg.botname = msg.payload.data.botname;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp)\nreturn msg;",
+        "func": "//msg.botname = msg.payload.data.botname;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 920,
+        "x": 990,
+        "y": 1080,
         "wires": [
             [
                 "f2f10895a79dd78b"
@@ -21206,9 +21206,7 @@
         "x": 310,
         "y": 880,
         "wires": [
-            [
-                "922f2bf004e85cf4"
-            ]
+            []
         ]
     },
     {
@@ -21221,12 +21219,12 @@
         "topic": "CANSELSELL",
         "obj": true,
         "timeout": 0,
-        "x": 170,
-        "y": 1060,
+        "x": 190,
+        "y": 1300,
         "wires": [
             [
                 "b819850c8da2d576",
-                "bcfe2cc9d6ada347"
+                "89d3da82263f7578"
             ]
         ]
     },
@@ -21235,17 +21233,18 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "getbot, set ttpbusy",
-        "func": "msg.botname = msg.payload.data.botname;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 1060,
+        "x": 1010,
+        "y": 1300,
         "wires": [
             [
-                "5bb8a2e217a62cf5"
+                "5bb8a2e217a62cf5",
+                "7a846e320b985243"
             ]
         ]
     },
@@ -21261,12 +21260,10 @@
         "septopics": true,
         "property": "payload.data",
         "topi": "payload.data.botname",
-        "x": 330,
-        "y": 1020,
+        "x": 390,
+        "y": 1360,
         "wires": [
-            [
-                "a63aa7cdd517824c"
-            ]
+            []
         ]
     },
     {
@@ -21274,14 +21271,14 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec setsell",
-        "func": "let cmd = \"setsell\";\nlet moneta = msg.bot.settings.moneta;\nlet quantity = (Number(msg.bot.ttp.quantity)).toFixed(msg.bot.settings.digitq);\n\nlet priceb = (Number((msg.bot.ttp.raschstopprice - msg.bot.ttp.raschstopprice / 100 * msg.bot.settings.ofsetbottom))).toFixed(msg.bot.settings.digitprice);\nlet stopprice = (Number(msg.bot.ttp.raschstopprice)).toFixed(msg.bot.settings.digitprice);\n\nnode.warn(\"sp:\" + stopprice + \" p:\" + priceb + \" q:\" + quantity);\n\nlet data = { \"moneta\": moneta, \"quantity\": quantity, \"priceb\": priceb, \"stopprice\": stopprice,  };\nconst orderexec = global.get('order_exec')(cmd, data);\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n \n        msg.bot.ttp.curorderid = msg.orderexec.statusBody.orderId;\n        msg.bot.ttp.curstop = msg.bot.ttp.raschstopprice\n        //msg.bot.ttp.quantity = msg.orderexec.statusBody.origQty;\n\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        node.send(msg);\n    }\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
+        "func": "let cmd = \"setsell\";\nlet moneta = msg.bot.settings.moneta;\nlet quantity = (Number(msg.bot.ttp.quantity)).toFixed(msg.bot.settings.digitq);\n\nlet priceb = (Number((msg.bot.ttp.raschstopprice - msg.bot.ttp.raschstopprice / 100 * msg.bot.settings.ofsetbottom))).toFixed(msg.bot.settings.digitprice);\nlet stopprice = (Number(msg.bot.ttp.raschstopprice)).toFixed(msg.bot.settings.digitprice);\n\n\nlet data = { \"moneta\": moneta, \"quantity\": quantity, \"priceb\": priceb, \"stopprice\": stopprice,  };\nconst orderexec = global.get('order_exec')(cmd, data);\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n \n        msg.bot.ttp.curorderid = msg.orderexec.statusBody.orderId;\n        msg.bot.ttp.curstop = msg.bot.ttp.raschstopprice\n        //msg.bot.ttp.quantity = msg.orderexec.statusBody.origQty;\n        node.warn(\"bot: \"+ msg.botname + \"sp:\" + stopprice + \" p:\" + priceb + \" q:\" + quantity);\n\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        node.send(msg);\n    }\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 920,
+        "x": 1210,
+        "y": 1080,
         "wires": [
             [
                 "f6229d5c8eca7e6c"
@@ -21310,8 +21307,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 910,
-        "y": 920,
+        "x": 1410,
+        "y": 1080,
         "wires": [
             [
                 "1196c334fdd86489"
@@ -21332,8 +21329,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 930,
-        "y": 960,
+        "x": 1430,
+        "y": 1120,
         "wires": [
             [
                 "1ab3bbeabdd7ee4f"
@@ -21345,14 +21342,14 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec cansel",
-        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.payload.data.orderid;\nlet moneta = msg.payload.data.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot.ttp.curorderid = 0;\n        //msg.bot.ttp.curstop = 0;\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n",
+        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.bot.ttp.curorderid;\nlet moneta = msg.bot.settings.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.topic;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot.ttp.curorderid = 0;\n        //msg.bot.ttp.curstop = 0;\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        \n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 1060,
+        "x": 1230,
+        "y": 1300,
         "wires": [
             [
                 "4e61486dcfd45588"
@@ -21381,8 +21378,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 930,
-        "y": 1060,
+        "x": 1430,
+        "y": 1300,
         "wires": [
             [
                 "aacd1fc0c8868ed4"
@@ -21397,14 +21394,14 @@
         "type": "debug",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 190,
-        "y": 1020,
+        "x": 210,
+        "y": 1260,
         "wires": []
     },
     {
@@ -21412,14 +21409,14 @@
         "type": "debug",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 170,
-        "y": 880,
+        "x": 190,
+        "y": 1040,
         "wires": []
     },
     {
@@ -21684,8 +21681,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 900,
+        "x": 1600,
+        "y": 1060,
         "wires": [
             [
                 "f48f2978a8c94b10",
@@ -21704,8 +21701,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 960,
+        "x": 1600,
+        "y": 1120,
         "wires": [
             [
                 "3ab3f5ece6ebd7ba",
@@ -21724,8 +21721,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1040,
+        "x": 1600,
+        "y": 1280,
         "wires": [
             [
                 "550777029e1aaff1",
@@ -21744,8 +21741,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1080,
+        "x": 1600,
+        "y": 1320,
         "wires": [
             [
                 "2c0ca6c8b35ddbad",
@@ -21912,8 +21909,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1215,
-        "y": 860,
+        "x": 1715,
+        "y": 1020,
         "wires": []
     },
     {
@@ -21924,8 +21921,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1235,
-        "y": 940,
+        "x": 1735,
+        "y": 1100,
         "wires": []
     },
     {
@@ -21936,8 +21933,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1235,
-        "y": 1040,
+        "x": 1735,
+        "y": 1280,
         "wires": []
     },
     {
@@ -21948,8 +21945,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1235,
-        "y": 1080,
+        "x": 1735,
+        "y": 1320,
         "wires": []
     },
     {
@@ -23181,7 +23178,7 @@
         "type": "debug",
         "z": "5f98db3a.7ab21c",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -25179,7 +25176,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -25415,7 +25412,9 @@
         "x": 890,
         "y": 1900,
         "wires": [
-            []
+            [
+                "9ea860d261239092"
+            ]
         ]
     },
     {
@@ -25461,8 +25460,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
-        "y": 900,
+        "x": 1860,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -25478,8 +25477,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
-        "y": 960,
+        "x": 1860,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -25495,8 +25494,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1400,
-        "y": 1080,
+        "x": 1940,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -25512,8 +25511,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1400,
-        "y": 1120,
+        "x": 1940,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -25710,7 +25709,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -25766,7 +25765,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -25892,7 +25891,7 @@
         "type": "debug",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -26199,6 +26198,243 @@
         "wires": [
             [
                 "10028228c62e0e0f"
+            ]
+        ]
+    },
+    {
+        "id": "1a78448ed5842470",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "msg.reset = true",
+        "func": "msg.reset = true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1260,
+        "wires": [
+            [
+                "4aea11af796eaf12"
+            ]
+        ]
+    },
+    {
+        "id": "4aea11af796eaf12",
+        "type": "trigger",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "topic",
+        "topic": "botname",
+        "outputs": 1,
+        "x": 620,
+        "y": 1300,
+        "wires": [
+            [
+                "233eaf42efd5b934",
+                "cf6c526e360420ef"
+            ]
+        ]
+    },
+    {
+        "id": "233eaf42efd5b934",
+        "type": "delay",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "900",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 610,
+        "y": 1260,
+        "wires": [
+            [
+                "1a78448ed5842470"
+            ]
+        ]
+    },
+    {
+        "id": "cf6c526e360420ef",
+        "type": "switch",
+        "z": "901cd11f1c81ce5d",
+        "name": "reset is null",
+        "property": "reset",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 1300,
+        "wires": [
+            [
+                "a63aa7cdd517824c"
+            ]
+        ]
+    },
+    {
+        "id": "89d3da82263f7578",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "getbot, set ttpbusy",
+        "func": "msg.botname = msg.payload.data.botname;\n\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1300,
+        "wires": [
+            [
+                "4aea11af796eaf12"
+            ]
+        ]
+    },
+    {
+        "id": "7a846e320b985243",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1190,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "b637212363723ab2",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "msg.reset = true",
+        "func": "msg.reset = true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1040,
+        "wires": [
+            [
+                "ed3737de8040bc90"
+            ]
+        ]
+    },
+    {
+        "id": "ed3737de8040bc90",
+        "type": "trigger",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "topic",
+        "topic": "botname",
+        "outputs": 1,
+        "x": 600,
+        "y": 1080,
+        "wires": [
+            [
+                "9e6223e176373b10",
+                "3763cc16bb4a3d6a"
+            ]
+        ]
+    },
+    {
+        "id": "9e6223e176373b10",
+        "type": "delay",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "900",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 590,
+        "y": 1040,
+        "wires": [
+            [
+                "b637212363723ab2"
+            ]
+        ]
+    },
+    {
+        "id": "3763cc16bb4a3d6a",
+        "type": "switch",
+        "z": "901cd11f1c81ce5d",
+        "name": "reset is null",
+        "property": "reset",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 790,
+        "y": 1080,
+        "wires": [
+            [
+                "922f2bf004e85cf4"
+            ]
+        ]
+    },
+    {
+        "id": "9cfde8b009ac5a26",
+        "type": "function",
+        "z": "901cd11f1c81ce5d",
+        "name": "getbot, set ttpbusy",
+        "func": "msg.botname = msg.payload.data.botname;\n\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1080,
+        "wires": [
+            [
+                "ed3737de8040bc90"
             ]
         ]
     }
