@@ -4270,14 +4270,14 @@
         "z": "5f98db3a.7ab21c",
         "g": "8ff1d3c1.b9bf5",
         "server": "f120eab2.0a60a8",
-        "command": "getset",
+        "command": "SET",
         "name": "",
         "topic": "",
         "params": "[]",
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 1350,
+        "x": 1340,
         "y": 2120,
         "wires": [
             [
@@ -4303,7 +4303,7 @@
         "z": "5f98db3a.7ab21c",
         "g": "8ff1d3c1.b9bf5",
         "name": "prepare get order status",
-        "func": "\nlet guid = global.get('guid');\nlet moneta = msg.moneta;\nlet orderid = msg.orderid;\n\nmsg.payload = msg.order_status;\nmsg.topic = \"orders-status-\" + guid + \":\" + moneta + \":\" + orderid;\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n",
+        "func": "\nlet guid = global.get('guid');\nlet moneta = msg.moneta;\nlet orderid = msg.orderid;\n\nlet topic = \"orders-status-\" + guid + \":\" + moneta + \":\" + orderid;\nmsg.payload = [topic, msg.order_status, \"EX\", 3];\nmsg.topic = \"\";\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19773,8 +19773,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1460,
-        "y": 140,
+        "x": 1500,
+        "y": 100,
         "wires": []
     },
     {
