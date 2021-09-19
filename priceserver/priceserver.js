@@ -21,7 +21,7 @@ function balance_update(data) {
         let { a: asset, f: available, l: onOrder } = obj;
         if (available == "0.00000000") continue;
         console.log(asset + "\tavailable: " + available + " (" + onOrder + " on order)");
-        client.set("balances" + "-" + userid + ":" + asset + "- available", available, 172800);
+        client.set("balances" + "-" + userid + ":" + asset + "- available", available, 1728);
         client.set("balances" + "-" + userid + ":" + asset + "- onOrder", onOrderv);
     }
 }
@@ -39,17 +39,17 @@ function execution_update(data) {
     //NEW, CANCELED, REPLACED, REJECTED, TRADE, EXPIRED
     console.log(symbol + "\t" + side + " " + executionType + " " + orderType + " ORDER #" + orderId);
     if ((orderStatus == "CANCELED") || (orderStatus == "NEW")) {
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3000);
-        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 3000);
+        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3);
+        client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 3);
     }
     else {
         if (orderStatus == "PARTIALLY_FILLED") {
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3000);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3);
         }
         else {
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3000);
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 172800);
-            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa, 'EX', 172800);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId, orderStatus, 'EX', 3);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-price", price, 'EX', 1728);
+            client.set("orders-status" + "-" + userid + ":" + symbol + ":" + orderId + "-comsa", comsa, 'EX', 1728);
             console.log(data);
         }
     }
