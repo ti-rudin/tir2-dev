@@ -533,9 +533,7 @@
             "142a08cea70917c4"
         ],
         "x": 314,
-        "y": 479,
-        "w": 1382,
-        "h": 162
+        "y": 479
     },
     {
         "id": "7a59f38fd450bc7d",
@@ -852,9 +850,7 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39,
-        "w": 792,
-        "h": 122
+        "y": 39
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -2076,7 +2072,9 @@
             "2457696296d8e638",
             "ad364575d1faaaf0",
             "b468531b645898f1",
-            "279804b998fbe38a"
+            "279804b998fbe38a",
+            "ccb674d79a9b8acc",
+            "8c12181324662e5c"
         ],
         "x": 2575,
         "y": 180,
@@ -16463,7 +16461,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "orderexec marketsell",
-        "func": "\n\nlet cmd = \"marketsell\";\n\nlet data = { moneta: msg.bot.settings.moneta, quantity: msg.bot.ttp.quantity};\n\nconst orderexec = global.get('order_exec')(cmd, data);\n\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode == \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n\n        msg.bot.ttp.finalorder = orderexec.statusBody.orderId;\n    \n    \n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
+        "func": "\n\nlet cmd = \"marketsell\";\n\nlet data = { moneta: msg.bot.settings.moneta, quantity: msg.bot.ttp.quantity};\n\nconst orderexec = global.get('order_exec')(cmd, data);\n\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode == \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n\n        msg.bot.ttp.finalorder = orderexec.statusBody.orderId;\n    \n        node.done();\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16503,7 +16501,8 @@
         "y": 1760,
         "wires": [
             [
-                "2a4008a7dacc6a1d"
+                "8f615225ed83e13c",
+                "c5bbb45629cea9ba"
             ],
             [
                 "ae42249cd5628036",
@@ -16523,7 +16522,7 @@
         "finalize": "",
         "libs": [],
         "x": 2530,
-        "y": 1760,
+        "y": 1780,
         "wires": [
             [
                 "25e5da747f055ffb"
@@ -16539,7 +16538,7 @@
             "ccd55cdb.7ed72"
         ],
         "x": 2635,
-        "y": 1760,
+        "y": 1780,
         "wires": []
     },
     {
@@ -16781,8 +16780,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2540,
-        "y": 1720,
+        "x": 3340,
+        "y": 1360,
         "wires": [
             [
                 "16e185c64daec5df"
@@ -16797,8 +16796,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2935,
-        "y": 1720,
+        "x": 3735,
+        "y": 1360,
         "wires": []
     },
     {
@@ -19773,8 +19772,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1500,
-        "y": 100,
+        "x": 1490,
+        "y": 140,
         "wires": []
     },
     {
@@ -20442,8 +20441,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2760,
-        "y": 1720,
+        "x": 3560,
+        "y": 1360,
         "wires": [
             [
                 "40bcf14c4c7a5a7c",
@@ -20501,8 +20500,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3010,
-        "y": 1720,
+        "x": 3810,
+        "y": 1360,
         "wires": []
     },
     {
@@ -20592,6 +20591,7 @@
         "id": "052fbfe34dd69d80",
         "type": "function",
         "z": "5df15275.2888ec",
+        "d": true,
         "name": "сброс busy",
         "func": "msg.payload = \"сброс busy - \" + msg.botname;\nreturn msg;",
         "outputs": 1,
@@ -25303,7 +25303,7 @@
         "finalize": "",
         "libs": [],
         "x": 2650,
-        "y": 1840,
+        "y": 1860,
         "wires": [
             [
                 "c0eb15ed7651bfb3"
@@ -25319,8 +25319,8 @@
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 2580,
-        "y": 1800,
+        "x": 2560,
+        "y": 1820,
         "wires": []
     },
     {
@@ -25555,28 +25555,6 @@
                 "6f0677546806f704"
             ]
         ]
-    },
-    {
-        "id": "0b1e534f4560ab3f",
-        "type": "link out",
-        "z": "2a761808.610238",
-        "name": "",
-        "links": [
-            "adbd661042fd3a23"
-        ],
-        "x": 2885,
-        "y": 1640,
-        "wires": []
-    },
-    {
-        "id": "08b7772359dbad65",
-        "type": "comment",
-        "z": "2a761808.610238",
-        "name": "reset trigger",
-        "info": "",
-        "x": 2990,
-        "y": 1640,
-        "wires": []
     },
     {
         "id": "bbd46b6fcd21b7d0",
@@ -26532,6 +26510,326 @@
         "statusType": "auto",
         "x": 1550,
         "y": 760,
+        "wires": []
+    },
+    {
+        "id": "d5b4f825bb164cf8",
+        "type": "delay",
+        "z": "2a761808.610238",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 2710,
+        "y": 1480,
+        "wires": [
+            [
+                "8f615225ed83e13c",
+                "f16800a4deae0c91"
+            ]
+        ]
+    },
+    {
+        "id": "8f615225ed83e13c",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "get_order_status",
+        "func": "let moneta = msg.bot.settings.moneta;\nmsg.moneta = moneta;\nlet orderid = msg.bot.ttp.finalorder;\nmsg.orderid = orderid;\n\n\n///msg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid;\n\n\n\nconst get_order_status = global.get('get_order_status')(moneta, orderid);\n\nget_order_status.then(result => {\n\n    msg.payload = result;\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2490,
+        "y": 1600,
+        "wires": [
+            [
+                "fa132a4e1b2b943f",
+                "47c44260e6c30974"
+            ]
+        ]
+    },
+    {
+        "id": "fa132a4e1b2b943f",
+        "type": "switch",
+        "z": "2a761808.610238",
+        "name": "статус ордера",
+        "property": "orderexec.statusBody.status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "NEW",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "PARTIALLY_FILLED",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CANCELED",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "FILLED",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "REJECTED",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "EXPIRED",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 2700,
+        "y": 1600,
+        "wires": [
+            [
+                "d5b4f825bb164cf8"
+            ],
+            [
+                "d5b4f825bb164cf8"
+            ],
+            [
+                "b656d46ed57d42f2"
+            ],
+            [
+                "f5af332e00baf32d"
+            ],
+            [
+                "b656d46ed57d42f2"
+            ],
+            [
+                "b656d46ed57d42f2"
+            ]
+        ]
+    },
+    {
+        "id": "f5af332e00baf32d",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "set sold",
+        "func": "msg.bot.ttp.sold = true;\nnode.status({ fill: \"green\", shape: \"dot\" });\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2920,
+        "y": 1580,
+        "wires": [
+            [
+                "6789ea80ce52811d"
+            ]
+        ]
+    },
+    {
+        "id": "6789ea80ce52811d",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "prepare get ttp order price",
+        "func": "\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.bot.ttp.finalorder;\n\nmsg.payload = [];\nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid + \"-price\";\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3140,
+        "y": 1580,
+        "wires": [
+            [
+                "3a923db0796aa0e1"
+            ]
+        ],
+        "inputLabels": [
+            "orderid"
+        ],
+        "outputLabels": [
+            "status"
+        ],
+        "icon": "node-red-contrib-binance/binance.png"
+    },
+    {
+        "id": "3a923db0796aa0e1",
+        "type": "redis-command",
+        "z": "2a761808.610238",
+        "server": "f120eab2.0a60a8",
+        "command": "GET",
+        "name": "get order status",
+        "topic": "msg.payload",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 3380,
+        "y": 1580,
+        "wires": [
+            [
+                "e0555de6fadd4639"
+            ]
+        ]
+    },
+    {
+        "id": "ccb674d79a9b8acc",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 3855,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "e0555de6fadd4639",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "msg.bot.ttp.final_price = msg.payload",
+        "func": "\n\n\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3650,
+        "y": 1580,
+        "wires": [
+            [
+                "ccb674d79a9b8acc",
+                "e2cf6bf71cc8f199"
+            ]
+        ]
+    },
+    {
+        "id": "e2cf6bf71cc8f199",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3950,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "b656d46ed57d42f2",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "Ошибка при выставлении market ордера",
+        "func": "msg.payload = \"Ошибка при исполнении market ордера - \" + msg.botname;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3030,
+        "y": 1660,
+        "wires": [
+            [
+                "fa1a613bacef594f",
+                "8c12181324662e5c"
+            ]
+        ]
+    },
+    {
+        "id": "fa1a613bacef594f",
+        "type": "telegrambot-notify",
+        "z": "2a761808.610238",
+        "name": "",
+        "bot": "848f142.6165868",
+        "chatId": "454883204",
+        "message": "",
+        "parseMode": "",
+        "x": 2940,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "8c12181324662e5c",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 3255,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "47c44260e6c30974",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2470,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "c5bbb45629cea9ba",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2530,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "f16800a4deae0c91",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2890,
+        "y": 1460,
         "wires": []
     }
 ]

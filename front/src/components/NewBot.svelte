@@ -13,7 +13,7 @@
     let urlbotslist = urlhost + 'botslist';
     //let newbot = urlhost + 'api/newbot.php';
     let api_bots = 'http://77.87.212.38:1337/bots';
-    let api_botcreate = 'http://77.87.212.38:1880/botcreate';
+    let api_botcreate = urlhost + 'botcreate';
 
 
     let isrunning = false;

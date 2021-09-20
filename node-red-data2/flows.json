@@ -16477,7 +16477,8 @@
         "y": 1760,
         "wires": [
             [
-                "8f615225ed83e13c"
+                "8f615225ed83e13c",
+                "c5bbb45629cea9ba"
             ],
             [
                 "ae42249cd5628036",
@@ -19747,7 +19748,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1500,
+        "x": 1480,
         "y": 100,
         "wires": []
     },
@@ -20566,6 +20567,7 @@
         "id": "052fbfe34dd69d80",
         "type": "function",
         "z": "5df15275.2888ec",
+        "d": true,
         "name": "сброс busy",
         "func": "msg.payload = \"сброс busy - \" + msg.botname;\nreturn msg;",
         "outputs": 1,
@@ -26506,7 +26508,8 @@
         "y": 1480,
         "wires": [
             [
-                "8f615225ed83e13c"
+                "8f615225ed83e13c",
+                "f16800a4deae0c91"
             ]
         ]
     },
@@ -26525,7 +26528,8 @@
         "y": 1600,
         "wires": [
             [
-                "fa132a4e1b2b943f"
+                "fa132a4e1b2b943f",
+                "47c44260e6c30974"
             ]
         ]
     },
@@ -26534,7 +26538,7 @@
         "type": "switch",
         "z": "2a761808.610238",
         "name": "статус ордера",
-        "property": "payload",
+        "property": "orderexec.statusBody.status",
         "propertyType": "msg",
         "rules": [
             {
@@ -26618,7 +26622,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "prepare get ttp order price",
-        "func": "\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.bot.ttp.curorderid;\n\nmsg.payload = [];\nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid + \"-price\";\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
+        "func": "\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.bot.ttp.finalorder;\n\nmsg.payload = [];\nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid + \"-price\";\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26751,6 +26755,57 @@
         ],
         "x": 3255,
         "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "47c44260e6c30974",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2470,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "c5bbb45629cea9ba",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2530,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "f16800a4deae0c91",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2890,
+        "y": 1460,
         "wires": []
     }
 ]
