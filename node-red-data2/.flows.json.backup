@@ -2135,8 +2135,7 @@
         "y": 1380,
         "wires": [
             [
-                "113ec5ce8fcdef3a",
-                "8e29837282996a31"
+                "113ec5ce8fcdef3a"
             ]
         ]
     },
@@ -16780,8 +16779,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3340,
-        "y": 1360,
+        "x": 3320,
+        "y": 1280,
         "wires": [
             [
                 "16e185c64daec5df"
@@ -16796,8 +16795,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3735,
-        "y": 1360,
+        "x": 3715,
+        "y": 1280,
         "wires": []
     },
     {
@@ -19772,7 +19771,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1490,
+        "x": 1480,
         "y": 140,
         "wires": []
     },
@@ -20025,23 +20024,6 @@
         "statusType": "auto",
         "x": 690,
         "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "8e29837282996a31",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 390,
-        "y": 1300,
         "wires": []
     },
     {
@@ -20441,8 +20423,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3560,
-        "y": 1360,
+        "x": 3540,
+        "y": 1280,
         "wires": [
             [
                 "40bcf14c4c7a5a7c",
@@ -20500,8 +20482,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3810,
-        "y": 1360,
+        "x": 3790,
+        "y": 1280,
         "wires": []
     },
     {
@@ -21938,8 +21920,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 2080,
-        "y": 780,
+        "x": 2040,
+        "y": 900,
         "wires": []
     },
     {
@@ -21953,8 +21935,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1900,
-        "y": 780,
+        "x": 1860,
+        "y": 900,
         "wires": [
             [
                 "4ddc0591ada30e76"
@@ -25030,22 +25012,6 @@
         ]
     },
     {
-        "id": "d7eeceaa464934e2",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1370,
-        "y": 700,
-        "wires": []
-    },
-    {
         "id": "aca568cf7c2fdfe4",
         "type": "debug",
         "z": "2a761808.610238",
@@ -25156,8 +25122,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2480,
-        "y": 980,
+        "x": 3900,
+        "y": 1120,
         "wires": [
             [
                 "e316ca0dd6689b8b"
@@ -25172,8 +25138,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2615,
-        "y": 980,
+        "x": 4035,
+        "y": 1120,
         "wires": []
     },
     {
@@ -25419,8 +25385,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1910,
-        "y": 840,
+        "x": 3330,
+        "y": 1020,
         "wires": [
             [
                 "99480820700710fb"
@@ -25449,8 +25415,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2090,
-        "y": 840,
+        "x": 3510,
+        "y": 1020,
         "wires": [
             [
                 "347e4b04f14fdd18"
@@ -25470,8 +25436,8 @@
         "name": "",
         "topic": "",
         "obj": true,
-        "x": 2460,
-        "y": 840,
+        "x": 3880,
+        "y": 1020,
         "wires": []
     },
     {
@@ -25485,8 +25451,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2290,
-        "y": 840,
+        "x": 3710,
+        "y": 1020,
         "wires": [
             [
                 "e9f6457050b7eab9"
@@ -25504,7 +25470,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
+        "x": 320,
         "y": 2000,
         "wires": [
             []
@@ -25630,25 +25596,6 @@
         "wires": []
     },
     {
-        "id": "bc8c8993dbb595b5",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "curorderid = 0",
-        "func": "msg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1800,
-        "y": 1880,
-        "wires": [
-            [
-                "b468531b645898f1"
-            ]
-        ]
-    },
-    {
         "id": "b468531b645898f1",
         "type": "link out",
         "z": "2a761808.610238",
@@ -25656,7 +25603,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1855,
+        "x": 1655,
         "y": 1900,
         "wires": []
     },
@@ -25668,8 +25615,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2195,
-        "y": 900,
+        "x": 3615,
+        "y": 1080,
         "wires": []
     },
     {
@@ -25685,8 +25632,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2270,
-        "y": 900,
+        "x": 3690,
+        "y": 1080,
         "wires": []
     },
     {
@@ -25701,7 +25648,7 @@
         "finalize": "",
         "libs": [],
         "x": 2100,
-        "y": 1200,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -25717,8 +25664,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2200,
-        "y": 980,
+        "x": 2180,
+        "y": 960,
         "wires": [
             []
         ]
