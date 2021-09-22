@@ -533,7 +533,9 @@
             "142a08cea70917c4"
         ],
         "x": 314,
-        "y": 479
+        "y": 479,
+        "w": 1382,
+        "h": 162
     },
     {
         "id": "7a59f38fd450bc7d",
@@ -850,7 +852,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -1171,6 +1175,32 @@
         "y": 39,
         "w": 1552,
         "h": 502
+    },
+    {
+        "id": "0a3bcf6fb5324ab9",
+        "type": "group",
+        "z": "ef9c825cf92ee31b",
+        "style": {
+            "stroke": "#2e333a",
+            "stroke-opacity": "1",
+            "fill": "#383c45",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9883abc3c96be902",
+            "a361e5bbe1e0b35b",
+            "4cc763497026130b",
+            "9c7510c7d83e2792",
+            "a70d591f42469586",
+            "4f62e77d1b8d08bd"
+        ],
+        "x": 134,
+        "y": 1379,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "f120eab2.0a60a8",
@@ -19771,7 +19801,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1480,
+        "x": 1470,
         "y": 140,
         "wires": []
     },
@@ -26777,6 +26807,200 @@
         "statusType": "auto",
         "x": 2890,
         "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "2b0aa90098370b5e",
+        "type": "function",
+        "z": "ef9c825cf92ee31b",
+        "name": "get info",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\n\nbinance.useServerTime(function() {\n  binance.exchangeInfo(function (error, data) {\n    let minimums = {};\n    for (let obj of data.symbols) {\n      let filters = { status: obj.status };\n      for (let filter of obj.filters) {\n        if (filter.filterType == \"MIN_NOTIONAL\") {\n          filters.minNotional = filter.minNotional;\n        } else if (filter.filterType == \"PRICE_FILTER\") {\n          filters.minPrice = filter.minPrice;\n          filters.maxPrice = filter.maxPrice;\n          filters.tickSize = filter.tickSize;\n        } else if (filter.filterType == \"LOT_SIZE\") {\n          filters.stepSize = filter.stepSize;\n          filters.minQty = filter.minQty;\n          filters.maxQty = filter.maxQty;\n        }\n      }\n      filters.baseAssetPrecision = obj.baseAssetPrecision;\n      filters.quoteAssetPrecision = obj.quoteAssetPrecision;\n      filters.orderTypes = obj.orderTypes;\n      filters.icebergAllowed = obj.icebergAllowed;\n      minimums[obj.symbol] = filters;\n    }\n    node.warn(minimums);\n    msg.payload = minimums.BNBBTC;\n    node.send(msg);\n    //global.filters = minimums;\n    //fs.writeFile(\"minimums.json\", JSON.stringify(minimums, null, 4), function(err){});\n  });\n\t\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "gBinance",
+                "module": "node-binance-api"
+            }
+        ],
+        "x": 380,
+        "y": 1620,
+        "wires": [
+            [
+                "4de4628a5ec56b7a"
+            ]
+        ]
+    },
+    {
+        "id": "ec879753cb694975",
+        "type": "inject",
+        "z": "ef9c825cf92ee31b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 1620,
+        "wires": [
+            [
+                "2b0aa90098370b5e"
+            ]
+        ]
+    },
+    {
+        "id": "9883abc3c96be902",
+        "type": "inject",
+        "z": "ef9c825cf92ee31b",
+        "g": "0a3bcf6fb5324ab9",
+        "name": " stop",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "reset",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 650,
+        "y": 1420,
+        "wires": [
+            [
+                "a361e5bbe1e0b35b"
+            ]
+        ]
+    },
+    {
+        "id": "a361e5bbe1e0b35b",
+        "type": "redis-out",
+        "z": "ef9c825cf92ee31b",
+        "g": "0a3bcf6fb5324ab9",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "stop",
+        "obj": false,
+        "x": 650,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "4cc763497026130b",
+        "type": "inject",
+        "z": "ef9c825cf92ee31b",
+        "g": "0a3bcf6fb5324ab9",
+        "name": "start",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 1420,
+        "wires": [
+            [
+                "9c7510c7d83e2792"
+            ]
+        ]
+    },
+    {
+        "id": "9c7510c7d83e2792",
+        "type": "redis-out",
+        "z": "ef9c825cf92ee31b",
+        "g": "0a3bcf6fb5324ab9",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "start",
+        "obj": false,
+        "x": 230,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "a70d591f42469586",
+        "type": "inject",
+        "z": "ef9c825cf92ee31b",
+        "g": "0a3bcf6fb5324ab9",
+        "name": "start1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 1420,
+        "wires": [
+            [
+                "4f62e77d1b8d08bd"
+            ]
+        ]
+    },
+    {
+        "id": "4f62e77d1b8d08bd",
+        "type": "redis-out",
+        "z": "ef9c825cf92ee31b",
+        "g": "0a3bcf6fb5324ab9",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "start1",
+        "obj": false,
+        "x": 410,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "4de4628a5ec56b7a",
+        "type": "debug",
+        "z": "ef9c825cf92ee31b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1620,
         "wires": []
     }
 ]
