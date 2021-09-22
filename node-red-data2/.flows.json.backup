@@ -128,9 +128,7 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419,
-        "w": 632,
-        "h": 162
+        "y": 419
     },
     {
         "id": "3684cd36.8432c2",
@@ -184,9 +182,7 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 699,
-        "w": 1612,
-        "h": 122
+        "y": 699
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -227,9 +223,7 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839,
-        "w": 1422,
-        "h": 422
+        "y": 1839
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -352,9 +346,7 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39,
-        "w": 1052,
-        "h": 502
+        "y": 39
     },
     {
         "id": "f8a5c66461864831",
@@ -400,9 +392,7 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699,
-        "w": 792,
-        "h": 122
+        "y": 1699
     },
     {
         "id": "586e39dc007e0cae",
@@ -424,9 +414,7 @@
             "dd73e1c4557a5e65"
         ],
         "x": 114,
-        "y": 479,
-        "w": 792,
-        "h": 122
+        "y": 479
     },
     {
         "id": "8a452b1de9e087aa",
@@ -464,9 +452,7 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579,
-        "w": 1052,
-        "h": 502
+        "y": 579
     },
     {
         "id": "b1c9866420e73130",
@@ -504,9 +490,7 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2654,
-        "y": 1859,
-        "w": 692,
-        "h": 562
+        "y": 1859
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -533,9 +517,7 @@
             "142a08cea70917c4"
         ],
         "x": 314,
-        "y": 479,
-        "w": 1382,
-        "h": 162
+        "y": 479
     },
     {
         "id": "7a59f38fd450bc7d",
@@ -757,9 +739,7 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179,
-        "w": 1352,
-        "h": 82
+        "y": 1179
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -782,9 +762,7 @@
             "792187aede59b6ac"
         ],
         "x": 2694,
-        "y": 1299,
-        "w": 912,
-        "h": 82
+        "y": 1299
     },
     {
         "id": "9364657534c1325f",
@@ -805,9 +783,7 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439,
-        "w": 572,
-        "h": 82
+        "y": 1439
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -828,9 +804,7 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539,
-        "w": 632,
-        "h": 82
+        "y": 1539
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -852,9 +826,7 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39,
-        "w": 792,
-        "h": 122
+        "y": 39
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -962,9 +934,7 @@
             "014ff17437138c5a"
         ],
         "x": 34,
-        "y": 59,
-        "w": 2182,
-        "h": 342
+        "y": 59
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -988,9 +958,7 @@
             "ccd55cdb.7ed72"
         ],
         "x": 2534,
-        "y": 79,
-        "w": 852,
-        "h": 202
+        "y": 79
     },
     {
         "id": "a0fe11145e7edf84",
@@ -1172,9 +1140,7 @@
             "2b18414b4a3f8aaa"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1552,
-        "h": 502
+        "y": 39
     },
     {
         "id": "0a3bcf6fb5324ab9",
@@ -1198,9 +1164,7 @@
             "4f62e77d1b8d08bd"
         ],
         "x": 134,
-        "y": 1379,
-        "w": 592,
-        "h": 122
+        "y": 1379
     },
     {
         "id": "f120eab2.0a60a8",
@@ -11955,7 +11919,7 @@
         "type": "function",
         "z": "cde16a2385b7b659",
         "name": "change floors",
-        "func": "\nnode.warn(\"filled order \" + msg.bot.currentfloor[14]);\n//let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\n//\n//let tempfin2 = Number(Number(msg.bot.finance.quotanal) + Number(msg.bot.currentfloor[14]));\n//\n//msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n//msg.bot.finance.quotanal = tempfin2.toFixed(msg.bot.settings.digitq);\n//\n//if (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\n//if (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet currentfloor = msg.bot.currentfloor;\ncurrentfloor[7] = 2;\n\nmsg.bot.floors[currentfloor[0] - 1] = currentfloor;\n\nlet data = \"Ордер на покупку исполнен, ID - \" + msg.bot.currentfloor[8];\nconst tilog = global.get('tilog')(msg.bot.settings.botname, data);\ntilog;\n\n\nnode.status({ fill: \"green\", shape: \"ring\"});\nreturn msg;",
+        "func": "\nnode.warn(\"filled order \" + msg.bot.currentfloor[14] + \" - \" + msg.botname);\n//let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.currentfloor[14]) * Number(msg.bot.currentfloor[10]));\n//\n//let tempfin2 = Number(Number(msg.bot.finance.quotanal) + Number(msg.bot.currentfloor[14]));\n//\n//msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n//msg.bot.finance.quotanal = tempfin2.toFixed(msg.bot.settings.digitq);\n//\n//if (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\n//if (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nlet currentfloor = msg.bot.currentfloor;\ncurrentfloor[7] = 2;\n\nmsg.bot.floors[currentfloor[0] - 1] = currentfloor;\n\nlet data = \"Ордер на покупку исполнен, ID - \" + msg.bot.currentfloor[8];\nconst tilog = global.get('tilog')(msg.bot.settings.botname, data);\ntilog;\n\n\nnode.status({ fill: \"green\", shape: \"ring\"});\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19801,7 +19765,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1470,
+        "x": 1460,
         "y": 140,
         "wires": []
     },
@@ -20778,7 +20742,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec setbuy",
-        "func": "let cmd = \"setbuy\";\n\nlet quantity = Number((Number(msg.bot.finance.depo) * Number(msg.bot.settings.ordersize) / 100 / msg.bot.status.currentprice).toFixed(msg.bot.settings.digitq));\nlet floor = msg.floorindex;\nlet price = msg.bot.floors[floor][3].toFixed(msg.bot.settings.digitprice);\nlet data = { moneta: msg.bot.settings.moneta, price: price, quantity: quantity};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = botname + \":\" + cmd + \": price:\" + data.price + \", quantity: \" + data.quantity;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        //node.done();\n        let flooor = msg.floorindex +1;\n        node.warn(\"set buy: \" + botname + \" on floor:\" + flooor + \" q: \" + quantity );\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
+        "func": "let cmd = \"setbuy\";\n\nlet quantity = Number((Number(msg.bot.finance.depo) * Number(msg.bot.settings.ordersize) / 100 / msg.bot.status.currentprice).toFixed(msg.bot.settings.digitq));\nlet floor = msg.floorindex;\nlet price = msg.bot.floors[floor][3].toFixed(msg.bot.settings.digitprice);\nlet data = { moneta: msg.bot.settings.moneta, price: price, quantity: quantity};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = botname + \":\" + cmd + \": price:\" + data.price + \", quantity: \" + data.quantity;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        //node.done();\n        let flooor = msg.floorindex +1;\n        //node.warn(\"set buy: \" + botname + \" on floor:\" + flooor + \" q: \" + quantity );\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20921,7 +20885,7 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "orderexec cansel",
-        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.orderid;\nlet moneta = msg.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.botname;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n        let floor = msg.floorindex + 1;\n        node.warn(\"cansel buy: \" + botname + \" on floor:\" + floor);\n        node.send(msg);\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        //msg.bot.ttp.curorderid = 0;\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
+        "func": "let cmd = \"cansel\";\n\nlet orderid = msg.orderid;\nlet moneta = msg.moneta;\n\nlet data = {\"moneta\":moneta, \"orderid\": orderid};\nconst orderexec = global.get('order_exec')(cmd,data);\n\nlet botname = msg.botname;\n\n//let data2 = botname+\":\"+cmd+\": orderid:\"+orderid;\n//const tilog = global.get('tilog')(botname,data2);\n//tilog;\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\"){\n        node.status({fill:\"green\",shape:\"dot\", text: orderexec.statusBody.orderId});\n        //msg.bot = msg.orderexec.bot;\n\n                                //msg.bot.ttp.curorderid = resp.orderId;\n                        //msg.bot.ttp.curstop = stopprice;\n                        //msg.bot.ttp.quantity = quantity;\n        \n        let floor = msg.floorindex + 1;\n        //node.warn(\"cansel buy: \" + botname + \" on floor:\" + floor);\n        node.send(msg);\n        node.send(msg);\n        \n    } else {\n        node.status({fill:\"red\",shape:\"dot\"});\n        //msg.bot.ttp.curorderid = 0;\n        node.done();\n        node.send(msg);\n    }\n    \n\n}).catch(error => {\n    \n    msg.error = error;\n    node.status({fill:\"red\",shape: \"ring\"});\n    \n    node.error(error);\n});\n\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26814,7 +26778,7 @@
         "type": "function",
         "z": "ef9c825cf92ee31b",
         "name": "get info",
-        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\n\nbinance.useServerTime(function() {\n  binance.exchangeInfo(function (error, data) {\n    let minimums = {};\n    for (let obj of data.symbols) {\n      let filters = { status: obj.status };\n      for (let filter of obj.filters) {\n        if (filter.filterType == \"MIN_NOTIONAL\") {\n          filters.minNotional = filter.minNotional;\n        } else if (filter.filterType == \"PRICE_FILTER\") {\n          filters.minPrice = filter.minPrice;\n          filters.maxPrice = filter.maxPrice;\n          filters.tickSize = filter.tickSize;\n        } else if (filter.filterType == \"LOT_SIZE\") {\n          filters.stepSize = filter.stepSize;\n          filters.minQty = filter.minQty;\n          filters.maxQty = filter.maxQty;\n        }\n      }\n      filters.baseAssetPrecision = obj.baseAssetPrecision;\n      filters.quoteAssetPrecision = obj.quoteAssetPrecision;\n      filters.orderTypes = obj.orderTypes;\n      filters.icebergAllowed = obj.icebergAllowed;\n      minimums[obj.symbol] = filters;\n    }\n    node.warn(minimums);\n    msg.payload = minimums.BNBBTC;\n    node.send(msg);\n    //global.filters = minimums;\n    //fs.writeFile(\"minimums.json\", JSON.stringify(minimums, null, 4), function(err){});\n  });\n\t\n});",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\n//let key = global.get('key');\n//let secret = global.get('secret');\nlet key = env.get(\"BINANCEKEY\");\nlet secret = env.get(\"BINANCESECRET\");\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\n\nbinance.useServerTime(function() {\n  binance.exchangeInfo(function (error, data) {\n    let minimums = {};\n    for (let obj of data.symbols) {\n      let filters = { status: obj.status };\n      for (let filter of obj.filters) {\n        if (filter.filterType == \"MIN_NOTIONAL\") {\n          filters.minNotional = filter.minNotional;\n        } else if (filter.filterType == \"PRICE_FILTER\") {\n          filters.minPrice = filter.minPrice;\n          filters.maxPrice = filter.maxPrice;\n          filters.tickSize = filter.tickSize;\n        } else if (filter.filterType == \"LOT_SIZE\") {\n          filters.stepSize = filter.stepSize;\n          filters.minQty = filter.minQty;\n          filters.maxQty = filter.maxQty;\n        }\n      }\n      filters.baseAssetPrecision = obj.baseAssetPrecision;\n      filters.quoteAssetPrecision = obj.quoteAssetPrecision;\n      filters.orderTypes = obj.orderTypes;\n      filters.icebergAllowed = obj.icebergAllowed;\n      minimums[obj.symbol] = filters;\n    }\n    node.warn(minimums);\n    msg.payload = minimums.BNBDOWNUSDT;\n    node.send(msg);\n    //global.filters = minimums;\n    //fs.writeFile(\"minimums.json\", JSON.stringify(minimums, null, 4), function(err){});\n  });\n\t\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
