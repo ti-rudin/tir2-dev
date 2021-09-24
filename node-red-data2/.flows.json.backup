@@ -414,7 +414,9 @@
             "dd73e1c4557a5e65"
         ],
         "x": 114,
-        "y": 479
+        "y": 479,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "8a452b1de9e087aa",
@@ -934,7 +936,9 @@
             "014ff17437138c5a"
         ],
         "x": 34,
-        "y": 59
+        "y": 59,
+        "w": 2182,
+        "h": 342
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -958,7 +962,9 @@
             "ccd55cdb.7ed72"
         ],
         "x": 2534,
-        "y": 79
+        "y": 79,
+        "w": 852,
+        "h": 202
     },
     {
         "id": "a0fe11145e7edf84",
@@ -1738,7 +1744,9 @@
             "11aebd69afd877b4",
             "a78e47ef4a583aa3",
             "8bb50be67bb00371",
-            "46817b364f8c4463"
+            "46817b364f8c4463",
+            "168d6b39a90f0979",
+            "50b9f3b0d6b0350a"
         ],
         "x": 2415,
         "y": 1000,
@@ -9803,7 +9811,7 @@
         "y": 1480,
         "wires": [
             [
-                "de14383a32655d5c"
+                "6032a15ac5d1d998"
             ],
             [
                 "438a4ff8.3b594"
@@ -19766,7 +19774,7 @@
         "name": "",
         "info": "",
         "x": 1500,
-        "y": 140,
+        "y": 100,
         "wires": []
     },
     {
@@ -27001,14 +27009,14 @@
         "id": "77d59427d38fd283",
         "type": "function",
         "z": "2a761808.610238",
-        "name": "Ошибка при выставлении market ордера",
+        "name": "final price = 0",
         "func": "msg.payload = \"final price = 0\" + msg.botname;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4040,
+        "x": 3950,
         "y": 1460,
         "wires": [
             [
@@ -27071,7 +27079,8 @@
         "z": "2a761808.610238",
         "name": "",
         "links": [
-            "503d53910c17c784"
+            "503d53910c17c784",
+            "b4f763508d707f79"
         ],
         "x": 3815,
         "y": 1540,
@@ -27084,7 +27093,8 @@
         "z": "2a761808.610238",
         "name": "",
         "links": [
-            "503d53910c17c784"
+            "503d53910c17c784",
+            "b4f763508d707f79"
         ],
         "x": 2535,
         "y": 1980,
@@ -27097,7 +27107,8 @@
         "z": "2a761808.610238",
         "name": "",
         "links": [
-            "503d53910c17c784"
+            "503d53910c17c784",
+            "b4f763508d707f79"
         ],
         "x": 2635,
         "y": 1280,
@@ -27110,11 +27121,145 @@
         "z": "2a761808.610238",
         "name": "",
         "links": [
-            "503d53910c17c784"
+            "503d53910c17c784",
+            "b4f763508d707f79"
         ],
         "x": 2735,
         "y": 1060,
         "wires": [],
         "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "6032a15ac5d1d998",
+        "type": "switch",
+        "z": "5df15275.2888ec",
+        "name": "bot.ttp.final_price > 0",
+        "property": "bot.ttp.final_price",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 1280,
+        "wires": [
+            [
+                "9bc57692557a9a64",
+                "a421c56d9b266da4",
+                "11964302255a8162"
+            ],
+            [
+                "de14383a32655d5c"
+            ]
+        ]
+    },
+    {
+        "id": "9bc57692557a9a64",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "final price = 0",
+        "func": "msg.payload = \"final price = 0\" + msg.botname;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1260,
+        "wires": [
+            [
+                "aff97cdef4141bf5"
+            ]
+        ]
+    },
+    {
+        "id": "aff97cdef4141bf5",
+        "type": "telegrambot-notify",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "bot": "848f142.6165868",
+        "chatId": "454883204",
+        "message": "",
+        "parseMode": "",
+        "x": 1140,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "a421c56d9b266da4",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "tilog",
+        "func": "\nlet botdump = JSON.stringify(msg.bot || \"\", null, '\\t');\n\nlet botname = msg.bot.settings.botname;\nlet data = \"final price = 0 : \" + botname + botdump;\n\n\nconst tilog = global.get('tilog')(botname, data);\n\ntilog.then(tilog => {\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "747516cf44a2ba0a",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "setbot_ttp reset",
+        "func": "\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.raschstopprice = 0;\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.sold = false;\nmsg.bot.ttp.ttpbusy = false;\nmsg.bot.ttp.currentprice = 0;\nmsg.bot.ttp.quantity = 0;\nmsg.bot.ttp.final_price = 0;\nmsg.bot.ttp.finalorder = 0;\n\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1180,
+        "wires": [
+            [
+                "50b9f3b0d6b0350a"
+            ]
+        ],
+        "icon": "font-awesome/fa-bolt"
+    },
+    {
+        "id": "50b9f3b0d6b0350a",
+        "type": "link out",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "links": [
+            "e34a5b68.726ec8"
+        ],
+        "x": 1315,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "11964302255a8162",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "регистрация сделки",
+        "func": "\nnode.warn(\"регистрация нулевой сделки\");\nlet commision = global.get(\"commision\");\n\nlet sellprice = Number(msg.bot.status.currentprice);\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * sellprice);\n\nvar floors = msg.bot.floors;\nlet sumsales = 0;\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 3) {\n        let buyprice = Number(item[10]);\n        let quantity = Number(item[14]);\n        let p = quantity * (sellprice - buyprice);\n        let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n        let net = p - c;\n        tempfin2 = tempfin2 - c;\n        msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n        msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n        sumsales = sumsales + net\n        node.warn([buyprice, sellprice, quantity, p, c, net]);\n        \n        let botname = msg.botname;\n        let datamsg = \"регистрация нулевой сделки - \" + [buyprice, sellprice, quantity, p, c, net];\n        const tilog = global.get('tilog')(botname, datamsg);\n        tilog;\n        \n\n        item[7] = 0;\n        item[8] = 0;\n        item[9] = 0;\n        item[10] = 0;\n        item[11] = 0;\n        item[12] = 0;\n        item[13] = 0;\n        item[14] = 0;\n\n    }\n});\nmsg.sumsales = sumsales;\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nmsg.bot.floors = floors;\n\nreturn msg;\n\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1180,
+        "wires": [
+            [
+                "747516cf44a2ba0a"
+            ]
+        ]
     }
 ]
