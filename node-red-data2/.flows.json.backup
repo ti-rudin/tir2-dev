@@ -2266,8 +2266,8 @@
                 "b93b42205b0fb48f"
             ],
             [
-                "b5bd6f90.f563b",
-                "2d8363f67f76c89c"
+                "2d8363f67f76c89c",
+                "e4485160.d6d2d"
             ],
             [
                 "4b4fa1ce.2d444",
@@ -2328,25 +2328,6 @@
         "x": 1770,
         "y": 1160,
         "wires": []
-    },
-    {
-        "id": "b5bd6f90.f563b",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1740,
-        "y": 1240,
-        "wires": [
-            [
-                "e4485160.d6d2d"
-            ]
-        ]
     },
     {
         "id": "e84c68c5.b035e8",
@@ -20121,8 +20102,8 @@
                 "b468531b645898f1"
             ],
             [
-                "68b374aac5485516",
-                "5297a594a1499dbc"
+                "5297a594a1499dbc",
+                "a5c324445eaf4103"
             ],
             [
                 "43656eb1fac8a3d6",
@@ -20185,25 +20166,6 @@
         "wires": []
     },
     {
-        "id": "68b374aac5485516",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\nnode.status({ fill: \"green\", shape: \"dot\" });\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1640,
-        "y": 1940,
-        "wires": [
-            [
-                "a5c324445eaf4103"
-            ]
-        ]
-    },
-    {
         "id": "a5c324445eaf4103",
         "type": "function",
         "z": "2a761808.610238",
@@ -20214,7 +20176,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1860,
+        "x": 1720,
         "y": 1940,
         "wires": [
             [
@@ -20241,7 +20203,7 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2100,
+        "x": 1960,
         "y": 1940,
         "wires": [
             [
@@ -20281,7 +20243,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2575,
+        "x": 2435,
         "y": 1940,
         "wires": []
     },
@@ -20399,7 +20361,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20440,13 +20402,13 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\n\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2370,
+        "x": 2230,
         "y": 1940,
         "wires": [
             [
@@ -20503,7 +20465,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2670,
+        "x": 2530,
         "y": 1940,
         "wires": []
     },
@@ -21902,8 +21864,8 @@
                 "f65dfc9da82abdb3"
             ],
             [
-                "e8a688ffafbd99e9",
-                "3ea452ae8ae785ee"
+                "3ea452ae8ae785ee",
+                "a431944288d62546"
             ],
             [
                 "f3d254f3a9ced1b1",
@@ -22032,25 +21994,6 @@
         "wires": []
     },
     {
-        "id": "e8a688ffafbd99e9",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1840,
-        "y": 1020,
-        "wires": [
-            [
-                "a431944288d62546"
-            ]
-        ]
-    },
-    {
         "id": "a431944288d62546",
         "type": "function",
         "z": "2a761808.610238",
@@ -22113,7 +22056,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26561,35 +26504,15 @@
                 "d5b4f825bb164cf8"
             ],
             [
-                "b656d46ed57d42f2"
-            ],
-            [
-                "f5af332e00baf32d"
-            ],
-            [
-                "b656d46ed57d42f2"
-            ],
-            [
-                "b656d46ed57d42f2"
-            ]
-        ]
-    },
-    {
-        "id": "f5af332e00baf32d",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "set sold",
-        "func": "msg.bot.ttp.sold = true;\nnode.status({ fill: \"green\", shape: \"dot\" });\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2920,
-        "y": 1580,
-        "wires": [
-            [
+                "b656d46ed57d42f2",
                 "6789ea80ce52811d"
+            ],
+            [],
+            [
+                "b656d46ed57d42f2"
+            ],
+            [
+                "b656d46ed57d42f2"
             ]
         ]
     },
@@ -26656,7 +26579,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\n\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -27096,7 +27019,7 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 2535,
+        "x": 2395,
         "y": 1980,
         "wires": [],
         "icon": "node-red/alert.svg"
@@ -27138,7 +27061,9 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "else"
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
             },
             {
                 "t": "gt",

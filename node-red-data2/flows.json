@@ -19754,8 +19754,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1500,
-        "y": 100,
+        "x": 1480,
+        "y": 160,
         "wires": []
     },
     {
@@ -20361,7 +20361,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20402,7 +20402,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22056,7 +22056,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
+        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26579,7 +26579,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = msg.payload;\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -27061,7 +27061,9 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "else"
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
             },
             {
                 "t": "gt",
