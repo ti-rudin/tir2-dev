@@ -414,9 +414,7 @@
             "dd73e1c4557a5e65"
         ],
         "x": 114,
-        "y": 479,
-        "w": 792,
-        "h": 122
+        "y": 479
     },
     {
         "id": "8a452b1de9e087aa",
@@ -519,7 +517,9 @@
             "142a08cea70917c4"
         ],
         "x": 314,
-        "y": 479
+        "y": 479,
+        "w": 1382,
+        "h": 162
     },
     {
         "id": "7a59f38fd450bc7d",
@@ -936,9 +936,7 @@
             "014ff17437138c5a"
         ],
         "x": 34,
-        "y": 59,
-        "w": 2182,
-        "h": 342
+        "y": 59
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -962,9 +960,7 @@
             "ccd55cdb.7ed72"
         ],
         "x": 2534,
-        "y": 79,
-        "w": 852,
-        "h": 202
+        "y": 79
     },
     {
         "id": "a0fe11145e7edf84",
@@ -1170,7 +1166,9 @@
             "4f62e77d1b8d08bd"
         ],
         "x": 134,
-        "y": 1379
+        "y": 1379,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "f120eab2.0a60a8",
@@ -1585,8 +1583,8 @@
         "z": "5df15275.2888ec",
         "g": "89e4eb3d636bee6a",
         "name": "duration",
-        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\n    \nreturn msg;",
-        "outputs": 1,
+        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\nif (duration > 2000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n        //запись в журнал\nreturn [null,msg];\n}\n    \nreturn [msg, null];",
+        "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1597,6 +1595,9 @@
             [
                 "51350500.94f214",
                 "1d3cd462.fdc43c"
+            ],
+            [
+                "194d05dc3a441cda"
             ]
         ]
     },
@@ -9246,7 +9247,8 @@
         "y": 160,
         "wires": [
             [
-                "fba2b72a2f8cba6a"
+                "fba2b72a2f8cba6a",
+                "14ebb9b8c955e81d"
             ]
         ]
     },
@@ -9262,8 +9264,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 680,
-        "y": 180,
+        "x": 670,
+        "y": 120,
         "wires": []
     },
     {
@@ -19754,8 +19756,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1490,
-        "y": 60,
+        "x": 1470,
+        "y": 100,
         "wires": []
     },
     {
@@ -27184,6 +27186,103 @@
             [
                 "747516cf44a2ba0a"
             ]
+        ]
+    },
+    {
+        "id": "14ebb9b8c955e81d",
+        "type": "exec",
+        "z": "ef9c825cf92ee31b",
+        "command": "reboot",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "194d05dc3a441cda",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "msg = {}",
+        "func": "\nmsg = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3180,
+        "y": 700,
+        "wires": [
+            [
+                "9a6d8066f00657b0",
+                "a71fc8edf2fd6c72"
+            ]
+        ]
+    },
+    {
+        "id": "9a6d8066f00657b0",
+        "type": "redis-out",
+        "z": "5df15275.2888ec",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "stop",
+        "obj": true,
+        "x": 3330,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "a71fc8edf2fd6c72",
+        "type": "delay",
+        "z": "5df15275.2888ec",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 3300,
+        "y": 760,
+        "wires": [
+            [
+                "a98f5eecfe5e8b65"
+            ]
+        ]
+    },
+    {
+        "id": "a98f5eecfe5e8b65",
+        "type": "exec",
+        "z": "5df15275.2888ec",
+        "command": "reboot",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 3450,
+        "y": 760,
+        "wires": [
+            [],
+            [],
+            []
         ]
     }
 ]
