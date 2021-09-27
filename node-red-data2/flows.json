@@ -128,7 +128,9 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419
+        "y": 419,
+        "w": 632,
+        "h": 162
     },
     {
         "id": "3684cd36.8432c2",
@@ -182,7 +184,9 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 699
+        "y": 699,
+        "w": 1612,
+        "h": 122
     },
     {
         "id": "8ff1d3c1.b9bf5",
@@ -223,7 +227,9 @@
             "13c65b3e.750f95"
         ],
         "x": 94,
-        "y": 1839
+        "y": 1839,
+        "w": 1422,
+        "h": 422
     },
     {
         "id": "89e4eb3d636bee6a",
@@ -346,7 +352,9 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "f8a5c66461864831",
@@ -392,7 +400,9 @@
             "c4cf96930d013efb"
         ],
         "x": 2494,
-        "y": 1699
+        "y": 1699,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "586e39dc007e0cae",
@@ -454,7 +464,9 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579
+        "y": 579,
+        "w": 1052,
+        "h": 502
     },
     {
         "id": "b1c9866420e73130",
@@ -492,7 +504,9 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2654,
-        "y": 1859
+        "y": 1859,
+        "w": 692,
+        "h": 562
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -743,7 +757,9 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2494,
-        "y": 1179
+        "y": 1179,
+        "w": 1352,
+        "h": 82
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -766,7 +782,9 @@
             "792187aede59b6ac"
         ],
         "x": 2694,
-        "y": 1299
+        "y": 1299,
+        "w": 912,
+        "h": 82
     },
     {
         "id": "9364657534c1325f",
@@ -787,7 +805,9 @@
             "62dad41be283ec5d"
         ],
         "x": 2514,
-        "y": 1439
+        "y": 1439,
+        "w": 572,
+        "h": 82
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -808,7 +828,9 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2534,
-        "y": 1539
+        "y": 1539,
+        "w": 632,
+        "h": 82
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -830,7 +852,9 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -1148,7 +1172,9 @@
             "2b18414b4a3f8aaa"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1552,
+        "h": 502
     },
     {
         "id": "0a3bcf6fb5324ab9",
@@ -1173,6 +1199,32 @@
         ],
         "x": 134,
         "y": 1379,
+        "w": 592,
+        "h": 122
+    },
+    {
+        "id": "4a4c7049730cefda",
+        "type": "group",
+        "z": "2a761808.610238",
+        "style": {
+            "stroke": "#2e333a",
+            "stroke-opacity": "1",
+            "fill": "#383c45",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c4a7b4b5bc2cb3c3",
+            "988da035a9665131",
+            "4dc29b7a9f906120",
+            "2c07b3789c8c902d",
+            "369aa43f413e190d",
+            "5f2ab5817634cafa"
+        ],
+        "x": 1814,
+        "y": 2239,
         "w": 592,
         "h": 122
     },
@@ -2083,7 +2135,14 @@
             "b468531b645898f1",
             "279804b998fbe38a",
             "ccb674d79a9b8acc",
-            "8c12181324662e5c"
+            "8c12181324662e5c",
+            "d9b0eb22e5a3033c",
+            "396f3856733c5e5a",
+            "cbede69abd64c9b3",
+            "f3fda139104116cf",
+            "5e1ddf6dffe66d4e",
+            "639392368e9dd325",
+            "df02a0b8de9ad90d"
         ],
         "x": 2575,
         "y": 180,
@@ -2274,7 +2333,7 @@
             ],
             [
                 "2d8363f67f76c89c",
-                "e4485160.d6d2d"
+                "b33e3174bb59bb0b"
             ],
             [
                 "4b4fa1ce.2d444",
@@ -4006,7 +4065,10 @@
             "f6fb5868.e9bd18",
             "301639c.27435c6",
             "d73dab1c.a64828",
-            "bf190e9d.225ad"
+            "bf190e9d.225ad",
+            "605bd5f0e5e8ae22",
+            "dffbe6ee7486f03e",
+            "1d3673435835237c"
         ],
         "x": 655,
         "y": 1880,
@@ -9855,7 +9917,7 @@
         "z": "5df15275.2888ec",
         "g": "d4a5f2307ef8b222",
         "name": "setbot_ttp reset",
-        "func": "\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.raschstopprice = 0;\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.sold = false;\nmsg.bot.ttp.ttpbusy = false;\nmsg.bot.ttp.currentprice = 0;\nmsg.bot.ttp.quantity = 0;\nmsg.bot.ttp.final_price = 0;\nmsg.bot.ttp.finalorder = 0;\n\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.raschstopprice = 0;\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.sold = false;\nmsg.bot.ttp.ttpbusy = false;\nmsg.bot.ttp.currentprice = 0;\nmsg.bot.ttp.quantity = 0;\nmsg.bot.ttp.final_price = 0;\nmsg.bot.ttp.finalorder = 0;\nmsg.bot.ttp.proskal = false;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19765,8 +19827,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1460,
-        "y": 100,
+        "x": 1480,
+        "y": 140,
         "wires": []
     },
     {
@@ -20114,7 +20176,7 @@
             ],
             [
                 "5297a594a1499dbc",
-                "a5c324445eaf4103"
+                "2cacbd2d7a056bd0"
             ],
             [
                 "43656eb1fac8a3d6",
@@ -20177,52 +20239,6 @@
         "wires": []
     },
     {
-        "id": "a5c324445eaf4103",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "prepare get ttp order price",
-        "func": "\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.bot.ttp.curorderid;\n\nmsg.payload = [];\nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid + \"-price\";\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1720,
-        "y": 1940,
-        "wires": [
-            [
-                "10f52a4a5656e59c"
-            ]
-        ],
-        "inputLabels": [
-            "orderid"
-        ],
-        "outputLabels": [
-            "status"
-        ],
-        "icon": "node-red-contrib-binance/binance.png"
-    },
-    {
-        "id": "10f52a4a5656e59c",
-        "type": "redis-command",
-        "z": "2a761808.610238",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get order status",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 1960,
-        "y": 1940,
-        "wires": [
-            [
-                "f1ba9b6fb7dbbe41"
-            ]
-        ]
-    },
-    {
         "id": "9011d963f8a5cefa",
         "type": "link out",
         "z": "2a761808.610238",
@@ -20254,8 +20270,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2435,
-        "y": 1940,
+        "x": 2715,
+        "y": 2100,
         "wires": []
     },
     {
@@ -20372,7 +20388,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
+        "func": "if (msg.bot.ttp.final_price != 0) {\n    msg.bot.ttp.sold = true;\n    msg.bot.ttp.final_price = Number(msg.payload);\n\n    msg.bot.ttp.curorderid = 0;\n    msg.bot.ttp.curstop = 0;\n    msg.bot.ttp.quantity = 0;\n\n    global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20413,14 +20429,14 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "let finalprice = Number(msg.statusBody.cummulativeQuoteQty) / Number(msg.statusBody.origQty);\nif (Number(finalprice) > 0) {\n    msg.bot.ttp.sold = true;\n    msg.bot.ttp.final_price = Number(finalprice);\n\n    msg.bot.ttp.curorderid = 0;\n    msg.bot.ttp.curstop = 0;\n    msg.bot.ttp.quantity = 0;\n\n    global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2230,
-        "y": 1940,
+        "x": 2510,
+        "y": 2100,
         "wires": [
             [
                 "06ee55c7f64e90e8",
@@ -20476,8 +20492,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2530,
-        "y": 1940,
+        "x": 2810,
+        "y": 2100,
         "wires": []
     },
     {
@@ -21876,7 +21892,7 @@
             ],
             [
                 "3ea452ae8ae785ee",
-                "a431944288d62546"
+                "50b85d2b29c78da4"
             ],
             [
                 "f3d254f3a9ced1b1",
@@ -22003,84 +22019,6 @@
         "x": 1690,
         "y": 1020,
         "wires": []
-    },
-    {
-        "id": "a431944288d62546",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "prepare get ttp order price",
-        "func": "\n\nlet moneta = msg.bot.settings.moneta;\nlet orderid = msg.bot.ttp.curorderid;\n\nmsg.payload = [];\nmsg.topic = \"orders-status-\" + msg.bot.settings.userid + \":\" + moneta + \":\" + orderid + \"-price\";\n\n\n\n\nnode.status({fill: \"green\", shape: \"ring\", text: orderid});\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2060,
-        "y": 1020,
-        "wires": [
-            [
-                "2e2dcc7bc17e0478"
-            ]
-        ],
-        "inputLabels": [
-            "orderid"
-        ],
-        "outputLabels": [
-            "status"
-        ],
-        "icon": "node-red-contrib-binance/binance.png"
-    },
-    {
-        "id": "2e2dcc7bc17e0478",
-        "type": "redis-command",
-        "z": "2a761808.610238",
-        "server": "f120eab2.0a60a8",
-        "command": "GET",
-        "name": "get order status",
-        "topic": "msg.payload",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 2300,
-        "y": 1020,
-        "wires": [
-            [
-                "bbee07e647c6fd3a"
-            ]
-        ]
-    },
-    {
-        "id": "5c8811b06f0a9055",
-        "type": "link out",
-        "z": "2a761808.610238",
-        "name": "",
-        "links": [
-            "ccd55cdb.7ed72"
-        ],
-        "x": 2775,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "bbee07e647c6fd3a",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "msg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2570,
-        "y": 1020,
-        "wires": [
-            [
-                "5c8811b06f0a9055",
-                "220bae43bd948479"
-            ]
-        ]
     },
     {
         "id": "fb7e7db1c59f91f5",
@@ -24882,7 +24820,9 @@
         "x": 1500,
         "y": 2100,
         "wires": [
-            []
+            [
+                "312fd2f3a206ed08"
+            ]
         ]
     },
     {
@@ -24899,7 +24839,9 @@
         "x": 1500,
         "y": 2140,
         "wires": [
-            []
+            [
+                "a31fa1f1760cf110"
+            ]
         ]
     },
     {
@@ -24916,7 +24858,9 @@
         "x": 1500,
         "y": 2180,
         "wires": [
-            []
+            [
+                "27102bdd06e5fc1e"
+            ]
         ]
     },
     {
@@ -24933,7 +24877,9 @@
         "x": 1500,
         "y": 2220,
         "wires": [
-            []
+            [
+                "b61f37ec16c91c3b"
+            ]
         ]
     },
     {
@@ -25542,7 +25488,7 @@
         "type": "debug",
         "z": "2a761808.610238",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -26518,7 +26464,7 @@
                 "b656d46ed57d42f2"
             ],
             [
-                "6789ea80ce52811d"
+                "d2750c54641cdf62"
             ],
             [
                 "b656d46ed57d42f2"
@@ -26539,8 +26485,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3140,
-        "y": 1580,
+        "x": 3090,
+        "y": 2020,
         "wires": [
             [
                 "3a923db0796aa0e1"
@@ -26566,8 +26512,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3380,
-        "y": 1580,
+        "x": 3330,
+        "y": 2020,
         "wires": [
             [
                 "e0555de6fadd4639"
@@ -26582,8 +26528,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3855,
-        "y": 1580,
+        "x": 3805,
+        "y": 2020,
         "wires": []
     },
     {
@@ -26591,14 +26537,14 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "msg.bot.ttp.final_price = msg.payload",
-        "func": "\n\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "\nif (msg.bot.ttp.final_price != 0){\nmsg.bot.ttp.sold = true;\nmsg.bot.ttp.final_price = Number(msg.payload);\n\nmsg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\nmsg.bot.ttp.quantity = 0;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3650,
-        "y": 1580,
+        "x": 3600,
+        "y": 2020,
         "wires": [
             [
                 "ccb674d79a9b8acc",
@@ -26620,8 +26566,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3950,
-        "y": 1580,
+        "x": 3900,
+        "y": 2020,
         "wires": []
     },
     {
@@ -26977,7 +26923,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "tilog",
-        "func": "\nlet botdump = JSON.stringify(msg.bot || \"\", null, '\\t');\n\nlet botname = msg.bot.settings.botname;\nlet data = \"final price = 0 : \" + botname + botdump;\n\n\nconst tilog = global.get('tilog')(botname, data);\n\ntilog.then(tilog => {\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});",
+        "func": "var floors = msg.bot.floors;\nlet nonzeroflors = [];\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] != 0) {\n\n        nonzeroflors.push(item);\n\n    }\n});\n\nnonzeroflors = JSON.stringify(nonzeroflors || \"\", null, '\\t');\n\nlet botdump = JSON.stringify(msg.bot.ttp || \"\", null, '\\t');\n\nlet botname = msg.bot.settings.botname;\nlet data = \"final price = 0 : \" + botname + botdump + nonzeroflors;\n\nconst tilog = global.get('tilog')(botname, data);\n\ntilog.then(tilog => {\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26998,7 +26944,10 @@
             "439bb71a7aa3d5e9",
             "1f7552f2fcf1468b",
             "4cc2c27ab3e8513c",
-            "220bae43bd948479"
+            "220bae43bd948479",
+            "bd807ea9c3ec6d9a",
+            "7d33f392693c5308",
+            "d943da6452b63aba"
         ],
         "x": 3585,
         "y": 1460,
@@ -27017,8 +26966,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 3815,
-        "y": 1540,
+        "x": 3765,
+        "y": 1980,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -27031,8 +26980,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 2395,
-        "y": 1980,
+        "x": 2475,
+        "y": 2160,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -27047,20 +26996,6 @@
         ],
         "x": 2635,
         "y": 1280,
-        "wires": [],
-        "icon": "node-red/alert.svg"
-    },
-    {
-        "id": "220bae43bd948479",
-        "type": "link out",
-        "z": "2a761808.610238",
-        "name": "",
-        "links": [
-            "503d53910c17c784",
-            "b4f763508d707f79"
-        ],
-        "x": 2735,
-        "y": 1060,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -27136,7 +27071,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "tilog",
-        "func": "\nlet botdump = JSON.stringify(msg.bot || \"\", null, '\\t');\n\nlet botname = msg.bot.settings.botname;\nlet data = \"final price = 0 : \" + botname + botdump;\n\n\nconst tilog = global.get('tilog')(botname, data);\n\ntilog.then(tilog => {\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});",
+        "func": "var floors = msg.bot.floors;\nlet nonzeroflors = [];\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] != 0) {\n\n        nonzeroflors.push(item);\n\n    }\n});\n\nnonzeroflors = JSON.stringify(nonzeroflors || \"\", null, '\\t');\n\n\n\n\n\nlet botdump = JSON.stringify(msg.bot.ttp || \"\", null, '\\t');\n\n\n\n\nlet botname = msg.bot.settings.botname;\nlet data = \"final price = 0 : \" + botname + botdump + nonzeroflors;\n\n\nconst tilog = global.get('tilog')(botname, data);\n\ntilog.then(tilog => {\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -27370,5 +27305,769 @@
             [],
             []
         ]
+    },
+    {
+        "id": "9085b0528f56dc4a",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1730,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "755866011b3817d5",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1730,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "c4a7b4b5bc2cb3c3",
+        "type": "inject",
+        "z": "2a761808.610238",
+        "g": "4a4c7049730cefda",
+        "name": " stop",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "reset",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2330,
+        "y": 2280,
+        "wires": [
+            [
+                "988da035a9665131"
+            ]
+        ]
+    },
+    {
+        "id": "988da035a9665131",
+        "type": "redis-out",
+        "z": "2a761808.610238",
+        "g": "4a4c7049730cefda",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "stop",
+        "obj": false,
+        "x": 2330,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "4dc29b7a9f906120",
+        "type": "inject",
+        "z": "2a761808.610238",
+        "g": "4a4c7049730cefda",
+        "name": "start",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 1910,
+        "y": 2280,
+        "wires": [
+            [
+                "2c07b3789c8c902d"
+            ]
+        ]
+    },
+    {
+        "id": "2c07b3789c8c902d",
+        "type": "redis-out",
+        "z": "2a761808.610238",
+        "g": "4a4c7049730cefda",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "start",
+        "obj": false,
+        "x": 1910,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "369aa43f413e190d",
+        "type": "inject",
+        "z": "2a761808.610238",
+        "g": "4a4c7049730cefda",
+        "name": "start1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2090,
+        "y": 2280,
+        "wires": [
+            [
+                "5f2ab5817634cafa"
+            ]
+        ]
+    },
+    {
+        "id": "5f2ab5817634cafa",
+        "type": "redis-out",
+        "z": "2a761808.610238",
+        "g": "4a4c7049730cefda",
+        "server": "f120eab2.0a60a8",
+        "command": "publish",
+        "name": "",
+        "topic": "start1",
+        "obj": false,
+        "x": 2090,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "312fd2f3a206ed08",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "27102bdd06e5fc1e",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "b61f37ec16c91c3b",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "a31fa1f1760cf110",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "2cacbd2d7a056bd0",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "get orderstatus on binance",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\nlet moneta = msg.moneta;\nlet orderid = Number(msg.orderid);\n\nbinance.useServerTime(function() {\n    binance.orderStatus(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n\n        msg.err = err;\n        node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n        \n        node.send(msg);\n        //return [msg, null];\n    \n    }\n    if (resp) {\n        msg.order_status = resp.status;\n        msg.resp = resp;\n        node.status({fill: \"green\", shape: \"ring\", text: resp.orderId});\n        \n        node.send(msg);\n       // return [null,msg];\n                \n    }\n    //node.status({}); //clear status message\n});\n\t\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1960,
+        "y": 2100,
+        "wires": [
+            [
+                "dc6e968162bd8abd",
+                "f304326cc8959dab"
+            ]
+        ]
+    },
+    {
+        "id": "dc6e968162bd8abd",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "обработчик ошибок",
+        "func": "if (msg.err) {\n    msg.statusCode = \"not ok\";\n    msg.statusBody = msg.err.body;\n    //node.warn(msg.err.statusCode)\n    \n\n    \n    \n    return [null,msg];\n} else {\n    msg.statusCode = \"ok\";\n    msg.statusBody = msg.resp;\n    return [msg,null];\n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 2100,
+        "wires": [
+            [
+                "cc7d5f657ca5dd6f",
+                "f1ba9b6fb7dbbe41"
+            ],
+            [
+                "d9b0eb22e5a3033c"
+            ]
+        ]
+    },
+    {
+        "id": "3eff5ca80d19b95f",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "f304326cc8959dab",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2150,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "a599adc8f6df82df",
+        "type": "inject",
+        "z": "2a761808.610238",
+        "name": "",
+        "props": [
+            {
+                "p": "orderid",
+                "v": "267019422",
+                "vt": "num"
+            },
+            {
+                "p": "moneta",
+                "v": "LINKDOWNUSDT",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1900,
+        "y": 2000,
+        "wires": [
+            [
+                "2cacbd2d7a056bd0"
+            ]
+        ]
+    },
+    {
+        "id": "cc7d5f657ca5dd6f",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2430,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "d9b0eb22e5a3033c",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 2295,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "396f3856733c5e5a",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 3895,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "86ce7e46c36fd95f",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "msg.bot.ttp.final_price = msg.payload",
+        "func": "let finalprice = Number(msg.statusBody.cummulativeQuoteQty) / Number(msg.statusBody.origQty);\nif (Number(finalprice) > 0) {\n    msg.bot.ttp.sold = true;\n    msg.bot.ttp.final_price = Number(finalprice);\n\n    msg.bot.ttp.curorderid = 0;\n    msg.bot.ttp.curstop = 0;\n    msg.bot.ttp.quantity = 0;\n\n    global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3690,
+        "y": 1580,
+        "wires": [
+            [
+                "396f3856733c5e5a",
+                "bd807ea9c3ec6d9a",
+                "65c2f9a089106bc8"
+            ]
+        ]
+    },
+    {
+        "id": "bd807ea9c3ec6d9a",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "503d53910c17c784",
+            "b4f763508d707f79"
+        ],
+        "x": 3655,
+        "y": 1640,
+        "wires": [],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "d2750c54641cdf62",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "get orderstatus on binance",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\nlet moneta = msg.moneta;\nlet orderid = Number(msg.orderid);\n\nbinance.useServerTime(function() {\n    binance.orderStatus(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n\n        msg.err = err;\n        node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n        \n        node.send(msg);\n        //return [msg, null];\n    \n    }\n    if (resp) {\n        msg.order_status = resp.status;\n        msg.resp = resp;\n        node.status({fill: \"green\", shape: \"ring\", text: resp.orderId});\n        \n        node.send(msg);\n       // return [null,msg];\n                \n    }\n    //node.status({}); //clear status message\n});\n\t\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3140,
+        "y": 1580,
+        "wires": [
+            [
+                "67d5ea40e52092a4"
+            ]
+        ]
+    },
+    {
+        "id": "67d5ea40e52092a4",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "обработчик ошибок",
+        "func": "if (msg.err) {\n    msg.statusCode = \"not ok\";\n    msg.statusBody = msg.err.body;\n    //node.warn(msg.err.statusCode)\n    \n\n    \n    \n    return [null,msg];\n} else {\n    msg.statusCode = \"ok\";\n    msg.statusBody = msg.resp;\n    return [msg,null];\n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3400,
+        "y": 1580,
+        "wires": [
+            [
+                "86ce7e46c36fd95f"
+            ],
+            [
+                "cbede69abd64c9b3"
+            ]
+        ]
+    },
+    {
+        "id": "4a4f998245a5ccae",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3230,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "cbede69abd64c9b3",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 3475,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "f3fda139104116cf",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 2815,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "4962f5cf3a439d26",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "msg.bot.ttp.final_price = msg.payload",
+        "func": "let finalprice = Number(msg.statusBody.cummulativeQuoteQty) / Number(msg.statusBody.origQty);\nif (Number(finalprice) > 0) {\n    msg.bot.ttp.sold = true;\n    msg.bot.ttp.final_price = Number(finalprice);\n\n    msg.bot.ttp.curorderid = 0;\n    msg.bot.ttp.curstop = 0;\n    msg.bot.ttp.quantity = 0;\n\n    global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2610,
+        "y": 1340,
+        "wires": [
+            [
+                "f3fda139104116cf",
+                "7d33f392693c5308",
+                "0a6f08d9f5a7acac"
+            ]
+        ]
+    },
+    {
+        "id": "7d33f392693c5308",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "503d53910c17c784",
+            "b4f763508d707f79"
+        ],
+        "x": 2575,
+        "y": 1400,
+        "wires": [],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "b33e3174bb59bb0b",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "get orderstatus on binance",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\nlet moneta = msg.moneta;\nlet orderid = Number(msg.orderid);\n\nbinance.useServerTime(function() {\n    binance.orderStatus(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n\n        msg.err = err;\n        node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n        \n        node.send(msg);\n        //return [msg, null];\n    \n    }\n    if (resp) {\n        msg.order_status = resp.status;\n        msg.resp = resp;\n        node.status({fill: \"green\", shape: \"ring\", text: resp.orderId});\n        \n        node.send(msg);\n       // return [null,msg];\n                \n    }\n    //node.status({}); //clear status message\n});\n\t\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2060,
+        "y": 1340,
+        "wires": [
+            [
+                "031ecc5c74916c63"
+            ]
+        ]
+    },
+    {
+        "id": "031ecc5c74916c63",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "обработчик ошибок",
+        "func": "if (msg.err) {\n    msg.statusCode = \"not ok\";\n    msg.statusBody = msg.err.body;\n    //node.warn(msg.err.statusCode)\n    \n\n    \n    \n    return [null,msg];\n} else {\n    msg.statusCode = \"ok\";\n    msg.statusBody = msg.resp;\n    return [msg,null];\n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2320,
+        "y": 1340,
+        "wires": [
+            [
+                "4962f5cf3a439d26"
+            ],
+            [
+                "5e1ddf6dffe66d4e"
+            ]
+        ]
+    },
+    {
+        "id": "b0bb4b780e768740",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2150,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "5e1ddf6dffe66d4e",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 2395,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "639392368e9dd325",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 2815,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "4e28f99472338707",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "msg.bot.ttp.final_price = msg.payload",
+        "func": "let finalprice = Number(msg.statusBody.cummulativeQuoteQty) / Number(msg.statusBody.origQty);\nif (Number(finalprice) > 0) {\n    msg.bot.ttp.sold = true;\n    msg.bot.ttp.final_price = Number(finalprice);\n\n    msg.bot.ttp.curorderid = 0;\n    msg.bot.ttp.curstop = 0;\n    msg.bot.ttp.quantity = 0;\n\n    global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2610,
+        "y": 1040,
+        "wires": [
+            [
+                "639392368e9dd325",
+                "d943da6452b63aba",
+                "a6d6d5460bacac5a"
+            ]
+        ]
+    },
+    {
+        "id": "d943da6452b63aba",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "503d53910c17c784",
+            "b4f763508d707f79"
+        ],
+        "x": 2575,
+        "y": 1100,
+        "wires": [],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "50b85d2b29c78da4",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "get orderstatus on binance",
+        "func": "\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */}\n  }\n  return \"Unknown error. Status code: \"+error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\n//node.warn(LBinance);\nlet key = global.get('key');\nlet secret = global.get('secret');\n\n\nlet binance = new LBinance().options({\n\tAPIKEY: key,\n\tAPISECRET: secret,\n\tuseServerTime: true,\n\tadjustForTimeDifference: true \n});\n\n\n\n\nlet moneta = msg.moneta;\nlet orderid = Number(msg.orderid);\n\nbinance.useServerTime(function() {\n    binance.orderStatus(moneta, orderid, (err, resp) => {\n // console.info(\"Limit Buy response\", response);\n // console.info(\"order id: \" + response.orderId);\n    if (err) {\n        var errorMsg = parseApiError(err) + \", moneta:\" + moneta;\n        node.error(errorMsg, msg);\n\n        msg.err = err;\n        node.status({fill: \"red\", shape: \"ring\", text: errorMsg});\n        \n        node.send(msg);\n        //return [msg, null];\n    \n    }\n    if (resp) {\n        msg.order_status = resp.status;\n        msg.resp = resp;\n        node.status({fill: \"green\", shape: \"ring\", text: resp.orderId});\n        \n        node.send(msg);\n       // return [null,msg];\n                \n    }\n    //node.status({}); //clear status message\n});\n\t\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2060,
+        "y": 1040,
+        "wires": [
+            [
+                "2dd346398c4d520f"
+            ]
+        ]
+    },
+    {
+        "id": "2dd346398c4d520f",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "обработчик ошибок",
+        "func": "if (msg.err) {\n    msg.statusCode = \"not ok\";\n    msg.statusBody = msg.err.body;\n    //node.warn(msg.err.statusCode)\n    \n\n    \n    \n    return [null,msg];\n} else {\n    msg.statusCode = \"ok\";\n    msg.statusBody = msg.resp;\n    return [msg,null];\n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2320,
+        "y": 1040,
+        "wires": [
+            [
+                "4e28f99472338707"
+            ],
+            [
+                "df02a0b8de9ad90d"
+            ]
+        ]
+    },
+    {
+        "id": "8e39eed9f0f61eb2",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2150,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "df02a0b8de9ad90d",
+        "type": "link out",
+        "z": "2a761808.610238",
+        "name": "",
+        "links": [
+            "ccd55cdb.7ed72"
+        ],
+        "x": 2395,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "65c2f9a089106bc8",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3890,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "0a6f08d9f5a7acac",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2910,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "a6d6d5460bacac5a",
+        "type": "debug",
+        "z": "2a761808.610238",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2850,
+        "y": 980,
+        "wires": []
     }
 ]
