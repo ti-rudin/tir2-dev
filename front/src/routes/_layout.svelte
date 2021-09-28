@@ -141,7 +141,7 @@
             </svg>
         </div>
     </div>
-    <div class="flex-grow text-center">{process.env.SAPPER_APP_HOSTIP} </div>
+    <div class="flex-grow text-center">{$stateStore.selectbotname} </div>
 
     <div class="usermenu flex-none">
         <Login />
