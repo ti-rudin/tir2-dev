@@ -1,6 +1,8 @@
+
 <script>
     import { stateStore } from '../stores/statebot.js';
     import { onMount } from 'svelte';
+
     import Switch from 'smelte/src/components/Switch';
     //import "smelte/src/tailwind.css";
     import NewBot from './NewBot.svelte';
@@ -9,6 +11,9 @@
     export let comission;
     export let show;
 
+
+    //console.log(process.env.SAPPER_APP_HOSTIP);
+
     import Button from 'smelte/src/components/Button';
     import { authStore } from '../stores/auth';
     //import { request } from 'graphql-request';
@@ -16,6 +21,7 @@
     import IndLoad from './IndLoad.svelte';
 
     let urlhost = $stateStore.urlhost;
+
 
     let bots = [];
     let urlbotslist = urlhost + 'botslist';
@@ -49,6 +55,7 @@
         return value[8] === $authStore.user.uid;
     }
     onMount(async () => {
+
         const res = await fetch(api_bots, {
             headers: {
                 Accept: 'application/json',
@@ -245,6 +252,7 @@
     <div class="textitem px-2 py-3">
         <div class="rowbalanceitem balancehead">
             <label>Баланс</label>
+
         </div>
         <div class="rowbalanceitem">
             <label>Старт</label>

@@ -1,4 +1,8 @@
+
 <script>
+
+//console.log(process.env.SAPPER_APP_HOSTIP);
+
     import { stateStore } from '../stores/statebot.js';
     import { authStore } from '../stores/auth';
     import Nav from '../components/Nav.svelte';
@@ -137,7 +141,7 @@
             </svg>
         </div>
     </div>
-    <div class="flex-grow text-center">{$stateStore.selectbotname}</div>
+    <div class="flex-grow text-center">{process.env.SAPPER_APP_HOSTIP} </div>
 
     <div class="usermenu flex-none">
         <Login />

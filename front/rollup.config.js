@@ -10,6 +10,7 @@ import pkg from "./package.json";
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
+const sapperEnv = require('sapper-environment');
 
 const smelte=require("smelte/rollup-plugin-smelte");
 
@@ -24,6 +25,7 @@ export default {
     output: config.client.output(),
     plugins: [
       replace({
+        ...sapperEnv(),
         "process.browser": true,
         "process.env.NODE_ENV": JSON.stringify(mode),
       }),

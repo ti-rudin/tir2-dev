@@ -1,7 +1,10 @@
+
 <script>
     import { stateStore } from '../stores/statebot.js';
+
     clearInterval($stateStore.timerId);
     clearInterval($stateStore.timerIdlist);
+    
 
     import BotsList from '../components/BotsList.svelte';
     import { authStore } from '../stores/auth';
@@ -12,6 +15,7 @@
         //urlhost: urlhost,
         //urlhostkeys:'https://dev.localhost/usersettings/',
         //urlhost: 'http://localhost/bbot/',
+
         comission: 0.15,
     };
 
