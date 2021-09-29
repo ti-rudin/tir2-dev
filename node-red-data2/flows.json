@@ -414,7 +414,9 @@
             "dd73e1c4557a5e65"
         ],
         "x": 114,
-        "y": 479
+        "y": 479,
+        "w": 792,
+        "h": 122
     },
     {
         "id": "8a452b1de9e087aa",
@@ -935,7 +937,9 @@
             "014ff17437138c5a"
         ],
         "x": 34,
-        "y": 59
+        "y": 59,
+        "w": 2182,
+        "h": 342
     },
     {
         "id": "93bf1a09029b1ecf",
@@ -959,7 +963,9 @@
             "ccd55cdb.7ed72"
         ],
         "x": 2534,
-        "y": 79
+        "y": 79,
+        "w": 852,
+        "h": 202
     },
     {
         "id": "a0fe11145e7edf84",
@@ -1189,7 +1195,9 @@
             "5f2ab5817634cafa"
         ],
         "x": 1814,
-        "y": 2239
+        "y": 2239,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "17b2eb4baaa826d1",
@@ -1211,8 +1219,10 @@
             "d7c6eafcf8852e61",
             "503d53910c17c784"
         ],
-        "x": 3224,
-        "y": 979
+        "x": 2924,
+        "y": 799,
+        "w": 692,
+        "h": 142
     },
     {
         "id": "f120eab2.0a60a8",
@@ -1835,7 +1845,7 @@
         "op2": "0",
         "op1type": "str",
         "op2type": "str",
-        "duration": "-250",
+        "duration": "-500",
         "extend": false,
         "overrideDelay": false,
         "units": "ms",
@@ -2306,8 +2316,7 @@
             ],
             [
                 "94fd227bcadbdc02",
-                "9673901c0d7af744",
-                "b93b42205b0fb48f"
+                "9673901c0d7af744"
             ],
             [
                 "2d8363f67f76c89c",
@@ -2400,8 +2409,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1960,
-        "y": 1240,
+        "x": 4120,
+        "y": 1360,
         "wires": [
             [
                 "609e4747.ed43d8"
@@ -2427,8 +2436,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 2200,
-        "y": 1240,
+        "x": 4360,
+        "y": 1360,
         "wires": [
             [
                 "775da6329b2e633b"
@@ -2467,8 +2476,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2675,
-        "y": 1240,
+        "x": 4835,
+        "y": 1360,
         "wires": []
     },
     {
@@ -4235,6 +4244,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 900,
         "y": 1960,
         "wires": [
@@ -8926,7 +8936,7 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": "9",
         "topic": "",
         "payloadType": "date",
@@ -9929,7 +9939,7 @@
         "z": "5df15275.2888ec",
         "g": "d4a5f2307ef8b222",
         "name": "регистрация сделки",
-        "func": "\nnode.warn(\"регистрация сделки\");\nlet commision = global.get(\"commision\");\n\nlet sellprice = Number(msg.bot.ttp.final_price);\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * sellprice);\n\nvar floors = msg.bot.floors;\nlet sumsales = 0;\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 3) {\n        let buyprice = Number(item[10]);\n        let quantity = Number(item[14]);\n        let p = quantity * (sellprice - buyprice);\n        let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n        let net = p - c;\n        tempfin2 = tempfin2 - c;\n        msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n        msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n        sumsales = sumsales + net\n        node.warn([buyprice, sellprice, quantity, p, c, net]);\n        \n        let botname = msg.botname;\n        let datamsg = \"регистрация сделки - \" + [buyprice, sellprice, quantity, p, c, net];\n        const tilog = global.get('tilog')(botname, datamsg);\n        tilog;\n        \n\n        item[7] = 0;\n        item[8] = 0;\n        item[9] = 0;\n        item[10] = 0;\n        item[11] = 0;\n        item[12] = 0;\n        item[13] = 0;\n        item[14] = 0;\n\n    }\n});\nif (sumsales > 0) {\n\nmsg.sumsales = sumsales;\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nmsg.bot.floors = floors;\n}\n\nreturn msg;\n\n\n\n\n",
+        "func": "\nnode.warn(\"регистрация сделки\");\nlet commision = global.get(\"commision\");\n\nlet sellprice = Number(msg.bot.ttp.final_price);\n\nlet tempfin = Number(Number(msg.bot.finance.quotainorders) - Number(msg.bot.ttp.quantity));\nlet tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * sellprice);\n\nvar floors = msg.bot.floors;\nlet sumsales = 0;\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 3) {\n        let buyprice = Number(item[10]);\n        let quantity = Number(item[14]);\n        let p = quantity * (sellprice - buyprice);\n        let c = quantity * (Number(sellprice + buyprice)) / 100 * commision;\n        let net = p - c;\n        tempfin2 = tempfin2 - c;\n        msg.bot.sales.today.push([buyprice, sellprice, quantity, p, c, net]);\n        msg.bot.sales.all.push([buyprice, sellprice, quantity, p, c, net]);\n        sumsales = sumsales + net\n        node.warn([buyprice, sellprice, quantity, p, c, net]);\n        \n        let botname = msg.botname;\n        let datamsg = \"регистрация сделки - \" + [buyprice, sellprice, quantity, p, c, net];\n        const tilog = global.get('tilog')(botname, datamsg);\n        tilog;\n        \n\n        item[7] = 0;\n        item[8] = 0;\n        item[9] = 0;\n        item[10] = 0;\n        item[11] = 0;\n        item[12] = 0;\n        item[13] = 0;\n        item[14] = 0;\n\n    }\n});\nif (sumsales != 0) {\n\nmsg.sumsales = sumsales;\nmsg.bot.finance.quotainorders = tempfin.toFixed(msg.bot.settings.digitprice);\nmsg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitq);\n\nif (msg.bot.finance.baseinorders == -0) { msg.bot.finance.baseinorders = 0; }\nif (msg.bot.finance.basenal == -0) { msg.bot.finance.basenal = 0; }\n\nmsg.bot.floors = floors;\n}\n\nreturn msg;\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17777,7 +17787,7 @@
         "op2": "0",
         "op1type": "str",
         "op2type": "str",
-        "duration": "-250",
+        "duration": "-500",
         "extend": false,
         "overrideDelay": false,
         "units": "ms",
@@ -19392,7 +19402,7 @@
         "z": "2a761808.610238",
         "g": "93bf1a09029b1ecf",
         "name": "finish ttp",
-        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n\nlet firststep = track[0];\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration_track = last_node_end_time - first_node_start_time;\n//>трекер>\n\n\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_track //только для финишной ноды\n});\n\n\nflow.set(trackname, track);\nlet id = msg.botname + \"-ttp\";\nflow.set(id, 0);\n\n//>трекер>\n//msg.bot.ttp = global.get(msg.botname + \"-ttp\");\n//msg.bot.ttp.ttpbusy = false;\n\n\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n\nlet firststep = track[0];\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration_track = last_node_end_time - first_node_start_time;\n//>трекер>\n\n\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_track //только для финишной ноды\n});\n\n\nflow.set(trackname, track);\nlet id = msg.botname + \"-ttp\";\nflow.set(id, 0);\n\n//>трекер>\n//msg.bot.ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp.ttpbusy = false;\n\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19805,7 +19815,7 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1480,
+        "x": 1540,
         "y": 140,
         "wires": []
     },
@@ -20150,7 +20160,7 @@
             ],
             [
                 "16d14b957a871779",
-                "b468531b645898f1"
+                "f359483a04c14178"
             ],
             [
                 "5297a594a1499dbc",
@@ -20248,8 +20258,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2715,
-        "y": 2100,
+        "x": 2495,
+        "y": 1940,
         "wires": []
     },
     {
@@ -20372,8 +20382,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2470,
-        "y": 1240,
+        "x": 4630,
+        "y": 1360,
         "wires": [
             [
                 "bcd1d88e.da80d8",
@@ -20413,8 +20423,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2510,
-        "y": 2100,
+        "x": 2290,
+        "y": 1940,
         "wires": [
             [
                 "06ee55c7f64e90e8",
@@ -20436,8 +20446,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2750,
-        "y": 1240,
+        "x": 4910,
+        "y": 1360,
         "wires": []
     },
     {
@@ -20470,8 +20480,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2810,
-        "y": 2100,
+        "x": 2590,
+        "y": 1940,
         "wires": []
     },
     {
@@ -20847,8 +20857,8 @@
         "topic": "CANSELBUY",
         "obj": true,
         "timeout": 0,
-        "x": 170,
-        "y": 780,
+        "x": 130,
+        "y": 580,
         "wires": [
             [
                 "730faea5b3c7614d",
@@ -20867,8 +20877,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 780,
+        "x": 1050,
+        "y": 580,
         "wires": [
             [
                 "c390786279ac6a53"
@@ -20897,8 +20907,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1290,
-        "y": 780,
+        "x": 1250,
+        "y": 580,
         "wires": [
             [
                 "e527f624776cc6f8",
@@ -20921,8 +20931,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1450,
-        "y": 800,
+        "x": 1410,
+        "y": 600,
         "wires": []
     },
     {
@@ -20936,8 +20946,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 1450,
-        "y": 760,
+        "x": 1410,
+        "y": 560,
         "wires": []
     },
     {
@@ -20951,8 +20961,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1490,
-        "y": 840,
+        "x": 1450,
+        "y": 640,
         "wires": [
             [
                 "0ea33e8e1137af07"
@@ -20970,8 +20980,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1620,
-        "y": 760,
+        "x": 1580,
+        "y": 560,
         "wires": [
             [
                 "1fcf3df806b130c7"
@@ -20989,8 +20999,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1900,
-        "y": 760,
+        "x": 1860,
+        "y": 560,
         "wires": [
             [
                 "6592870fee64acf3"
@@ -21007,12 +21017,12 @@
         "topic": "SETSELL",
         "obj": true,
         "timeout": 0,
-        "x": 180,
-        "y": 1080,
+        "x": 140,
+        "y": 920,
         "wires": [
             [
                 "4643b14a1c8406ba",
-                "9cfde8b009ac5a26"
+                "ed3737de8040bc90"
             ]
         ]
     },
@@ -21021,14 +21031,14 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "getbot, set ttpbusy",
-        "func": "//msg.botname = msg.payload.data.botname;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp)\nreturn msg;",
+        "func": "msg.botname = msg.payload.data.botname;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
-        "y": 1080,
+        "x": 950,
+        "y": 920,
         "wires": [
             [
                 "f2f10895a79dd78b"
@@ -21045,12 +21055,12 @@
         "topic": "CANSELSELL",
         "obj": true,
         "timeout": 0,
-        "x": 190,
-        "y": 1300,
+        "x": 150,
+        "y": 1140,
         "wires": [
             [
                 "b819850c8da2d576",
-                "89d3da82263f7578"
+                "4aea11af796eaf12"
             ]
         ]
     },
@@ -21059,37 +21069,18 @@
         "type": "function",
         "z": "901cd11f1c81ce5d",
         "name": "getbot, set ttpbusy",
-        "func": "\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "msg.botname = msg.payload.data.botname;\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 1300,
+        "x": 970,
+        "y": 1140,
         "wires": [
             [
-                "5bb8a2e217a62cf5",
-                "7a846e320b985243"
+                "5bb8a2e217a62cf5"
             ]
-        ]
-    },
-    {
-        "id": "bcfe2cc9d6ada347",
-        "type": "rbe",
-        "z": "901cd11f1c81ce5d",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload.data",
-        "topi": "payload.data.botname",
-        "x": 390,
-        "y": 1360,
-        "wires": [
-            []
         ]
     },
     {
@@ -21103,8 +21094,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1210,
-        "y": 1080,
+        "x": 1170,
+        "y": 920,
         "wires": [
             [
                 "f6229d5c8eca7e6c"
@@ -21133,8 +21124,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1410,
-        "y": 1080,
+        "x": 1370,
+        "y": 920,
         "wires": [
             [
                 "1196c334fdd86489"
@@ -21155,8 +21146,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1430,
-        "y": 1120,
+        "x": 1390,
+        "y": 960,
         "wires": [
             [
                 "1ab3bbeabdd7ee4f"
@@ -21174,8 +21165,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
-        "y": 1300,
+        "x": 1190,
+        "y": 1140,
         "wires": [
             [
                 "4e61486dcfd45588"
@@ -21204,8 +21195,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1430,
-        "y": 1300,
+        "x": 1390,
+        "y": 1140,
         "wires": [
             [
                 "aacd1fc0c8868ed4"
@@ -21226,8 +21217,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 210,
-        "y": 1260,
+        "x": 170,
+        "y": 1100,
         "wires": []
     },
     {
@@ -21241,8 +21232,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 190,
-        "y": 1040,
+        "x": 150,
+        "y": 880,
         "wires": []
     },
     {
@@ -21509,12 +21500,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
-        "y": 1060,
+        "x": 1560,
+        "y": 900,
         "wires": [
             [
-                "f48f2978a8c94b10",
-                "dd994e29fcc5e978"
+                "f48f2978a8c94b10"
             ]
         ]
     },
@@ -21529,12 +21519,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
-        "y": 1120,
+        "x": 1560,
+        "y": 960,
         "wires": [
             [
-                "3ab3f5ece6ebd7ba",
-                "e44f4e8d162578bf"
+                "3ab3f5ece6ebd7ba"
             ]
         ]
     },
@@ -21549,12 +21538,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
-        "y": 1280,
+        "x": 1560,
+        "y": 1120,
         "wires": [
             [
-                "550777029e1aaff1",
-                "a85103f5e25bc315"
+                "550777029e1aaff1"
             ]
         ]
     },
@@ -21569,12 +21557,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
-        "y": 1320,
+        "x": 1560,
+        "y": 1160,
         "wires": [
             [
-                "2c0ca6c8b35ddbad",
-                "224aae15d4834066"
+                "2c0ca6c8b35ddbad"
             ]
         ]
     },
@@ -21625,8 +21612,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2160,
-        "y": 760,
+        "x": 2120,
+        "y": 560,
         "wires": [
             [
                 "46817b364f8c4463"
@@ -21644,8 +21631,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1700,
-        "y": 840,
+        "x": 1660,
+        "y": 640,
         "wires": [
             []
         ]
@@ -21725,8 +21712,8 @@
             "e34a5b68.726ec8",
             "f45f3249dbec7058"
         ],
-        "x": 2275,
-        "y": 760,
+        "x": 2235,
+        "y": 560,
         "wires": []
     },
     {
@@ -21737,8 +21724,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1715,
-        "y": 1020,
+        "x": 1675,
+        "y": 860,
         "wires": []
     },
     {
@@ -21749,8 +21736,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1735,
-        "y": 1100,
+        "x": 1695,
+        "y": 940,
         "wires": []
     },
     {
@@ -21761,8 +21748,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1735,
-        "y": 1280,
+        "x": 1695,
+        "y": 1120,
         "wires": []
     },
     {
@@ -21773,8 +21760,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1735,
-        "y": 1320,
+        "x": 1695,
+        "y": 1160,
         "wires": []
     },
     {
@@ -21866,8 +21853,7 @@
             ],
             [
                 "ef5aa95741a638e6",
-                "b4178065b5bea4ab",
-                "f65dfc9da82abdb3"
+                "b4178065b5bea4ab"
             ],
             [
                 "3ea452ae8ae785ee",
@@ -22961,7 +22947,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "orderexec cansel, proskal = true",
-        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\nlet cmd = \"cansel\";\nlet orderid = msg.bot.ttp.curorderid;\n\n\nlet data = { moneta: msg.bot.settings.moneta, orderid: orderid};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = \"cansel order id:\" + orderid;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\n//msg.bot.ttp.ttpbusy = true;\nmsg.bot.ttp.proskal = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        msg.bot.ttp.curorderid = 0;\n\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle,\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration_node\": duration,\n            \"duration_step\": duration_step\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.status({ fill: \"green\", shape: \"dot\" });\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle + \"-faile\",\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration\": duration,\n            \"duration_step\": duration_step,\n            \"error\": orderexec.statusBody\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n    node.warn(msg);\n    node.error(error);\n});\n\n\n\n",
+        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\nlet cmd = \"cansel\";\nlet orderid = msg.bot.ttp.curorderid;\n\n\nlet data = { moneta: msg.bot.settings.moneta, orderid: orderid};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = \"cansel order id:\" + orderid;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\nmsg.bot.ttp.ttpbusy = true;\nmsg.bot.ttp.proskal = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        msg.bot.ttp.curorderid = 0;\n\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle,\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration_node\": duration,\n            \"duration_step\": duration_step\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.status({ fill: \"green\", shape: \"dot\" });\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle + \"-faile\",\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration\": duration,\n            \"duration_step\": duration_step,\n            \"error\": orderexec.statusBody\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n    node.warn(msg);\n    node.error(error);\n});\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -24896,37 +24882,6 @@
         "wires": []
     },
     {
-        "id": "e8049b21ae537042",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "curorderid = 0",
-        "func": "msg.bot.ttp.curorderid = 0;\nmsg.bot.ttp.curstop = 0;\n//global.set(msg.botname + \"-ttp\", msg.bot.ttp);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2440,
-        "y": 1200,
-        "wires": [
-            [
-                "f9376aa9d695b94d"
-            ]
-        ]
-    },
-    {
-        "id": "f9376aa9d695b94d",
-        "type": "link out",
-        "z": "2a761808.610238",
-        "name": "",
-        "links": [
-            "ccd55cdb.7ed72"
-        ],
-        "x": 2575,
-        "y": 1200,
-        "wires": []
-    },
-    {
         "id": "58129e2b33a0a5c0",
         "type": "switch",
         "z": "2a761808.610238",
@@ -25014,7 +24969,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 290,
+        "x": 270,
         "y": 1900,
         "wires": [
             [
@@ -25034,7 +24989,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 355,
+        "x": 335,
         "y": 1960,
         "wires": []
     },
@@ -25138,74 +25093,6 @@
         "x": 2560,
         "y": 1820,
         "wires": []
-    },
-    {
-        "id": "dd994e29fcc5e978",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1860,
-        "y": 1060,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e44f4e8d162578bf",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1860,
-        "y": 1120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a85103f5e25bc315",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1940,
-        "y": 1300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "224aae15d4834066",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1940,
-        "y": 1340,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "b8b2edded60ac21b",
@@ -25320,7 +25207,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
+        "x": 300,
         "y": 2000,
         "wires": [
             []
@@ -25441,8 +25328,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1170,
-        "y": 1800,
+        "x": 1130,
+        "y": 1820,
         "wires": []
     },
     {
@@ -25453,7 +25340,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1655,
+        "x": 2075,
         "y": 1900,
         "wires": []
     },
@@ -25487,40 +25374,6 @@
         "wires": []
     },
     {
-        "id": "b93b42205b0fb48f",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2100,
-        "y": 1180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f65dfc9da82abdb3",
-        "type": "function",
-        "z": "2a761808.610238",
-        "name": "tester___",
-        "func": "let start_node_time = new Date().getTime();\n\nnode.status({fill: \"green\", shape: \"ring\", text: start_node_time});\n    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2180,
-        "y": 960,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "9108ae40fd3e6331",
         "type": "debug",
         "z": "901cd11f1c81ce5d",
@@ -25546,8 +25399,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 170,
-        "y": 720,
+        "x": 130,
+        "y": 520,
         "wires": []
     },
     {
@@ -25861,8 +25714,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 1260,
+        "x": 760,
+        "y": 1100,
         "wires": [
             [
                 "4aea11af796eaf12"
@@ -25874,9 +25727,9 @@
         "type": "trigger",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "op1": "1",
+        "op1": "",
         "op2": "0",
-        "op1type": "str",
+        "op1type": "pay",
         "op2type": "str",
         "duration": "0",
         "extend": false,
@@ -25884,10 +25737,10 @@
         "units": "s",
         "reset": "",
         "bytopic": "topic",
-        "topic": "botname",
+        "topic": "payload.data.botname",
         "outputs": 1,
-        "x": 620,
-        "y": 1300,
+        "x": 580,
+        "y": 1140,
         "wires": [
             [
                 "233eaf42efd5b934",
@@ -25911,8 +25764,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 610,
-        "y": 1260,
+        "x": 570,
+        "y": 1100,
         "wires": [
             [
                 "1a78448ed5842470"
@@ -25934,47 +25787,13 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 810,
-        "y": 1300,
+        "x": 770,
+        "y": 1140,
         "wires": [
             [
                 "a63aa7cdd517824c"
             ]
         ]
-    },
-    {
-        "id": "89d3da82263f7578",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "getbot, set ttpbusy",
-        "func": "msg.botname = msg.payload.data.botname;\n\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 1300,
-        "wires": [
-            [
-                "4aea11af796eaf12"
-            ]
-        ]
-    },
-    {
-        "id": "7a846e320b985243",
-        "type": "debug",
-        "z": "901cd11f1c81ce5d",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1190,
-        "y": 1240,
-        "wires": []
     },
     {
         "id": "b637212363723ab2",
@@ -25987,8 +25806,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 1040,
+        "x": 740,
+        "y": 880,
         "wires": [
             [
                 "ed3737de8040bc90"
@@ -26000,9 +25819,9 @@
         "type": "trigger",
         "z": "901cd11f1c81ce5d",
         "name": "",
-        "op1": "1",
+        "op1": "",
         "op2": "0",
-        "op1type": "str",
+        "op1type": "pay",
         "op2type": "str",
         "duration": "0",
         "extend": false,
@@ -26010,10 +25829,10 @@
         "units": "s",
         "reset": "",
         "bytopic": "topic",
-        "topic": "botname",
+        "topic": "payload.data.botname",
         "outputs": 1,
-        "x": 600,
-        "y": 1080,
+        "x": 560,
+        "y": 920,
         "wires": [
             [
                 "9e6223e176373b10",
@@ -26037,8 +25856,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 590,
-        "y": 1040,
+        "x": 550,
+        "y": 880,
         "wires": [
             [
                 "b637212363723ab2"
@@ -26060,30 +25879,12 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 790,
-        "y": 1080,
+        "x": 750,
+        "y": 920,
         "wires": [
             [
-                "922f2bf004e85cf4"
-            ]
-        ]
-    },
-    {
-        "id": "9cfde8b009ac5a26",
-        "type": "function",
-        "z": "901cd11f1c81ce5d",
-        "name": "getbot, set ttpbusy",
-        "func": "msg.botname = msg.payload.data.botname;\n\nlet bot = global.get(msg.botname);\nmsg.bot = bot;\n\nlet ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp = ttp;\n\n///\nmsg.bot.ttp.ttpbusy = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 1080,
-        "wires": [
-            [
-                "ed3737de8040bc90"
+                "922f2bf004e85cf4",
+                "60cedf73ea744224"
             ]
         ]
     },
@@ -26098,8 +25899,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 780,
+        "x": 840,
+        "y": 580,
         "wires": [
             [
                 "f095ba85006d052b"
@@ -26117,8 +25918,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 740,
+        "x": 640,
+        "y": 540,
         "wires": [
             [
                 "5670ab39022d515f"
@@ -26142,8 +25943,8 @@
         "bytopic": "topic",
         "topic": "botname",
         "outputs": 1,
-        "x": 500,
-        "y": 780,
+        "x": 460,
+        "y": 580,
         "wires": [
             [
                 "c0ce2ee3fe400fc1",
@@ -26167,8 +25968,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 490,
-        "y": 740,
+        "x": 450,
+        "y": 540,
         "wires": [
             [
                 "407e48ef166aa365"
@@ -26190,8 +25991,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 690,
-        "y": 780,
+        "x": 650,
+        "y": 580,
         "wires": [
             [
                 "33b564bdc70ef89f"
@@ -26209,8 +26010,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 780,
+        "x": 290,
+        "y": 580,
         "wires": [
             [
                 "5670ab39022d515f"
@@ -26325,7 +26126,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 2710,
+        "x": 2690,
         "y": 1480,
         "wires": [
             [
@@ -26349,8 +26150,7 @@
         "y": 1600,
         "wires": [
             [
-                "fa132a4e1b2b943f",
-                "47c44260e6c30974"
+                "fa132a4e1b2b943f"
             ]
         ]
     },
@@ -26430,8 +26230,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3090,
-        "y": 2020,
+        "x": 4100,
+        "y": 1820,
         "wires": [
             [
                 "3a923db0796aa0e1"
@@ -26457,8 +26257,8 @@
         "paramsType": "json",
         "payloadType": "json",
         "block": false,
-        "x": 3330,
-        "y": 2020,
+        "x": 4340,
+        "y": 1820,
         "wires": [
             [
                 "e0555de6fadd4639"
@@ -26473,8 +26273,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3805,
-        "y": 2020,
+        "x": 4815,
+        "y": 1820,
         "wires": []
     },
     {
@@ -26488,8 +26288,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3600,
-        "y": 2020,
+        "x": 4610,
+        "y": 1820,
         "wires": [
             [
                 "ccb674d79a9b8acc",
@@ -26511,8 +26311,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3900,
-        "y": 2020,
+        "x": 4910,
+        "y": 1820,
         "wires": []
     },
     {
@@ -26527,7 +26327,7 @@
         "finalize": "",
         "libs": [],
         "x": 3030,
-        "y": 1660,
+        "y": 1680,
         "wires": [
             [
                 "fa1a613bacef594f",
@@ -26545,7 +26345,7 @@
         "message": "",
         "parseMode": "",
         "x": 2940,
-        "y": 1620,
+        "y": 1720,
         "wires": []
     },
     {
@@ -26556,25 +26356,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3255,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "47c44260e6c30974",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2470,
-        "y": 1460,
+        "x": 3195,
+        "y": 1720,
         "wires": []
     },
     {
@@ -26590,7 +26373,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2530,
+        "x": 2350,
         "y": 1700,
         "wires": []
     },
@@ -26608,7 +26391,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2890,
-        "y": 1460,
+        "y": 1480,
         "wires": []
     },
     {
@@ -26823,8 +26606,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 3420,
-        "y": 1080,
+        "x": 3120,
+        "y": 900,
         "wires": [
             [
                 "77d59427d38fd283",
@@ -26844,8 +26627,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3630,
-        "y": 1080,
+        "x": 3330,
+        "y": 900,
         "wires": [
             [
                 "88f202b910384e38"
@@ -26862,8 +26645,8 @@
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 3810,
-        "y": 1020,
+        "x": 3510,
+        "y": 840,
         "wires": []
     },
     {
@@ -26878,8 +26661,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3600,
-        "y": 1020,
+        "x": 3300,
+        "y": 840,
         "wires": [
             []
         ]
@@ -26898,8 +26681,8 @@
             "bd807ea9c3ec6d9a",
             "d943da6452b63aba"
         ],
-        "x": 3265,
-        "y": 1080,
+        "x": 2965,
+        "y": 900,
         "wires": [
             [
                 "5cb78c95e9f5e431"
@@ -26916,8 +26699,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 3765,
-        "y": 1980,
+        "x": 4775,
+        "y": 1780,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -26930,8 +26713,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 2475,
-        "y": 2160,
+        "x": 2255,
+        "y": 2000,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -26944,8 +26727,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 2635,
-        "y": 1280,
+        "x": 4795,
+        "y": 1400,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -27495,12 +27278,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1960,
-        "y": 2100,
+        "x": 1740,
+        "y": 1940,
         "wires": [
             [
-                "dc6e968162bd8abd",
-                "f304326cc8959dab"
+                "dc6e968162bd8abd"
             ]
         ]
     },
@@ -27515,98 +27297,16 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2220,
-        "y": 2100,
+        "x": 2000,
+        "y": 1940,
         "wires": [
             [
-                "cc7d5f657ca5dd6f",
                 "f1ba9b6fb7dbbe41"
             ],
             [
                 "d9b0eb22e5a3033c"
             ]
         ]
-    },
-    {
-        "id": "3eff5ca80d19b95f",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2050,
-        "y": 2140,
-        "wires": []
-    },
-    {
-        "id": "f304326cc8959dab",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2150,
-        "y": 2020,
-        "wires": []
-    },
-    {
-        "id": "a599adc8f6df82df",
-        "type": "inject",
-        "z": "2a761808.610238",
-        "name": "",
-        "props": [
-            {
-                "p": "orderid",
-                "v": "267019422",
-                "vt": "num"
-            },
-            {
-                "p": "moneta",
-                "v": "LINKDOWNUSDT",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1900,
-        "y": 2000,
-        "wires": [
-            [
-                "2cacbd2d7a056bd0"
-            ]
-        ]
-    },
-    {
-        "id": "cc7d5f657ca5dd6f",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2430,
-        "y": 2000,
-        "wires": []
     },
     {
         "id": "d9b0eb22e5a3033c",
@@ -27616,8 +27316,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2295,
-        "y": 2160,
+        "x": 2075,
+        "y": 2000,
         "wires": []
     },
     {
@@ -27628,8 +27328,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3895,
-        "y": 1580,
+        "x": 3735,
+        "y": 1600,
         "wires": []
     },
     {
@@ -27643,8 +27343,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3690,
-        "y": 1580,
+        "x": 3530,
+        "y": 1600,
         "wires": [
             [
                 "396f3856733c5e5a",
@@ -27678,8 +27378,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3140,
-        "y": 1580,
+        "x": 2980,
+        "y": 1600,
         "wires": [
             [
                 "67d5ea40e52092a4"
@@ -27697,8 +27397,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3400,
-        "y": 1580,
+        "x": 3240,
+        "y": 1600,
         "wires": [
             [
                 "86ce7e46c36fd95f"
@@ -27709,23 +27409,6 @@
         ]
     },
     {
-        "id": "4a4f998245a5ccae",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3230,
-        "y": 1620,
-        "wires": []
-    },
-    {
         "id": "cbede69abd64c9b3",
         "type": "link out",
         "z": "2a761808.610238",
@@ -27733,7 +27416,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 3475,
+        "x": 3315,
         "y": 1640,
         "wires": []
     },
@@ -27745,8 +27428,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2815,
-        "y": 1340,
+        "x": 2595,
+        "y": 1240,
         "wires": []
     },
     {
@@ -27760,8 +27443,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2610,
-        "y": 1340,
+        "x": 2390,
+        "y": 1240,
         "wires": [
             [
                 "f3fda139104116cf",
@@ -27779,8 +27462,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 2575,
-        "y": 1400,
+        "x": 2535,
+        "y": 1280,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -27795,8 +27478,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2060,
-        "y": 1340,
+        "x": 1840,
+        "y": 1240,
         "wires": [
             [
                 "031ecc5c74916c63"
@@ -27814,8 +27497,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2320,
-        "y": 1340,
+        "x": 2100,
+        "y": 1240,
         "wires": [
             [
                 "4962f5cf3a439d26"
@@ -27826,23 +27509,6 @@
         ]
     },
     {
-        "id": "b0bb4b780e768740",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2150,
-        "y": 1380,
-        "wires": []
-    },
-    {
         "id": "5e1ddf6dffe66d4e",
         "type": "link out",
         "z": "2a761808.610238",
@@ -27850,8 +27516,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2395,
-        "y": 1400,
+        "x": 2175,
+        "y": 1280,
         "wires": []
     },
     {
@@ -27862,8 +27528,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2815,
-        "y": 1040,
+        "x": 2675,
+        "y": 1020,
         "wires": []
     },
     {
@@ -27877,8 +27543,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2610,
-        "y": 1040,
+        "x": 2470,
+        "y": 1020,
         "wires": [
             [
                 "639392368e9dd325",
@@ -27896,8 +27562,8 @@
             "503d53910c17c784",
             "b4f763508d707f79"
         ],
-        "x": 2575,
-        "y": 1100,
+        "x": 2435,
+        "y": 1080,
         "wires": [],
         "icon": "node-red/alert.svg"
     },
@@ -27912,8 +27578,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2060,
-        "y": 1040,
+        "x": 1920,
+        "y": 1020,
         "wires": [
             [
                 "2dd346398c4d520f"
@@ -27931,8 +27597,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2320,
-        "y": 1040,
+        "x": 2180,
+        "y": 1020,
         "wires": [
             [
                 "4e28f99472338707"
@@ -27943,23 +27609,6 @@
         ]
     },
     {
-        "id": "8e39eed9f0f61eb2",
-        "type": "debug",
-        "z": "2a761808.610238",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2150,
-        "y": 1080,
-        "wires": []
-    },
-    {
         "id": "df02a0b8de9ad90d",
         "type": "link out",
         "z": "2a761808.610238",
@@ -27967,8 +27616,8 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 2395,
-        "y": 1100,
+        "x": 2255,
+        "y": 1080,
         "wires": []
     },
     {
@@ -27984,8 +27633,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3930,
-        "y": 1540,
+        "x": 3830,
+        "y": 1600,
         "wires": []
     },
     {
@@ -28001,8 +27650,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2910,
-        "y": 1320,
+        "x": 2670,
+        "y": 1240,
         "wires": []
     },
     {
@@ -28018,8 +27667,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2850,
-        "y": 980,
+        "x": 2770,
+        "y": 1020,
         "wires": []
     },
     {
@@ -28147,5 +27796,39 @@
         "x": 3320,
         "y": 1660,
         "wires": []
+    },
+    {
+        "id": "60cedf73ea744224",
+        "type": "debug",
+        "z": "901cd11f1c81ce5d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 930,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f359483a04c14178",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "orderexec cansel, proskal = true",
+        "func": "\n\nmsg.bot.ttp.ttpbusy = true;\nmsg.bot.ttp.proskal = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1830,
+        "y": 1900,
+        "wires": [
+            [
+                "46607ceede3526b3"
+            ]
+        ]
     }
 ]
