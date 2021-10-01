@@ -142,9 +142,7 @@
             "9a835f6c.6a1ab"
         ],
         "x": 1694,
-        "y": 419,
-        "w": 632,
-        "h": 162
+        "y": 419
     },
     {
         "id": "3684cd36.8432c2",
@@ -263,9 +261,7 @@
             "527f5893eeafc366"
         ],
         "x": 2554,
-        "y": 39,
-        "w": 1052,
-        "h": 502
+        "y": 39
     },
     {
         "id": "f8a5c66461864831",
@@ -311,9 +307,7 @@
             "c4cf96930d013efb"
         ],
         "x": 1614,
-        "y": 1739,
-        "w": 792,
-        "h": 122
+        "y": 1739
     },
     {
         "id": "586e39dc007e0cae",
@@ -375,9 +369,7 @@
             "e5b3f65c64087091"
         ],
         "x": 2554,
-        "y": 579,
-        "w": 1052,
-        "h": 502
+        "y": 579
     },
     {
         "id": "b1c9866420e73130",
@@ -415,9 +407,7 @@
             "9f0a5643b5b416e8"
         ],
         "x": 2554,
-        "y": 1599,
-        "w": 692,
-        "h": 562
+        "y": 1599
     },
     {
         "id": "5bb9e782aa7a8a39",
@@ -666,9 +656,7 @@
             "d3749cac89a0e2c9"
         ],
         "x": 2554,
-        "y": 1119,
-        "w": 1352,
-        "h": 82
+        "y": 1119
     },
     {
         "id": "7f9b2dd857a6dfb2",
@@ -691,9 +679,7 @@
             "792187aede59b6ac"
         ],
         "x": 2554,
-        "y": 1239,
-        "w": 912,
-        "h": 82
+        "y": 1239
     },
     {
         "id": "9364657534c1325f",
@@ -714,9 +700,7 @@
             "62dad41be283ec5d"
         ],
         "x": 2554,
-        "y": 1359,
-        "w": 572,
-        "h": 82
+        "y": 1359
     },
     {
         "id": "a2350d1c1b2611d2",
@@ -737,9 +721,7 @@
             "f2b2077b7903a0bf"
         ],
         "x": 2554,
-        "y": 1479,
-        "w": 632,
-        "h": 82
+        "y": 1479
     },
     {
         "id": "5cf80cfa258dfe5b",
@@ -761,9 +743,7 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39,
-        "w": 792,
-        "h": 122
+        "y": 39
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -1018,9 +998,7 @@
             "2b18414b4a3f8aaa"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1552,
-        "h": 502
+        "y": 39
     },
     {
         "id": "0a3bcf6fb5324ab9",
@@ -1108,9 +1086,7 @@
             "bf190e9d.225ad"
         ],
         "x": 34,
-        "y": 1659,
-        "w": 1322,
-        "h": 402
+        "y": 1659
     },
     {
         "id": "014ce62956a26f95",
@@ -1182,9 +1158,7 @@
             "6250c3310b6d177b"
         ],
         "x": 34,
-        "y": 779,
-        "w": 2092,
-        "h": 822
+        "y": 779
     },
     {
         "id": "d508da9d29e25c1b",
@@ -1211,9 +1185,7 @@
             "04c874ce359ca023"
         ],
         "x": 34,
-        "y": 599,
-        "w": 1612,
-        "h": 122
+        "y": 599
     },
     {
         "id": "f448f88c7c88caba",
@@ -1299,45 +1271,10 @@
             "50b9f3b0d6b0350a",
             "1eacca0442cea4af"
         ],
-        "x": 34,
+        "x": -6,
         "y": 1299,
         "w": 2082,
         "h": 482
-    },
-    {
-        "id": "ee0b0338a4dc7452",
-        "type": "group",
-        "z": "5df15275.2888ec",
-        "style": {
-            "stroke": "#2e333a",
-            "stroke-opacity": "1",
-            "fill": "#383c45",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "9f82a757.25f3d",
-            "51b45a57.49dad4",
-            "1d3cd462.fdc43c",
-            "e34a5b68.726ec8",
-            "070f09d236c25724",
-            "f937bdc295f372a8",
-            "11de2b0a1ac054f8",
-            "ace3c36047787ec6",
-            "194d05dc3a441cda",
-            "9a6d8066f00657b0",
-            "a71fc8edf2fd6c72",
-            "a98f5eecfe5e8b65",
-            "064e61c4f8ca64c4",
-            "79243b775be6039d",
-            "a7ef7b74.1301e8"
-        ],
-        "x": 2434,
-        "y": 839,
-        "w": 1212,
-        "h": 282
     },
     {
         "id": "d73a3420024b2417",
@@ -1370,9 +1307,7 @@
             "2794da7d6f473613"
         ],
         "x": 54,
-        "y": 199,
-        "w": 2062,
-        "h": 162
+        "y": 199
     },
     {
         "id": "b988821087e2e632",
@@ -1406,9 +1341,7 @@
             "7f0a9ffb2eb5b4d8"
         ],
         "x": 54,
-        "y": 399,
-        "w": 2102,
-        "h": 162
+        "y": 399
     },
     {
         "id": "0fffd2708f51dd30",
@@ -1438,9 +1371,7 @@
             "cf6c526e360420ef"
         ],
         "x": 54,
-        "y": 819,
-        "w": 1442,
-        "h": 142
+        "y": 819
     },
     {
         "id": "8056eb88351f744f",
@@ -1519,9 +1450,7 @@
             "0320c2a9d42441f7"
         ],
         "x": 2814,
-        "y": 1279,
-        "w": 592,
-        "h": 122
+        "y": 1279
     },
     {
         "id": "014207cc7ff92b1d",
@@ -1543,9 +1472,7 @@
             "eb44c598e131cbec"
         ],
         "x": 54,
-        "y": 419,
-        "w": 792,
-        "h": 122
+        "y": 419
     },
     {
         "id": "352d50cd10bc5d42",
@@ -1573,9 +1500,7 @@
             "54312a83a6b701f5"
         ],
         "x": 2474,
-        "y": 39,
-        "w": 932,
-        "h": 269.5
+        "y": 39
     },
     {
         "id": "2d97f49a8108d498",
@@ -1728,9 +1653,7 @@
             "b68694ba34076e89"
         ],
         "x": 54,
-        "y": 579,
-        "w": 3662,
-        "h": 1782
+        "y": 579
     },
     {
         "id": "55c7f8e5a968efb7",
@@ -1771,35 +1694,7 @@
             "9ad3551093ac1119"
         ],
         "x": 54,
-        "y": 39,
-        "w": 2182,
-        "h": 342
-    },
-    {
-        "id": "b68694ba34076e89",
-        "type": "group",
-        "z": "82e6143e14afc268",
-        "g": "2d97f49a8108d498",
-        "style": {
-            "stroke": "#2e333a",
-            "stroke-opacity": "1",
-            "fill": "#383c45",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "eba297809bbcfc69",
-            "3dcff791e2dd7bfb",
-            "b9c16efce1b7995e",
-            "367e0149978979d9",
-            "edd6fdfec715b339"
-        ],
-        "x": 2844,
-        "y": 819,
-        "w": 692,
-        "h": 142
+        "y": 39
     },
     {
         "id": "14dcb1e93340de92",
@@ -1829,9 +1724,7 @@
             "98a295ad95fa14d5"
         ],
         "x": 54,
-        "y": 819,
-        "w": 1442,
-        "h": 142
+        "y": 819
     },
     {
         "id": "e58463c1966ec8e1",
@@ -1853,9 +1746,7 @@
             "d2bf2f60279e4f6f"
         ],
         "x": 54,
-        "y": 59,
-        "w": 792,
-        "h": 122
+        "y": 59
     },
     {
         "id": "3596f6fd72b893a8",
@@ -1889,9 +1780,7 @@
             "8517ca0472294dec"
         ],
         "x": 54,
-        "y": 419,
-        "w": 2102,
-        "h": 162
+        "y": 419
     },
     {
         "id": "d1d3743c587cdcaa",
@@ -1924,9 +1813,7 @@
             "a462aac9c71276fd"
         ],
         "x": 54,
-        "y": 219,
-        "w": 2062,
-        "h": 162
+        "y": 219
     },
     {
         "id": "fe7eb1c0aaa36ba6",
@@ -1957,9 +1844,31 @@
             "5dfccbaca0943588"
         ],
         "x": 54,
-        "y": 619,
-        "w": 1442,
-        "h": 162
+        "y": 619
+    },
+    {
+        "id": "b68694ba34076e89",
+        "type": "group",
+        "z": "82e6143e14afc268",
+        "g": "2d97f49a8108d498",
+        "style": {
+            "stroke": "#2e333a",
+            "stroke-opacity": "1",
+            "fill": "#383c45",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "eba297809bbcfc69",
+            "3dcff791e2dd7bfb",
+            "b9c16efce1b7995e",
+            "367e0149978979d9",
+            "edd6fdfec715b339"
+        ],
+        "x": 2844,
+        "y": 819
     },
     {
         "id": "f120eab2.0a60a8",
@@ -2116,7 +2025,6 @@
         "id": "a7ef7b74.1301e8",
         "type": "comment",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "Финиш трека. ",
         "info": "",
         "x": 2580,
@@ -2307,7 +2215,7 @@
             "7e6df2c2.aa43bc",
             "ecc16c9fb4b93460"
         ],
-        "x": 75,
+        "x": 35,
         "y": 1600,
         "wires": [
             [
@@ -2320,7 +2228,6 @@
         "id": "9f82a757.25f3d",
         "type": "function",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "finish track",
         "func": "//<трекер<\nlet trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n\nlet firststep = track[0];\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration_track = last_node_end_time - first_node_start_time;\n//>трекер>\n\n//msg.bot.busy = false;\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_track //только для финишной ноды\n});\nflow.set(trackname, track);\n\nflow.set(msg.botname, 0);\n\nnode.status({ fill: \"green\", shape: \"dot\" });\n\nreturn msg;",
         "outputs": 1,
@@ -2345,9 +2252,8 @@
         "id": "51b45a57.49dad4",
         "type": "function",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "duration",
-        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\nif (duration > 2000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n        //запись в журнал\nreturn [null,msg];\n}\n    \nreturn [msg, null];",
+        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\nif (duration > 5000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n        //запись в журнал\nreturn [null,msg];\n}\n    \nreturn [msg, null];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2361,7 +2267,8 @@
             ],
             [
                 "194d05dc3a441cda",
-                "064e61c4f8ca64c4"
+                "064e61c4f8ca64c4",
+                "94298c1ae2f919f2"
             ]
         ]
     },
@@ -2369,7 +2276,6 @@
         "id": "1d3cd462.fdc43c",
         "type": "ui_chart",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "",
         "group": "f244fee6.d2627",
         "order": 0,
@@ -2421,7 +2327,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 210,
+        "x": 170,
         "y": 1600,
         "wires": [
             [
@@ -2443,7 +2349,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 250,
+        "x": 210,
         "y": 1640,
         "wires": []
     },
@@ -2451,7 +2357,6 @@
         "id": "e34a5b68.726ec8",
         "type": "link in",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "finish track setbotfree",
         "links": [
             "04e23e81161e4a2f",
@@ -2525,7 +2430,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
+        "x": 380,
         "y": 1600,
         "wires": [
             [
@@ -4948,7 +4853,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1010,
+        "x": 970,
         "y": 1680,
         "wires": [
             [
@@ -9725,7 +9630,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
+        "x": 1190,
         "y": 1620,
         "wires": [
             [
@@ -9743,7 +9648,7 @@
         "g": "ac1b5ff5e5af859c",
         "name": "вне сетки",
         "info": "",
-        "x": 1420,
+        "x": 1380,
         "y": 1660,
         "wires": []
     },
@@ -10243,7 +10148,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 810,
+        "x": 770,
         "y": 1600,
         "wires": [
             [
@@ -10309,7 +10214,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1520,
+        "x": 1480,
         "y": 1500,
         "wires": [
             [
@@ -10327,7 +10232,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1655,
+        "x": 1615,
         "y": 1500,
         "wires": []
     },
@@ -10343,7 +10248,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
+        "x": 1260,
         "y": 1500,
         "wires": [
             [
@@ -11539,7 +11444,7 @@
         "g": "ac1b5ff5e5af859c",
         "name": "",
         "env": [],
-        "x": 1430,
+        "x": 1390,
         "y": 1600,
         "wires": [
             [
@@ -11556,7 +11461,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1555,
+        "x": 1515,
         "y": 1600,
         "wires": []
     },
@@ -11572,7 +11477,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
+        "x": 1190,
         "y": 1740,
         "wires": [
             [
@@ -11592,7 +11497,7 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 1410,
+        "x": 1370,
         "y": 1740,
         "wires": [
             [
@@ -11612,7 +11517,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
+        "x": 1560,
         "y": 1740,
         "wires": [
             [
@@ -11641,7 +11546,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1970,
+        "x": 1930,
         "y": 1740,
         "wires": [
             [
@@ -12396,7 +12301,7 @@
         "g": "ac1b5ff5e5af859c",
         "name": "",
         "env": [],
-        "x": 1810,
+        "x": 1770,
         "y": 1740,
         "wires": [
             [
@@ -16876,7 +16781,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 2075,
+        "x": 2035,
         "y": 1740,
         "wires": []
     },
@@ -18113,7 +18018,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
+        "x": 600,
         "y": 1600,
         "wires": [
             [
@@ -18125,7 +18030,6 @@
         "id": "070f09d236c25724",
         "type": "link out",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "",
         "links": [
             "85d1e7884404218a",
@@ -19653,7 +19557,7 @@
         "name": "",
         "info": "",
         "x": 1500,
-        "y": 100,
+        "y": 120,
         "wires": []
     },
     {
@@ -19778,7 +19682,6 @@
         "id": "f937bdc295f372a8",
         "type": "link out",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "",
         "links": [
             "efa132132a7fa5d7"
@@ -20255,7 +20158,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
+        "x": 1460,
         "y": 1440,
         "wires": [
             [
@@ -20273,7 +20176,7 @@
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 1680,
+        "x": 1640,
         "y": 1440,
         "wires": []
     },
@@ -21258,7 +21161,6 @@
         "id": "11de2b0a1ac054f8",
         "type": "function",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "update bot floors, finance triger",
         "func": "let botname = msg.botname;\nlet guid = global.get('guid');\n\nlet finance = msg.bot.finance;\nlet floors = msg.bot.floors;\nlet sales = msg.bot.sales;\n\nlet sumsales = 0;\nsales.all.forEach(function (element) {\n    sumsales = sumsales + element[5];\n\n});\n\nlet quotanal = 0;\nlet quotainorders = 0;\nlet basenal = Number(finance.startdepo) + Number(sumsales); \nlet baseinorders = 0;\n\n\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] === 1) {\n        baseinorders = baseinorders + Number(item[14]) * Number(item[3]);\n        basenal = basenal - Number(item[14]) * Number(item[3]);\n\n    }\n    if (item[7] === 2) {\n        quotanal = quotanal + Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n    if (item[7] === 3) {\n        quotainorders = quotainorders + Number(item[14]);\n        //quotanal = quotanal - Number(item[14]);\n        basenal = basenal - Number(item[14]) * Number(item[10]);\n    }\n\n\n\n});\nfinance.quotanal = (Number(quotanal)).toFixed(msg.bot.settings.digitq);\nfinance.quotainorders = (Number(quotainorders)).toFixed(msg.bot.settings.digitq);\nfinance.basenal = (Number(basenal)).toFixed(msg.bot.settings.digitprice);\nfinance.baseinorders = (Number(baseinorders)).toFixed(msg.bot.settings.digitprice);\n\nlet p = Number(msg.bot.status.currentprice);\nfinance.depo = Number((Number(finance.quotanal) * p + Number(finance.quotainorders) * p + Number(finance.basenal) + Number(finance.baseinorders)).toFixed(msg.bot.settings.digitprice));\n\nmsg.bot.finance = finance;\nmsg.bot.floors = floors;\nmsg.bot.sales = sales;\n\n\nglobal.set(msg.botname, msg.bot);\n\n\n",
         "outputs": 1,
@@ -21276,7 +21178,6 @@
         "id": "ace3c36047787ec6",
         "type": "function",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "setbot_status",
         "func": "\n\nmsg.topic = msg.bot.settings.userid + \"-bots:\" + msg.bot.settings.botname + \":status\";\nmsg.bot.status.updated = new Date().getTime();\nmsg.payload = JSON.stringify(msg.bot.status);\nconst upd = global.get('setbot_status')(msg.topic, msg.payload);\n\n\nupd.then(upd => {\n\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n\n    node.status({ fill: \"red\", shape: \"dot\" });\n    node.error(error);\n});",
         "outputs": 1,
@@ -25463,7 +25364,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1040,
+        "x": 1000,
         "y": 1420,
         "wires": [
             [
@@ -25488,7 +25389,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1280,
+        "x": 1240,
         "y": 1380,
         "wires": [
             [
@@ -25506,7 +25407,7 @@
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 1460,
+        "x": 1420,
         "y": 1380,
         "wires": []
     },
@@ -25522,7 +25423,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1210,
         "y": 1340,
         "wires": [
             []
@@ -25537,8 +25438,8 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1575,
-        "y": 1380,
+        "x": 1175,
+        "y": 1420,
         "wires": []
     },
     {
@@ -25565,7 +25466,6 @@
         "id": "194d05dc3a441cda",
         "type": "function",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "msg = {}",
         "func": "\nmsg = {};\nreturn msg;",
         "outputs": 1,
@@ -25586,7 +25486,6 @@
         "id": "9a6d8066f00657b0",
         "type": "redis-out",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "server": "f120eab2.0a60a8",
         "command": "publish",
         "name": "",
@@ -25600,7 +25499,6 @@
         "id": "a71fc8edf2fd6c72",
         "type": "delay",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "",
         "pauseType": "delay",
         "timeout": "3",
@@ -25614,7 +25512,7 @@
         "drop": false,
         "allowrate": false,
         "x": 3380,
-        "y": 1060,
+        "y": 1020,
         "wires": [
             [
                 "a98f5eecfe5e8b65"
@@ -25625,7 +25523,6 @@
         "id": "a98f5eecfe5e8b65",
         "type": "exec",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "command": "reboot",
         "addpay": "",
         "append": "",
@@ -25635,7 +25532,7 @@
         "oldrc": false,
         "name": "",
         "x": 3530,
-        "y": 1060,
+        "y": 1020,
         "wires": [
             [],
             [],
@@ -26255,16 +26152,15 @@
         "id": "064e61c4f8ca64c4",
         "type": "function",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "reboot",
-        "func": "msg.payload = \"reboot - \" + msg.botname;\nreturn msg;",
+        "func": "\nmsg.payload = \"reboot - \" + msg.botname;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3370,
-        "y": 1000,
+        "x": 3210,
+        "y": 920,
         "wires": [
             [
                 "79243b775be6039d"
@@ -26275,14 +26171,13 @@
         "id": "79243b775be6039d",
         "type": "telegrambot-notify",
         "z": "5df15275.2888ec",
-        "g": "ee0b0338a4dc7452",
         "name": "",
         "bot": "848f142.6165868",
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 3540,
-        "y": 1000,
+        "x": 3380,
+        "y": 920,
         "wires": []
     },
     {
@@ -26469,7 +26364,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1515,
+        "x": 1475,
         "y": 1660,
         "wires": []
     },
@@ -32953,5 +32848,22 @@
         "x": 1120,
         "y": 1360,
         "wires": []
+    },
+    {
+        "id": "94298c1ae2f919f2",
+        "type": "function",
+        "z": "5df15275.2888ec",
+        "name": "tilog",
+        "func": "var floors = msg.bot.floors;\nlet nonzeroflors = [];\n\nfloors.forEach(function (item, i, floors) {\n\n    if (item[7] != 0) {\n\n        nonzeroflors.push(item);\n\n    }\n});\n\nnonzeroflors = JSON.stringify(nonzeroflors || \"\", null, '\\t');\n\n\n\n\n\nlet botdump = JSON.stringify(msg.bot.ttp || \"\", null, '\\t');\n\n\n\n\nlet botname = msg.bot.settings.botname;\nlet data = \"reboot \" + botname + botdump + nonzeroflors;\n\n\nconst tilog = global.get('tilog')(botname, data);\n\ntilog.then(tilog => {\n\n    node.status({ fill: \"green\", shape: \"dot\" });\n    node.send(msg);\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n\n    node.error(error);\n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3210,
+        "y": 880,
+        "wires": [
+            []
+        ]
     }
 ]
