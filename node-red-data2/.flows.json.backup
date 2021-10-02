@@ -2287,7 +2287,7 @@
         "type": "function",
         "z": "5df15275.2888ec",
         "name": "duration",
-        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\nif (duration > 5000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n        //запись в журнал\nreturn [null,msg];\n}\n    \nreturn [msg, null];",
+        "func": "let trackname = \"track-\" + msg.botname;\nlet track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900){\n            //запись в журнал\n\n        \n        let botname2 = msg.botname;\n        let data2 = \"Длительноть трека -\"+duration;\n        const tilog = global.get('tilog')(botname2,data2);\n        tilog;\n        //запись в журнал\n    \n}\nif (duration > 15000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n        //запись в журнал\nreturn [null,msg];\n}\n    \nreturn [msg, null];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -19112,7 +19112,7 @@
         "z": "2a761808.610238",
         "g": "8056eb88351f744f",
         "name": "duration",
-        "func": "    let trackname = \"ttp-track-\"+msg.botname;\n    let track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n    \nif (duration > 2000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть TTP трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n    //запись в журнал\n    return [null, msg];\n}\n\nreturn [msg, null];",
+        "func": "    let trackname = \"ttp-track-\"+msg.botname;\n    let track = flow.get(trackname);\n\nlet laststep = track[track.length-1];\nlet firststep = track[0];\nlet last_node_end_time = laststep.end_node_time;\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration = last_node_end_time - first_node_start_time;\n//node.warn(duration);\nmsg.payload = duration;\n\nif (duration > 1900) {\n    //запись в журнал\n\n\n    let botname2 = msg.botname;\n    let data2 = \"Длительноть ттп трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n    //запись в журнал\n\n}\n\nif (duration > 15000) {\n    let botname2 = msg.botname;\n    let data2 = \"REBOOT - Длительноть TTP трека -\" + duration;\n    const tilog = global.get('tilog')(botname2, data2);\n    tilog;\n    //запись в журнал\n    return [null, msg];\n}\n\nreturn [msg, null];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -19590,8 +19590,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1500,
-        "y": 120,
+        "x": 1560,
+        "y": 80,
         "wires": []
     },
     {
@@ -19900,7 +19900,7 @@
                 "9011d963f8a5cefa"
             ],
             [
-                "46607ceede3526b3"
+                "21da88c81f6082a2"
             ],
             [
                 "2cacbd2d7a056bd0"
@@ -20824,7 +20824,7 @@
         "name": "",
         "scope": null,
         "uncaught": false,
-        "x": 2540,
+        "x": 2520,
         "y": 480,
         "wires": [
             [
@@ -32905,5 +32905,24 @@
         "x": 1110,
         "y": 1840,
         "wires": []
+    },
+    {
+        "id": "21da88c81f6082a2",
+        "type": "function",
+        "z": "2a761808.610238",
+        "name": "orderexec cansel",
+        "func": "\nmsg.bot.ttp.curorderid = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 1940,
+        "wires": [
+            [
+                "46607ceede3526b3"
+            ]
+        ]
     }
 ]
