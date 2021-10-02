@@ -1299,7 +1299,7 @@
             "50b9f3b0d6b0350a",
             "1eacca0442cea4af"
         ],
-        "x": -6,
+        "x": 54,
         "y": 1299,
         "w": 2082,
         "h": 482
@@ -2249,7 +2249,7 @@
             "7e6df2c2.aa43bc",
             "ecc16c9fb4b93460"
         ],
-        "x": 35,
+        "x": 95,
         "y": 1600,
         "wires": [
             [
@@ -2361,7 +2361,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 170,
+        "x": 230,
         "y": 1600,
         "wires": [
             [
@@ -2383,7 +2383,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 210,
+        "x": 270,
         "y": 1640,
         "wires": []
     },
@@ -2464,7 +2464,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 440,
         "y": 1600,
         "wires": [
             [
@@ -4887,7 +4887,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 970,
+        "x": 1030,
         "y": 1680,
         "wires": [
             [
@@ -9664,7 +9664,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
+        "x": 1250,
         "y": 1620,
         "wires": [
             [
@@ -9682,7 +9682,7 @@
         "g": "ac1b5ff5e5af859c",
         "name": "вне сетки",
         "info": "",
-        "x": 1380,
+        "x": 1440,
         "y": 1660,
         "wires": []
     },
@@ -10182,7 +10182,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 770,
+        "x": 830,
         "y": 1600,
         "wires": [
             [
@@ -10248,7 +10248,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1480,
+        "x": 1540,
         "y": 1500,
         "wires": [
             [
@@ -10266,7 +10266,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1615,
+        "x": 1675,
         "y": 1500,
         "wires": []
     },
@@ -10282,7 +10282,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
+        "x": 1320,
         "y": 1500,
         "wires": [
             [
@@ -11478,7 +11478,7 @@
         "g": "ac1b5ff5e5af859c",
         "name": "",
         "env": [],
-        "x": 1390,
+        "x": 1450,
         "y": 1600,
         "wires": [
             [
@@ -11495,7 +11495,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1515,
+        "x": 1575,
         "y": 1600,
         "wires": []
     },
@@ -11511,7 +11511,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
+        "x": 1250,
         "y": 1740,
         "wires": [
             [
@@ -11531,7 +11531,7 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 1370,
+        "x": 1430,
         "y": 1740,
         "wires": [
             [
@@ -11551,7 +11551,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1560,
+        "x": 1620,
         "y": 1740,
         "wires": [
             [
@@ -11580,7 +11580,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1930,
+        "x": 1990,
         "y": 1740,
         "wires": [
             [
@@ -12335,7 +12335,7 @@
         "g": "ac1b5ff5e5af859c",
         "name": "",
         "env": [],
-        "x": 1770,
+        "x": 1830,
         "y": 1740,
         "wires": [
             [
@@ -16815,7 +16815,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 2035,
+        "x": 2095,
         "y": 1740,
         "wires": []
     },
@@ -17504,7 +17504,7 @@
         "z": "5df15275.2888ec",
         "g": "7cf2ce1ee9aa09a0",
         "name": "get candlestick",
-        "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  \"reconnect\": false\n});\n\nlet moneta = msg.bot.settings.moneta;\nlet deep = Number(msg.bot.settings.ma2);\n\n//node.warn(binance);\n\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function () {\n  binance.candlesticks(moneta, \"1m\", (error, ticks, symbol) => {\n    // console.info(\"candlesticks()\", ticks);\n    // let last_tick = ticks[ticks.length - 1];\n    // let [time, open, high, low, close, volume, closeTime, assetVolume, trades, buyBaseVolume, buyAssetVolume, ignored] = ticks;\n    //console.info(symbol+\" last close: \"+close);\n    if (error) {\n      var errorMsg = parseApiError(error) + \", moneta:\" + moneta;\n      node.error(errorMsg, msg);\n\n      msg.err = error;\n      node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n\n      node.send(msg);\n      //return [msg, null];\n\n    }\n\n    msg.payload = ticks;\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n    return;\n\n  }, { limit: deep });\n\n});\n",
+        "func": "\n\nfunction parseApiError(error) {\n  if (error.body) {\n    try {\n      var resp = JSON.parse(error.body);\n      return resp.msg;\n    } catch (error) {/* pass thru */ }\n  }\n  return \"Unknown error. Status code: \" + error.statsCode;\n}\n\nlet LBinance = global.get('gBinance');\nlet key = global.get('key');\nlet secret = global.get('secret');\n\nlet binance = new LBinance().options({\n  APIKEY: key,\n  APISECRET: secret,\n  \"reconnect\": false\n});\n\nlet moneta = msg.bot.settings.moneta;\nlet deep = Number(msg.bot.settings.ma2);\n\n//node.warn(binance);\n\n\n//msg.payload = \"qjson.status\";\n\nbinance.useServerTime(function () {\n  binance.candlesticks(moneta, \"1m\", (error, ticks, symbol) => {\n    // console.info(\"candlesticks()\", ticks);\n    // let last_tick = ticks[ticks.length - 1];\n    // let [time, open, high, low, close, volume, closeTime, assetVolume, trades, buyBaseVolume, buyAssetVolume, ignored] = ticks;\n    //console.info(symbol+\" last close: \"+close);\n    if (error) {\n      var errorMsg = parseApiError(error) + \", moneta:\" + moneta;\n      node.error(errorMsg, msg);\n\n      msg.err = error;\n      node.status({ fill: \"red\", shape: \"ring\", text: errorMsg });\n\n      node.send(msg);\n      //return [msg, null];\n\n    }\n\n    msg.payload = ticks;\n    node.status({ fill: \"green\", shape: \"ring\" });\n    node.send(msg);\n    //return;\n\n  }, { limit: deep });\n\n});\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -18052,7 +18052,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
+        "x": 660,
         "y": 1600,
         "wires": [
             [
@@ -20193,7 +20193,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1460,
+        "x": 1520,
         "y": 1440,
         "wires": [
             [
@@ -20211,7 +20211,7 @@
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 1640,
+        "x": 1700,
         "y": 1440,
         "wires": []
     },
@@ -25399,7 +25399,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1000,
+        "x": 1060,
         "y": 1420,
         "wires": [
             [
@@ -25424,7 +25424,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
+        "x": 1300,
         "y": 1380,
         "wires": [
             [
@@ -25442,7 +25442,7 @@
         "chatId": "454883204",
         "message": "",
         "parseMode": "",
-        "x": 1420,
+        "x": 1480,
         "y": 1380,
         "wires": []
     },
@@ -25458,7 +25458,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1210,
+        "x": 1270,
         "y": 1340,
         "wires": [
             []
@@ -25473,7 +25473,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1175,
+        "x": 1235,
         "y": 1420,
         "wires": []
     },
@@ -26399,7 +26399,7 @@
         "links": [
             "e34a5b68.726ec8"
         ],
-        "x": 1475,
+        "x": 1535,
         "y": 1660,
         "wires": []
     },
