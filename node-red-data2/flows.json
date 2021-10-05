@@ -761,9 +761,7 @@
             "e4eeb03c78ec0577"
         ],
         "x": 54,
-        "y": 39,
-        "w": 792,
-        "h": 122
+        "y": 39
     },
     {
         "id": "7cf2ce1ee9aa09a0",
@@ -1181,9 +1179,9 @@
             "0ba1f4d05ad6d76a",
             "6250c3310b6d177b"
         ],
-        "x": 34,
+        "x": 44,
         "y": 779,
-        "w": 2092,
+        "w": 2082,
         "h": 822
     },
     {
@@ -1335,9 +1333,7 @@
             "2794da7d6f473613"
         ],
         "x": 54,
-        "y": 199,
-        "w": 2062,
-        "h": 162
+        "y": 199
     },
     {
         "id": "b988821087e2e632",
@@ -1371,9 +1367,7 @@
             "7f0a9ffb2eb5b4d8"
         ],
         "x": 54,
-        "y": 399,
-        "w": 2102,
-        "h": 162
+        "y": 399
     },
     {
         "id": "0fffd2708f51dd30",
@@ -1403,9 +1397,7 @@
             "cf6c526e360420ef"
         ],
         "x": 54,
-        "y": 819,
-        "w": 1442,
-        "h": 142
+        "y": 819
     },
     {
         "id": "8056eb88351f744f",
@@ -19191,7 +19183,7 @@
         "z": "2a761808.610238",
         "g": "8056eb88351f744f",
         "name": "finish ttp",
-        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n\nlet firststep = track[0];\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration_track = last_node_end_time - first_node_start_time;\n//>трекер>\n\n\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_track //только для финишной ноды\n});\n\n\nflow.set(trackname, track);\nlet id = msg.botname + \"-ttp\";\nflow.set(id, 0);\n\n//>трекер>\n//msg.bot.ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp.ttpbusy = false;\n\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
+        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n\nlet firststep = track[0];\nlet first_node_start_time = firststep.start_node_time;\n\nlet duration_track = last_node_end_time - first_node_start_time;\n//>трекер>\n\n\n\n//>трекер>\nlet end_node_time = new Date().getTime();\nlet duration = end_node_time - start_node_time;\nlet duration_step = end_node_time - last_node_end_time;\ntrack.push({\n    \"steptitle\": steptitle,\n    \"start_node_time\": start_node_time,\n    \"end_node_time\": end_node_time,\n    \"duration_node\": duration,\n    \"duration_step\": duration_track //только для финишной ноды\n});\n\n\nflow.set(trackname, track);\nlet id = msg.botname + \"-ttp\";\nflow.set(id, 0);\n\n//>трекер>\n//msg.bot.ttp = global.get(msg.botname + \"-ttp\");\nmsg.bot.ttp.ttpbusy = false;\n\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19263,7 +19255,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1650,
+        "x": 1630,
         "y": 700,
         "wires": [
             [
@@ -19590,8 +19582,8 @@
         "z": "5df15275.2888ec",
         "name": "",
         "info": "",
-        "x": 1540,
-        "y": 100,
+        "x": 1500,
+        "y": 120,
         "wires": []
     },
     {
@@ -22418,7 +22410,7 @@
         "type": "function",
         "z": "2a761808.610238",
         "name": "orderexec cansel, proskal = true",
-        "func": "//<трекер<\nlet trackname = \"ttp-track-\" + msg.botname;\nlet track = flow.get(trackname);\nlet start_node_time = new Date().getTime();\n\nlet steptitle = node.name;\n\nlet laststep = track[track.length - 1];\nlet last_node_end_time = laststep.end_node_time;\n//>трекер>\nlet cmd = \"cansel\";\nlet orderid = msg.bot.ttp.curorderid;\n\n\nlet data = { moneta: msg.bot.settings.moneta, orderid: orderid};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = \"cansel order id:\" + orderid;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\nmsg.bot.ttp.ttpbusy = true;\nmsg.bot.ttp.proskal = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        msg.bot.ttp.curorderid = 0;\n\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle,\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration_node\": duration,\n            \"duration_step\": duration_step\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.status({ fill: \"green\", shape: \"dot\" });\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        //>трекер>\n        let end_node_time = new Date().getTime();\n        let duration = end_node_time - start_node_time;\n        let duration_step = end_node_time - last_node_end_time;\n        track.push({\n            \"steptitle\": steptitle + \"-faile\",\n            \"start_node_time\": start_node_time,\n            \"end_node_time\": end_node_time,\n            \"duration\": duration,\n            \"duration_step\": duration_step,\n            \"error\": orderexec.statusBody\n        });\n        flow.set(trackname, track);\n        //>трекер>\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n    node.warn(msg);\n    node.error(error);\n});\n\n\n\n",
+        "func": "let cmd = \"cansel\";\nlet orderid = msg.bot.ttp.curorderid;\n\n\nlet data = { moneta: msg.bot.settings.moneta, orderid: orderid};\nconst orderexec = global.get('order_exec')(cmd, data);\n\nlet botname = msg.bot.settings.botname;\n\n//let data2 = \"cansel order id:\" + orderid;\n//const tilog = global.get('tilog')(botname, data2);\n//tilog;\nmsg.bot.ttp.ttpbusy = true;\nmsg.bot.ttp.proskal = true;\nglobal.set(msg.botname + \"-ttp\", msg.bot.ttp);\n\norderexec.then(orderexec => {\n    msg.orderexec = orderexec;\n    if (orderexec.statusCode === \"ok\") {\n        node.status({ fill: \"green\", shape: \"dot\", text: orderexec.statusBody.orderId });\n        //msg.bot = msg.orderexec.bot;\n        msg.bot.ttp.curorderid = 0;\n\n        let tempfin = Number(Number(msg.bot.finance.baseinorders) - Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n        let tempfin2 = Number(Number(msg.bot.finance.basenal) + Number(msg.bot.ttp.quantity) * Number(msg.bot.ttp.curstop));\n\n        msg.bot.finance.baseinorders = tempfin.toFixed(msg.bot.settings.digitprice);\n        msg.bot.finance.basenal = tempfin2.toFixed(msg.bot.settings.digitprice);\n\n        node.status({ fill: \"green\", shape: \"dot\" });\n        node.send(msg);\n\n    } else {\n        node.status({ fill: \"red\", shape: \"dot\" });\n\n        node.send(msg);\n    }\n\n\n}).catch(error => {\n\n    msg.error = error;\n    node.status({ fill: \"red\", shape: \"ring\" });\n    node.warn(msg);\n    node.error(error);\n});\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -32812,7 +32804,7 @@
         "links": [
             "ccd55cdb.7ed72"
         ],
-        "x": 1775,
+        "x": 1815,
         "y": 1020,
         "wires": []
     },
